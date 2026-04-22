@@ -38,18 +38,18 @@ This project gives you:
 ## 🌐 Useful upstream repos
 
 ### Multi-addon collections
-- <https://github.com/ProjectTako/ffxi-addons>
-- <https://github.com/Ivaar/Windower-addons>
-- <https://github.com/Icydeath/ffxi-addons>
-- <https://github.com/lili-ffxi/FFXI-Addons>
-- <https://github.com/DiscipleOfEris/Windower4Addons>
+- ProjectTako — mixed Windower/Ashita addon bundle (utility + combat helpers): <https://github.com/ProjectTako/ffxi-addons>
+- Ivaar — automation-heavy Windower collection (Auto job helpers, trading/inventory QoL): <https://github.com/Ivaar/Windower-addons>
+- Icydeath — large historical bundle/fork set spanning many popular addons: <https://github.com/Icydeath/ffxi-addons>
+- lili-ffxi — modern, actively maintained Windower QoL addon set: <https://github.com/lili-ffxi/FFXI-Addons>
+- DiscipleOfEris — era/private-server oriented Windower variants and utility tweaks: <https://github.com/DiscipleOfEris/Windower4Addons>
 
 ### Notable focused addons/tools
-- <https://github.com/AkadenTK/superwarp>
-- <https://github.com/Ivaar/Skillchains>
-- <https://github.com/flippant/parse>
-- <https://github.com/lorand-ffxi/HealBot>
-- <https://github.com/ekrividus/autoAssist>
+- superwarp — travel/warp command helper: <https://github.com/AkadenTK/superwarp>
+- Skillchains — live skillchain display/timing aid: <https://github.com/Ivaar/Skillchains>
+- parse — combat parser and output tracking: <https://github.com/flippant/parse>
+- HealBot — automated healing support logic: <https://github.com/lorand-ffxi/HealBot>
+- autoAssist — party assist targeting automation helper: <https://github.com/ekrividus/autoAssist>
 
 ### Official docs
 - Windower docs: <https://docs.windower.net/>
