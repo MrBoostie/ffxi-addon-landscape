@@ -1,6 +1,6 @@
 _addon.name = 'SessionConductor'
 _addon.author = 'boostie'
-_addon.version = '0.2.0'
+_addon.version = '0.2.1'
 _addon.commands = {'conductor', 'sconduct'}
 _addon.description = 'Multi-character command/travel orchestration with roster + ACK tracking.'
 
@@ -9,6 +9,7 @@ local USER_ROSTER_FILE = (windower.addon_path or '') .. 'data/roster.user.lua'
 local state = {
     target = 'all',
     timeoutSec = 10,
+    allowRemoteCommand = false,
     rosters = { all = {} },
     pending = {},
 }
@@ -29,6 +30,10 @@ end
 
 local function normalize_command(raw)
     return (raw or ''):gsub('^%s+', ''):gsub('%s+$', ''):gsub('^//', '')
+end
+
+local function valid_name(name)
+    return type(name) == 'string' and name:match('^[A-Za-z][A-Za-z0-9_%-]+$') ~= nil
 end
 
 local function self_name()
@@ -67,6 +72,7 @@ local function load_roster()
         state.rosters = t.rosters or state.rosters
         state.target = t.target or state.target
         state.timeoutSec = t.timeoutSec or state.timeoutSec
+        if t.allowRemoteCommand ~= nil then state.allowRemoteCommand = t.allowRemoteCommand end
     end
 end
 
@@ -75,6 +81,7 @@ local function save_roster()
         rosters = state.rosters,
         target = state.target,
         timeoutSec = state.timeoutSec,
+        allowRemoteCommand = state.allowRemoteCommand,
     })
     msg(ok and 'Roster saved.' or 'Failed to save roster file.')
 end
@@ -101,7 +108,21 @@ local function unpack_payload(s)
     local out = {}
     for pair in (s or ''):gmatch('([^&]+)') do
         local k, v = pair:match('([^=]+)=(.*)')
-        if k then out[dec(k)] = dec(v) end
+        if k then out[dec(k)] = dec(v or '') end
+    end
+    return out
+end
+
+local function split_pipe_preserve(s)
+    local out, start = {}, 1
+    while true do
+        local i = string.find(s, '|', start, true)
+        if not i then
+            out[#out+1] = string.sub(s, start)
+            break
+        end
+        out[#out+1] = string.sub(s, start, i - 1)
+        start = i + 1
     end
     return out
 end
@@ -110,6 +131,16 @@ local function in_target_group(name, target)
     if target == 'all' or target == '' then return true end
     local group = state.rosters[target] or {}
     for _, n in ipairs(group) do if normalize(n) == normalize(name) then return true end end
+    return false
+end
+
+local function sender_trusted(name)
+    if normalize(name) == normalize(self_name()) then return true end
+    for _, names in pairs(state.rosters) do
+        for _, n in ipairs(names) do
+            if normalize(n) == normalize(name) then return true end
+        end
+    end
     return false
 end
 
@@ -139,9 +170,7 @@ local function status_report()
         local exp = expected_count(p.target)
         local age = now - p.sentAt
         local timeout = age >= state.timeoutSec
-        msg(('req=%s op=%s target=%s age=%ss acks=%d%s%s'):format(
-            req, p.op, p.target, age, ackCount, exp and ('/' .. exp) or '/?', timeout and ' TIMEOUT' or ''
-        ))
+        msg(('req=%s op=%s target=%s age=%ss acks=%d%s%s'):format(req, p.op, p.target, age, ackCount, exp and ('/' .. exp) or '/?', timeout and ' TIMEOUT' or ''))
     end
     if count == 0 then msg('No pending dispatches.') end
 end
@@ -149,10 +178,9 @@ end
 local function roster_add(group, name)
     group, name = normalize(group), name
     if group == '' or (name or '') == '' then msg('Usage: //conductor roster add <group> <name>'); return end
+    if not valid_name(name) then msg('Invalid name format.'); return end
     state.rosters[group] = state.rosters[group] or {}
-    for _, n in ipairs(state.rosters[group]) do
-        if normalize(n) == normalize(name) then msg('Already in group.'); return end
-    end
+    for _, n in ipairs(state.rosters[group]) do if normalize(n) == normalize(name) then msg('Already in group.'); return end end
     table.insert(state.rosters[group], name)
     save_roster()
     msg(('Added %s to group %s'):format(name, group))
@@ -177,7 +205,7 @@ local function roster_list()
     for g, names in pairs(state.rosters) do
         msg(('%s: %s'):format(g, (#names > 0 and table.concat(names, ', ') or '(empty)')))
     end
-    msg(('active target=%s timeout=%ss'):format(state.target, state.timeoutSec))
+    msg(('active target=%s timeout=%ss remote-cmd=%s'):format(state.target, state.timeoutSec, tostring(state.allowRemoteCommand)))
 end
 
 local function broadcast_v2(op, data)
@@ -200,11 +228,11 @@ local function handle_sc2(payload)
     local m = unpack_payload(payload)
     local op, from, target = m.op, m.from or 'unknown', normalize(m.target or 'all')
     if normalize(from) == normalize(self_name()) then return end
+    if not sender_trusted(from) then return end
     if not in_target_group(self_name(), target) then return end
 
     if op == 'travel' then
         local dest, req = m.dest or '', m.req or ''
-        msg(('Received travel order from %s -> %s'):format(from, dest))
         local ok = call_travel_router(dest)
         windower.send_ipc_message(pack('SC2R', { op = 'ack', req = req, from = self_name(), status = ok and 'ok' or 'fail' }))
         return
@@ -212,10 +240,9 @@ local function handle_sc2(payload)
 
     if op == 'command' then
         local raw, req = normalize_command(m.raw or ''), m.req or ''
-        msg(('Received command from %s: %s'):format(from, raw))
         local ok = false
-        if raw ~= '' then windower.send_command(raw); ok = true end
-        windower.send_ipc_message(pack('SC2R', { op = 'ack', req = req, from = self_name(), status = ok and 'ok' or 'fail' }))
+        if state.allowRemoteCommand and raw ~= '' then windower.send_command(raw); ok = true end
+        windower.send_ipc_message(pack('SC2R', { op = 'ack', req = req, from = self_name(), status = ok and 'ok' or 'blocked' }))
         return
     end
 
@@ -242,18 +269,16 @@ local function on_ipc(data)
         return
     end
 
-    local parts = {}
-    for token in data:gmatch('([^|]+)') do parts[#parts+1] = token end
-
+    local parts = split_pipe_preserve(data)
     if parts[1] == 'SESSION_CONDUCTOR' then
         local op = parts[2]
         if op == 'travel' then
-            local dest, from = parts[3], parts[5] or 'unknown'
-            if from ~= self_name() and in_target_group(self_name(), state.target) then call_travel_router(dest or '') end
+            local dest, from = parts[3] or '', parts[5] or 'unknown'
+            if from ~= self_name() and sender_trusted(from) and in_target_group(self_name(), state.target) then call_travel_router(dest) end
             return
         elseif op == 'command' then
             local raw, from = normalize_command(parts[3] or ''), parts[5] or 'unknown'
-            if from ~= self_name() and raw ~= '' and in_target_group(self_name(), state.target) then windower.send_command(raw) end
+            if from ~= self_name() and sender_trusted(from) and state.allowRemoteCommand and raw ~= '' and in_target_group(self_name(), state.target) then windower.send_command(raw) end
             return
         elseif op == 'ping' then
             local from = parts[4] or 'unknown'
@@ -267,21 +292,21 @@ local function on_ipc(data)
         if from ~= self_name() then msg(('Pong(v1) from %s'):format(from)) end
         return
     end
-
-    if parts[1] == 'TRAVEL_ROUTER_REPLY' then
-        msg(('TravelRouter reply(v1): %s'):format(data))
-    end
 end
 
 load_roster()
-windower.register_event('ipc message', on_ipc)
+local ipc_event_id = windower.register_event('ipc message', on_ipc)
+
+windower.register_event('unload', function()
+    if ipc_event_id then windower.unregister_event(ipc_event_id) end
+end)
 
 windower.register_event('addon command', function(...)
     local args = {...}
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: travel <dest> | command <raw> | follow <leader> | ping | target <group|all> | roster add/remove/list | status | timeout <sec>')
+        msg('Commands: travel|command|follow|ping|target|roster|status|timeout|remotecmd')
         return
     end
 
@@ -289,10 +314,10 @@ windower.register_event('addon command', function(...)
         local dest = join(args, ' ', 2)
         if dest == '' then msg('Usage: //conductor travel <destination>'); return end
         local req = start_pending('travel', state.target)
-        msg(('Dispatching travel plan: %s [req=%s target=%s]'):format(dest, req, state.target))
         call_travel_router(dest)
         broadcast_v2('travel', { dest = dest, req = req })
         broadcast_v1('travel', dest)
+        msg(('Dispatch travel req=%s target=%s dest=%s'):format(req, state.target, dest))
         return
     end
 
@@ -300,16 +325,17 @@ windower.register_event('addon command', function(...)
         local raw = normalize_command(join(args, ' ', 2))
         if raw == '' then msg('Usage: //conductor command <raw windower command>'); return end
         local req = start_pending('command', state.target)
-        msg(('Broadcasting command: %s [req=%s target=%s]'):format(raw, req, state.target))
         windower.send_command(raw)
         broadcast_v2('command', { raw = raw, req = req })
         broadcast_v1('command', raw)
+        msg(('Dispatch command req=%s target=%s'):format(req, state.target))
         return
     end
 
     if cmd == 'follow' then
         local leader = join(args, ' ', 2)
         if leader == '' then msg('Usage: //conductor follow <leaderName>'); return end
+        if not valid_name(leader) then msg('Invalid leader name format.'); return end
         local follow_cmd = ('input /assist %s; wait 1; input /follow %s'):format(leader, leader)
         windower.send_command(follow_cmd)
         local req = start_pending('follow', state.target)
@@ -320,9 +346,9 @@ windower.register_event('addon command', function(...)
     end
 
     if cmd == 'ping' then
-        msg('Broadcasting ping...')
         broadcast_v2('ping', {})
         broadcast_v1('ping', '')
+        msg('Broadcasting ping...')
         return
     end
 
@@ -342,6 +368,15 @@ windower.register_event('addon command', function(...)
         state.timeoutSec = sec
         save_roster()
         msg(('Timeout set to %ss'):format(sec))
+        return
+    end
+
+    if cmd == 'remotecmd' then
+        local flag = normalize(args[2])
+        if flag ~= 'on' and flag ~= 'off' then msg('Usage: //conductor remotecmd on|off'); return end
+        state.allowRemoteCommand = (flag == 'on')
+        save_roster()
+        msg('Remote command execution set to ' .. tostring(state.allowRemoteCommand))
         return
     end
 

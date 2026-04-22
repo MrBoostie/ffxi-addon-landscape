@@ -144,16 +144,28 @@ local function print_plan(dest)
     local plan, meta = pick_plan(dest)
     if not plan then
         msg(('No route for "%s". Use //troute list or //troute add ...'):format(dest or ''))
-        return false
+        return false, nil
     end
     msg(('Route plan for "%s" via "%s" (score %d):'):format(dest, plan.name or 'default', meta.score or 0))
     if meta.reasons and #meta.reasons > 0 then msg('  rationale: ' .. table.concat(meta.reasons, ', ')) end
     for i, step in ipairs(plan.steps or {}) do msg(('  %d) %s'):format(i, step)) end
-    return true
+    return true, plan
 end
 
 local function execute_step(step)
     if step:sub(1,4) == 'say:' then msg(step:sub(5)); return end
+    if step:sub(1,5) == 'wait:' then
+        local sec = tonumber(step:sub(6)) or 0
+        if sec > 0 then
+            if coroutine and coroutine.sleep then
+                coroutine.sleep(sec)
+            else
+                windower.send_command(('wait %.1f'):format(sec))
+            end
+            msg(('wait: %.1fs'):format(sec))
+        end
+        return
+    end
     if step:sub(1,4) == 'cmd:' then
         local cmd = normalize_cmd(step:sub(5))
         windower.send_command(cmd)
@@ -239,8 +251,7 @@ local function handle_ipc(data)
         local m = unpack_payload(payload)
         local op, dest = m.op, m.dest
         if op == 'plan' then
-            local ok = print_plan(dest)
-            local plan = pick_plan(dest)
+            local ok, plan = print_plan(dest)
             local steps = plan and #(plan.steps or {}) or 0
             windower.send_ipc_message(pack('TR2R', { op = 'plan', dest = dest, ok = ok and 1 or 0, steps = steps, by = 'TravelRouter' }))
         elseif op == 'run' then
@@ -255,8 +266,7 @@ local function handle_ipc(data)
     if parts[1] ~= 'TRAVEL_ROUTER' then return end
     local op, dest = parts[2], parts[3]
     if op == 'plan' then
-        local ok = print_plan(dest)
-        local plan = pick_plan(dest)
+        local ok, plan = print_plan(dest)
         local step_count = plan and #(plan.steps or {}) or 0
         windower.send_ipc_message(('TRAVEL_ROUTER_REPLY|plan|%s|ok|%d|steps|%d'):format(dest or '', ok and 1 or 0, step_count))
     elseif op == 'run' then
@@ -266,7 +276,11 @@ local function handle_ipc(data)
 end
 
 load_user_files()
-windower.register_event('ipc message', handle_ipc)
+local ipc_event_id = windower.register_event('ipc message', handle_ipc)
+
+windower.register_event('unload', function()
+    if ipc_event_id then windower.unregister_event(ipc_event_id) end
+end)
 
 windower.register_event('addon command', function(...)
     local args = {...}
