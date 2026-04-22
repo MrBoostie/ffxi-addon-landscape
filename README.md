@@ -111,6 +111,32 @@ See specs:
 - `specs/travelrouter-v1.0.md`
 - `specs/sessionconductor-v1.0.md`
 
+## ✅ Production checklist
+
+### TravelRouter
+- Copy `addons/TravelRouter` into Windower `addons/`
+- Load: `//lua load TravelRouter`
+- Verify routes: `//troute list`
+- Verify planner: `//troute plan jeuno`
+- Verify execution: `//troute run jeuno`
+- (Optional) Configure unlock tokens: `//troute unlock add hp|sg|warp`
+- (Optional) Persist custom routes: `//troute add <dest> <step1> ; <step2>` then `//troute save`
+
+### SessionConductor
+- Copy `addons/SessionConductor` into Windower `addons/`
+- Load: `//lua load SessionConductor`
+- Confirm roster: `//conductor roster list`
+- Add peers: `//conductor roster add <group> <name>`
+- Set active target: `//conductor target <group|all>`
+- Connectivity check: `//conductor ping`
+- Verify travel orchestration: `//conductor travel jeuno`
+- Review ACK/timeouts: `//conductor status`
+
+### Safety defaults
+- Remote command execution is disabled by default.
+- Enable only for trusted groups: `//conductor remotecmd on`
+- Disable again when done: `//conductor remotecmd off`
+
 ## 🔧 Regenerate source-aware descriptions
 
 ```bash

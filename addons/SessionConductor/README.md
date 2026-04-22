@@ -24,6 +24,7 @@ Multi-character session conductor addon for Windower.
 - `//conductor roster list`
 - `//conductor timeout <seconds>`
 - `//conductor status`
+- `//conductor remotecmd on|off`
 
 ## Persistence
 - `data/roster.user.lua` stores groups, target selection, and timeout value.
@@ -50,4 +51,5 @@ When `travel` is used:
 
 ## Safety / scope notes
 - This is trusted-party tooling, not a hardened remote-control framework.
+- Remote command execution is OFF by default; enable only for trusted groups (`//conductor remotecmd on`).
 - ACK/timeout reporting is lightweight and intentionally simple.
