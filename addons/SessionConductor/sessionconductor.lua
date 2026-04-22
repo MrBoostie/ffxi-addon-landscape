@@ -21,6 +21,20 @@ local function self_name()
     return (p and p.name) or 'unknown'
 end
 
+local function normalize_command(raw)
+    raw = (raw or ''):gsub('^%s+', ''):gsub('%s+$', '')
+    raw = raw:gsub('^//', '')
+    return raw
+end
+
+local function validate_ipc_field(label, value)
+    if (value or ''):find('|', 1, true) then
+        msg(('%s cannot contain the | character because it breaks the current IPC protocol.'):format(label))
+        return false
+    end
+    return true
+end
+
 local function call_travel_router(dest)
     if not dest or dest == '' then return false end
     windower.send_command(('troute run %s'):format(dest))
@@ -50,7 +64,7 @@ local function on_ipc(data)
         end
 
         if op == 'command' then
-            local raw = parts[3] or ''
+            local raw = normalize_command(parts[3] or '')
             local from = parts[5] or 'unknown'
             if from == self_name() then return end
             msg(('Received command from %s: %s'):format(from, raw))
@@ -102,6 +116,10 @@ windower.register_event('addon command', function(...)
             return
         end
 
+        if not validate_ipc_field('Destination', dest) then
+            return
+        end
+
         msg(('Dispatching travel plan: %s'):format(dest))
         call_travel_router(dest)
         broadcast(('SESSION_CONDUCTOR|travel|%s|from|%s'):format(dest, self_name()))
@@ -109,9 +127,12 @@ windower.register_event('addon command', function(...)
     end
 
     if cmd == 'command' then
-        local raw = join(args, ' ', 2)
+        local raw = normalize_command(join(args, ' ', 2))
         if raw == '' then
             msg('Usage: //conductor command <raw windower command>')
+            return
+        end
+        if not validate_ipc_field('Command', raw) then
             return
         end
         msg(('Broadcasting command: %s'):format(raw))

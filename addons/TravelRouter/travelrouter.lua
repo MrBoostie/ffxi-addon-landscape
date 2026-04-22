@@ -10,14 +10,6 @@ local function msg(text)
     windower.add_to_chat(207, ('[TravelRouter] %s'):format(text))
 end
 
-local function split_words(input)
-    local out = {}
-    for part in input:gmatch('%S+') do
-        out[#out+1] = part
-    end
-    return out
-end
-
 local function join(tbl, sep, start_idx)
     local s = {}
     for i = start_idx or 1, #tbl do
@@ -28,6 +20,12 @@ end
 
 local function normalize_dest(dest)
     return (dest or ''):lower():gsub('^%s+', ''):gsub('%s+$', '')
+end
+
+local function normalize_command(cmd)
+    cmd = (cmd or ''):gsub('^%s+', ''):gsub('%s+$', '')
+    cmd = cmd:gsub('^//', '')
+    return cmd
 end
 
 local function list_destinations()
@@ -62,7 +60,7 @@ local function execute_step(step)
     end
 
     if step:sub(1,4) == 'cmd:' then
-        local cmd = step:sub(5)
+        local cmd = normalize_command(step:sub(5))
         windower.send_command(cmd)
         msg(('exec: %s'):format(cmd))
         return
