@@ -50,4 +50,4 @@ When `travel` is used:
 
 ## Safety / scope notes
 - This is trusted-party tooling, not a hardened remote-control framework.
-- ACK/timeout reporting is lightweight and intentionally simple in prototype form.
+- ACK/timeout reporting is lightweight and intentionally simple.
