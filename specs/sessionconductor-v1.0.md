@@ -1,4 +1,4 @@
-# SessionConductor v0.2 (implemented prototype)
+# SessionConductor v1.0
 
 ## Delivered
 - Broadcast travel/command operations

@@ -1,4 +1,4 @@
-# SessionConductor (prototype)
+# SessionConductor
 
 Multi-character session conductor addon for Windower.
 

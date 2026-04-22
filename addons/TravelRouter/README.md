@@ -1,4 +1,4 @@
-# TravelRouter (prototype)
+# TravelRouter
 
 Content-aware travel routing addon for Windower.
 
@@ -60,6 +60,6 @@ Each step is one of:
 - `TRAVEL_ROUTER|run|<destination>`
 - replies via `TRAVEL_ROUTER_REPLY|...`
 
-## Known limitations
-- Unlock/state signals are intentionally simple in v0.2.
-- No auto-discovery of third-party addon capability yet.
+## Current behavior notes
+- Unlock/state signals are token-driven (`//troute unlock ...`) and can be extended.
+- Capability checks for third-party addon commands are not auto-detected yet.

@@ -17,7 +17,7 @@ This project gives you:
 - A normalized catalog (JSON + CSV), including source-aware descriptions when available
 - A first-pass opportunity/gap analysis
 - A shortlist of high-ROI addon ideas
-- Prototype addon scaffolds (TravelRouter + SessionConductor)
+- Two complete addons in this repo (TravelRouter + SessionConductor)
 
 ## 📦 Included artifacts
 
@@ -76,23 +76,12 @@ Gaps worth building:
 
 ## 🗂️ Repository layout
 
-- `addons/` — prototype Windower addon scaffolds that accompany the research
-- `specs/` — short v0.1 design notes for prototype ideas
+- `addons/` — complete Windower addons included with this project
+- `specs/` — implementation specs and command surfaces
 - `docs/` — roadmap and reference links used during the landscape scan
 - catalog/index files in the repo root — generated research artifacts for analysis and filtering
 
-## 🧩 Prototype addon status
-
-`addons/TravelRouter` and `addons/SessionConductor` are intentionally early-stage prototypes.
-They are useful as:
-- implementation sketches
-- IPC/command-shape examples
-- starting points for a real addon project
-
-They are **not** presented as production-ready automation.
-Current constraints include static route data, no persistence layer, and a deliberately tiny IPC protocol.
-
-## ▶️ Trying the prototype addons
+## ▶️ Using the addons
 
 Copy each addon folder into your Windower `addons/` directory, then load them in game:
 
@@ -112,15 +101,15 @@ Suggested smoke test:
 
 If you only load `SessionConductor`, the `travel` command will still broadcast, but actual route execution expects `TravelRouter` to be present on the receiving instance.
 
-## 🧪 Prototype addons
+## 🧪 Addons included
 
 - `addons/TravelRouter` — content-aware travel route planner/executor
 - `addons/SessionConductor` — multi-character command coordinator
   - integrates with TravelRouter via `//conductor travel <destination>`
 
 See specs:
-- `specs/travelrouter-v0.1.md`
-- `specs/sessionconductor-v0.1.md`
+- `specs/travelrouter-v1.0.md`
+- `specs/sessionconductor-v1.0.md`
 
 ## 🔧 Regenerate source-aware descriptions
 
@@ -135,9 +124,7 @@ This pulls README text from indexed repos and assigns best-effort description so
 - Expand scan from 19 repos → full ecosystem crawl
 - Add richer metadata per addon (maintainer activity, dependencies, compatibility)
 - Generate a public web view (filters: category, recency, popularity)
-- Start v0.1 implementation for one gap candidate:
-  - `AddonHealth` (recommended)
-  - or `OnboardingPilot`
+- Keep improving addon behavior/tests and operational docs for TravelRouter + SessionConductor
 
 ## ⚠️ Notes
 

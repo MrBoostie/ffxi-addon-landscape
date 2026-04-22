@@ -1,4 +1,4 @@
-# TravelRouter v0.2 (implemented prototype)
+# TravelRouter v1.0
 
 ## Delivered
 - Destination registry + candidate model
