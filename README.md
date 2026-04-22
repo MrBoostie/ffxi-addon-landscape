@@ -17,6 +17,7 @@ This project gives you:
 - A normalized catalog (JSON + CSV), including source-aware descriptions when available
 - A first-pass opportunity/gap analysis
 - A shortlist of high-ROI addon ideas
+- Prototype addon scaffolds (TravelRouter + SessionConductor)
 
 ## 📦 Included artifacts
 
@@ -72,6 +73,16 @@ Gaps worth building:
 3. Safer automation policy controls + auditability
 4. Better party coordination UX
 5. Portable profile/config sync tooling
+
+## 🧪 Prototype addons
+
+- `addons/TravelRouter` — content-aware travel route planner/executor
+- `addons/SessionConductor` — multi-character command coordinator
+  - integrates with TravelRouter via `//conductor travel <destination>`
+
+See specs:
+- `specs/travelrouter-v0.1.md`
+- `specs/sessionconductor-v0.1.md`
 
 ## 🔧 Regenerate source-aware descriptions
 
