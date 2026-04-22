@@ -1,0 +1,3058 @@
+[
+  {
+    "addon_key": "atreplace",
+    "addon_name": "atreplace",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "augments",
+    "addon_name": "augments",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "chatfix",
+    "addon_name": "chatfix",
+    "category": "chat_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "clevel",
+    "addon_name": "clevel",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "collector",
+    "addon_name": "collector",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "dramagen",
+    "addon_name": "dramagen",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "gilbox",
+    "addon_name": "gilbox",
+    "category": "economy_inventory",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "indinope",
+    "addon_name": "indinope",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "jobinit",
+    "addon_name": "jobinit",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "kaomoji",
+    "addon_name": "kaomoji",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "menufix",
+    "addon_name": "menufix",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "mousehalo",
+    "addon_name": "mousehalo",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "ondemand",
+    "addon_name": "ondemand",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "positionmanager",
+    "addon_name": "position_manager",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "readable",
+    "addon_name": "readable",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "safeoboro",
+    "addon_name": "safeoboro",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "silttracker",
+    "addon_name": "silttracker",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "smeagol",
+    "addon_name": "smeagol",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "special",
+    "addon_name": "special",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "tellapart",
+    "addon_name": "tellapart",
+    "category": "chat_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "tellfix",
+    "addon_name": "tellfix",
+    "category": "chat_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "tiptoes",
+    "addon_name": "tiptoes",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "tpsreport",
+    "addon_name": "tpsreport",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "trialtracker",
+    "addon_name": "trialtracker",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "useall",
+    "addon_name": "useall",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "waveback",
+    "addon_name": "waveback",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "weathermon",
+    "addon_name": "weathermon",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "witnessprotection",
+    "addon_name": "witnessprotection",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 5,
+    "opportunity_score": 3.84
+  },
+  {
+    "addon_key": "clickfind",
+    "addon_name": "clickfind",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 5,
+    "opportunity_score": 3.12
+  },
+  {
+    "addon_key": "dupefind",
+    "addon_name": "Dupefind",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 5,
+    "opportunity_score": 3.12
+  },
+  {
+    "addon_key": "friendzone",
+    "addon_name": "friendzone",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 5,
+    "opportunity_score": 3.12
+  },
+  {
+    "addon_key": "posfind",
+    "addon_name": "posfind",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 5,
+    "opportunity_score": 3.12
+  },
+  {
+    "addon_key": "statsearch",
+    "addon_name": "StatSearch",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 5,
+    "opportunity_score": 3.12
+  },
+  {
+    "addon_key": "debufftracker",
+    "addon_name": "debuff-tracker",
+    "category": "general_qol",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.95
+  },
+  {
+    "addon_key": "menus",
+    "addon_name": "menus",
+    "category": "general_qol",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.95
+  },
+  {
+    "addon_key": "scanzone",
+    "addon_name": "scanzone",
+    "category": "general_qol",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.95
+  },
+  {
+    "addon_key": "turnaround",
+    "addon_name": "turnaround",
+    "category": "general_qol",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.95
+  },
+  {
+    "addon_key": "autodnc",
+    "addon_name": "AutoDNC",
+    "category": "combat_automation",
+    "repos": [
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.9
+  },
+  {
+    "addon_key": "chococard",
+    "addon_name": "chococard",
+    "category": "general_qol",
+    "repos": [
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.9
+  },
+  {
+    "addon_key": "questlog",
+    "addon_name": "QuestLog",
+    "category": "diagnostics",
+    "repos": [
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.9
+  },
+  {
+    "addon_key": "bursting",
+    "addon_name": "Bursting",
+    "category": "general_qol",
+    "repos": [
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 14,
+    "freshness_max": 2,
+    "opportunity_score": 2.74
+  },
+  {
+    "addon_key": "crystaltrader",
+    "addon_name": "CrystalTrader",
+    "category": "economy_inventory",
+    "repos": [
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 14,
+    "freshness_max": 2,
+    "opportunity_score": 2.74
+  },
+  {
+    "addon_key": "quicktrade2",
+    "addon_name": "QuickTrade 2",
+    "category": "economy_inventory",
+    "repos": [
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 14,
+    "freshness_max": 2,
+    "opportunity_score": 2.74
+  },
+  {
+    "addon_key": "assist",
+    "addon_name": "assist",
+    "category": "combat_automation",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "eradebuffed",
+    "addon_name": "EraDebuffed",
+    "category": "general_qol",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "eradistanceplus",
+    "addon_name": "EraDistancePlus",
+    "category": "general_qol",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "erainfobar",
+    "addon_name": "EraInfoBar",
+    "category": "ui_gear",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "erajobchange",
+    "addon_name": "EraJobChange",
+    "category": "general_qol",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "eramobdrops",
+    "addon_name": "EraMobDrops",
+    "category": "general_qol",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "eramoblevel",
+    "addon_name": "EraMobLevel",
+    "category": "general_qol",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "erapointwatch",
+    "addon_name": "EraPointWatch",
+    "category": "general_qol",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "erascoreboard",
+    "addon_name": "EraScoreboard",
+    "category": "ui_gear",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "fastfollow",
+    "addon_name": "FastFollow",
+    "category": "combat_automation",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 2,
+    "opportunity_score": 2.73
+  },
+  {
+    "addon_key": "ambuloot",
+    "addon_name": "ambuloot",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "attackid",
+    "addon_name": "attackid",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "attackwithme",
+    "addon_name": "attackwithme",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autochain",
+    "addon_name": "AutoChain",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autopup",
+    "addon_name": "AutoPUP",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autoraise",
+    "addon_name": "AutoRaise",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autoskillchain",
+    "addon_name": "AutoSkillchain",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autounm",
+    "addon_name": "AutoUNM",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autovw",
+    "addon_name": "AutoVW",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "autowatch",
+    "addon_name": "autowatch",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "blist",
+    "addon_name": "blist",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "canteen",
+    "addon_name": "Canteen",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "capetrader",
+    "addon_name": "capetrader",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "charmed",
+    "addon_name": "charmed",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "checkparam",
+    "addon_name": "checkparam",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "crbaddon",
+    "addon_name": "crb_addon",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "curepleaseaddon",
+    "addon_name": "CurePlease_addon",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "currencies",
+    "addon_name": "Currencies",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "distanceplus",
+    "addon_name": "DistancePlus",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "drop",
+    "addon_name": "Drop",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "eschachest",
+    "addon_name": "EschaChest",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "exportitems",
+    "addon_name": "export_items",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "ffxikeys",
+    "addon_name": "ffxikeys",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "finalalert",
+    "addon_name": "finalAlert",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "followme",
+    "addon_name": "followme",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "giltracker",
+    "addon_name": "giltracker",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "jobchange",
+    "addon_name": "JobChange",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "locke",
+    "addon_name": "Locke",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "lockpick",
+    "addon_name": "lockpick",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "maga",
+    "addon_name": "maga",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "masstrade",
+    "addon_name": "MassTrade",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "moveitems",
+    "addon_name": "MoveItems",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "myhome",
+    "addon_name": "MyHome",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "myomen",
+    "addon_name": "MyOmen",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "nnitimer",
+    "addon_name": "NniTimer",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "noknock",
+    "addon_name": "noknock",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "omen",
+    "addon_name": "Omen",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "oneoffs",
+    "addon_name": "OneOffs",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "partypets",
+    "addon_name": "PartyPets",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "petparty",
+    "addon_name": "petparty",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "positions",
+    "addon_name": "Positions",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "repeater",
+    "addon_name": "Repeater",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "roe",
+    "addon_name": "roe",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "rolldistance",
+    "addon_name": "rolldistance",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "rtfm",
+    "addon_name": "rtfm",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "runicportal",
+    "addon_name": "RunicPortal",
+    "category": "travel",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "schskillchain",
+    "addon_name": "schskillchain",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "scriptedextender",
+    "addon_name": "ScriptedExtender",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "sendalltarget",
+    "addon_name": "SendAllTarget",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "settarget",
+    "addon_name": "SetTarget",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "simpleassist",
+    "addon_name": "SimpleAssist",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "sirpopalot",
+    "addon_name": "SirPopaLot",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "smarttarget",
+    "addon_name": "smarttarget",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "spellspammer",
+    "addon_name": "spellSpammer",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "stars",
+    "addon_name": "Stars",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "superwarp",
+    "addon_name": "superwarp",
+    "category": "travel",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "synergy",
+    "addon_name": "Synergy",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "targeter",
+    "addon_name": "targeter",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "targetinfoex",
+    "addon_name": "targetinfoEx",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "targetplus",
+    "addon_name": "TargetPlus",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "thfknife",
+    "addon_name": "ThfKnife",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "tonic",
+    "addon_name": "tonic",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "trader",
+    "addon_name": "Trader",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "triggers",
+    "addon_name": "triggers",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "valkyrie",
+    "addon_name": "Valkyrie",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "voidwalker",
+    "addon_name": "voidwalker",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "voidwatch",
+    "addon_name": "voidwatch",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "vwpop",
+    "addon_name": "VWPop",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "warpmenu",
+    "addon_name": "WarpMenu",
+    "category": "travel",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "where",
+    "addon_name": "where",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "widescantool",
+    "addon_name": "widescantool",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "woehelper",
+    "addon_name": "WoEHelper",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "xivcrossbar",
+    "addon_name": "xivcrossbar",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "zenimonsnap",
+    "addon_name": "ZenimonSnap",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "zonename",
+    "addon_name": "zonename",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.52
+  },
+  {
+    "addon_key": "ase",
+    "addon_name": "ASE",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "autoinvite",
+    "addon_name": "autoinvite",
+    "category": "combat_automation",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "broseem",
+    "addon_name": "broseem",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "impalert",
+    "addon_name": "ImpAlert",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "parse",
+    "addon_name": "parse",
+    "category": "diagnostics",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "petfix",
+    "addon_name": "pet_fix",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "pluginmanager",
+    "addon_name": "plugin_manager",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "rollbot",
+    "addon_name": "RollBot",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "skilluptracker",
+    "addon_name": "skilluptracker",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "stna",
+    "addon_name": "stna",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "stopwatch",
+    "addon_name": "stopwatch",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "text",
+    "addon_name": "Text",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "translate",
+    "addon_name": "translate",
+    "category": "chat_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.4
+  },
+  {
+    "addon_key": "barfiller",
+    "addon_name": "barfiller",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "chars",
+    "addon_name": "chars",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "chatlink",
+    "addon_name": "ChatLink",
+    "category": "chat_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "enemybar",
+    "addon_name": "enemybar",
+    "category": "ui_gear",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "ffxicaddieprovider",
+    "addon_name": "ffxicaddieProvider",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "highlight",
+    "addon_name": "highlight",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "inforeplacer",
+    "addon_name": "InfoReplacer",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "lazy",
+    "addon_name": "Lazy",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "nostrum",
+    "addon_name": "Nostrum",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "ohshi",
+    "addon_name": "ohShi",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "plasmon",
+    "addon_name": "plasmon",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "reive",
+    "addon_name": "reive",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "rhombus",
+    "addon_name": "Rhombus",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "salvage2",
+    "addon_name": "salvage2",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "satacast",
+    "addon_name": "SATACast",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "setbgm",
+    "addon_name": "setbgm",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "strathelper",
+    "addon_name": "StratHelper",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "taps",
+    "addon_name": "taps",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "targetinfo",
+    "addon_name": "targetinfo",
+    "category": "ui_gear",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "truesight",
+    "addon_name": "truesight",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "visiblefavor",
+    "addon_name": "VisibleFavor",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "yush",
+    "addon_name": "Yush",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 2.39
+  },
+  {
+    "addon_key": "allseeingeye",
+    "addon_name": "allseeingeye",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.15
+  },
+  {
+    "addon_key": "equipviewer",
+    "addon_name": "equipviewer",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.15
+  },
+  {
+    "addon_key": "partybuffs",
+    "addon_name": "partybuffs",
+    "category": "ui_gear",
+    "repos": [
+      "Lygre/addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.15
+  },
+  {
+    "addon_key": "react",
+    "addon_name": "react",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 2.15
+  },
+  {
+    "addon_key": "autocor",
+    "addon_name": "AutoCOR",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "autogeo",
+    "addon_name": "AutoGEO",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "chatman",
+    "addon_name": "ChatMan",
+    "category": "chat_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "htmb",
+    "addon_name": "htmb",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "porterpacker",
+    "addon_name": "PorterPacker",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "singer",
+    "addon_name": "Singer",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "tradenpc",
+    "addon_name": "TradeNPC",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 2.1
+  },
+  {
+    "addon_key": "magicassistant",
+    "addon_name": "MagicAssistant",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 2,
+    "opportunity_score": 2.07
+  },
+  {
+    "addon_key": "quicktrade",
+    "addon_name": "QuickTrade",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 2,
+    "opportunity_score": 2.07
+  },
+  {
+    "addon_key": "sendtarget",
+    "addon_name": "SendTarget",
+    "category": "ui_gear",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons",
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 2,
+    "opportunity_score": 2.07
+  },
+  {
+    "addon_key": "anchor",
+    "addon_name": "anchor",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "autocontrol",
+    "addon_name": "autocontrol",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "autojoin",
+    "addon_name": "autojoin",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "autows",
+    "addon_name": "AutoWS",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "azuresets",
+    "addon_name": "azureSets",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "clock",
+    "addon_name": "Clock",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "dostuff",
+    "addon_name": "dostuff",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "dynamishelper",
+    "addon_name": "dynamishelper",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "fisher",
+    "addon_name": "fisher",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "lottery",
+    "addon_name": "lottery",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "macrochanger",
+    "addon_name": "macrochanger",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "porter",
+    "addon_name": "porter",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "send",
+    "addon_name": "send",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "silence",
+    "addon_name": "Silence",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "subtarget",
+    "addon_name": "SubTarget",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "thtracker",
+    "addon_name": "thtracker",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "timestamp",
+    "addon_name": "timestamp",
+    "category": "chat_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "treasurepool",
+    "addon_name": "TreasurePool",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 1.72
+  },
+  {
+    "addon_key": "autosynth",
+    "addon_name": "autoSynth",
+    "category": "combat_automation",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "bluguide",
+    "addon_name": "bluguide",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "boxdestroyer",
+    "addon_name": "boxdestroyer",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "debuffed",
+    "addon_name": "Debuffed",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "digger",
+    "addon_name": "digger",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "distance",
+    "addon_name": "distance",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "gametime",
+    "addon_name": "gametime",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "instals",
+    "addon_name": "instaLS",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "latentchecker",
+    "addon_name": "latentchecker",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "linker",
+    "addon_name": "linker",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "ohnoyoudont",
+    "addon_name": "OhNoYouDont",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "opensesame",
+    "addon_name": "OpenSesame",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "packetviewer",
+    "addon_name": "PacketViewer",
+    "category": "diagnostics",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "pettp",
+    "addon_name": "PetTP",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "pricer",
+    "addon_name": "Pricer",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "rolltracker",
+    "addon_name": "rolltracker",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "scoreboard",
+    "addon_name": "scoreboard",
+    "category": "ui_gear",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "skillchain",
+    "addon_name": "Skillchain",
+    "category": "combat_automation",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "speedchecker",
+    "addon_name": "SpeedChecker",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "spellcheck",
+    "addon_name": "SpellCheck",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "sprint",
+    "addon_name": "Sprint",
+    "category": "travel",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "synthall",
+    "addon_name": "synthall",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "update",
+    "addon_name": "update",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 1.6
+  },
+  {
+    "addon_key": "fastcs",
+    "addon_name": "fastcs",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "ProjectTako/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 4,
+    "best_repo_stars": 99,
+    "freshness_max": 2,
+    "opportunity_score": 1.35
+  },
+  {
+    "addon_key": "auctionhelper",
+    "addon_name": "AuctionHelper",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 1.3
+  },
+  {
+    "addon_key": "sellnpc",
+    "addon_name": "SellNPC",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 4,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 1.3
+  },
+  {
+    "addon_key": "trade",
+    "addon_name": "Trade",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 79,
+    "freshness_max": 2,
+    "opportunity_score": 1.3
+  },
+  {
+    "addon_key": "aecho",
+    "addon_name": "aecho",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "autora",
+    "addon_name": "AutoRA",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "battlemod",
+    "addon_name": "battlemod",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "cancel",
+    "addon_name": "cancel",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "consolebg",
+    "addon_name": "ConsoleBG",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "dressup",
+    "addon_name": "DressUp",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "enternity",
+    "addon_name": "enternity",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "eval",
+    "addon_name": "eval",
+    "category": "diagnostics",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "findall",
+    "addon_name": "findAll",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "gearswap",
+    "addon_name": "GearSwap",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "healbot",
+    "addon_name": "HealBot",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "invspace",
+    "addon_name": "InvSpace",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "itemizer",
+    "addon_name": "itemizer",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "logger",
+    "addon_name": "Logger",
+    "category": "diagnostics",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "organizer",
+    "addon_name": "organizer",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "pointwatch",
+    "addon_name": "pointwatch",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "pouches",
+    "addon_name": "Pouches",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "shortcuts",
+    "addon_name": "shortcuts",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "skillchains",
+    "addon_name": "Skillchains",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "sparks",
+    "addon_name": "Sparks",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "tparty",
+    "addon_name": "TParty",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "treasury",
+    "addon_name": "Treasury",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  },
+  {
+    "addon_key": "zonetimer",
+    "addon_name": "zonetimer",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 0.92
+  }
+]
