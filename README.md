@@ -74,6 +74,44 @@ Gaps worth building:
 4. Better party coordination UX
 5. Portable profile/config sync tooling
 
+## 🗂️ Repository layout
+
+- `addons/` — prototype Windower addon scaffolds that accompany the research
+- `specs/` — short v0.1 design notes for prototype ideas
+- `docs/` — roadmap and reference links used during the landscape scan
+- catalog/index files in the repo root — generated research artifacts for analysis and filtering
+
+## 🧩 Prototype addon status
+
+`addons/TravelRouter` and `addons/SessionConductor` are intentionally early-stage prototypes.
+They are useful as:
+- implementation sketches
+- IPC/command-shape examples
+- starting points for a real addon project
+
+They are **not** presented as production-ready automation.
+Current constraints include static route data, no persistence layer, and a deliberately tiny IPC protocol.
+
+## ▶️ Trying the prototype addons
+
+Copy each addon folder into your Windower `addons/` directory, then load them in game:
+
+```text
+//lua load TravelRouter
+//lua load SessionConductor
+```
+
+Suggested smoke test:
+
+```text
+//troute list
+//troute plan jeuno
+//conductor ping
+//conductor travel jeuno
+```
+
+If you only load `SessionConductor`, the `travel` command will still broadcast, but actual route execution expects `TravelRouter` to be present on the receiving instance.
+
 ## 🧪 Prototype addons
 
 - `addons/TravelRouter` — content-aware travel route planner/executor

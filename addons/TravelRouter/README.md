@@ -8,6 +8,10 @@ Content-aware travel routing addon for Windower.
 - Can execute helper commands for each step (`//troute run <dest>`).
 - Exposes a tiny IPC protocol that other addons (like SessionConductor) can call.
 
+## Install
+- Copy `addons/TravelRouter` into your Windower `addons/` directory.
+- Load with `//lua load TravelRouter`.
+
 ## Commands
 - `//troute list` — list known destinations
 - `//troute plan <destination>` — print route plan
@@ -25,11 +29,19 @@ Example step list:
 - `say:Take Survival Guide to Western Adoulin`
 
 ## IPC (v1)
-Inbound message type: `TRAVEL_ROUTER|plan|<destination>`
+Inbound message types:
+- `TRAVEL_ROUTER|plan|<destination>`
+- `TRAVEL_ROUTER|run|<destination>`
 
-Reply message type:
-`TRAVEL_ROUTER_REPLY|plan|<destination>|ok|<0/1>|steps|<N>`
+Reply message types:
+- `TRAVEL_ROUTER_REPLY|plan|<destination>|ok|<0/1>|steps|<N>`
+- `TRAVEL_ROUTER_REPLY|run|<destination>|ok|<0/1>`
 
 ---
 
 This is an MVP scaffold. Next iteration should include real zone/state awareness and unlock-aware route scoring.
+
+## Known limitations
+- Route definitions are static and bundled in `data/routes.lua`.
+- `//troute add ...` updates routes only for the current runtime session.
+- Route steps are thin wrappers around existing Windower commands; unlock/state validation is not implemented yet.

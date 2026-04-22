@@ -2,6 +2,11 @@
 
 Multi-character session conductor addon for Windower.
 
+## Install
+- Copy `addons/SessionConductor` into your Windower `addons/` directory.
+- Load with `//lua load SessionConductor`.
+- For coordinated travel, also load `TravelRouter` on each participating instance.
+
 ## What it does
 - Sends coordinated commands across characters via IPC.
 - Can orchestrate travel runs for all connected characters.
@@ -35,3 +40,8 @@ When `travel` is used:
 ---
 
 Prototype only. Future version should add team roster, ack tracking, timeout handling, and scoped groups.
+
+## Safety / scope notes
+- `command` rebroadcasts arbitrary Windower commands to peers. Treat it as trusted-party tooling, not a hardened remote-control layer.
+- The current IPC protocol uses `|` as a delimiter, so payloads containing `|` are intentionally rejected.
+- There is no ack/timeout/roster model yet; this is still scaffolding.
