@@ -1,246 +1,246 @@
-addon_key,addon_name,description,category,repo_count,best_repo_stars,freshness_max,opportunity_score,repos
-atreplace,atreplace,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-augments,augments,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-chatfix,chatfix,Chat and communication quality-of-life helper.,chat_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-clevel,clevel,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-collector,collector,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-dramagen,dramagen,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-gilbox,gilbox,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,35,5,3.84,lili-ffxi/FFXI-Addons
-indinope,indinope,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-jobinit,jobinit,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-kaomoji,kaomoji,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-menufix,menufix,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-mousehalo,mousehalo,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-ondemand,ondemand,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-positionmanager,position_manager,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-readable,readable,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-safeoboro,safeoboro,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-silttracker,silttracker,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-smeagol,smeagol,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-special,special,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-tellapart,tellapart,Chat and communication quality-of-life helper.,chat_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-tellfix,tellfix,Chat and communication quality-of-life helper.,chat_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-tiptoes,tiptoes,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-tpsreport,tpsreport,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-trialtracker,trialtracker,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-useall,useall,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-waveback,waveback,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-weathermon,weathermon,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-witnessprotection,witnessprotection,General quality-of-life helper addon.,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
-clickfind,clickfind,General quality-of-life helper addon.,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
-dupefind,Dupefind,General quality-of-life helper addon.,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
-friendzone,friendzone,General quality-of-life helper addon.,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
-posfind,posfind,General quality-of-life helper addon.,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
-statsearch,StatSearch,General quality-of-life helper addon.,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
-debufftracker,debuff-tracker,General quality-of-life helper addon.,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
-menus,menus,General quality-of-life helper addon.,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
-scanzone,scanzone,General quality-of-life helper addon.,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
-turnaround,turnaround,General quality-of-life helper addon.,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
-autodnc,AutoDNC,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,79,2,2.9,Ivaar/Windower-addons
-chococard,chococard,General quality-of-life helper addon.,general_qol,1,79,2,2.9,Ivaar/Windower-addons
-questlog,QuestLog,"Debugging, parsing, and runtime observability utility.",diagnostics,1,79,2,2.9,Ivaar/Windower-addons
-bursting,Bursting,General quality-of-life helper addon.,general_qol,1,14,2,2.74,ValokAsura/WindowerAddons
-crystaltrader,CrystalTrader,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,14,2,2.74,ValokAsura/WindowerAddons
-quicktrade2,QuickTrade 2,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,14,2,2.74,ValokAsura/WindowerAddons
-assist,assist,Auto-assist targeting helper for coordinated party combat.,combat_automation,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-eradebuffed,EraDebuffed,General quality-of-life helper addon.,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-eradistanceplus,EraDistancePlus,General quality-of-life helper addon.,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-erainfobar,EraInfoBar,UI/gear overlay or display enhancement.,ui_gear,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-erajobchange,EraJobChange,General quality-of-life helper addon.,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-eramobdrops,EraMobDrops,General quality-of-life helper addon.,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-eramoblevel,EraMobLevel,General quality-of-life helper addon.,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-erapointwatch,EraPointWatch,General quality-of-life helper addon.,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-erascoreboard,EraScoreboard,UI/gear overlay or display enhancement.,ui_gear,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-fastfollow,FastFollow,"Combat automation helper for actions, timing, or party flow.",combat_automation,1,12,2,2.73,DiscipleOfEris/Windower4Addons
-ambuloot,ambuloot,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-attackid,attackid,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-attackwithme,attackwithme,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-autochain,AutoChain,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-autopup,AutoPUP,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-autoraise,AutoRaise,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-autoskillchain,AutoSkillchain,Displays skillchain windows/properties and timing during combat.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-autounm,AutoUNM,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-autovw,AutoVW,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-autowatch,autowatch,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-blist,blist,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-canteen,Canteen,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-capetrader,capetrader,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
-charmed,charmed,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-checkparam,checkparam,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-crbaddon,crb_addon,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-curepleaseaddon,CurePlease_addon,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-currencies,Currencies,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-distanceplus,DistancePlus,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-drop,Drop,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-eschachest,EschaChest,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-exportitems,export_items,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-ffxikeys,ffxikeys,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-finalalert,finalAlert,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-followme,followme,"Combat automation helper for actions, timing, or party flow.",combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-giltracker,giltracker,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
-jobchange,JobChange,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-locke,Locke,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-lockpick,lockpick,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-maga,maga,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-masstrade,MassTrade,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
-moveitems,MoveItems,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-myhome,MyHome,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-myomen,MyOmen,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-nnitimer,NniTimer,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-noknock,noknock,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-omen,Omen,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-oneoffs,OneOffs,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-partypets,PartyPets,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-petparty,petparty,UI/gear overlay or display enhancement.,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-positions,Positions,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-repeater,Repeater,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-roe,roe,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-rolldistance,rolldistance,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-rtfm,rtfm,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-runicportal,RunicPortal,Travel helper for warp/teleport interactions and route shortcuts.,travel,1,69,1,2.52,Icydeath/ffxi-addons
-schskillchain,schskillchain,Displays skillchain windows/properties and timing during combat.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-scriptedextender,ScriptedExtender,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-sendalltarget,SendAllTarget,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-settarget,SetTarget,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-simpleassist,SimpleAssist,Auto-assist targeting helper for coordinated party combat.,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
-sirpopalot,SirPopaLot,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-smarttarget,smarttarget,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-spellspammer,spellSpammer,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-stars,Stars,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-superwarp,superwarp,Travel helper for warp/teleport interactions and route shortcuts.,travel,1,69,1,2.52,Icydeath/ffxi-addons
-synergy,Synergy,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-targeter,targeter,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-targetinfoex,targetinfoEx,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-targetplus,TargetPlus,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-thfknife,ThfKnife,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-tonic,tonic,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-trader,Trader,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
-triggers,triggers,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-valkyrie,Valkyrie,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-voidwalker,voidwalker,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-voidwatch,voidwatch,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-vwpop,VWPop,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-warpmenu,WarpMenu,Travel helper for warp/teleport interactions and route shortcuts.,travel,1,69,1,2.52,Icydeath/ffxi-addons
-where,where,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-widescantool,widescantool,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-woehelper,WoEHelper,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-xivcrossbar,xivcrossbar,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
-zenimonsnap,ZenimonSnap,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-zonename,zonename,General quality-of-life helper addon.,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
-ase,ASE,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-autoinvite,autoinvite,Automation helper for repeated combat/job tasks with command controls.,combat_automation,1,18,1,2.4,Lygre/addons
-broseem,broseem,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-impalert,ImpAlert,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-parse,parse,Diagnostics/logging tool for combat or packet/event analysis.,diagnostics,1,18,1,2.4,Lygre/addons
-petfix,pet_fix,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-pluginmanager,plugin_manager,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-rollbot,RollBot,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-skilluptracker,skilluptracker,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-stna,stna,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-stopwatch,stopwatch,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-text,Text,General quality-of-life helper addon.,general_qol,1,18,1,2.4,Lygre/addons
-translate,translate,Chat and communication quality-of-life helper.,chat_qol,1,18,1,2.4,Lygre/addons
-barfiller,barfiller,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-chars,chars,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-chatlink,ChatLink,Chat and communication quality-of-life helper.,chat_qol,1,17,1,2.39,mverteuil/windower4-addons
-enemybar,enemybar,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,17,1,2.39,mverteuil/windower4-addons
-ffxicaddieprovider,ffxicaddieProvider,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-highlight,highlight,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-inforeplacer,InfoReplacer,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-lazy,Lazy,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-nostrum,Nostrum,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-ohshi,ohShi,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-plasmon,plasmon,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-reive,reive,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-rhombus,Rhombus,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-salvage2,salvage2,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-satacast,SATACast,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-setbgm,setbgm,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-strathelper,StratHelper,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-taps,taps,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-targetinfo,targetinfo,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,1,17,1,2.39,mverteuil/windower4-addons
-truesight,truesight,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-visiblefavor,VisibleFavor,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-yush,Yush,General quality-of-life helper addon.,general_qol,1,17,1,2.39,mverteuil/windower4-addons
-allseeingeye,allseeingeye,General quality-of-life helper addon.,general_qol,2,99,2,2.15,Icydeath/ffxi-addons;ProjectTako/ffxi-addons
-equipviewer,equipviewer,UI/gear overlay or display enhancement.,ui_gear,2,99,2,2.15,Icydeath/ffxi-addons;ProjectTako/ffxi-addons
-partybuffs,partybuffs,UI/gear overlay or display enhancement.,ui_gear,2,99,2,2.15,Lygre/addons;ProjectTako/ffxi-addons
-react,react,"Combat automation helper for actions, timing, or party flow.",combat_automation,2,99,2,2.15,Icydeath/ffxi-addons;ProjectTako/ffxi-addons
-autocor,AutoCOR,Automation helper for repeated combat/job tasks with command controls.,combat_automation,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-autogeo,AutoGEO,Automation helper for repeated combat/job tasks with command controls.,combat_automation,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-chatman,ChatMan,Chat and communication quality-of-life helper.,chat_qol,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-htmb,htmb,General quality-of-life helper addon.,general_qol,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-porterpacker,PorterPacker,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-singer,Singer,"Combat automation helper for actions, timing, or party flow.",combat_automation,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-tradenpc,TradeNPC,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
-magicassistant,MagicAssistant,Auto-assist targeting helper for coordinated party combat.,combat_automation,2,69,2,2.07,Icydeath/ffxi-addons;ValokAsura/WindowerAddons
-quicktrade,QuickTrade,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,2,69,2,2.07,Icydeath/ffxi-addons;ValokAsura/WindowerAddons
-sendtarget,SendTarget,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,2,69,2,2.07,DiscipleOfEris/Windower4Addons;Icydeath/ffxi-addons
-anchor,anchor,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-autocontrol,autocontrol,Automation helper for repeated combat/job tasks with command controls.,combat_automation,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-autojoin,autojoin,Automation helper for repeated combat/job tasks with command controls.,combat_automation,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-autows,AutoWS,Automation helper for repeated combat/job tasks with command controls.,combat_automation,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-azuresets,azureSets,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-clock,Clock,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-dostuff,dostuff,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-dynamishelper,dynamishelper,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
-fisher,fisher,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
-lottery,lottery,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-macrochanger,macrochanger,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
-porter,porter,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
-send,send,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-silence,Silence,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
-subtarget,SubTarget,"UI overlay component for combat actions, targets, or status visibility.",ui_gear,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-thtracker,thtracker,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
-timestamp,timestamp,Chat and communication quality-of-life helper.,chat_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-treasurepool,TreasurePool,General quality-of-life helper addon.,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
-autosynth,autoSynth,Automation helper for repeated combat/job tasks with command controls.,combat_automation,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-bluguide,bluguide,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-boxdestroyer,boxdestroyer,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-debuffed,Debuffed,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-digger,digger,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-distance,distance,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-gametime,gametime,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-instals,instaLS,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-latentchecker,latentchecker,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-linker,linker,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-ohnoyoudont,OhNoYouDont,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-opensesame,OpenSesame,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-packetviewer,PacketViewer,Diagnostics/logging tool for combat or packet/event analysis.,diagnostics,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-pettp,PetTP,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-pricer,Pricer,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-rolltracker,rolltracker,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-scoreboard,scoreboard,UI/gear overlay or display enhancement.,ui_gear,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-skillchain,Skillchain,Displays skillchain windows/properties and timing during combat.,combat_automation,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-speedchecker,SpeedChecker,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-spellcheck,SpellCheck,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-sprint,Sprint,Travel and teleport quality-of-life helper.,travel,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-synthall,synthall,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-update,update,General quality-of-life helper addon.,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
-fastcs,fastcs,Speeds up or skips selected cutscene/menu interactions.,general_qol,4,99,2,1.35,Icydeath/ffxi-addons;Lygre/addons;ProjectTako/ffxi-addons;mverteuil/windower4-addons
-auctionhelper,AuctionHelper,Auction House helper for item lookup/pricing and listing workflow.,economy_inventory,3,79,2,1.3,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons
-sellnpc,SellNPC,Quickly sells items to NPC vendors with command-driven flow.,economy_inventory,4,79,2,1.3,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons;mverteuil/windower4-addons
-trade,Trade,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,3,79,2,1.3,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons
-aecho,aecho,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-autora,AutoRA,Automation helper for repeated combat/job tasks with command controls.,combat_automation,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-battlemod,battlemod,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-cancel,cancel,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-consolebg,ConsoleBG,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-dressup,DressUp,Appearance/lockstyle-style visual customization helpers.,ui_gear,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-enternity,enternity,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-eval,eval,"Debugging, parsing, and runtime observability utility.",diagnostics,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-findall,findAll,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-gearswap,GearSwap,Gear swap automation/rules framework for equipment sets and actions.,ui_gear,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-healbot,HealBot,Automated healing assistant for party support behavior.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-invspace,InvSpace,Inventory space tracking and bag pressure visibility.,economy_inventory,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-itemizer,itemizer,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-logger,Logger,Diagnostics/logging tool for combat or packet/event analysis.,diagnostics,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-organizer,organizer,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-pointwatch,pointwatch,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-pouches,Pouches,"Economy/inventory utility for item movement, sales, and storage.",economy_inventory,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-shortcuts,shortcuts,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-skillchains,Skillchains,Displays skillchain windows/properties and timing during combat.,combat_automation,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-sparks,Sparks,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-tparty,TParty,UI/gear overlay or display enhancement.,ui_gear,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-treasury,Treasury,Loot/treasure pool handling and item distribution helpers.,economy_inventory,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
-zonetimer,zonetimer,General quality-of-life helper addon.,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+addon_key,addon_name,description,description_source,description_confidence,category,repo_count,best_repo_stars,freshness_max,opportunity_score,repos
+atreplace,atreplace,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+augments,augments,augments: search items by name and print their augments to chatlog.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+chatfix,chatfix,-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to…,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,chat_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+clevel,clevel,clevel: prints your current true master level to chatlog while under level sync.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+collector,collector,collector: display owned and missing items from an item set.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+dramagen,dramagen,Dramagen: the only and last parser you will ever need.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+gilbox,gilbox,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,35,5,3.84,lili-ffxi/FFXI-Addons
+indinope,indinope,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+jobinit,jobinit,"JobInit: like init.txt, but specific per character per job.",https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+kaomoji,kaomoji,kaomoji: minimal kaomoji support for ffxi (behaves like /shrug /tableflip and /unflip do on discord),https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+menufix,menufix,-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to…,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+mousehalo,mousehalo,-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to…,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+ondemand,ondemand,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+positionmanager,position_manager,position_manager: frontend for the wincontrol plugin to set position and screen size per character.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+readable,readable,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+safeoboro,safeoboro,"SafeOboro: makes everybody around Oboro in Port Jeuno disappear, so that you don't have any risk whatsoever of trading to scammers.",https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+silttracker,silttracker,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+smeagol,smeagol,"A bit facetious, but working.) Complete addons: Smeagol: automatically use CP/XP rings (and gear).",https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+special,special,special: makes you feel special.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+tellapart,tellapart,"tellapart: add progressive letters to mobs with identical names: Mandragora A, Mandragora B, Mandragora C, etc, instead of endless identical Mandragoras.",https://github.com/lili-ffxi/FFXI-Addons#readme,medium,chat_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+tellfix,tellfix,-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to…,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,chat_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+tiptoes,tiptoes,"tiptoes: applies Sneak and Invisible with a single command according to job: supports spells, Spectral Jig, Ninjutsu, and items (Silent Oils and Prism Powders).",https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+tpsreport,tpsreport,TPSReport: exports an XML list of current alliance members.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+trialtracker,trialtracker,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+useall,useall,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+waveback,waveback,waveback: wave back to people that wave/check you.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+weathermon,weathermon,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+witnessprotection,witnessprotection,General quality-of-life helper addon.,heuristic,low,general_qol,1,35,5,3.84,lili-ffxi/FFXI-Addons
+clickfind,clickfind,-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to…,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
+dupefind,Dupefind,"Dupefind (by Lili, modded by me) : Find and lists duplicate items.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
+friendzone,friendzone,Incomplete addons: Friendzone: automatically calls trusts over and over.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
+posfind,posfind,-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to…,https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
+statsearch,StatSearch,"_DO NOT USE THIS, download it from windower instead._ statsearch: full text search of the gear you own, filtered (or not) by job.",https://github.com/lili-ffxi/FFXI-Addons#readme,medium,general_qol,2,69,5,3.12,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons
+debufftracker,debuff-tracker,General quality-of-life helper addon.,heuristic,low,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
+menus,menus,Menus: Menus is an addon for Ashita that allows you to open your delivery box and the auction house anywhere in a zone that normally has those accessible.,https://github.com/ProjectTako/ffxi-addons#readme,medium,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
+scanzone,scanzone,"ScanZone: Scan Zone is an addon that will let you scan your current zone for any NPC, including mobs.",https://github.com/ProjectTako/ffxi-addons#readme,medium,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
+turnaround,turnaround,General quality-of-life helper addon.,heuristic,low,general_qol,1,99,2,2.95,ProjectTako/ffxi-addons
+autodnc,AutoDNC,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,79,2,2.9,Ivaar/Windower-addons
+chococard,chococard,General quality-of-life helper addon.,heuristic,low,general_qol,1,79,2,2.9,Ivaar/Windower-addons
+questlog,QuestLog,"Debugging, parsing, and runtime observability utility.",heuristic,low,diagnostics,1,79,2,2.9,Ivaar/Windower-addons
+bursting,Bursting,General quality-of-life helper addon.,heuristic,low,general_qol,1,14,2,2.74,ValokAsura/WindowerAddons
+crystaltrader,CrystalTrader,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,14,2,2.74,ValokAsura/WindowerAddons
+quicktrade2,QuickTrade 2,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,14,2,2.74,ValokAsura/WindowerAddons
+assist,assist,Auto-assist targeting helper for coordinated party combat.,heuristic,low,combat_automation,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+eradebuffed,EraDebuffed,General quality-of-life helper addon.,heuristic,low,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+eradistanceplus,EraDistancePlus,General quality-of-life helper addon.,heuristic,low,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+erainfobar,EraInfoBar,UI/gear overlay or display enhancement.,heuristic,low,ui_gear,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+erajobchange,EraJobChange,General quality-of-life helper addon.,heuristic,low,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+eramobdrops,EraMobDrops,General quality-of-life helper addon.,heuristic,low,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+eramoblevel,EraMobLevel,General quality-of-life helper addon.,heuristic,low,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+erapointwatch,EraPointWatch,General quality-of-life helper addon.,heuristic,low,general_qol,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+erascoreboard,EraScoreboard,UI/gear overlay or display enhancement.,heuristic,low,ui_gear,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+fastfollow,FastFollow,"Combat automation helper for actions, timing, or party flow.",heuristic,low,combat_automation,1,12,2,2.73,DiscipleOfEris/Windower4Addons
+ambuloot,ambuloot,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+attackid,attackid,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+attackwithme,attackwithme,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+autochain,AutoChain,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+autopup,AutoPUP,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+autoraise,AutoRaise,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+autoskillchain,AutoSkillchain,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint…",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+autounm,AutoUNM,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+autovw,AutoVW,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+autowatch,autowatch,**update 1/17/2021** autowatch (by Langly) : I've had some success with this one.,https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+blist,blist,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+canteen,Canteen,**canteen** - When in Omen this will run your toon to the goblin and grab a canteen.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+capetrader,capetrader,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
+charmed,charmed,"charmed (by wes, modded by me) : shows a small heart icon next to the persons name in the party list.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+checkparam,checkparam,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+crbaddon,crb_addon,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+curepleaseaddon,CurePlease_addon,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+currencies,Currencies,Currencies (by Ivaar) : use commands to find the amount of something that is listed your currency/currency2 in-game menus.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+distanceplus,DistancePlus,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+drop,Drop,"register chamber, enter chamber, drop lamp ---- If you need further information be sure to check out the addons readme file, otherwise you can skim the addons .lua to get an idea of how it works.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+eschachest,EschaChest,EschaChest (by me) : a first attempt at automate opening of chests in escha zones.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+exportitems,export_items,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+ffxikeys,ffxikeys,//ew # **ffxikeys** by Areint/Alzade - Automate trading keys for rewards **GearInfo** by sebyg666 - tracks your currently equipped gear and buffs to display valuable information.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+finalalert,finalAlert,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+followme,followme,"followme (by yyoshisaur, modded by me) : alt following, get omen canteen, get SR KI, get DI KI Locke (by me) : experimental thf TH Gear swapper.",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+giltracker,giltracker,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
+jobchange,JobChange,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+locke,Locke,"followme (by yyoshisaur, modded by me) : alt following, get omen canteen, get SR KI, get DI KI Locke (by me) : experimental thf TH Gear swapper.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+lockpick,lockpick,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+maga,maga,Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama…,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+masstrade,MassTrade,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
+moveitems,MoveItems,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+myhome,MyHome,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+myomen,MyOmen,**myomen** - quick way to use your tele ring to get to omen.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+nnitimer,NniTimer,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+noknock,noknock,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+omen,Omen,**myomen** - quick way to use your tele ring to get to omen.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+oneoffs,OneOffs,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+partypets,PartyPets,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+petparty,petparty,UI/gear overlay or display enhancement.,heuristic,low,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+positions,Positions,**rangermaster** - multiboxing rangers and corsairs **positions** - positioning mules **jroller** - GUI version of AutoCOR.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+repeater,Repeater,"**Repeater** - by Selindrile, Simple windower command repeating tool for FFXI.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+roe,roe,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+rolldistance,rolldistance,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+rtfm,rtfm,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+runicportal,RunicPortal,"MagicAssistant (by Valok) : updated //maa help for more info RunicPortal (by icy) : Warping via runic portal, get sanction, get assault tag, get assault orders/armband and more.",https://github.com/Icydeath/ffxi-addons#readme,medium,travel,1,69,1,2.52,Icydeath/ffxi-addons
+schskillchain,schskillchain,"schskillchain (by yyoshisaur, modded by me) : single commands to perform sch skillchains.",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+scriptedextender,ScriptedExtender,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+sendalltarget,SendAllTarget,"**SendAllTarget** - by Selindrile, Addon created to make Send more useful in terms of targetting, may require a loaded gearswap user file.",https://github.com/Icydeath/ffxi-addons#readme,medium,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+settarget,SetTarget,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+simpleassist,SimpleAssist,Auto-assist targeting helper for coordinated party combat.,heuristic,low,combat_automation,1,69,1,2.52,Icydeath/ffxi-addons
+sirpopalot,SirPopaLot,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+smarttarget,smarttarget,"smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -…",https://github.com/Icydeath/ffxi-addons#readme,medium,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+spellspammer,spellSpammer,**spellSpammer** by Lorand - Set the list of spells that you want to spam in file.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+stars,Stars,"smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -…",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+superwarp,superwarp,Travel helper for warp/teleport interactions and route shortcuts.,heuristic,low,travel,1,69,1,2.52,Icydeath/ffxi-addons
+synergy,Synergy,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+targeter,targeter,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+targetinfoex,targetinfoEx,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+targetplus,TargetPlus,"smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -…",https://github.com/Icydeath/ffxi-addons#readme,medium,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+thfknife,ThfKnife,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+tonic,tonic,"**SurvivalGuide** by SammehFFXI - //sg warp <zone> , soft-locks use //terminate **unm** by Darkdoom **MagicAssistant** by [Valok] -Automated magic bursting script //maa nap [spell/helix/ga/ja/ra/nin] [tier] **tonic** - u…",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+trader,Trader,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,1,69,1,2.52,Icydeath/ffxi-addons
+triggers,triggers,triggers (by Mujihina) : Lets you set a text trigger and command response to it.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+valkyrie,Valkyrie,valkyrie (by Areint/Alzade) : Einherjar helper.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+voidwalker,voidwalker,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+voidwatch,voidwatch,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+vwpop,VWPop,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+warpmenu,WarpMenu,Addon_Manager PartyBars WarpMenu XIVPetBars StoreMats ShoutAlert InstanceNotifier _List of custom addons.,https://github.com/Icydeath/ffxi-addons#readme,medium,travel,1,69,1,2.52,Icydeath/ffxi-addons
+where,where,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+widescantool,widescantool,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+woehelper,WoEHelper,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+xivcrossbar,xivcrossbar,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,1,69,1,2.52,Icydeath/ffxi-addons
+zenimonsnap,ZenimonSnap,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+zonename,zonename,General quality-of-life helper addon.,heuristic,low,general_qol,1,69,1,2.52,Icydeath/ffxi-addons
+ase,ASE,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+autoinvite,autoinvite,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,1,18,1,2.4,Lygre/addons
+broseem,broseem,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+impalert,ImpAlert,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+parse,parse,Diagnostics/logging tool for combat or packet/event analysis.,heuristic,low,diagnostics,1,18,1,2.4,Lygre/addons
+petfix,pet_fix,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+pluginmanager,plugin_manager,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+rollbot,RollBot,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+skilluptracker,skilluptracker,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+stna,stna,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+stopwatch,stopwatch,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+text,Text,General quality-of-life helper addon.,heuristic,low,general_qol,1,18,1,2.4,Lygre/addons
+translate,translate,Chat and communication quality-of-life helper.,heuristic,low,chat_qol,1,18,1,2.4,Lygre/addons
+barfiller,barfiller,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+chars,chars,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+chatlink,ChatLink,Chat and communication quality-of-life helper.,heuristic,low,chat_qol,1,17,1,2.39,mverteuil/windower4-addons
+enemybar,enemybar,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,1,17,1,2.39,mverteuil/windower4-addons
+ffxicaddieprovider,ffxicaddieProvider,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+highlight,highlight,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+inforeplacer,InfoReplacer,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+lazy,Lazy,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+nostrum,Nostrum,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+ohshi,ohShi,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+plasmon,plasmon,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+reive,reive,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+rhombus,Rhombus,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+salvage2,salvage2,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+satacast,SATACast,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+setbgm,setbgm,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+strathelper,StratHelper,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+taps,taps,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+targetinfo,targetinfo,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,1,17,1,2.39,mverteuil/windower4-addons
+truesight,truesight,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+visiblefavor,VisibleFavor,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+yush,Yush,General quality-of-life helper addon.,heuristic,low,general_qol,1,17,1,2.39,mverteuil/windower4-addons
+allseeingeye,allseeingeye,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint…",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,2,99,2,2.15,Icydeath/ffxi-addons;ProjectTako/ffxi-addons
+equipviewer,equipviewer,EquipViewer: Overlays your currently equipped items onto the screen anywhere.,https://github.com/ProjectTako/ffxi-addons#readme,medium,ui_gear,2,99,2,2.15,Icydeath/ffxi-addons;ProjectTako/ffxi-addons
+partybuffs,partybuffs,UI/gear overlay or display enhancement.,heuristic,low,ui_gear,2,99,2,2.15,Lygre/addons;ProjectTako/ffxi-addons
+react,react,"**React** by SammehFFXI & **ReactRedux** by Sammeh,bangerang **SellNPC** by Ivaar - Sells items(from profile) when talking to a vendor.",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,2,99,2,2.15,Icydeath/ffxi-addons;ProjectTako/ffxi-addons
+autocor,AutoCOR,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint…",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+autogeo,AutoGEO,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint…",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+chatman,ChatMan,Chat and communication quality-of-life helper.,heuristic,low,chat_qol,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+htmb,htmb,//hp warp <homepoint> # **htmb** by Ivaar - Automates buying high-tier battle field KI's.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+porterpacker,PorterPacker,"**PorterPacker** - by Ivaar, Stores and Retrieves gear from the porter moogle.",https://github.com/Icydeath/ffxi-addons#readme,medium,economy_inventory,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+singer,Singer,**Singer** by Ivaar - Automates casting bard songs.,https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+tradenpc,TradeNPC,"FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",https://github.com/Ivaar/Windower-addons#readme,medium,economy_inventory,2,79,2,2.1,Icydeath/ffxi-addons;Ivaar/Windower-addons
+magicassistant,MagicAssistant,"**SurvivalGuide** by SammehFFXI - //sg warp <zone> , soft-locks use //terminate **unm** by Darkdoom **MagicAssistant** by [Valok] -Automated magic bursting script //maa nap [spell/helix/ga/ja/ra/nin] [tier] **tonic** - u…",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,2,69,2,2.07,Icydeath/ffxi-addons;ValokAsura/WindowerAddons
+quicktrade,QuickTrade,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,2,69,2,2.07,Icydeath/ffxi-addons;ValokAsura/WindowerAddons
+sendtarget,SendTarget,"You need to load them manually or add a couple lines to your scripts/init.txt: lua load Addon1 lua load Addon2 For example if you install the SendTarget addon, there should be a folder called SendTarget in your Windower…",https://github.com/DiscipleOfEris/Windower4Addons#readme,medium,ui_gear,2,69,2,2.07,DiscipleOfEris/Windower4Addons;Icydeath/ffxi-addons
+anchor,anchor,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint…",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+autocontrol,autocontrol,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+autojoin,autojoin,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+autows,AutoWS,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+azuresets,azureSets,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+clock,Clock,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+dostuff,dostuff,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint…",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+dynamishelper,dynamishelper,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
+fisher,fisher,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
+lottery,lottery,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+macrochanger,macrochanger,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
+porter,porter,"**PorterPacker** - by Ivaar, Stores and Retrieves gear from the porter moogle.",https://github.com/Icydeath/ffxi-addons#readme,medium,economy_inventory,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
+send,send,**drone** - Allow other players to send your toon commands to do something.,https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+silence,Silence,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
+subtarget,SubTarget,"UI overlay component for combat actions, targets, or status visibility.",heuristic,low,ui_gear,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+thtracker,thtracker,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;mverteuil/windower4-addons
+timestamp,timestamp,Chat and communication quality-of-life helper.,heuristic,low,chat_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+treasurepool,TreasurePool,General quality-of-life helper addon.,heuristic,low,general_qol,2,69,1,1.72,Icydeath/ffxi-addons;Lygre/addons
+autosynth,autoSynth,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+bluguide,bluguide,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+boxdestroyer,boxdestroyer,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+debuffed,Debuffed,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+digger,digger,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+distance,distance,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+gametime,gametime,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+instals,instaLS,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+latentchecker,latentchecker,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+linker,linker,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+ohnoyoudont,OhNoYouDont,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+opensesame,OpenSesame,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+packetviewer,PacketViewer,Diagnostics/logging tool for combat or packet/event analysis.,heuristic,low,diagnostics,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+pettp,PetTP,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+pricer,Pricer,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+rolltracker,rolltracker,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+scoreboard,scoreboard,UI/gear overlay or display enhancement.,heuristic,low,ui_gear,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+skillchain,Skillchain,Displays skillchain windows/properties and timing during combat.,heuristic,low,combat_automation,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+speedchecker,SpeedChecker,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+spellcheck,SpellCheck,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+sprint,Sprint,Travel and teleport quality-of-life helper.,heuristic,low,travel,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+synthall,synthall,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+update,update,General quality-of-life helper addon.,heuristic,low,general_qol,2,18,1,1.6,Lygre/addons;mverteuil/windower4-addons
+fastcs,fastcs,Speeds up or skips selected cutscene/menu interactions.,heuristic,low,general_qol,4,99,2,1.35,Icydeath/ffxi-addons;Lygre/addons;ProjectTako/ffxi-addons;mverteuil/windower4-addons
+auctionhelper,AuctionHelper,"FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",https://github.com/Ivaar/Windower-addons#readme,medium,economy_inventory,3,79,2,1.3,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons
+sellnpc,SellNPC,"**React** by SammehFFXI & **ReactRedux** by Sammeh,bangerang **SellNPC** by Ivaar - Sells items(from profile) when talking to a vendor.",https://github.com/Icydeath/ffxi-addons#readme,medium,economy_inventory,4,79,2,1.3,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons;mverteuil/windower4-addons
+trade,Trade,"FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",https://github.com/Ivaar/Windower-addons#readme,medium,economy_inventory,3,79,2,1.3,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons
+aecho,aecho,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+autora,AutoRA,Automation helper for repeated combat/job tasks with command controls.,heuristic,low,combat_automation,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+battlemod,battlemod,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+cancel,cancel,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+consolebg,ConsoleBG,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+dressup,DressUp,Appearance/lockstyle-style visual customization helpers.,heuristic,low,ui_gear,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+enternity,enternity,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+eval,eval,"Debugging, parsing, and runtime observability utility.",heuristic,low,diagnostics,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+findall,findAll,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+gearswap,GearSwap,"**SendAllTarget** - by Selindrile, Addon created to make Send more useful in terms of targetting, may require a loaded gearswap user file.",https://github.com/Icydeath/ffxi-addons#readme,medium,ui_gear,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+healbot,HealBot,"**Healbot** by Lorand **Herd** by Nifim - Follows a PC, NPC, Pet, or an other targetable object in the game.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+invspace,InvSpace,Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama…,https://github.com/Icydeath/ffxi-addons#readme,medium,economy_inventory,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+itemizer,itemizer,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+logger,Logger,Diagnostics/logging tool for combat or packet/event analysis.,heuristic,low,diagnostics,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+organizer,organizer,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+pointwatch,pointwatch,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+pouches,Pouches,"Economy/inventory utility for item movement, sales, and storage.",heuristic,low,economy_inventory,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+shortcuts,shortcuts,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+skillchains,Skillchains,"schskillchain (by yyoshisaur, modded by me) : single commands to perform sch skillchains.",https://github.com/Icydeath/ffxi-addons#readme,medium,combat_automation,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+sparks,Sparks,"**unm** - Updated to Darkdoom's v2, further modified the script to include the force option; which allows the player to continue to pop the unm even if sparks are capped.",https://github.com/Icydeath/ffxi-addons#readme,medium,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+tparty,TParty,UI/gear overlay or display enhancement.,heuristic,low,ui_gear,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+treasury,Treasury,Loot/treasure pool handling and item distribution helpers.,heuristic,low,economy_inventory,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons
+zonetimer,zonetimer,General quality-of-life helper addon.,heuristic,low,general_qol,3,69,1,0.92,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons

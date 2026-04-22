@@ -68,7 +68,7 @@ function render(){
   });
   rows.innerHTML=filtered.slice(0,500).map(a=>`<tr>
     <td><strong>${a.addon_name}</strong><br><span class="muted">${a.addon_key}</span></td>
-    <td>${a.description || '<span class="muted">No description yet</span>'}</td>
+    <td>${a.description || '<span class="muted">No description yet</span>'}<br>${a.description_source && a.description_source !== 'heuristic' ? `<a class="muted" href="${a.description_source}" target="_blank" rel="noreferrer">source</a>` : `<span class="muted">source: heuristic</span>`}</td>
     <td><span class="tag">${a.category}</span></td>
     <td>${a.repos.map(r=>`<div><a href="https://github.com/${r}" target="_blank" rel="noreferrer">${r}</a></div>`).join('')}</td>
     <td>${a.freshness_max}</td>

@@ -14,7 +14,7 @@ If you want to build new FFXI addons, the ecosystem is fragmented across many re
 
 This project gives you:
 - A cross-repo addon index
-- A normalized catalog (JSON + CSV)
+- A normalized catalog (JSON + CSV), including source-aware descriptions when available
 - A first-pass opportunity/gap analysis
 - A shortlist of high-ROI addon ideas
 
@@ -72,6 +72,14 @@ Gaps worth building:
 3. Safer automation policy controls + auditability
 4. Better party coordination UX
 5. Portable profile/config sync tooling
+
+## 🔧 Regenerate source-aware descriptions
+
+```bash
+python3 scripts/enrich_descriptions.py
+```
+
+This pulls README text from indexed repos and assigns best-effort description sources per addon.
 
 ## 🚀 Next steps
 
