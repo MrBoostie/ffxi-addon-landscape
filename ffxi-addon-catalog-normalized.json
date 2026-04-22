@@ -10,9 +10,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "For more details: https://www.ffxiah.com/forum/topic/58154/atreplace-autotranslate-in-scripts-and-aliases/ _**USE THIS AT YOUR OWN RISK**_, I did my best to make sure it copied client behavior 100% but it's entirely poss",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/atreplace/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "augments",
@@ -25,7 +25,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "augments: search items by name and print their augments to chatlog.",
+    "description": "augments: search items by name and print their augments to chatlog. If you need to know how many Chironic Hoses you own, and what their augments are.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
     "description_confidence": "medium"
   },
@@ -40,9 +40,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to\u2026",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "create a windowerfolder\\addons\\chatfix folder, and put chatfix.lua there",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/chatfix/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "clevel",
@@ -70,9 +70,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "collector: display owned and missing items from an item set.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "# Collector Finds owned and missing items from a collection of items.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/collector/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "dramagen",
@@ -100,7 +100,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
+    "description": "Inventory/economy helper for storage, movement, and selling tasks.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -115,9 +115,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# IndiNope 1.0.4 Hides visual effects from geomancy on players.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/indinope/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "jobinit",
@@ -160,9 +160,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to\u2026",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "create a windowerfolder\\addons\\menufix folder, and put menufix.lua there",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/menufix/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "mousehalo",
@@ -175,7 +175,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to\u2026",
+    "description": "mousehalo (makes your mouse cursor MUCH more visible. A bit facetious, but working.)",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
     "description_confidence": "medium"
   },
@@ -190,7 +190,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -205,9 +205,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "position_manager: frontend for the wincontrol plugin to set position and screen size per character.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "**Note**: On some systems with very fast or very slow disks, it can happen that the WinControl addon does not get loaded in time for position_manager to send the proper command.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/position_manager/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "readable",
@@ -220,7 +220,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -235,9 +235,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "SafeOboro: makes everybody around Oboro in Port Jeuno disappear, so that you don't have any risk whatsoever of trading to scammers.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "This addon creates a zone of 10' around Oboro where every player that is not you cannot appear. Load it and it's on. Load it before zoning into Port Jeuno for maximum effectiveness. Enjoy some privacy with Oboro! Say goo",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/safeoboro/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "silttracker",
@@ -250,9 +250,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# silttracker This is a very simple tool I wrote for myself to easily track the earning of beads during intense farming sessions.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/silttracker/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "smeagol",
@@ -265,9 +265,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "A bit facetious, but working.) Complete addons: Smeagol: automatically use CP/XP rings (and gear).",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "Does not use rings inside town. Can toggle with //smeagol town command.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/smeagol/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "special",
@@ -295,9 +295,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "tellapart: add progressive letters to mobs with identical names: Mandragora A, Mandragora B, Mandragora C, etc, instead of endless identical Mandragoras.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "Get support for the addon on FFXIAH: https://www.ffxiah.com/forum/topic/57093/tellapart-add-progressive-letters-to-mob-names/ Names are changed in a way that they are identical across different clients, even if those cli",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/tellapart/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "tellfix",
@@ -310,9 +310,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to\u2026",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "create a windowerfolder\\addons\\tellfix folder, and put tellfix.lua there",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/tellfix/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "tiptoes",
@@ -355,7 +355,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -370,7 +370,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -385,9 +385,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "waveback: wave back to people that wave/check you.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "//waveback delay &lt;number&gt; - waits <number> between activations.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/waveback/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "weathermon",
@@ -400,7 +400,7 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -415,9 +415,9 @@
     "best_repo_stars": 35,
     "freshness_max": 5,
     "opportunity_score": 3.84,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# Witness Protection ver. 0.2.0 This addon takes care of renaming all the characters you encounter to random names. The goal is to make it impossible, or at least very difficult, to recognize who you are or what server y",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/witnessprotection/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "clickfind",
@@ -431,7 +431,7 @@
     "best_repo_stars": 69,
     "freshness_max": 5,
     "opportunity_score": 3.12,
-    "description": "-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to\u2026",
+    "description": "clickfind (click to print mouse cursor position on screen)",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
     "description_confidence": "medium"
   },
@@ -463,7 +463,7 @@
     "best_repo_stars": 69,
     "freshness_max": 5,
     "opportunity_score": 3.12,
-    "description": "Incomplete addons: Friendzone: automatically calls trusts over and over.",
+    "description": "Friendzone: automatically calls trusts over and over. A bit bugged but workable.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
     "description_confidence": "medium"
   },
@@ -479,7 +479,7 @@
     "best_repo_stars": 69,
     "freshness_max": 5,
     "opportunity_score": 3.12,
-    "description": "-- Addons to fix issues on private servers: chatfix (fixes empty or garbled chat messages) menufix (fixes crash when opening the status menu) tellfix (fixes empty or garbled tell messages) Utilities: clickfind (click to\u2026",
+    "description": "posfind (click to print character position on world map)",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
     "description_confidence": "medium"
   },
@@ -495,9 +495,9 @@
     "best_repo_stars": 69,
     "freshness_max": 5,
     "opportunity_score": 3.12,
-    "description": "_DO NOT USE THIS, download it from windower instead._ statsearch: full text search of the gear you own, filtered (or not) by job.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons#readme",
-    "description_confidence": "medium"
+    "description": "# statsearch **NOTE:** due to limitations of the extdata library of windower, statsearch is currently unable to read text from some items, mainly divergence weapons/necks and odyssey gear.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/statsearch/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "debufftracker",
@@ -510,7 +510,7 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.95,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -525,9 +525,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.95,
-    "description": "Menus: Menus is an addon for Ashita that allows you to open your delivery box and the auction house anywhere in a zone that normally has those accessible.",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# ffxi-addons/menus Menus: Menus is an addon for Ashita that allows you to open your delivery box and the auction house anywhere in a zone that normally has those accessible.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/menus/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "scanzone",
@@ -540,9 +540,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.95,
-    "description": "ScanZone: Scan Zone is an addon that will let you scan your current zone for any NPC, including mobs.",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# ffxi-addons/scanzone ScanZone: Scan Zone is an addon that will let you scan your current zone for any NPC, including mobs.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/scanzone/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "turnaround",
@@ -555,9 +555,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.95,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# ffxi-addons/turnaround TurnAround: Simple addon used for turning yourself around.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/turnaround/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "autodnc",
@@ -570,7 +570,7 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.9,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -585,9 +585,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.9,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Chococard === Displays decoded extra data for chocobo items and packets while viewing the padocks inside race track menus.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/chococard/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "questlog",
@@ -600,9 +600,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.9,
-    "description": "Debugging, parsing, and runtime observability utility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# QuestLog used to track progress for adoulin/abyssea quest completion shows abyssea and adoulin quests you have not completed or undertaken ### Commands: ### Color code:",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/QuestLog/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "bursting",
@@ -615,7 +615,7 @@
     "best_repo_stars": 14,
     "freshness_max": 2,
     "opportunity_score": 2.74,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -630,9 +630,9 @@
     "best_repo_stars": 14,
     "freshness_max": 2,
     "opportunity_score": 2.74,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Crystal Trader has been replaced with QuickTrade and will no longer be updated.",
+    "description_source": "https://github.com/ValokAsura/WindowerAddons/blob/HEAD/CrystalTrader/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "quicktrade2",
@@ -645,7 +645,7 @@
     "best_repo_stars": 14,
     "freshness_max": 2,
     "opportunity_score": 2.74,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
+    "description": "Inventory/economy helper for storage, movement, and selling tasks.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -660,7 +660,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "Auto-assist targeting helper for coordinated party combat.",
+    "description": "Keeps your target synced by assisting a chosen party member.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -675,7 +675,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -690,7 +690,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -705,7 +705,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "UI/gear overlay or display enhancement.",
+    "description": "UI enhancement for combat, targeting, or gear visibility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -720,7 +720,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -735,7 +735,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -750,7 +750,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -765,7 +765,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -780,7 +780,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "UI/gear overlay or display enhancement.",
+    "description": "UI enhancement for combat, targeting, or gear visibility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -795,7 +795,7 @@
     "best_repo_stars": 12,
     "freshness_max": 2,
     "opportunity_score": 2.73,
-    "description": "Combat automation helper for actions, timing, or party flow.",
+    "description": "Combat helper automating timing, actions, or role behavior.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -810,7 +810,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -825,9 +825,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# attackid id\u3092\u6307\u5b9a\u3057\u3066/attack(\u6226\u95d8\u958b\u59cb)\u3092\u3059\u308b\u30a2\u30c9\u30aa\u30f3 - \u4f7f\u3044\u65b9 //atkid 123456 send\u304b\u3089\u4f7f\u7528\u3059\u308b //send @others atkid <tid>",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/attackid/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "attackwithme",
@@ -840,9 +840,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# attackwithme - by yyoshisaur ### :tada: v0.0.7 - modded by icy #### New Settings {...} are optional //awm set master {name} ~ sets current player or name to auto load as master //awm set slave {name} ~ sets current pla",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/attackwithme/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "autochain",
@@ -855,7 +855,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -870,7 +870,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -885,7 +885,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -900,7 +900,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint\u2026",
+    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -915,7 +915,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -930,7 +930,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -960,7 +960,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -975,9 +975,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "**canteen** - When in Omen this will run your toon to the goblin and grab a canteen.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# Canteen Load it up then //canteen get when in the #10 portal to get canteen.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Canteen/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "capetrader",
@@ -990,9 +990,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "___ ### Usage notes Load the addon by using the following command: //lua load capetrader There are some conditions that you need to meet in order to use the important go and prep commands: 1.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/capetrader/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "charmed",
@@ -1005,9 +1005,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "charmed (by wes, modded by me) : shows a small heart icon next to the persons name in the party list.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "## charmed Created by wes, modified by icy v0.3 : Simple addon to show a pink <3 next to charmed alliance members.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/charmed/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "checkparam",
@@ -1020,9 +1020,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "//checkparam OR //cp (addon command)",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/checkparam/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "crbaddon",
@@ -1035,7 +1035,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1050,7 +1050,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1080,9 +1080,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Distance Plus adds the following features: * Distance measured to hundredth vs 10th.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/DistancePlus/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "drop",
@@ -1125,7 +1125,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1140,9 +1140,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "//ew # **ffxikeys** by Areint/Alzade - Automate trading keys for rewards **GearInfo** by sebyg666 - tracks your currently equipped gear and buffs to display valuable information.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "Original creator: Tny5989 Modified by: Icy # FFXIKeys A small windower addon to automate trading keys for rewards Action | Addon Command --------------------- | ----------------------------- Use | //keys use \\<key\\> Togg",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ffxikeys/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "finalalert",
@@ -1155,7 +1155,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1170,9 +1170,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "followme (by yyoshisaur, modded by me) : alt following, get omen canteen, get SR KI, get DI KI Locke (by me) : experimental thf TH Gear swapper.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# followme * \u30d5\u30a9\u30ed\u30fc\u958b\u59cb //followme(//fm) start * \u30d5\u30a9\u30ed\u30fc\u89e3\u9664 //followme(//fm) stop * \u30a4\u30aa\u30cb\u30b9\u53d6\u5f97 //followme(//fm) ionis * \u98ef\u76d2(\u30aa\u30fc\u30e1\u30f3)\u53d6\u5f97 //followme(//fm) canteen * \u7948\u7977\u795e\u7b26(\u30c9\u30e1\u30a4\u30f3\u30d9\u30fc\u30b8\u30e7\u30f3)\u53d6\u5f97 -> \u4f1a\u5834\u3078\u30ef\u30fc\u30d7 //followme(//fm) di * \u30de\u30a6\u30f3\u30c8(\u30e9\u30d7\u30c8\u30eb)\u306b\u4e57\u308b //followme",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/followme/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "giltracker",
@@ -1185,9 +1185,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# giltracker This addon displays the current gil, similar to the FFXIV Gil HUD widget.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/giltracker/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "jobchange",
@@ -1200,9 +1200,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Allows command line job change as long as you're within 6 yalms of a Job Change NPC.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/JobChange/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "locke",
@@ -1230,7 +1230,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1245,7 +1245,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama\u2026",
+    "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -1260,9 +1260,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# MassTrade MassTrade is a Windower addon that allows users to quickly trade large quantities of the same item to either a PC or NPC.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/MassTrade/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "moveitems",
@@ -1275,7 +1275,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1290,9 +1290,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# MyHome ## English - Automatically choose and uses a warp spell or an item.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/MyHome/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "myomen",
@@ -1320,7 +1320,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1335,7 +1335,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1365,7 +1365,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1380,7 +1380,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1395,9 +1395,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "UI/gear overlay or display enhancement.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# petparty Displays all pet information for your alliance.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/petparty/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "positions",
@@ -1410,9 +1410,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "**rangermaster** - multiboxing rangers and corsairs **positions** - positioning mules **jroller** - GUI version of AutoCOR.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# Positions Windower Addon for positioning mules The two functions of this addon are to have a character follow someone, and to have a character go to their position for fighting an nm.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Positions/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "repeater",
@@ -1425,9 +1425,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "**Repeater** - by Selindrile, Simple windower command repeating tool for FFXI.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "Commands //repeater Gives current settings for repeater.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Repeater/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "roe",
@@ -1440,7 +1440,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1455,9 +1455,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# FFXI Roll Distance Tracks and displays the distance between you and other party members so you know who is in range for your next Phantom Roll.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/rolldistance/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "rtfm",
@@ -1470,9 +1470,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "FFXI Windower Addon rtfm - Read The Freakin' Move Detect, alert and list mob moves as they occur in-game.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/rtfm/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "runicportal",
@@ -1500,9 +1500,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "schskillchain (by yyoshisaur, modded by me) : single commands to perform sch skillchains.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# schskillchain(ssc) - usage example Open Liquefacrion(\u6eb6\u89e3) //ssc fire open Close Liquefacrion(\u6eb6\u89e3) (settable the first letter of parameter) //ssc f c Close Liquefacrion(\u6eb6\u89e3) and Magic Burst Pyrohelix II (\u706b\u9580\u306e\u8a08II) //ssc f c ",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/schskillchain/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "scriptedextender",
@@ -1515,7 +1515,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1530,9 +1530,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "**SendAllTarget** - by Selindrile, Addon created to make Send more useful in terms of targetting, may require a loaded gearswap user file.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "Abbreviation: //sat, //sendalltarget Commands: * //sat alltarget - All boxes on this computer target whatever the sender is targetting.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SendAllTarget/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "settarget",
@@ -1545,7 +1545,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
+    "description": "Shows enhanced target/enemy HP or status display overlays.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1560,7 +1560,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Auto-assist targeting helper for coordinated party combat.",
+    "description": "Keeps your target synced by assisting a chosen party member.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1575,7 +1575,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1590,7 +1590,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -\u2026",
+    "description": "smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -1620,9 +1620,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -\u2026",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# Stars An addon which filters messages based on a filter.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Stars/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "superwarp",
@@ -1635,9 +1635,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Travel helper for warp/teleport interactions and route shortcuts.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**Feature**: An option has been added to check for unlock status of homepoints, waypoints, and survival guides. To enable unlock checks, set the following setting: <enable_locked_warps>false</enable_locked_warps>. This o",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/superwarp/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "synergy",
@@ -1650,7 +1650,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1665,9 +1665,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# FFXI Targeter *Note: This is a work in progress.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/targeter/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "targetinfoex",
@@ -1680,9 +1680,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# TargetInfo # This addon shows some memory information of your current target, provided the target is an NPC. This information is otherwise not available in the game. Per settings file adjustable settings: ShowHexID Thi",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/targetinfoEx/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "targetplus",
@@ -1695,7 +1695,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -\u2026",
+    "description": "smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -1710,7 +1710,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1725,9 +1725,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "**SurvivalGuide** by SammehFFXI - //sg warp <zone> , soft-locks use //terminate **unm** by Darkdoom **MagicAssistant** by [Valok] -Automated magic bursting script //maa nap [spell/helix/ga/ja/ra/nin] [tier] **tonic** - u\u2026",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "tonic makes it easier to use Escha temp items",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/tonic/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "trader",
@@ -1740,7 +1740,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
+    "description": "Inventory/economy helper for storage, movement, and selling tasks.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1755,9 +1755,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "triggers (by Mujihina) : Lets you set a text trigger and command response to it.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "tg trigger <string>: Set text trigger.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/triggers/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "valkyrie",
@@ -1770,9 +1770,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "valkyrie (by Areint/Alzade) : Einherjar helper.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# Valkyrie A windower addon to streamline Einherjar entry.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Valkyrie/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "voidwalker",
@@ -1785,7 +1785,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1800,7 +1800,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1815,7 +1815,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1830,9 +1830,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "Addon_Manager PartyBars WarpMenu XIVPetBars StoreMats ShoutAlert InstanceNotifier _List of custom addons.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "~~~~~~~~~~~~~ WarpMenu ~~~~~~~~~~~~~ ==================================== *NOTICE* Requires addon: superwarp ==================================== [warpmenu|wm] [window#|win#] [a|add|r|remove] [hp#] [zone name] > auto tra",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/WarpMenu/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "where",
@@ -1845,7 +1845,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1860,9 +1860,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Filters: Filters can be useful if widescantool is too cluttered with monsters you do not care about. Fewer entries in the widescan list, and you are less likely to miss something you do care about. Filters can be configu",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/widescantool/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "woehelper",
@@ -1875,7 +1875,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1890,9 +1890,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Update Log 01/25/2021 : Added DRGs pet command macros Steps to get XIVCrossbar working: 1) Install Autohotkey (https://www.autohotkey.com/) 2) Run FFXI Configuration tool and set up your gamepad to match ConfigureYourGam",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/xivcrossbar/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "zenimonsnap",
@@ -1905,9 +1905,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "ZenimonSnap Automatically equips and uses Soultrapper and Soultrapper 2000 efficiently.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ZenimonSnap/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "zonename",
@@ -1920,9 +1920,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.52,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# zonename This addon displays the zone and region name for a short time while changing zones.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonename/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "ase",
@@ -1935,7 +1935,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1950,9 +1950,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Abbreviation: //ai, //autoinvite Commands: * <whitelist|blacklist> <add|remove> <player> - adds or removes a player from blacklist or whitelist.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/autoinvite/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "broseem",
@@ -1965,7 +1965,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1980,7 +1980,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -1995,7 +1995,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "Diagnostics/logging tool for combat or packet/event analysis.",
+    "description": "Parses combat logs for damage/performance summaries.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2010,7 +2010,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2025,9 +2025,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "2 Click the icon next to \"plugin_manager\"",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/plugin_manager/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "rollbot",
@@ -2040,7 +2040,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2055,9 +2055,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "skilluptracker [show|hide] [all|craft|magic|combat]:",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/skilluptracker/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "stna",
@@ -2070,7 +2070,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2085,9 +2085,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**Commands:** sw start to start the stopwatch sw stop to pause the stopwatch sw reset to reset the stopwatch cumulative time to 0 Addon by Patrick Finnigan (Puhfyn@Ragnarok) - https://github.com/finnigantime.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/stopwatch/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "text",
@@ -2100,7 +2100,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2115,7 +2115,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.4,
-    "description": "Chat and communication quality-of-life helper.",
+    "description": "Chat/communication quality-of-life utility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2130,7 +2130,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2145,9 +2145,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**fix:** pattern wasn't working with some special chars.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/chars/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "chatlink",
@@ -2160,7 +2160,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "Chat and communication quality-of-life helper.",
+    "description": "Chat/communication quality-of-life utility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2175,9 +2175,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# enemybar This is an addon for Windower4 for FFXI.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/enemybar/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "ffxicaddieprovider",
@@ -2190,7 +2190,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2205,9 +2205,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "##Description This addon highlights the names of the people in your party, and highlights their name when it appears in chat.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/highlight/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "inforeplacer",
@@ -2220,7 +2220,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2235,7 +2235,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2250,7 +2250,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2265,9 +2265,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**Abbreviation:** //ohShi **Commands:** 1.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/ohShi/Readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "plasmon",
@@ -2280,9 +2280,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**-o _objects_:** specifies the item/s which will have its/their color changed. If this parameter is missing all the objects will be changed. The accepted values are: **all**, **background**, **bg**, **title**, **label**",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/plasmon/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "reive",
@@ -2295,9 +2295,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**-o _objects_:** specifies the item/s which will have its/their color changed. If this parameter is missing all the objects will be changed. the accepted values are **all**, **background**, **bg**, **title**, **label**,",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/reive/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "rhombus",
@@ -2310,7 +2310,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2325,9 +2325,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Author: Krizz Version: .5 Date: 20130601 Salvage2 Abbreviation: //s2 Commands: * help - Shows a menu of commands in game * pos <x> <y> - Positions the pathos remaining box.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/salvage2/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "satacast",
@@ -2340,7 +2340,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2355,7 +2355,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2370,9 +2370,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "StratHelper ===== StratHelper is a simple helper addon for Spellcast for Scholar Stratagems.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/StratHelper/Readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "taps",
@@ -2385,7 +2385,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2400,9 +2400,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# TargetInfo # This addon shows some memory information of your current target, provided the target is an NPC.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/targetinfo/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "truesight",
@@ -2415,7 +2415,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2430,7 +2430,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2445,7 +2445,7 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 2.39,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2461,9 +2461,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.15,
-    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint\u2026",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# ffxi-addons/allseeingeye AllSeeingEyes: This was popularized long ago from the Windower 3.x plugin with the same name.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/allseeingeye/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "equipviewer",
@@ -2477,9 +2477,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.15,
-    "description": "EquipViewer: Overlays your currently equipped items onto the screen anywhere.",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# ffxi-addons/equipviewer EquipViewer: Overlays your currently equipped items onto the screen anywhere.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/equipviewer/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "partybuffs",
@@ -2493,9 +2493,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.15,
-    "description": "UI/gear overlay or display enhancement.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# ffxi-addons/partybuffs An addon made from https://github.com/KenshiDRK/Addons/tree/master/PartyBuffs for Ashita.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/partybuffs/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "react",
@@ -2509,9 +2509,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 2.15,
-    "description": "**React** by SammehFFXI & **ReactRedux** by Sammeh,bangerang **SellNPC** by Ivaar - Sells items(from profile) when talking to a vendor.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# ffxi-addons/react React: Based on the Windower addon by Sammeh (https://github.com/SammehFFXI/FFXIAddons/tree/master/React), works very similar.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/react/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "autocor",
@@ -2525,9 +2525,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint\u2026",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "Accepts auto-translate terms, not case-sensitive. \"//cor [on|off]\" \"//cor roll <n> <job|roll_name>\" -- set roll \"//cor cc [n|off]\" -- Use crooked cards on roll [n] (default is 1st roll, 0 is off) \"//cor aoe <slot|party> ",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/AutoCOR/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "autogeo",
@@ -2541,7 +2541,7 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint\u2026",
+    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -2557,9 +2557,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "Chat and communication quality-of-life helper.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "ChatManager ============= Alternative to chatmon.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/ChatMan/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "htmb",
@@ -2573,9 +2573,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "//hp warp <homepoint> # **htmb** by Ivaar - Automates buying high-tier battle field KI's.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "//htmb - When near one of the KI NPCs, it will buy the KI\\'s you have set.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/htmb/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "porterpacker",
@@ -2589,9 +2589,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "**PorterPacker** - by Ivaar, Stores and Retrieves gear from the porter moogle.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# PorterPacker ### Commands: command|alias [optional] //porterpacker or //packer or //po",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/PorterPacker/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "singer",
@@ -2605,9 +2605,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "**Singer** by Ivaar - Automates casting bard songs.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# Sing ### Automates casting of bard buff songs. #### If you are updating from a version prior to 1.20.05.09 make sure you delete your existing settings.xml file located within the addons data folder. Configure songs wit",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/Singer/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "tradenpc",
@@ -2621,9 +2621,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 2.1,
-    "description": "FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",
-    "description_source": "https://github.com/Ivaar/Windower-addons#readme",
-    "description_confidence": "medium"
+    "description": "# TradeNPC Trade an npc up to 8 stacks of items and gil with a single command.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/TradeNPC/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "magicassistant",
@@ -2637,7 +2637,7 @@
     "best_repo_stars": 69,
     "freshness_max": 2,
     "opportunity_score": 2.07,
-    "description": "**SurvivalGuide** by SammehFFXI - //sg warp <zone> , soft-locks use //terminate **unm** by Darkdoom **MagicAssistant** by [Valok] -Automated magic bursting script //maa nap [spell/helix/ga/ja/ra/nin] [tier] **tonic** - u\u2026",
+    "description": "**SurvivalGuide** by SammehFFXI - //sg warp <zone> , soft-locks use //terminate **unm** by Darkdoom **MagicAssistant** by [Valok] -Automated magic bursting script //maa nap [spell/helix/ga/ja/ra/nin] [tier] **tonic** - u",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -2653,9 +2653,9 @@
     "best_repo_stars": 69,
     "freshness_max": 2,
     "opportunity_score": 2.07,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Geas Fete: Key Item detection added. QuickTrade will not try to trade for a Key Item you already posses.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/QuickTrade/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "sendtarget",
@@ -2669,9 +2669,9 @@
     "best_repo_stars": 69,
     "freshness_max": 2,
     "opportunity_score": 2.07,
-    "description": "You need to load them manually or add a couple lines to your scripts/init.txt: lua load Addon1 lua load Addon2 For example if you install the SendTarget addon, there should be a folder called SendTarget in your Windower\u2026",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons#readme",
-    "description_confidence": "medium"
+    "description": "# SendTarget FFXI Windower addon that allows multiboxers to more easily send commands.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SendTarget/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "anchor",
@@ -2685,7 +2685,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint\u2026",
+    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -2701,9 +2701,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**Abbreviations:** acon, autocontrol **Commands:** 1.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/autocontrol/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "autojoin",
@@ -2717,9 +2717,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# AutoJoin Once loaded, will automatically join party and alliance invites.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/autojoin/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "autows",
@@ -2733,7 +2733,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2749,9 +2749,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**Author:** Ricky Gall **Version:** 1.24 **Description:** Addon to make setting blue spells easier. Currently only works as blu main. **Abbreviations:** aset, azureset **Commands:** 1. //aset removeall - Unsets all spell",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/azureSets/Readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "clock",
@@ -2765,7 +2765,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2781,9 +2781,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint\u2026",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "'dos delay': Specify delay (default is 5 secs). This can be adjusted while dostuff is running if needed.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/dostuff/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "dynamishelper",
@@ -2797,9 +2797,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Authors: Krizz Version: 1 Date: 20130419 Dynamis Helper Abbreviation: //dh Commands: * help - Shows a menu of commands in game * timer [on/off] - Displays a timer each time a mob is staggered.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/dynamishelper/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "fisher",
@@ -2813,9 +2813,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Fisher will always confuse 1 gil and 100 gil.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/fisher/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "lottery",
@@ -2829,7 +2829,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2845,7 +2845,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2861,9 +2861,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "**PorterPacker** - by Ivaar, Stores and Retrieves gear from the porter moogle.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "**add**: New command, porter find.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/porter/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "send",
@@ -2877,9 +2877,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "**drone** - Allow other players to send your toon commands to do something.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "## Usage The target can be the receiver's name, @all to send to all instances, @other to send to all instances excluding the sender or @<job> to send to a specific job.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/send/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "silence",
@@ -2893,9 +2893,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Use the line \"silence mode 0\" to not allow any lines to go through.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Silence/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "subtarget",
@@ -2909,9 +2909,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "UI overlay component for combat actions, targets, or status visibility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "name = 'SubTarget' version = '1.0' author = 'Sebyg666' Must have the \"send\" addon to work can use //subtarget or //sta Command \"HELP\" or no command: Explanation of the addons usage printed to the console, essentially the",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SubTarget/README.txt",
+    "description_confidence": "high"
   },
   {
     "addon_key": "thtracker",
@@ -2925,9 +2925,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Authors: Krizz Version: 1.0 Date: 20170509 TH Tracker Abbreviation: //th Commands: * help - Shows a menu of commands in game * pos x y - Positions the TH box.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/thtracker/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "timestamp",
@@ -2941,9 +2941,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "Chat and communication quality-of-life helper.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**_format_:** defines the timestamp's format. The available constants are: **${year}**, **${y}**, **${year_short}**, **${month}**, **${m}**, **${month_short}**, **${month_long}**, **${day}**, **${d}**, **${day_short}**, ",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/timestamp/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "treasurepool",
@@ -2957,7 +2957,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.72,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2973,7 +2973,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
+    "description": "Automates repeated job or combat actions with rule-based logic.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -2989,7 +2989,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3005,7 +3005,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3021,7 +3021,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3037,7 +3037,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3053,9 +3053,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# Distance Emulates the functionality of the Distance plugin.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/distance/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "gametime",
@@ -3069,7 +3069,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3085,7 +3085,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3101,7 +3101,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3117,9 +3117,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# Linker Opens certain links via simple console commands, with an optional search string.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/linker/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "ohnoyoudont",
@@ -3133,7 +3133,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3149,7 +3149,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3165,7 +3165,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "Diagnostics/logging tool for combat or packet/event analysis.",
+    "description": "Diagnostic utility for logs, packets, or runtime behavior visibility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3181,7 +3181,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3197,7 +3197,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3213,9 +3213,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "If you have rolled a lucky roll, it will also prompt you and automatically stop you from doubling up on it (which can be bypassed by either doubling up again, or typing //rolltracker autostop Enjoy.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/rolltracker/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "scoreboard",
@@ -3229,7 +3229,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "UI/gear overlay or display enhancement.",
+    "description": "UI enhancement for combat, targeting, or gear visibility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3245,7 +3245,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "Displays skillchain windows/properties and timing during combat.",
+    "description": "Displays skillchain options/windows and timing during combat.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3261,7 +3261,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3277,9 +3277,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "#SpellCheck This addon lists spells you haven't unlocked yet.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/SpellCheck/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "sprint",
@@ -3293,7 +3293,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "Travel and teleport quality-of-life helper.",
+    "description": "Travel quality-of-life helper for warps and navigation.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3309,7 +3309,7 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3325,9 +3325,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 1.6,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# Update Once loaded can update all addons and plugins to the newest version using //update.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/update/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "fastcs",
@@ -3343,9 +3343,9 @@
     "best_repo_stars": 99,
     "freshness_max": 2,
     "opportunity_score": 1.35,
-    "description": "Speeds up or skips selected cutscene/menu interactions.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# ffxi-addons/fastcs FastCS: FastCS is an addon based on the Windower4 addon with the same name.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/fastcs/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "auctionhelper",
@@ -3360,9 +3360,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 1.3,
-    "description": "FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",
-    "description_source": "https://github.com/Ivaar/Windower-addons#readme",
-    "description_confidence": "medium"
+    "description": "AuctionHelper ============= Auction house bidding tool - addon for Windower ----------------------------------------------- Allows you to perform auction house actions with commands, much like bidder with additional func",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/AuctionHelper/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "sellnpc",
@@ -3378,9 +3378,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 1.3,
-    "description": "**React** by SammehFFXI & **ReactRedux** by Sammeh,bangerang **SellNPC** by Ivaar - Sells items(from profile) when talking to a vendor.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# SellNPC ### Command Usage: Sales are now triggered by opening a shop window, you will need to queue items prior to this.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/SellNPC/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "trade",
@@ -3395,9 +3395,9 @@
     "best_repo_stars": 79,
     "freshness_max": 2,
     "opportunity_score": 1.3,
-    "description": "FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",
-    "description_source": "https://github.com/Ivaar/Windower-addons#readme",
-    "description_confidence": "medium"
+    "description": "# Trade #### Accepts trade requests and confirms from whitelisted players.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/Trade/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "aecho",
@@ -3412,7 +3412,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3429,9 +3429,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Automation helper for repeated combat/job tasks with command controls.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "2.0.0 AutoRA simply causes ranged attacks to behave like the melee Auto-Attack while your weapon is drawn.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AutoRA/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "battlemod",
@@ -3446,9 +3446,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "unload - unloads Battlemod",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/battlemod/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "cancel",
@@ -3463,7 +3463,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3480,7 +3480,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3497,7 +3497,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Appearance/lockstyle-style visual customization helpers.",
+    "description": "Applies visual appearance/style overrides.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3514,9 +3514,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "**Author:** Giuliano Riccio **Version:** v 1.20131102 # Enternity # Enters \"Enter\" automatically when prompted during a cutscene or when talking to NPCs.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/enternity/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "eval",
@@ -3531,9 +3531,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Debugging, parsing, and runtime observability utility.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Author: Aureus Version: 1.0 Addon to evaluate lua code via windower commands Abbreviation: //eval Use //eval to run arbitrary lua code.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/eval/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "findall",
@@ -3548,9 +3548,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "# FindAll This addon searches items stored on all your characters.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/findAll/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "gearswap",
@@ -3565,9 +3565,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "**SendAllTarget** - by Selindrile, Addon created to make Send more useful in terms of targetting, may require a loaded gearswap user file.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "PLEASE DO NOT MESSAGE ME ABOUT ANYTHING THIRD PARTY IN GAME, however feel free to send me a way to contact you outside of game, through the game, and I'm happy to help, my preferred way of being contact is Discord, my St",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/GearSwap/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "healbot",
@@ -3582,9 +3582,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "**Healbot** by Lorand **Herd** by Nifim - Follows a PC, NPC, Pet, or an other targetable object in the game.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "To load healBot: //lua load healbot",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/HealBot/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "invspace",
@@ -3599,7 +3599,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama\u2026",
+    "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama",
     "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
     "description_confidence": "medium"
   },
@@ -3616,9 +3616,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "#Itemizer Provides a chat/console interface for moving items around between bags.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/itemizer/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "logger",
@@ -3633,7 +3633,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Diagnostics/logging tool for combat or packet/event analysis.",
+    "description": "Diagnostic utility for logs, packets, or runtime behavior visibility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3650,7 +3650,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3667,7 +3667,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
+    "description": "General FFXI quality-of-life utility addon.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3684,7 +3684,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Economy/inventory utility for item movement, sales, and storage.",
+    "description": "Inventory/economy helper for storage, movement, and selling tasks.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3701,9 +3701,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "#Shortcuts v2.9 ####written by Byrth Completes and properly formats commands (prefixed by at least one '/'), including emotes and checks.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/shortcuts/readme.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "skillchains",
@@ -3718,9 +3718,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "schskillchain (by yyoshisaur, modded by me) : single commands to perform sch skillchains.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons#readme",
-    "description_confidence": "medium"
+    "description": "# SkillChains ### Active Battle Skillchain Display.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Skillchains/README.md",
+    "description_confidence": "high"
   },
   {
     "addon_key": "sparks",
@@ -3752,7 +3752,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "UI/gear overlay or display enhancement.",
+    "description": "UI enhancement for combat, targeting, or gear visibility.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3769,7 +3769,7 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "Loot/treasure pool handling and item distribution helpers.",
+    "description": "Automates treasure pool lot/pass/drop decisions.",
     "description_source": "heuristic",
     "description_confidence": "low"
   },
@@ -3786,8 +3786,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 0.92,
-    "description": "General quality-of-life helper addon.",
-    "description_source": "heuristic",
-    "description_confidence": "low"
+    "description": "Commands: zonetimer posX # change the x position zonetimer posY # change the y position zonetimer fontsize # change the fontsize zoentimer help print these instructions in the log Original plugin by Krellion.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonetimer/readme.md",
+    "description_confidence": "high"
   }
 ]
