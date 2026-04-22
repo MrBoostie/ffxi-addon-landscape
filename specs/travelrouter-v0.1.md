@@ -1,19 +1,22 @@
-# TravelRouter v0.1
+# TravelRouter v0.2 (implemented prototype)
 
-## Purpose
-Content-aware travel route planner/executor for FFXI.
-
-## MVP
-- destination registry
-- plan output
-- run execution
-- IPC endpoint for plan/run requests
+## Delivered
+- Destination registry + candidate model
+- Plan output with simple scoring rationale
+- Route execution
+- Persistence for user routes/state
+- IPC v2 (`TR2`/`TR2R`) with v1 compatibility
 
 ## Commands
 - `//troute list`
 - `//troute plan <destination>`
 - `//troute run <destination>`
 - `//troute add <destination> <step1> ; <step2> ; ...`
+- `//troute reset <destination>`
+- `//troute unlock list|add|remove <token>`
+- `//troute save`
 
-## Notes
-Current prototype uses static route data and command steps. Next iteration should infer best path by unlock state + current zone.
+## Remaining gaps
+- richer unlock detection (currently token-based)
+- deeper zone/context intelligence
+- dependency discovery from loaded addons

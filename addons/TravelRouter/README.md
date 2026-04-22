@@ -2,46 +2,64 @@
 
 Content-aware travel routing addon for Windower.
 
-## What it does
-- Maps a destination keyword to a multi-hop route plan.
-- Prints a step-by-step route in chat (`//troute plan <dest>`).
-- Can execute helper commands for each step (`//troute run <dest>`).
-- Exposes a tiny IPC protocol that other addons (like SessionConductor) can call.
-
 ## Install
 - Copy `addons/TravelRouter` into your Windower `addons/` directory.
 - Load with `//lua load TravelRouter`.
 
+## What it does
+- Maps destination keywords to route candidates.
+- Scores candidates based on lightweight unlock/state signals.
+- Prints route rationale and selected step plan (`//troute plan <dest>`).
+- Executes selected route steps (`//troute run <dest>`).
+- Persists user-added route overrides across reloads/restarts.
+- Exposes IPC endpoints used by SessionConductor.
+
 ## Commands
 - `//troute list` — list known destinations
-- `//troute plan <destination>` — print route plan
-- `//troute run <destination>` — execute mapped command steps
-- `//troute add <destination> <step1> ; <step2> ; ...` — add/update route at runtime
+- `//troute plan <destination>` — print best route + scoring rationale
+- `//troute run <destination>` — execute selected route
+- `//troute add <destination> <step1> ; <step2> ; ...` — persist user route override
+- `//troute reset <destination>` — remove user override for destination
+- `//troute unlock list` — list unlock tokens used for scoring
+- `//troute unlock add <token>` — mark unlock available (e.g. `hp`, `sg`, `warp`)
+- `//troute unlock remove <token>` — clear unlock token
+- `//troute save` — force-save user routes/state files
+
+## Persistence files
+- `data/routes.user.lua` — user route overrides
+- `data/state.user.lua` — unlock/state tokens
+
+## Route data model
+`data/routes.lua` supports either:
+1) legacy simple route (list of steps), or
+2) candidate model:
+
+```lua
+jeuno = {
+  candidates = {
+    { name = 'home-point-direct', score = 15, requires = {'hp'}, steps = {...} },
+    { name = 'warp-fallback', score = 8, requires = {'warp'}, steps = {...} },
+  }
+}
+```
 
 ## Route step format
 Each step is one of:
 - `say:<text>` — prints instruction text
-- `cmd:<windower command>` — executes command (without leading `//`)
+- `cmd:<windower command>` — executes command (leading `//` optional)
 
-Example step list:
-- `say:Warp to Jeuno HP #1`
-- `cmd:hp #1`
-- `say:Take Survival Guide to Western Adoulin`
+## IPC
+### v2 (preferred, robust payload encoding)
+- request: `TR2|op=plan&dest=jeuno`
+- request: `TR2|op=run&dest=jeuno`
+- reply: `TR2R|op=plan&dest=jeuno&ok=1&steps=3&by=TravelRouter`
+- reply: `TR2R|op=run&dest=jeuno&ok=1&by=TravelRouter`
 
-## IPC (v1)
-Inbound message types:
+### v1 (legacy compatibility)
 - `TRAVEL_ROUTER|plan|<destination>`
 - `TRAVEL_ROUTER|run|<destination>`
-
-Reply message types:
-- `TRAVEL_ROUTER_REPLY|plan|<destination>|ok|<0/1>|steps|<N>`
-- `TRAVEL_ROUTER_REPLY|run|<destination>|ok|<0/1>`
-
----
-
-This is an MVP scaffold. Next iteration should include real zone/state awareness and unlock-aware route scoring.
+- replies via `TRAVEL_ROUTER_REPLY|...`
 
 ## Known limitations
-- Route definitions are static and bundled in `data/routes.lua`.
-- `//troute add ...` updates routes only for the current runtime session.
-- Route steps are thin wrappers around existing Windower commands; unlock/state validation is not implemented yet.
+- Unlock/state signals are intentionally simple in v0.2.
+- No auto-discovery of third-party addon capability yet.

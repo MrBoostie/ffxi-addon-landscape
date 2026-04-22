@@ -8,40 +8,46 @@ Multi-character session conductor addon for Windower.
 - For coordinated travel, also load `TravelRouter` on each participating instance.
 
 ## What it does
-- Sends coordinated commands across characters via IPC.
-- Can orchestrate travel runs for all connected characters.
-- Leverages **TravelRouter** to plan/run destination routes.
+- Broadcasts coordinated travel/command operations over IPC.
+- Integrates with **TravelRouter** for synchronized destination routing.
+- Supports roster groups and target scoping (`all` or specific group).
+- Tracks ACK replies per dispatch and reports timeout state.
 
 ## Commands
 - `//conductor travel <destination>`
-  - Runs local `//troute run <destination>` and broadcasts the same request over IPC.
-
 - `//conductor command <raw command>`
-  - Broadcasts a raw command for peers to execute.
-
 - `//conductor follow <leader>`
-  - Broadcasts a helper assist/follow command pattern.
-
 - `//conductor ping`
-  - Broadcasts ping and listens for responses.
+- `//conductor target <group|all>`
+- `//conductor roster add <group> <name>`
+- `//conductor roster remove <group> <name>`
+- `//conductor roster list`
+- `//conductor timeout <seconds>`
+- `//conductor status`
+
+## Persistence
+- `data/roster.user.lua` stores groups, target selection, and timeout value.
 
 ## Integration behavior
 When `travel` is used:
-1. SessionConductor asks TravelRouter to execute locally.
-2. Sends IPC event to all peers to do the same.
-3. Peers that have SessionConductor + TravelRouter loaded will execute route in sync.
+1. SessionConductor executes TravelRouter locally.
+2. Sends IPC event containing request id + target scope.
+3. Peers matching scope execute route and ACK result.
 
-## IPC (v1)
-- `SESSION_CONDUCTOR|travel|<destination>|from|<name>`
-- `SESSION_CONDUCTOR|command|<raw>|from|<name>`
-- `SESSION_CONDUCTOR|ping|from|<name>`
-- `SESSION_CONDUCTOR_REPLY|pong|from|<name>`
+## IPC
+### v2 (preferred, robust payload encoding)
+- `SC2|op=travel&dest=jeuno&from=Alice&target=farm&req=...`
+- `SC2|op=command&raw=input+/heal+Bob&from=Alice&target=all&req=...`
+- `SC2|op=ping&from=Alice&target=all`
+- `SC2R|op=ack&req=...&from=Bob&status=ok`
+- `SC2R|op=pong&from=Bob`
 
----
-
-Prototype only. Future version should add team roster, ack tracking, timeout handling, and scoped groups.
+### v1 (legacy compatibility during migration)
+- `SESSION_CONDUCTOR|travel|...`
+- `SESSION_CONDUCTOR|command|...`
+- `SESSION_CONDUCTOR|ping|...`
+- `SESSION_CONDUCTOR_REPLY|pong|...`
 
 ## Safety / scope notes
-- `command` rebroadcasts arbitrary Windower commands to peers. Treat it as trusted-party tooling, not a hardened remote-control layer.
-- The current IPC protocol uses `|` as a delimiter, so payloads containing `|` are intentionally rejected.
-- There is no ack/timeout/roster model yet; this is still scaffolding.
+- This is trusted-party tooling, not a hardened remote-control framework.
+- ACK/timeout reporting is lightweight and intentionally simple in prototype form.

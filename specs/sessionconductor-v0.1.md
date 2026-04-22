@@ -1,19 +1,24 @@
-# SessionConductor v0.1
+# SessionConductor v0.2 (implemented prototype)
 
-## Purpose
-Coordinate multi-character sessions through IPC broadcasts.
-
-## MVP
-- broadcast raw commands
-- broadcast travel requests
-- local + remote execution model
-- ping/pong connectivity check
+## Delivered
+- Broadcast travel/command operations
+- TravelRouter integration
+- Roster/group scoping + active target selection
+- ACK collection and timeout visibility (`status`)
+- IPC v2 (`SC2`/`SC2R`) with v1 compatibility
+- Persistent roster config
 
 ## Commands
 - `//conductor travel <destination>`
 - `//conductor command <raw command>`
 - `//conductor follow <leader>`
 - `//conductor ping`
+- `//conductor target <group|all>`
+- `//conductor roster add|remove|list ...`
+- `//conductor timeout <seconds>`
+- `//conductor status`
 
-## TravelRouter integration
-`travel` command calls local `//troute run <destination>` and broadcasts the same request to peers.
+## Remaining gaps
+- authenticated sender/roster trust model
+- retry/backoff for failed peers
+- richer execution telemetry per operation type
