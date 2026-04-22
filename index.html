@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FFXI Addon Landscape</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 2rem; background:#0b1020; color:#e8ecff; }
+    h1 { margin-bottom: .2rem; }
+    .muted { color:#9fb0ff; margin-top:0; }
+    input, select { padding:.6rem .7rem; border-radius:.5rem; border:1px solid #2b3666; background:#131a33; color:#e8ecff; }
+    .controls { display:flex; gap:.75rem; flex-wrap:wrap; margin:1rem 0 1.25rem; }
+    table { width:100%; border-collapse: collapse; background:#0f1530; border:1px solid #27305c; }
+    th, td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid #1e2750; font-size:.92rem; vertical-align:top; }
+    th { position:sticky; top:0; background:#131a33; }
+    a { color:#8fc6ff; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .tag { background:#1f2b58; border:1px solid #334179; padding:.1rem .4rem; border-radius:.4rem; font-size:.78rem; display:inline-block; }
+  </style>
+</head>
+<body>
+  <h1>FFXI Addon Landscape</h1>
+  <p class="muted">Searchable index of FFXI addons across GitHub repos.</p>
+
+  <div class="controls">
+    <input id="q" placeholder="Search addon/repo/category..." size="36" />
+    <select id="cat"><option value="">All categories</option></select>
+    <select id="minFresh">
+      <option value="0">Any freshness</option>
+      <option value="5">Freshness 5 (≤6mo)</option>
+      <option value="4">Freshness 4+ (≤1y)</option>
+      <option value="3">Freshness 3+ (≤2y)</option>
+    </select>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Addon</th>
+        <th>Category</th>
+        <th>Repos</th>
+        <th>Freshness</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+<script>
+let DATA=[];
+const q=document.getElementById('q');
+const cat=document.getElementById('cat');
+const minFresh=document.getElementById('minFresh');
+const rows=document.getElementById('rows');
+
+function render(){
+  const needle=(q.value||'').toLowerCase().trim();
+  const c=cat.value;
+  const mf=Number(minFresh.value||0);
+  const filtered=DATA.filter(a=>{
+    if(c && a.category!==c) return false;
+    if(a.freshness_max < mf) return false;
+    if(!needle) return true;
+    const blob=[a.addon_name,a.category,...a.repos].join(' ').toLowerCase();
+    return blob.includes(needle);
+  });
+  rows.innerHTML=filtered.slice(0,500).map(a=>`<tr>
+    <td><strong>${a.addon_name}</strong><br><span class="muted">${a.addon_key}</span></td>
+    <td><span class="tag">${a.category}</span></td>
+    <td>${a.repos.map(r=>`<div><a href="https://github.com/${r}" target="_blank" rel="noreferrer">${r}</a></div>`).join('')}</td>
+    <td>${a.freshness_max}</td>
+    <td>${a.opportunity_score}</td>
+  </tr>`).join('');
+}
+
+fetch('./ffxi-addon-catalog-normalized.json').then(r=>r.json()).then(d=>{
+  DATA=d;
+  const cats=[...new Set(DATA.map(x=>x.category))].sort();
+  cats.forEach(c=>{ const o=document.createElement('option'); o.value=c; o.textContent=c; cat.appendChild(o); });
+  render();
+});
+
+[q,cat,minFresh].forEach(el=>el.addEventListener('input',render));
+[q,cat,minFresh].forEach(el=>el.addEventListener('change',render));
+</script>
+</body>
+</html>

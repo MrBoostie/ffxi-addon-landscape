@@ -1,6 +1,12 @@
 # FFXI Addon Landscape
 
+![GitHub last commit](https://img.shields.io/github/last-commit/MrBoostie/ffxi-addon-landscape?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/MrBoostie/ffxi-addon-landscape?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/MrBoostie/ffxi-addon-landscape?style=flat-square)
+
 A curated GitHub index + gap analysis for Final Fantasy XI addons (primarily Windower, with some Ashita mentions).
+
+Live searchable index (GitHub Pages): <https://mrboostie.github.io/ffxi-addon-landscape/>
 
 ## 🔥 Why this exists
 
