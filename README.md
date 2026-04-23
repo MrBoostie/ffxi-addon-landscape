@@ -110,6 +110,7 @@ If you only load `SessionConductor`, the `travel` command will still broadcast, 
 See specs:
 - `specs/travelrouter-v1.0.md`
 - `specs/sessionconductor-v1.0.md`
+- `specs/sessionconductor-v1.1-triggers.md` (event-driven automation model)
 
 ## ✅ Production checklist
 
