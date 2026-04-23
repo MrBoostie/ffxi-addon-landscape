@@ -1,17 +1,18 @@
 # SessionConductor
 
-Multi-character session conductor addon for Windower.
+Event-driven multi-character orchestration for Windower with rule evaluation, ACK tracking, pending request inspection, and safer follow command construction.
 
 ## Install
 - Copy `addons/SessionConductor` into your Windower `addons/` directory.
 - Load with `//lua load SessionConductor`.
-- For coordinated travel, also load `TravelRouter` on each participating instance.
 
 ## What it does
-- Broadcasts coordinated travel/command operations over IPC.
-- Integrates with **TravelRouter** for synchronized destination routing.
-- Supports roster groups and target scoping (`all` or specific group).
-- Tracks ACK replies per dispatch and reports timeout state.
+- Dispatches travel and command actions to trusted peers over IPC.
+- Tracks ACK replies per request and retries lightweight peer actions.
+- Supports scoped rosters for different teams or play patterns.
+- Evaluates trigger rules against local game-state-derived events.
+- Records an append-only event log for debugging automation behavior.
+- Hardens follow command construction and improves operator introspection.
 
 ## Commands
 ### Core dispatch
@@ -24,14 +25,18 @@ Multi-character session conductor addon for Windower.
 - `//conductor target <group|all>`
 - `//conductor roster add <group> <name>`
 - `//conductor roster remove <group> <name>`
+- `//conductor roster show <group>`
 - `//conductor roster list`
 
 ### Reliability / safety
 - `//conductor timeout <seconds>`
 - `//conductor status`
+- `//conductor status detail`
+- `//conductor pending [N]`
 - `//conductor remotecmd on|off`
+- `//conductor localecho on|off`
 
-### Event/rule automation (v1.1)
+### Event/rule automation
 - `//conductor auto on|off`
 - `//conductor mode <normal|recovery|emergency|travel>`
 - `//conductor pause <seconds>`
@@ -47,30 +52,10 @@ Multi-character session conductor addon for Windower.
 ## Persistence
 - `data/roster.user.lua` stores groups, target selection, timeout, and automation toggles.
 - `data/rules.default.lua` shipped baseline trigger rules.
-- `data/rules.user.lua` optional user overrides (same rule ids override defaults).
-- `data/events.log` rolling append-only event trail for debugging.
+- `data/rules.user.lua` optional user overrides.
+- `data/events.log` rolling append-only event trail.
 
-## Integration behavior
-When `travel` is used:
-1. SessionConductor executes TravelRouter locally.
-2. Sends IPC event containing request id + target scope.
-3. Peers matching scope execute route and ACK result.
-
-## IPC
-### v2 (preferred, robust payload encoding)
-- `SC2|op=travel&dest=jeuno&from=Alice&target=farm&req=...`
-- `SC2|op=command&raw=input+/heal+Bob&from=Alice&target=all&req=...`
-- `SC2|op=ping&from=Alice&target=all`
-- `SC2R|op=ack&req=...&from=Bob&status=ok`
-- `SC2R|op=pong&from=Bob`
-
-### v1 (legacy compatibility during migration)
-- `SESSION_CONDUCTOR|travel|...`
-- `SESSION_CONDUCTOR|command|...`
-- `SESSION_CONDUCTOR|ping|...`
-- `SESSION_CONDUCTOR_REPLY|pong|...`
-
-## Safety / scope notes
-- This is trusted-party tooling, not a hardened remote-control framework.
-- Remote command execution is OFF by default; enable only for trusted groups (`//conductor remotecmd on`).
-- ACK/timeout reporting is lightweight and intentionally simple.
+## Notes
+- This remains trusted-party tooling, not an exposed remote control service.
+- Remote command execution is still opt-in and off by default.
+- The new pending/status views are there so operators can see what the automation layer thinks is happening instead of guessing.

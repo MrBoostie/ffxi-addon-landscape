@@ -1,6 +1,6 @@
 _addon.name = 'TravelRouter'
 _addon.author = 'boostie'
-_addon.version = '0.2.0'
+_addon.version = '0.3.0'
 _addon.commands = {'troute', 'travelrouter'}
 _addon.description = 'Content-aware travel route planner/executor with persistence and v2 IPC.'
 
@@ -11,7 +11,7 @@ local USER_STATE_FILE = (windower.addon_path or '') .. 'data/state.user.lua'
 
 local routes = {}
 local user_routes = {}
-local state = { unlocks = { hp = true, sg = true, warp = true } }
+local state = { unlocks = { hp = true, sg = true, warp = true }, history = {} }
 
 local function msg(text)
     windower.add_to_chat(207, ('[TravelRouter] %s'):format(text))
@@ -70,15 +70,32 @@ local function write_table_file(path, t)
     return true
 end
 
+local function canonicalize_route(def)
+    if type(def) ~= 'table' then return nil end
+    if def.steps then
+        local out = copy_table(def)
+        out.name = out.name or 'custom'
+        if out.score == nil then out.score = 25 end
+        return out
+    end
+    if def[1] and type(def[1]) == 'string' then
+        return { name = 'custom', score = 25, steps = copy_table(def), source = 'user' }
+    end
+    return copy_table(def)
+end
+
 local function merge_routes()
     routes = copy_table(base_routes)
-    for dest, route in pairs(user_routes) do routes[dest] = route end
+    for dest, route in pairs(user_routes) do
+        routes[dest] = canonicalize_route(route) or route
+    end
 end
 
 local function load_user_files()
     user_routes = safe_load(USER_ROUTE_FILE) or {}
     state = safe_load(USER_STATE_FILE) or state
     if type(state.unlocks) ~= 'table' then state.unlocks = {} end
+    if type(state.history) ~= 'table' then state.history = {} end
     merge_routes()
 end
 
@@ -132,6 +149,37 @@ local function score_candidate(c)
     return score, reasons
 end
 
+local function route_step_count(route_key)
+    local candidates = route_candidates(route_key)
+    if not candidates then return 0 end
+    local best = 0
+    for _, c in ipairs(candidates) do
+        local n = #(c.steps or {})
+        if n > best then best = n end
+    end
+    return best
+end
+
+local function describe_candidate(c)
+    local bits = {}
+    if c.name then bits[#bits+1] = ('name=%s'):format(c.name) end
+    if c.score ~= nil then bits[#bits+1] = ('base=%s'):format(tostring(c.score)) end
+    if c.requires and #c.requires > 0 then bits[#bits+1] = ('requires=%s'):format(table.concat(c.requires, ',')) end
+    if c.preferred_zone then bits[#bits+1] = ('preferred_zone=%s'):format(tostring(c.preferred_zone)) end
+    bits[#bits+1] = ('steps=%d'):format(#(c.steps or {}))
+    return table.concat(bits, ' | ')
+end
+
+local function trim_history(limit)
+    while #state.history > (limit or 20) do table.remove(state.history, 1) end
+end
+
+local function record_history(entry)
+    state.history[#state.history+1] = entry
+    trim_history(20)
+    save_user_state()
+end
+
 local function pick_plan(dest)
     local key = fuzzy_match_dest(dest)
     if not key then return nil, nil end
@@ -154,12 +202,14 @@ local function list_destinations()
 end
 
 local function print_plan(dest)
+    local requested = dest
+    local key = fuzzy_match_dest(dest)
     local plan, meta = pick_plan(dest)
     if not plan then
         msg(('No route for "%s". Use //troute list or //troute add ...'):format(dest or ''))
         return false, nil
     end
-    msg(('Route plan for "%s" via "%s" (score %d):'):format(dest, plan.name or 'default', meta.score or 0))
+    msg(('Route plan for "%s" via "%s" (score %d):'):format(key or requested or '', plan.name or 'default', meta.score or 0))
     if meta.reasons and #meta.reasons > 0 then msg('  rationale: ' .. table.concat(meta.reasons, ', ')) end
     for i, step in ipairs(plan.steps or {}) do msg(('  %d) %s'):format(i, step)) end
     return true, plan
@@ -189,10 +239,12 @@ local function execute_step(step)
 end
 
 local function run_plan(dest)
-    local plan = pick_plan(dest)
+    local key = fuzzy_match_dest(dest)
+    local plan, meta = pick_plan(dest)
     if not plan then msg(('No route for "%s".'):format(dest or '')); return false end
-    msg(('Executing route "%s" (%s)...'):format(dest, plan.name or 'default'))
+    msg(('Executing route "%s" (%s, score %d)...'):format(key or dest or '', plan.name or 'default', (meta and meta.score) or 0))
     for _, step in ipairs(plan.steps or {}) do execute_step(step) end
+    record_history({ ts = os.time(), dest = key or dest, plan = plan.name or 'default', score = (meta and meta.score) or 0, steps = #(plan.steps or {}) })
     return true
 end
 
@@ -205,10 +257,66 @@ local function add_route(dest, payload)
         if step ~= '' then steps[#steps+1] = step end
     end
     if #steps == 0 then msg('No steps parsed. Example: //troute add jeuno say:go ; cmd:hp #1'); return end
-    user_routes[key] = steps
+    user_routes[key] = { name = 'custom', score = 25, steps = steps, source = 'user' }
     merge_routes()
     save_user_routes()
     msg(('Route "%s" saved with %d steps.'):format(key, #steps))
+end
+
+local function list_user_routes()
+    local keys = {}
+    for k, _ in pairs(user_routes) do keys[#keys+1] = k end
+    table.sort(keys)
+    if #keys == 0 then msg('No user routes saved.') return end
+    for _, key in ipairs(keys) do
+        local route = canonicalize_route(user_routes[key]) or {}
+        msg(('user route %s: %d step(s) via %s'):format(key, #(route.steps or {}), route.name or 'custom'))
+    end
+end
+
+local function explain_route(dest)
+    local key = fuzzy_match_dest(dest)
+    local route = key and routes[key] or nil
+    local candidates = key and route_candidates(key) or nil
+    if not key or not route or not candidates then
+        msg(('No route for "%s".'):format(dest or ''))
+        return
+    end
+    msg(('Route explain for "%s": %d candidate(s)'):format(key, #candidates))
+    local best, meta = pick_plan(key)
+    for i, c in ipairs(candidates) do
+        local score, reasons = score_candidate(c)
+        local chosen = (best == c) and ' [selected]' or ''
+        msg(('  %d) score=%d%s %s'):format(i, score, chosen, describe_candidate(c)))
+        if reasons and #reasons > 0 then msg('     rationale: ' .. table.concat(reasons, ', ')) end
+    end
+    if meta and meta.reasons and #meta.reasons > 0 then
+        msg('Winning rationale: ' .. table.concat(meta.reasons, ', '))
+    end
+end
+
+local function history_cmd(limit)
+    local n = tonumber(limit) or 5
+    if #state.history == 0 then msg('No route execution history yet.') return end
+    local start_idx = math.max(1, #state.history - n + 1)
+    for i = start_idx, #state.history do
+        local h = state.history[i]
+        msg(('%s | dest=%s plan=%s score=%s steps=%s'):format(os.date('%Y-%m-%d %H:%M:%S', h.ts or os.time()), tostring(h.dest or '?'), tostring(h.plan or '?'), tostring(h.score or '?'), tostring(h.steps or '?')))
+    end
+end
+
+local function dump_route(dest)
+    local key = fuzzy_match_dest(dest)
+    local route = key and routes[key] or nil
+    if not key or not route then msg(('No route for "%s".'):format(dest or '')) return end
+    local candidates = route_candidates(key) or {}
+    msg(('Route dump for "%s": %d candidate(s), up to %d step(s)'):format(key, #candidates, route_step_count(key)))
+    for i, c in ipairs(candidates) do
+        msg(('  candidate %d: %s'):format(i, describe_candidate(c)))
+        for step_idx, step in ipairs(c.steps or {}) do
+            msg(('    %d.%d %s'):format(i, step_idx, step))
+        end
+    end
 end
 
 local function reset_route(dest)
@@ -300,7 +408,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | plan <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | unlock list|add|remove <k> | save | where | search <term> | version')
+        msg('Commands: list | listuser | search <term> | plan <dest> | explain <dest> | dump <dest> | run <dest> | history [N] | add <dest> <s1>;... | reset <dest> | unlock list|add|remove <k> | save | where | version')
         return
     end
 
@@ -314,6 +422,8 @@ windower.register_event('addon command', function(...)
         msg(('Current zone: %s'):format(tostring(info.zone or 'unknown')))
         return
     end
+
+    if cmd == 'listuser' then list_user_routes(); return end
 
     if cmd == 'search' then
         local term = normalize(join(args, ' ', 2))
@@ -332,7 +442,10 @@ windower.register_event('addon command', function(...)
     end
     if cmd == 'list' then list_destinations(); return end
     if cmd == 'plan' then print_plan(join(args, ' ', 2)); return end
+    if cmd == 'explain' then explain_route(join(args, ' ', 2)); return end
+    if cmd == 'dump' then dump_route(join(args, ' ', 2)); return end
     if cmd == 'run' then run_plan(join(args, ' ', 2)); return end
+    if cmd == 'history' then history_cmd(args[2]); return end
     if cmd == 'add' then add_route(args[2], join(args, ' ', 3)); return end
     if cmd == 'reset' then reset_route(join(args, ' ', 2)); return end
     if cmd == 'save' then save_user_routes(); save_user_state(); return end

@@ -1,6 +1,6 @@
 _addon.name = 'AddonHealth'
 _addon.author = 'boostie'
-_addon.version = '0.1.0'
+_addon.version = '0.2.0'
 _addon.commands = {'addonhealth', 'ahealth'}
 _addon.description = 'In-game health dashboard for Windower addon stack status and diagnostics.'
 
@@ -13,6 +13,8 @@ local state = {
     lastWatchTick = 0,
     lastReport = nil,
     suppressUntil = 0,
+    history = {},
+    historyLimit = 10,
 }
 
 local function msg(text)
@@ -144,6 +146,21 @@ local function check_player_state()
     return results
 end
 
+local function remember_report(report)
+    state.history[#state.history+1] = report
+    while #state.history > state.historyLimit do table.remove(state.history, 1) end
+end
+
+local function severity_for_report(report)
+    local issues = 0
+    issues = issues + #((report.duplicates and report.duplicates.duplicates) or {})
+    issues = issues + #((report.conflicts and report.conflicts.conflicts) or {})
+    issues = issues + #((report.data_dirs and report.data_dirs.missing_data) or {})
+    if issues == 0 then return 'ok' end
+    if issues <= 2 then return 'warn' end
+    return 'alert'
+end
+
 local function run_all_checks()
     local report = {
         ts = now(),
@@ -153,7 +170,9 @@ local function run_all_checks()
         conflicts = check_known_conflicts(),
         player = check_player_state(),
     }
+    report.severity = severity_for_report(report)
     state.lastReport = report
+    remember_report(report)
     return report
 end
 
@@ -171,6 +190,7 @@ local function format_report(report)
     end
 
     local loaded = report.loaded or {}
+    lines[#lines+1] = ('Severity: %s'):format(report.severity or 'unknown')
     lines[#lines+1] = ('Addons detected: %d'):format(loaded.addon_count or 0)
 
     local dups = report.duplicates or {}
@@ -203,6 +223,26 @@ local function print_addon_list(report)
     msg(('Detected addons (%d):'):format(#addons))
     for i, name in ipairs(addons) do
         msg(('  %d) %s'):format(i, name))
+    end
+end
+
+local function print_summary(report)
+    msg(('Severity=%s addons=%d duplicates=%d conflicts=%d missing_data=%d'):format(
+        tostring(report.severity or 'unknown'),
+        tonumber((report.loaded and report.loaded.addon_count) or 0),
+        #((report.duplicates and report.duplicates.duplicates) or {}),
+        #((report.conflicts and report.conflicts.conflicts) or {}),
+        #((report.data_dirs and report.data_dirs.missing_data) or {})
+    ))
+end
+
+local function history_report(limit)
+    local n = tonumber(limit) or #state.history
+    if #state.history == 0 then msg('No report history yet.') return end
+    local start_idx = math.max(1, #state.history - n + 1)
+    for i = start_idx, #state.history do
+        local r = state.history[i]
+        msg(('%s severity=%s addons=%d'):format(os.date('%Y-%m-%d %H:%M:%S', r.ts or os.time()), tostring(r.severity or 'unknown'), tonumber((r.loaded and r.loaded.addon_count) or 0)))
     end
 end
 
@@ -246,13 +286,19 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: check | list | watch on|off [interval] | export | status')
+        msg('Commands: check | summary | list | history [N] | watch on|off [interval] | export | status | suppress [seconds]')
         return
     end
 
     if cmd == 'check' then
         local report = run_all_checks()
         print_report(report)
+        return
+    end
+
+    if cmd == 'summary' then
+        local report = state.lastReport or run_all_checks()
+        print_summary(report)
         return
     end
 
@@ -284,6 +330,11 @@ windower.register_event('addon command', function(...)
         return
     end
 
+    if cmd == 'history' then
+        history_report(args[2])
+        return
+    end
+
     if cmd == 'status' then
         msg(('watch=%s interval=%ds lastReport=%s'):format(
             tostring(state.watching),
@@ -302,4 +353,4 @@ windower.register_event('addon command', function(...)
     msg(('Unknown command "%s". Try //addonhealth help'):format(cmd))
 end)
 
-msg('AddonHealth v0.1.0 loaded. Use //addonhealth check to run diagnostics.')
+msg('AddonHealth v0.2.0 loaded. Use //addonhealth check to run diagnostics.')

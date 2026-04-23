@@ -23,3 +23,11 @@
 - Use PRs for repo additions/corrections
 - Include source links for metadata edits
 - Prefer reproducible scripts over manual edits
+
+
+## Near-term implementation priorities
+
+- Expand TravelRouter route explainability so route choice stays debuggable instead of magical.
+- Make SessionConductor operator-facing status richer so ACK/retry state is visible in game.
+- Keep AddonHealth lightweight, but improve signal quality with severity grading and short-session report history.
+- Continue preferring bounded, inspectable automation over opaque one-shot scripts.

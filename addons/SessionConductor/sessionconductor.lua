@@ -1,6 +1,6 @@
 _addon.name = 'SessionConductor'
 _addon.author = 'boostie'
-_addon.version = '1.1.0'
+_addon.version = '1.2.0'
 _addon.commands = {'conductor', 'sconduct'}
 _addon.description = 'Event-driven multi-character orchestration with rules, ACKs, and safety rails.'
 
@@ -29,6 +29,7 @@ local state = {
     eventHistory = {},
     historyLimit = 200,
     trace = false,
+    localEcho = true,
 
     globalActionWindowSec = 10,
     globalActionMax = 5,
@@ -187,6 +188,18 @@ local function in_target_group(name, target)
     local group = state.rosters[target] or {}
     for _, n in ipairs(group) do if normalize(n) == normalize(name) then return true end end
     return false
+end
+
+local function shell_escape_arg(text)
+    local s = tostring(text or '')
+    return '"' .. s:gsub('([\"])', '\\%1') .. '"'
+end
+
+local function send_safe_command(raw)
+    local cmd = normalize_command(raw or '')
+    if cmd == '' then return false end
+    windower.send_command(cmd)
+    return true
 end
 
 local function sender_trusted(name)
@@ -717,7 +730,7 @@ local function handle_sc2(payload)
     if op == 'command' then
         local raw, req = normalize_command(m.raw or ''), m.req or ''
         local ok = false
-        if state.allowRemoteCommand and raw ~= '' then windower.send_command(raw); ok = true end
+        if state.allowRemoteCommand and raw ~= '' then ok = send_safe_command(raw) end
         windower.send_ipc_message(pack('SC2R', { op = 'ack', req = req, from = self_name(), status = ok and 'ok' or 'blocked' }))
         return
     end
@@ -780,9 +793,53 @@ end
 
 local function dispatch_command(raw)
     local req = start_pending('command', state.target, { raw = raw })
-    windower.send_command(raw)
+    if state.localEcho then send_safe_command(raw) end
     broadcast_v2('command', { raw = raw, req = req })
     msg(('Dispatch command req=%s target=%s'):format(req, state.target))
+end
+
+local function pending_summary_lines()
+    local lines = {}
+    for req, p in pairs(state.pending) do
+        local acked = 0
+        for _ in pairs(p.acks or {}) do acked = acked + 1 end
+        lines[#lines+1] = ('req=%s op=%s target=%s retries=%d acked=%d exhausted=%s'):format(req, tostring(p.op), tostring(p.target), tonumber(p.retries or 0), acked, tostring(p.exhausted))
+    end
+    table.sort(lines)
+    return lines
+end
+
+local function pending_list(limit)
+    local lines = pending_summary_lines()
+    if #lines == 0 then msg('No pending requests.') return end
+    local n = tonumber(limit) or #lines
+    for i = 1, math.min(n, #lines) do msg('  ' .. lines[i]) end
+end
+
+local function status_detail()
+    status_report()
+    local lines = pending_summary_lines()
+    if #lines == 0 then
+        msg('Pending detail: none')
+    else
+        msg(('Pending detail (%d):'):format(#lines))
+        for _, line in ipairs(lines) do msg('  ' .. line) end
+    end
+end
+
+local function roster_show(group)
+    local g = normalize(group or '')
+    if g == '' then msg('Usage: //conductor roster show <group>') return end
+    local members = state.rosters[g]
+    if not members then msg('Unknown group: ' .. g) return end
+    msg(('Roster %s (%d): %s'):format(g, #members, (#members > 0 and table.concat(members, ', ') or '(empty)')))
+end
+
+local function toggle_local_echo(flag)
+    local v = normalize(flag or '')
+    if v ~= 'on' and v ~= 'off' then msg('Usage: //conductor localecho on|off') return end
+    state.localEcho = (v == 'on')
+    msg('Local command echo set to ' .. tostring(state.localEcho))
 end
 
 -- init
@@ -802,7 +859,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: travel|command|follow|ping|target|roster|status|timeout|remotecmd|auto|mode|pause|rule|rules|events|trace|emit|version|clear')
+        msg('Commands: travel|command|follow|ping|target|roster|status|pending|timeout|remotecmd|auto|mode|pause|rule|rules|events|trace|emit|localecho|version|clear')
         return
     end
 
@@ -837,7 +894,8 @@ windower.register_event('addon command', function(...)
         local leader = join(args, ' ', 2)
         if leader == '' then msg('Usage: //conductor follow <leaderName>'); return end
         if not valid_name(leader) then msg('Invalid leader name format.'); return end
-        local follow_cmd = ('input /assist %s; wait 1; input /follow %s'):format(leader, leader)
+        local leader_arg = shell_escape_arg(leader)
+        local follow_cmd = ('input /assist %s; wait 1; input /follow %s'):format(leader_arg, leader_arg)
         dispatch_command(follow_cmd)
         msg(('Coordinated follow on %s'):format(leader))
         return
@@ -932,6 +990,11 @@ windower.register_event('addon command', function(...)
         return
     end
 
+    if cmd == 'localecho' then
+        toggle_local_echo(args[2])
+        return
+    end
+
     if cmd == 'trace' then
         local flag = normalize(args[2])
         if flag ~= 'on' and flag ~= 'off' then msg('Usage: //conductor trace on|off'); return end
@@ -949,7 +1012,12 @@ windower.register_event('addon command', function(...)
     end
 
     if cmd == 'status' then
-        status_report()
+        if normalize(args[2]) == 'detail' then status_detail() else status_report() end
+        return
+    end
+
+    if cmd == 'pending' then
+        pending_list(args[2])
         return
     end
 
@@ -957,8 +1025,9 @@ windower.register_event('addon command', function(...)
         local op = normalize(args[2])
         if op == 'add' then roster_add(args[3], args[4]); return end
         if op == 'remove' then roster_remove(args[3], args[4]); return end
+        if op == 'show' then roster_show(args[3]); return end
         if op == 'list' or op == '' then roster_list(); return end
-        msg('Usage: //conductor roster add|remove|list ...')
+        msg('Usage: //conductor roster add|remove|show|list ...')
         return
     end
 

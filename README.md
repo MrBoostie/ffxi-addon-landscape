@@ -96,11 +96,11 @@ Suggested smoke test:
 
 ```text
 //troute list
-//troute plan jeuno
-//troute search bastok
+//troute explain jeuno
+//troute history 5
 //conductor ping
-//conductor travel jeuno
-//addonhealth check
+//conductor status detail
+//addonhealth summary
 ```
 
 If you only load `SessionConductor`, the `travel` command will still broadcast, but actual route execution expects `TravelRouter` to be present on the receiving instance.
