@@ -316,10 +316,21 @@ local function set_lockout(rule)
     state.lockouts[rule.lockout_group] = now() + math.max(1, dur)
 end
 
+local function check_rule_mode(rule)
+    local modes = rule.modes
+    if not modes then return true end
+    if type(modes) ~= 'table' then return true end
+    for _, m in ipairs(modes) do
+        if normalize(m) == normalize(state.mode) then return true end
+    end
+    return false
+end
+
 local function check_rule_event_match(rule, evt)
     local w = rule.when or {}
     if w.event and w.event ~= evt.type then return false end
     if not evaluate_where(evt, w.where) then return false end
+    if not check_rule_mode(rule) then return false end
     return true
 end
 
@@ -671,6 +682,11 @@ local function monitor_tick()
     end
 
     retry_pending()
+
+    local stale_cutoff = now() - 300
+    for req, p in pairs(state.pending) do
+        if p.sentAt < stale_cutoff then state.pending[req] = nil end
+    end
 end
 
 local function broadcast_v2(op, data)
@@ -690,7 +706,11 @@ local function handle_sc2(payload)
         local dest, req = m.dest or '', m.req or ''
         local ok = call_travel_router(dest)
         windower.send_ipc_message(pack('SC2R', { op = 'ack', req = req, from = self_name(), status = ok and 'ok' or 'fail' }))
-        emit_event('system.peer_unreachable', { req = req, peer = from, travel = dest, status = ok and 'ok' or 'fail' }, 'remote')
+        if ok then
+            emit_event('system.peer_travel_ok', { req = req, peer = from, destination = dest }, 'remote')
+        else
+            emit_event('system.peer_unreachable', { req = req, peer = from, destination = dest }, 'remote')
+        end
         return
     end
 
@@ -782,7 +802,20 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: travel|command|follow|ping|target|roster|status|timeout|remotecmd|auto|mode|pause|rule|rules|events|trace|emit')
+        msg('Commands: travel|command|follow|ping|target|roster|status|timeout|remotecmd|auto|mode|pause|rule|rules|events|trace|emit|version|clear')
+        return
+    end
+
+    if cmd == 'version' then
+        msg(('%s v%s by %s'):format(_addon.name, _addon.version, _addon.author))
+        return
+    end
+
+    if cmd == 'clear' then
+        local count = 0
+        for _ in pairs(state.pending) do count = count + 1 end
+        state.pending = {}
+        msg(('Cleared %d pending request(s).'):format(count))
         return
     end
 

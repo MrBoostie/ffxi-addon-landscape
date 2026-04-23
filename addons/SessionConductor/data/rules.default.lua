@@ -24,6 +24,7 @@ return {
     cooldown_sec = 8,
     lockout_group = 'recovery',
     lockout_sec = 3,
+    modes = {'normal', 'recovery'},
     when = {
       event = 'party.member.hp_low',
       where = {
@@ -74,6 +75,61 @@ return {
     },
     then_actions = {
       { kind = 'notify', text = 'Retry exhausted for remote request.' },
+    },
+  },
+  {
+    id = 'rule.combat.reengage_on_target_change',
+    enabled = false,
+    priority = 50,
+    cooldown_sec = 5,
+    lockout_group = 'combat_rotation',
+    lockout_sec = 3,
+    modes = {'normal'},
+    when = {
+      event = 'combat.target_changed',
+    },
+    then_actions = {
+      { kind = 'notify', text = 'Target changed, resyncing assist.' },
+      { kind = 'broadcast.command', cmd = 'input /assist <me>' },
+    },
+  },
+  {
+    id = 'rule.combat.disengage_notify',
+    enabled = true,
+    priority = 40,
+    cooldown_sec = 10,
+    modes = {'normal'},
+    when = {
+      event = 'combat.disengaged',
+    },
+    then_actions = {
+      { kind = 'notify', text = 'Combat disengaged.' },
+    },
+  },
+  {
+    id = 'rule.safety.ack_timeout_alert',
+    enabled = true,
+    priority = 90,
+    cooldown_sec = 15,
+    when = {
+      event = 'system.ack_timeout',
+    },
+    then_actions = {
+      { kind = 'notify', text = 'ACK timeout detected for pending request.' },
+    },
+  },
+  {
+    id = 'rule.safety.emergency_clear_on_engage',
+    enabled = true,
+    priority = 85,
+    cooldown_sec = 30,
+    modes = {'emergency', 'recovery'},
+    when = {
+      event = 'combat.engaged',
+    },
+    then_actions = {
+      { kind = 'mode.set', mode = 'normal' },
+      { kind = 'notify', text = 'Re-engaged, clearing emergency/recovery mode.' },
     },
   },
 }

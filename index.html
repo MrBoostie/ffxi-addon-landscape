@@ -10,39 +10,47 @@
     h1 { margin-bottom: .2rem; }
     .muted { color:#9fb0ff; margin-top:0; }
     input, select { padding:.6rem .7rem; border-radius:.5rem; border:1px solid #2b3666; background:#131a33; color:#e8ecff; }
-    .controls { display:flex; gap:.75rem; flex-wrap:wrap; margin:1rem 0 1.25rem; }
+    input:focus, select:focus { outline: 2px solid #5b8def; border-color: #5b8def; }
+    .controls { display:flex; gap:.75rem; flex-wrap:wrap; margin:1rem 0 .5rem; align-items: center; }
+    .result-count { color:#9fb0ff; font-size:.88rem; margin: 0 0 1rem; }
     table { width:100%; border-collapse: collapse; background:#0f1530; border:1px solid #27305c; }
     th, td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid #1e2750; font-size:.92rem; vertical-align:top; }
-    th { position:sticky; top:0; background:#131a33; }
+    th { position:sticky; top:0; background:#131a33; cursor:pointer; user-select:none; white-space: nowrap; }
+    th:hover { background:#1a2448; }
+    th .sort-arrow { font-size:.7rem; margin-left:.3rem; opacity:.5; }
+    th .sort-arrow.active { opacity:1; }
     a { color:#8fc6ff; text-decoration:none; }
     a:hover { text-decoration:underline; }
     .tag { background:#1f2b58; border:1px solid #334179; padding:.1rem .4rem; border-radius:.4rem; font-size:.78rem; display:inline-block; }
+    .no-results { text-align:center; padding:2rem; color:#9fb0ff; }
+    tr:hover td { background:#151d3a; }
   </style>
 </head>
 <body>
   <h1>FFXI Addon Landscape</h1>
-  <p class="muted">Searchable index of FFXI addons across GitHub repos.</p>
+  <p class="muted">Searchable index of FFXI addons across GitHub repos. <a href="https://github.com/MrBoostie/ffxi-addon-landscape">View on GitHub</a></p>
 
   <div class="controls">
-    <input id="q" placeholder="Search addon/repo/category..." size="36" />
-    <select id="cat"><option value="">All categories</option></select>
-    <select id="minFresh">
+    <input id="q" placeholder="Search addon/repo/category..." size="36" aria-label="Search addons" />
+    <select id="cat" aria-label="Filter by category"><option value="">All categories</option></select>
+    <select id="minFresh" aria-label="Filter by freshness">
       <option value="0">Any freshness</option>
       <option value="5">Freshness 5 (≤6mo)</option>
       <option value="4">Freshness 4+ (≤1y)</option>
       <option value="3">Freshness 3+ (≤2y)</option>
     </select>
   </div>
+  <p class="result-count" id="count"></p>
 
-  <table>
+  <table role="grid">
     <thead>
       <tr>
-        <th>Addon</th>
+        <th data-sort="addon_name">Addon <span class="sort-arrow" id="sort-addon_name"></span></th>
         <th>Description</th>
-        <th>Category</th>
-        <th>Repos</th>
-        <th>Freshness</th>
-        <th>Score</th>
+        <th data-sort="category">Category <span class="sort-arrow" id="sort-category"></span></th>
+        <th data-sort="repo_count">Repos <span class="sort-arrow" id="sort-repo_count"></span></th>
+        <th data-sort="freshness_max">Freshness <span class="sort-arrow" id="sort-freshness_max"></span></th>
+        <th data-sort="opportunity_score">Score <span class="sort-arrow" id="sort-opportunity_score"></span></th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
@@ -50,31 +58,69 @@
 
 <script>
 let DATA=[];
+let sortKey='opportunity_score', sortDir=-1;
 const q=document.getElementById('q');
 const cat=document.getElementById('cat');
 const minFresh=document.getElementById('minFresh');
 const rows=document.getElementById('rows');
+const countEl=document.getElementById('count');
+
+function escapeHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s || '';
+  return d.innerHTML;
+}
 
 function render(){
   const needle=(q.value||'').toLowerCase().trim();
   const c=cat.value;
   const mf=Number(minFresh.value||0);
-  const filtered=DATA.filter(a=>{
+  let filtered=DATA.filter(a=>{
     if(c && a.category!==c) return false;
     if(a.freshness_max < mf) return false;
     if(!needle) return true;
     const blob=[a.addon_name,a.description||'',a.category,...a.repos].join(' ').toLowerCase();
     return blob.includes(needle);
   });
+
+  filtered.sort((a,b)=>{
+    let va=a[sortKey], vb=b[sortKey];
+    if(typeof va==='string') va=va.toLowerCase();
+    if(typeof vb==='string') vb=vb.toLowerCase();
+    if(va<vb) return -1*sortDir;
+    if(va>vb) return 1*sortDir;
+    return 0;
+  });
+
+  countEl.textContent=`Showing ${Math.min(filtered.length,500)} of ${filtered.length} addon${filtered.length===1?'':'s'} (${DATA.length} total)`;
+
+  document.querySelectorAll('.sort-arrow').forEach(el=>{el.textContent='';el.classList.remove('active');});
+  const arrow=document.getElementById('sort-'+sortKey);
+  if(arrow){arrow.textContent=sortDir>0?'\u25B2':'\u25BC';arrow.classList.add('active');}
+
+  if(filtered.length===0){
+    rows.innerHTML='<tr><td colspan="6" class="no-results">No addons match your filters.</td></tr>';
+    return;
+  }
+
   rows.innerHTML=filtered.slice(0,500).map(a=>`<tr>
-    <td><strong>${a.addon_name}</strong><br><span class="muted">${a.addon_key}</span></td>
-    <td>${a.description || '<span class="muted">No description yet</span>'}<br>${a.description_source && a.description_source !== 'heuristic' ? `<a class="muted" href="${a.description_source}" target="_blank" rel="noreferrer">source</a>` : `<span class="muted">source: heuristic</span>`}</td>
-    <td><span class="tag">${a.category}</span></td>
-    <td>${a.repos.map(r=>`<div><a href="https://github.com/${r}" target="_blank" rel="noreferrer">${r}</a></div>`).join('')}</td>
+    <td><strong>${escapeHtml(a.addon_name)}</strong><br><span class="muted">${escapeHtml(a.addon_key)}</span></td>
+    <td>${escapeHtml(a.description) || '<span class="muted">No description yet</span>'}<br>${a.description_source && a.description_source !== 'heuristic' ? `<a class="muted" href="${escapeHtml(a.description_source)}" target="_blank" rel="noreferrer">source</a>` : `<span class="muted">source: heuristic</span>`}</td>
+    <td><span class="tag">${escapeHtml(a.category)}</span></td>
+    <td>${(a.repos||[]).map(r=>`<div><a href="https://github.com/${escapeHtml(r)}" target="_blank" rel="noreferrer">${escapeHtml(r)}</a></div>`).join('')}</td>
     <td>${a.freshness_max}</td>
     <td>${a.opportunity_score}</td>
   </tr>`).join('');
 }
+
+document.querySelectorAll('th[data-sort]').forEach(th=>{
+  th.addEventListener('click',()=>{
+    const key=th.dataset.sort;
+    if(sortKey===key) sortDir*=-1;
+    else { sortKey=key; sortDir=-1; }
+    render();
+  });
+});
 
 fetch('./ffxi-addon-catalog-normalized.json').then(r=>r.json()).then(d=>{
   DATA=d;

@@ -1,13 +1,5 @@
 # AddonHealth Prototype Scaffold
 
-This folder is a placeholder scaffold for the first implementation pass.
+This folder was the original placeholder scaffold.
 
-Planned structure:
-
-- `init.lua` — addon entrypoint
-- `commands.lua` — command routing (`//addonhealth ...`)
-- `checks/` — individual health checks
-- `render.lua` — HUD text rendering
-- `data/` — local snapshots/reports
-
-Status: scaffold only (no runtime code committed yet).
+The v0.1 implementation now lives at `addons/AddonHealth/`. See `specs/addonhealth-v0.1.md` for the spec and `addons/AddonHealth/README.md` for usage.

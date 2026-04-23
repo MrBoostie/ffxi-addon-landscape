@@ -77,6 +77,7 @@ Gaps worth building:
 ## 🗂️ Repository layout
 
 - `addons/` — complete Windower addons included with this project
+- `lib/` — shared Lua utility library (serialization, encoding, table helpers)
 - `specs/` — implementation specs and command surfaces
 - `docs/` — roadmap and reference links used during the landscape scan
 - catalog/index files in the repo root — generated research artifacts for analysis and filtering
@@ -88,6 +89,7 @@ Copy each addon folder into your Windower `addons/` directory, then load them in
 ```text
 //lua load TravelRouter
 //lua load SessionConductor
+//lua load AddonHealth
 ```
 
 Suggested smoke test:
@@ -95,8 +97,10 @@ Suggested smoke test:
 ```text
 //troute list
 //troute plan jeuno
+//troute search bastok
 //conductor ping
 //conductor travel jeuno
+//addonhealth check
 ```
 
 If you only load `SessionConductor`, the `travel` command will still broadcast, but actual route execution expects `TravelRouter` to be present on the receiving instance.
@@ -104,14 +108,22 @@ If you only load `SessionConductor`, the `travel` command will still broadcast, 
 ## 🧪 Addons included
 
 - `addons/TravelRouter` — content-aware travel route planner/executor
+  - 18 built-in destinations with fuzzy matching
+  - search, where, and version commands
 - `addons/SessionConductor` — multi-character command coordinator
   - integrates with TravelRouter via `//conductor travel <destination>`
   - includes v1.1 event/rule automation engine (`rules.default.lua` + overrides)
+  - mode-aware rule filtering and automatic stale request cleanup
+- `addons/AddonHealth` — in-game diagnostic dashboard for your addon stack
+  - detects conflicts, duplicates, and missing data directories
+  - background watch mode with alert suppression
+  - export diagnostic snapshots to file
 
 See specs:
 - `specs/travelrouter-v1.0.md`
 - `specs/sessionconductor-v1.0.md`
 - `specs/sessionconductor-v1.1-triggers.md` (event-driven automation model)
+- `specs/addonhealth-v0.1.md`
 
 ## ✅ Production checklist
 
@@ -133,6 +145,14 @@ See specs:
 - Connectivity check: `//conductor ping`
 - Verify travel orchestration: `//conductor travel jeuno`
 - Review ACK/timeouts: `//conductor status`
+
+### AddonHealth
+- Copy `addons/AddonHealth` into Windower `addons/`
+- Load: `//lua load AddonHealth`
+- Run diagnostics: `//addonhealth check`
+- List detected addons: `//addonhealth list`
+- Enable watch mode: `//addonhealth watch on`
+- Export report: `//addonhealth export`
 
 ### Safety defaults
 - Remote command execution is disabled by default.

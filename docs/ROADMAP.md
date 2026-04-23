@@ -13,10 +13,11 @@
 - [ ] Add confidence score for inferred categories
 
 ## Phase 3 (productize)
-- [ ] Publish static searchable site
+- [x] Publish static searchable site
 - [ ] Add tags and faceted filters (category, activity, popularity)
 - [ ] Add "starter addon ideas" page with implementation complexity
-- [ ] Ship first addon concept spec (`AddonHealth` or `OnboardingPilot`)
+- [x] Ship first addon concept spec (`AddonHealth`)
+- [x] Build AddonHealth v0.1 addon
 
 ## Contribution guidelines (draft)
 - Use PRs for repo additions/corrections

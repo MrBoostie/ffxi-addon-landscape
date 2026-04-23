@@ -92,6 +92,18 @@ local function save_user_state()
     msg(ok and ('Saved state to %s'):format(USER_STATE_FILE) or 'Failed to save state file.')
 end
 
+local function fuzzy_match_dest(dest)
+    local key = normalize(dest)
+    if routes[key] then return key end
+    for k, _ in pairs(routes) do
+        if k:find(key, 1, true) then return k end
+    end
+    for k, _ in pairs(routes) do
+        if key:find(k, 1, true) then return k end
+    end
+    return nil
+end
+
 local function route_candidates(dest)
     local route = routes[dest]
     if not route then return nil end
@@ -121,7 +133,8 @@ local function score_candidate(c)
 end
 
 local function pick_plan(dest)
-    local key = normalize(dest)
+    local key = fuzzy_match_dest(dest)
+    if not key then return nil, nil end
     local candidates = route_candidates(key)
     if not candidates then return nil, nil end
 
@@ -287,7 +300,34 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | plan <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | unlock list|add|remove <k> | save')
+        msg('Commands: list | plan <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | unlock list|add|remove <k> | save | where | search <term> | version')
+        return
+    end
+
+    if cmd == 'version' then
+        msg(('%s v%s by %s'):format(_addon.name, _addon.version, _addon.author))
+        return
+    end
+
+    if cmd == 'where' then
+        local info = windower.ffxi.get_info() or {}
+        msg(('Current zone: %s'):format(tostring(info.zone or 'unknown')))
+        return
+    end
+
+    if cmd == 'search' then
+        local term = normalize(join(args, ' ', 2))
+        if term == '' then msg('Usage: //troute search <term>'); return end
+        local matches = {}
+        for k, _ in pairs(routes) do
+            if k:find(term, 1, true) then matches[#matches+1] = k end
+        end
+        table.sort(matches)
+        if #matches > 0 then
+            msg(('Matching destinations (%d): %s'):format(#matches, table.concat(matches, ', ')))
+        else
+            msg(('No destinations matching "%s"'):format(term))
+        end
         return
     end
     if cmd == 'list' then list_destinations(); return end
