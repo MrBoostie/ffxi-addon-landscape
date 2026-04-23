@@ -1,250 +1,296 @@
 addon_key,addon_name,category,repos,repo_count,best_repo_stars,freshness_max,opportunity_score,description,description_source,description_confidence
-xipivot,XIPivot,general_qol,HealsCodes/XIPivot,1,61,5,4.3,FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs,https://github.com/HealsCodes/XIPivot,medium
-trust,trust,automation,cyritegamestudios/trust,1,49,5,4.26,Windower 4 addon for FFXI to automate your character in battle.,https://github.com/cyritegamestudios/trust,medium
-xichecklist,XIchecklist,travel_navigation,HiPotionQ8/XIchecklist,1,4,5,3.89,"windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",https://github.com/HiPotionQ8/XIchecklist,medium
-tourist,tourist,travel_navigation,Bryenne-Sylph/tourist,1,3,5,3.85,An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ,https://github.com/Bryenne-Sylph/tourist,medium
-atreplace,atreplace,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"For more details: https://www.ffxiah.com/forum/topic/58154/atreplace-autotranslate-in-scripts-and-aliases/ _**USE THIS AT YOUR OWN RISK**_, I did my best to make sure it copied client behavior 100% but it's entirely poss",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/atreplace/README.md,high
-augments,augments,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"augments: search items by name and print their augments to chatlog. If you need to know how many Chironic Hoses you own, and what their augments are.",https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-chatfix,chatfix,chat_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"create a windowerfolder\addons\chatfix folder, and put chatfix.lua there",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/chatfix/README.md,high
-clevel,clevel,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,clevel: prints your current true master level to chatlog while under level sync.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-collector,collector,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,# Collector Finds owned and missing items from a collection of items.,https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/collector/README.md,high
-dramagen,dramagen,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,Dramagen: the only and last parser you will ever need.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-gilbox,gilbox,economy_inventory,lili-ffxi/FFXI-Addons,1,35,5,3.84,"Inventory/economy helper for storage, movement, and selling tasks.",heuristic,low
-indinope,indinope,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,# IndiNope 1.0.4 Hides visual effects from geomancy on players.,https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/indinope/README.md,high
-jobinit,jobinit,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"JobInit: like init.txt, but specific per character per job.",https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-kaomoji,kaomoji,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,kaomoji: minimal kaomoji support for ffxi (behaves like /shrug /tableflip and /unflip do on discord),https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-menufix,menufix,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"create a windowerfolder\addons\menufix folder, and put menufix.lua there",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/menufix/README.md,high
-mousehalo,mousehalo,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"mousehalo (makes your mouse cursor MUCH more visible. A bit facetious, but working.)",https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-ondemand,ondemand,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,General FFXI quality-of-life utility addon.,heuristic,low
-positionmanager,position_manager,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"**Note**: On some systems with very fast or very slow disks, it can happen that the WinControl addon does not get loaded in time for position_manager to send the proper command.",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/position_manager/readme.md,high
-readable,readable,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,General FFXI quality-of-life utility addon.,heuristic,low
-safeoboro,safeoboro,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,This addon creates a zone of 10' around Oboro where every player that is not you cannot appear. Load it and it's on. Load it before zoning into Port Jeuno for maximum effectiveness. Enjoy some privacy with Oboro! Say goo,https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/safeoboro/README.md,high
-silttracker,silttracker,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,# silttracker This is a very simple tool I wrote for myself to easily track the earning of beads during intense farming sessions.,https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/silttracker/README.md,high
-smeagol,smeagol,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,Does not use rings inside town. Can toggle with //smeagol town command.,https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/smeagol/README.md,high
-special,special,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,special: makes you feel special.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-tellapart,tellapart,chat_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"Get support for the addon on FFXIAH: https://www.ffxiah.com/forum/topic/57093/tellapart-add-progressive-letters-to-mob-names/ Names are changed in a way that they are identical across different clients, even if those cli",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/tellapart/README.md,high
-tellfix,tellfix,chat_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"create a windowerfolder\addons\tellfix folder, and put tellfix.lua there",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/tellfix/README.md,high
-tiptoes,tiptoes,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"tiptoes: applies Sneak and Invisible with a single command according to job: supports spells, Spectral Jig, Ninjutsu, and items (Silent Oils and Prism Powders).",https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-tpsreport,tpsreport,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,TPSReport: exports an XML list of current alliance members.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-trialtracker,trialtracker,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,General FFXI quality-of-life utility addon.,heuristic,low
-useall,useall,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,General FFXI quality-of-life utility addon.,heuristic,low
-waveback,waveback,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,//waveback delay &lt;number&gt; - waits <number> between activations.,https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/waveback/README.md,high
-weathermon,weathermon,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,General FFXI quality-of-life utility addon.,heuristic,low
-witnessprotection,witnessprotection,general_qol,lili-ffxi/FFXI-Addons,1,35,5,3.84,"# Witness Protection ver. 0.2.0 This addon takes care of renaming all the characters you encounter to random names. The goal is to make it impossible, or at least very difficult, to recognize who you are or what server y",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/witnessprotection/README.md,high
-clickfind,clickfind,general_qol,Icydeath/ffxi-addons; lili-ffxi/FFXI-Addons,2,69,5,3.12,clickfind (click to print mouse cursor position on screen),https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-dupefind,Dupefind,general_qol,Icydeath/ffxi-addons; lili-ffxi/FFXI-Addons,2,69,5,3.12,"Dupefind (by Lili, modded by me) : Find and lists duplicate items.",https://github.com/Icydeath/ffxi-addons#readme,medium
-friendzone,friendzone,general_qol,Icydeath/ffxi-addons; lili-ffxi/FFXI-Addons,2,69,5,3.12,Friendzone: automatically calls trusts over and over. A bit bugged but workable.,https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-posfind,posfind,general_qol,Icydeath/ffxi-addons; lili-ffxi/FFXI-Addons,2,69,5,3.12,posfind (click to print character position on world map),https://github.com/lili-ffxi/FFXI-Addons#readme,medium
-statsearch,StatSearch,general_qol,Icydeath/ffxi-addons; lili-ffxi/FFXI-Addons,2,69,5,3.12,"# statsearch **NOTE:** due to limitations of the extdata library of windower, statsearch is currently unable to read text from some items, mainly divergence weapons/necks and odyssey gear.",https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/statsearch/README.md,high
-debufftracker,debuff-tracker,general_qol,ProjectTako/ffxi-addons,1,99,2,2.95,General FFXI quality-of-life utility addon.,heuristic,low
-menus,menus,general_qol,ProjectTako/ffxi-addons,1,99,2,2.95,# ffxi-addons/menus Menus: Menus is an addon for Ashita that allows you to open your delivery box and the auction house anywhere in a zone that normally has those accessible.,https://github.com/ProjectTako/ffxi-addons/blob/HEAD/menus/README.md,high
-scanzone,scanzone,general_qol,ProjectTako/ffxi-addons,1,99,2,2.95,"# ffxi-addons/scanzone ScanZone: Scan Zone is an addon that will let you scan your current zone for any NPC, including mobs.",https://github.com/ProjectTako/ffxi-addons/blob/HEAD/scanzone/README.md,high
-turnaround,turnaround,general_qol,ProjectTako/ffxi-addons,1,99,2,2.95,# ffxi-addons/turnaround TurnAround: Simple addon used for turning yourself around.,https://github.com/ProjectTako/ffxi-addons/blob/HEAD/turnaround/README.md,high
-autodnc,AutoDNC,combat_automation,Ivaar/Windower-addons,1,79,2,2.9,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-chococard,chococard,general_qol,Ivaar/Windower-addons,1,79,2,2.9,Chococard === Displays decoded extra data for chocobo items and packets while viewing the padocks inside race track menus.,https://github.com/Ivaar/Windower-addons/blob/HEAD/chococard/README.md,high
-questlog,QuestLog,diagnostics,Ivaar/Windower-addons,1,79,2,2.9,# QuestLog used to track progress for adoulin/abyssea quest completion shows abyssea and adoulin quests you have not completed or undertaken ### Commands: ### Color code:,https://github.com/Ivaar/Windower-addons/blob/HEAD/QuestLog/README.md,high
-bursting,Bursting,general_qol,ValokAsura/WindowerAddons,1,14,2,2.74,General FFXI quality-of-life utility addon.,heuristic,low
-crystaltrader,CrystalTrader,economy_inventory,ValokAsura/WindowerAddons,1,14,2,2.74,Crystal Trader has been replaced with QuickTrade and will no longer be updated.,https://github.com/ValokAsura/WindowerAddons/blob/HEAD/CrystalTrader/readme.md,high
-quicktrade2,QuickTrade 2,economy_inventory,ValokAsura/WindowerAddons,1,14,2,2.74,"Inventory/economy helper for storage, movement, and selling tasks.",heuristic,low
-assist,assist,combat_automation,DiscipleOfEris/Windower4Addons,1,12,2,2.73,Keeps your target synced by assisting a chosen party member.,heuristic,low
-eradebuffed,EraDebuffed,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,2.73,General FFXI quality-of-life utility addon.,heuristic,low
-eradistanceplus,EraDistancePlus,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,2.73,General FFXI quality-of-life utility addon.,heuristic,low
-erainfobar,EraInfoBar,ui_gear,DiscipleOfEris/Windower4Addons,1,12,2,2.73,"UI enhancement for combat, targeting, or gear visibility.",heuristic,low
-erajobchange,EraJobChange,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,2.73,General FFXI quality-of-life utility addon.,heuristic,low
-eramobdrops,EraMobDrops,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,2.73,General FFXI quality-of-life utility addon.,heuristic,low
-eramoblevel,EraMobLevel,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,2.73,General FFXI quality-of-life utility addon.,heuristic,low
-erapointwatch,EraPointWatch,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,2.73,General FFXI quality-of-life utility addon.,heuristic,low
-erascoreboard,EraScoreboard,ui_gear,DiscipleOfEris/Windower4Addons,1,12,2,2.73,"UI enhancement for combat, targeting, or gear visibility.",heuristic,low
-fastfollow,FastFollow,combat_automation,DiscipleOfEris/Windower4Addons,1,12,2,2.73,"Combat helper automating timing, actions, or role behavior.",heuristic,low
-ambuloot,ambuloot,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-attackid,attackid,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# attackid idを指定して/attack(戦闘開始)をするアドオン - 使い方 //atkid 123456 sendから使用する //send @others atkid <tid>,https://github.com/Icydeath/ffxi-addons/blob/HEAD/attackid/README.md,high
-attackwithme,attackwithme,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# attackwithme - by yyoshisaur ### :tada: v0.0.7 - modded by icy #### New Settings {...} are optional //awm set master {name} ~ sets current player or name to auto load as master //awm set slave {name} ~ sets current pla,https://github.com/Icydeath/ffxi-addons/blob/HEAD/attackwithme/README.md,high
-autochain,AutoChain,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-autopup,AutoPUP,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-autoraise,AutoRaise,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-autoskillchain,AutoSkillchain,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",https://github.com/Icydeath/ffxi-addons#readme,medium
-autounm,AutoUNM,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-autovw,AutoVW,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-autowatch,autowatch,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,**update 1/17/2021** autowatch (by Langly) : I've had some success with this one.,https://github.com/Icydeath/ffxi-addons#readme,medium
-blist,blist,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-canteen,Canteen,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# Canteen Load it up then //canteen get when in the #10 portal to get canteen.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/Canteen/README.md,high
-capetrader,capetrader,economy_inventory,Icydeath/ffxi-addons,1,69,1,2.52,___ ### Usage notes Load the addon by using the following command: //lua load capetrader There are some conditions that you need to meet in order to use the important go and prep commands: 1.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/capetrader/README.md,high
-charmed,charmed,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,"## charmed Created by wes, modified by icy v0.3 : Simple addon to show a pink <3 next to charmed alliance members.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/charmed/README.md,high
-checkparam,checkparam,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,//checkparam OR //cp (addon command),https://github.com/Icydeath/ffxi-addons/blob/HEAD/checkparam/README.md,high
-crbaddon,crb_addon,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-curepleaseaddon,CurePlease_addon,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-currencies,Currencies,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,Currencies (by Ivaar) : use commands to find the amount of something that is listed your currency/currency2 in-game menus.,https://github.com/Icydeath/ffxi-addons#readme,medium
-distanceplus,DistancePlus,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,Distance Plus adds the following features: * Distance measured to hundredth vs 10th.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/DistancePlus/readme.md,high
-drop,Drop,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,"register chamber, enter chamber, drop lamp ---- If you need further information be sure to check out the addons readme file, otherwise you can skim the addons .lua to get an idea of how it works.",https://github.com/Icydeath/ffxi-addons#readme,medium
-eschachest,EschaChest,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,EschaChest (by me) : a first attempt at automate opening of chests in escha zones.,https://github.com/Icydeath/ffxi-addons#readme,medium
-exportitems,export_items,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-ffxikeys,ffxikeys,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,Original creator: Tny5989 Modified by: Icy # FFXIKeys A small windower addon to automate trading keys for rewards Action | Addon Command --------------------- | ----------------------------- Use | //keys use \<key\> Togg,https://github.com/Icydeath/ffxi-addons/blob/HEAD/ffxikeys/README.md,high
-finalalert,finalAlert,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-followme,followme,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,# followme * フォロー開始 //followme(//fm) start * フォロー解除 //followme(//fm) stop * イオニス取得 //followme(//fm) ionis * 飯盒(オーメン)取得 //followme(//fm) canteen * 祈祷神符(ドメインベージョン)取得 -> 会場へワープ //followme(//fm) di * マウント(ラプトル)に乗る //followme,https://github.com/Icydeath/ffxi-addons/blob/HEAD/followme/README.md,high
-giltracker,giltracker,economy_inventory,Icydeath/ffxi-addons,1,69,1,2.52,"# giltracker This addon displays the current gil, similar to the FFXIV Gil HUD widget.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/giltracker/README.md,high
-jobchange,JobChange,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,Allows command line job change as long as you're within 6 yalms of a Job Change NPC.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/JobChange/README.md,high
-locke,Locke,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,"followme (by yyoshisaur, modded by me) : alt following, get omen canteen, get SR KI, get DI KI Locke (by me) : experimental thf TH Gear swapper.",https://github.com/Icydeath/ffxi-addons#readme,medium
-lockpick,lockpick,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-maga,maga,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama,https://github.com/Icydeath/ffxi-addons#readme,medium
-masstrade,MassTrade,economy_inventory,Icydeath/ffxi-addons,1,69,1,2.52,# MassTrade MassTrade is a Windower addon that allows users to quickly trade large quantities of the same item to either a PC or NPC.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/MassTrade/README.md,high
-moveitems,MoveItems,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-myhome,MyHome,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# MyHome ## English - Automatically choose and uses a warp spell or an item.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/MyHome/README.md,high
-myomen,MyOmen,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,**myomen** - quick way to use your tele ring to get to omen.,https://github.com/Icydeath/ffxi-addons#readme,medium
-nnitimer,NniTimer,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-noknock,noknock,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-omen,Omen,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,**myomen** - quick way to use your tele ring to get to omen.,https://github.com/Icydeath/ffxi-addons#readme,medium
-oneoffs,OneOffs,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-partypets,PartyPets,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-petparty,petparty,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,# petparty Displays all pet information for your alliance.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/petparty/README.md,high
-positions,Positions,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,"# Positions Windower Addon for positioning mules The two functions of this addon are to have a character follow someone, and to have a character go to their position for fighting an nm.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/Positions/README.md,high
-repeater,Repeater,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,Commands //repeater Gives current settings for repeater.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/Repeater/README.md,high
-roe,roe,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-rolldistance,rolldistance,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# FFXI Roll Distance Tracks and displays the distance between you and other party members so you know who is in range for your next Phantom Roll.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/rolldistance/README.md,high
-rtfm,rtfm,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,"FFXI Windower Addon rtfm - Read The Freakin' Move Detect, alert and list mob moves as they occur in-game.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/rtfm/README.md,high
-runicportal,RunicPortal,travel,Icydeath/ffxi-addons,1,69,1,2.52,"MagicAssistant (by Valok) : updated //maa help for more info RunicPortal (by icy) : Warping via runic portal, get sanction, get assault tag, get assault orders/armband and more.",https://github.com/Icydeath/ffxi-addons#readme,medium
-schskillchain,schskillchain,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,# schskillchain(ssc) - usage example Open Liquefacrion(溶解) //ssc fire open Close Liquefacrion(溶解) (settable the first letter of parameter) //ssc f c Close Liquefacrion(溶解) and Magic Burst Pyrohelix II (火門の計II) //ssc f c ,https://github.com/Icydeath/ffxi-addons/blob/HEAD/schskillchain/README.md,high
-scriptedextender,ScriptedExtender,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-sendalltarget,SendAllTarget,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,"Abbreviation: //sat, //sendalltarget Commands: * //sat alltarget - All boxes on this computer target whatever the sender is targetting.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/SendAllTarget/README.md,high
-settarget,SetTarget,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,Shows enhanced target/enemy HP or status display overlays.,heuristic,low
-simpleassist,SimpleAssist,combat_automation,Icydeath/ffxi-addons,1,69,1,2.52,Keeps your target synced by assisting a chosen party member.,heuristic,low
-sirpopalot,SirPopaLot,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-smarttarget,smarttarget,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,"smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -",https://github.com/Icydeath/ffxi-addons#readme,medium
-spellspammer,spellSpammer,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,**spellSpammer** by Lorand - Set the list of spells that you want to spam in file.,https://github.com/Icydeath/ffxi-addons#readme,medium
-stars,Stars,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# Stars An addon which filters messages based on a filter.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/Stars/README.md,high
-superwarp,superwarp,travel,Icydeath/ffxi-addons,1,69,1,2.52,"**Feature**: An option has been added to check for unlock status of homepoints, waypoints, and survival guides. To enable unlock checks, set the following setting: <enable_locked_warps>false</enable_locked_warps>. This o",https://github.com/Icydeath/ffxi-addons/blob/HEAD/superwarp/README.md,high
-synergy,Synergy,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-targeter,targeter,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,# FFXI Targeter *Note: This is a work in progress.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/targeter/README.md,high
-targetinfoex,targetinfoEx,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,"# TargetInfo # This addon shows some memory information of your current target, provided the target is an NPC. This information is otherwise not available in the game. Per settings file adjustable settings: ShowHexID Thi",https://github.com/Icydeath/ffxi-addons/blob/HEAD/targetinfoEx/readme.md,high
-targetplus,TargetPlus,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,"smarttarget (by anonymous) : helper addon for targeting specific mobs (ie: dynamis D) stars (by chiaia, modded by me) : yell/shout filter, added the ability to filter specific player names targetplus (pastebin) : //tar -",https://github.com/Icydeath/ffxi-addons#readme,medium
-thfknife,ThfKnife,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-tonic,tonic,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,tonic makes it easier to use Escha temp items,https://github.com/Icydeath/ffxi-addons/blob/HEAD/tonic/README.md,high
-trader,Trader,economy_inventory,Icydeath/ffxi-addons,1,69,1,2.52,"Inventory/economy helper for storage, movement, and selling tasks.",heuristic,low
-triggers,triggers,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,tg trigger <string>: Set text trigger.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/triggers/README.md,high
-valkyrie,Valkyrie,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# Valkyrie A windower addon to streamline Einherjar entry.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/Valkyrie/README.md,high
-voidwalker,voidwalker,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-voidwatch,voidwatch,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-vwpop,VWPop,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-warpmenu,WarpMenu,travel,Icydeath/ffxi-addons,1,69,1,2.52,~~~~~~~~~~~~~ WarpMenu ~~~~~~~~~~~~~ ==================================== *NOTICE* Requires addon: superwarp ==================================== [warpmenu|wm] [window#|win#] [a|add|r|remove] [hp#] [zone name] > auto tra,https://github.com/Icydeath/ffxi-addons/blob/HEAD/WarpMenu/README.md,high
-where,where,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-widescantool,widescantool,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,"Filters: Filters can be useful if widescantool is too cluttered with monsters you do not care about. Fewer entries in the widescan list, and you are less likely to miss something you do care about. Filters can be configu",https://github.com/Icydeath/ffxi-addons/blob/HEAD/widescantool/README.md,high
-woehelper,WoEHelper,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,General FFXI quality-of-life utility addon.,heuristic,low
-xivcrossbar,xivcrossbar,ui_gear,Icydeath/ffxi-addons,1,69,1,2.52,Update Log 01/25/2021 : Added DRGs pet command macros Steps to get XIVCrossbar working: 1) Install Autohotkey (https://www.autohotkey.com/) 2) Run FFXI Configuration tool and set up your gamepad to match ConfigureYourGam,https://github.com/Icydeath/ffxi-addons/blob/HEAD/xivcrossbar/README.md,high
-zenimonsnap,ZenimonSnap,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,ZenimonSnap Automatically equips and uses Soultrapper and Soultrapper 2000 efficiently.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/ZenimonSnap/README.md,high
-zonename,zonename,general_qol,Icydeath/ffxi-addons,1,69,1,2.52,# zonename This addon displays the zone and region name for a short time while changing zones.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonename/README.md,high
-ase,ASE,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-autoinvite,autoinvite,combat_automation,Lygre/addons,1,18,1,2.4,"Abbreviation: //ai, //autoinvite Commands: * <whitelist|blacklist> <add|remove> <player> - adds or removes a player from blacklist or whitelist.",https://github.com/Lygre/addons/blob/HEAD/autoinvite/README.md,high
-broseem,broseem,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-impalert,ImpAlert,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-parse,parse,diagnostics,Lygre/addons,1,18,1,2.4,Parses combat logs for damage/performance summaries.,heuristic,low
-petfix,pet_fix,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-pluginmanager,plugin_manager,general_qol,Lygre/addons,1,18,1,2.4,"2 Click the icon next to ""plugin_manager""",https://github.com/Lygre/addons/blob/HEAD/plugin_manager/README.md,high
-rollbot,RollBot,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-skilluptracker,skilluptracker,general_qol,Lygre/addons,1,18,1,2.4,skilluptracker [show|hide] [all|craft|magic|combat]:,https://github.com/Lygre/addons/blob/HEAD/skilluptracker/README.md,high
-stna,stna,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-stopwatch,stopwatch,general_qol,Lygre/addons,1,18,1,2.4,**Commands:** sw start to start the stopwatch sw stop to pause the stopwatch sw reset to reset the stopwatch cumulative time to 0 Addon by Patrick Finnigan (Puhfyn@Ragnarok) - https://github.com/finnigantime.,https://github.com/Lygre/addons/blob/HEAD/stopwatch/readme.md,high
-text,Text,general_qol,Lygre/addons,1,18,1,2.4,General FFXI quality-of-life utility addon.,heuristic,low
-translate,translate,chat_qol,Lygre/addons,1,18,1,2.4,Chat/communication quality-of-life utility.,heuristic,low
-barfiller,barfiller,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-chars,chars,general_qol,mverteuil/windower4-addons,1,17,1,2.39,**fix:** pattern wasn't working with some special chars.,https://github.com/mverteuil/windower4-addons/blob/HEAD/chars/README.md,high
-chatlink,ChatLink,chat_qol,mverteuil/windower4-addons,1,17,1,2.39,Chat/communication quality-of-life utility.,heuristic,low
-enemybar,enemybar,ui_gear,mverteuil/windower4-addons,1,17,1,2.39,# enemybar This is an addon for Windower4 for FFXI.,https://github.com/mverteuil/windower4-addons/blob/HEAD/enemybar/README.md,high
-ffxicaddieprovider,ffxicaddieProvider,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-highlight,highlight,general_qol,mverteuil/windower4-addons,1,17,1,2.39,"##Description This addon highlights the names of the people in your party, and highlights their name when it appears in chat.",https://github.com/mverteuil/windower4-addons/blob/HEAD/highlight/readme.md,high
-inforeplacer,InfoReplacer,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-lazy,Lazy,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-nostrum,Nostrum,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-ohshi,ohShi,general_qol,mverteuil/windower4-addons,1,17,1,2.39,**Abbreviation:** //ohShi **Commands:** 1.,https://github.com/mverteuil/windower4-addons/blob/HEAD/ohShi/Readme.md,high
-plasmon,plasmon,general_qol,mverteuil/windower4-addons,1,17,1,2.39,"**-o _objects_:** specifies the item/s which will have its/their color changed. If this parameter is missing all the objects will be changed. The accepted values are: **all**, **background**, **bg**, **title**, **label**",https://github.com/mverteuil/windower4-addons/blob/HEAD/plasmon/README.md,high
-reive,reive,general_qol,mverteuil/windower4-addons,1,17,1,2.39,"**-o _objects_:** specifies the item/s which will have its/their color changed. If this parameter is missing all the objects will be changed. the accepted values are **all**, **background**, **bg**, **title**, **label**,",https://github.com/mverteuil/windower4-addons/blob/HEAD/reive/README.md,high
-rhombus,Rhombus,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-salvage2,salvage2,general_qol,mverteuil/windower4-addons,1,17,1,2.39,Author: Krizz Version: .5 Date: 20130601 Salvage2 Abbreviation: //s2 Commands: * help - Shows a menu of commands in game * pos <x> <y> - Positions the pathos remaining box.,https://github.com/mverteuil/windower4-addons/blob/HEAD/salvage2/README.md,high
-satacast,SATACast,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-setbgm,setbgm,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-strathelper,StratHelper,general_qol,mverteuil/windower4-addons,1,17,1,2.39,StratHelper ===== StratHelper is a simple helper addon for Spellcast for Scholar Stratagems.,https://github.com/mverteuil/windower4-addons/blob/HEAD/StratHelper/Readme.md,high
-taps,taps,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-targetinfo,targetinfo,ui_gear,mverteuil/windower4-addons,1,17,1,2.39,"# TargetInfo # This addon shows some memory information of your current target, provided the target is an NPC.",https://github.com/mverteuil/windower4-addons/blob/HEAD/targetinfo/readme.md,high
-truesight,truesight,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-visiblefavor,VisibleFavor,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-yush,Yush,general_qol,mverteuil/windower4-addons,1,17,1,2.39,General FFXI quality-of-life utility addon.,heuristic,low
-allseeingeye,allseeingeye,general_qol,Icydeath/ffxi-addons; ProjectTako/ffxi-addons,2,99,2,2.15,# ffxi-addons/allseeingeye AllSeeingEyes: This was popularized long ago from the Windower 3.x plugin with the same name.,https://github.com/ProjectTako/ffxi-addons/blob/HEAD/allseeingeye/README.md,high
-equipviewer,equipviewer,ui_gear,Icydeath/ffxi-addons; ProjectTako/ffxi-addons,2,99,2,2.15,# ffxi-addons/equipviewer EquipViewer: Overlays your currently equipped items onto the screen anywhere.,https://github.com/ProjectTako/ffxi-addons/blob/HEAD/equipviewer/README.md,high
-partybuffs,partybuffs,ui_gear,Lygre/addons; ProjectTako/ffxi-addons,2,99,2,2.15,# ffxi-addons/partybuffs An addon made from https://github.com/KenshiDRK/Addons/tree/master/PartyBuffs for Ashita.,https://github.com/ProjectTako/ffxi-addons/blob/HEAD/partybuffs/README.md,high
-react,react,combat_automation,Icydeath/ffxi-addons; ProjectTako/ffxi-addons,2,99,2,2.15,"# ffxi-addons/react React: Based on the Windower addon by Sammeh (https://github.com/SammehFFXI/FFXIAddons/tree/master/React), works very similar.",https://github.com/ProjectTako/ffxi-addons/blob/HEAD/react/README.md,high
-autocor,AutoCOR,combat_automation,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,"Accepts auto-translate terms, not case-sensitive. ""//cor [on|off]"" ""//cor roll <n> <job|roll_name>"" -- set roll ""//cor cc [n|off]"" -- Use crooked cards on roll [n] (default is 1st roll, 0 is off) ""//cor aoe <slot|party> ",https://github.com/Ivaar/Windower-addons/blob/HEAD/AutoCOR/README.md,high
-autogeo,AutoGEO,combat_automation,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",https://github.com/Icydeath/ffxi-addons#readme,medium
-chatman,ChatMan,chat_qol,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,ChatManager ============= Alternative to chatmon.,https://github.com/Ivaar/Windower-addons/blob/HEAD/ChatMan/README.md,high
-htmb,htmb,general_qol,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,"//htmb - When near one of the KI NPCs, it will buy the KI\'s you have set.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/htmb/README.md,high
-porterpacker,PorterPacker,economy_inventory,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,# PorterPacker ### Commands: command|alias [optional] //porterpacker or //packer or //po,https://github.com/Ivaar/Windower-addons/blob/HEAD/PorterPacker/README.md,high
-singer,Singer,combat_automation,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,# Sing ### Automates casting of bard buff songs. #### If you are updating from a version prior to 1.20.05.09 make sure you delete your existing settings.xml file located within the addons data folder. Configure songs wit,https://github.com/Ivaar/Windower-addons/blob/HEAD/Singer/README.md,high
-tradenpc,TradeNPC,economy_inventory,Icydeath/ffxi-addons; Ivaar/Windower-addons,2,79,2,2.1,# TradeNPC Trade an npc up to 8 stacks of items and gil with a single command.,https://github.com/Ivaar/Windower-addons/blob/HEAD/TradeNPC/README.md,high
-magicassistant,MagicAssistant,combat_automation,Icydeath/ffxi-addons; ValokAsura/WindowerAddons,2,69,2,2.07,"**SurvivalGuide** by SammehFFXI - //sg warp <zone> , soft-locks use //terminate **unm** by Darkdoom **MagicAssistant** by [Valok] -Automated magic bursting script //maa nap [spell/helix/ga/ja/ra/nin] [tier] **tonic** - u",https://github.com/Icydeath/ffxi-addons#readme,medium
-quicktrade,QuickTrade,economy_inventory,Icydeath/ffxi-addons; ValokAsura/WindowerAddons,2,69,2,2.07,Geas Fete: Key Item detection added. QuickTrade will not try to trade for a Key Item you already posses.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/QuickTrade/readme.md,high
-sendtarget,SendTarget,ui_gear,DiscipleOfEris/Windower4Addons; Icydeath/ffxi-addons,2,69,2,2.07,# SendTarget FFXI Windower addon that allows multiboxers to more easily send commands.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/SendTarget/README.md,high
-anchor,anchor,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",https://github.com/Icydeath/ffxi-addons#readme,medium
-autocontrol,autocontrol,combat_automation,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"**Abbreviations:** acon, autocontrol **Commands:** 1.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/autocontrol/readme.md,high
-autojoin,autojoin,combat_automation,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"# AutoJoin Once loaded, will automatically join party and alliance invites.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/autojoin/readme.md,high
-autows,AutoWS,combat_automation,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-azuresets,azureSets,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"**Author:** Ricky Gall **Version:** 1.24 **Description:** Addon to make setting blue spells easier. Currently only works as blu main. **Abbreviations:** aset, azureset **Commands:** 1. //aset removeall - Unsets all spell",https://github.com/Icydeath/ffxi-addons/blob/HEAD/azureSets/Readme.md,high
-clock,Clock,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,General FFXI quality-of-life utility addon.,heuristic,low
-dostuff,dostuff,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,'dos delay': Specify delay (default is 5 secs). This can be adjusted while dostuff is running if needed.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/dostuff/README.md,high
-dynamishelper,dynamishelper,general_qol,Icydeath/ffxi-addons; mverteuil/windower4-addons,2,69,1,1.72,Authors: Krizz Version: 1 Date: 20130419 Dynamis Helper Abbreviation: //dh Commands: * help - Shows a menu of commands in game * timer [on/off] - Displays a timer each time a mob is staggered.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/dynamishelper/README.md,high
-fisher,fisher,general_qol,Icydeath/ffxi-addons; mverteuil/windower4-addons,2,69,1,1.72,Fisher will always confuse 1 gil and 100 gil.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/fisher/README.md,high
-lottery,lottery,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,General FFXI quality-of-life utility addon.,heuristic,low
-macrochanger,macrochanger,general_qol,Icydeath/ffxi-addons; mverteuil/windower4-addons,2,69,1,1.72,General FFXI quality-of-life utility addon.,heuristic,low
-porter,porter,economy_inventory,Icydeath/ffxi-addons; mverteuil/windower4-addons,2,69,1,1.72,"**add**: New command, porter find.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/porter/README.md,high
-send,send,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"## Usage The target can be the receiver's name, @all to send to all instances, @other to send to all instances excluding the sender or @<job> to send to a specific job.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/send/readme.md,high
-silence,Silence,general_qol,Icydeath/ffxi-addons; mverteuil/windower4-addons,2,69,1,1.72,"Use the line ""silence mode 0"" to not allow any lines to go through.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/Silence/readme.md,high
-subtarget,SubTarget,ui_gear,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"name = 'SubTarget' version = '1.0' author = 'Sebyg666' Must have the ""send"" addon to work can use //subtarget or //sta Command ""HELP"" or no command: Explanation of the addons usage printed to the console, essentially the",https://github.com/Icydeath/ffxi-addons/blob/HEAD/SubTarget/README.txt,high
-thtracker,thtracker,general_qol,Icydeath/ffxi-addons; mverteuil/windower4-addons,2,69,1,1.72,Authors: Krizz Version: 1.0 Date: 20170509 TH Tracker Abbreviation: //th Commands: * help - Shows a menu of commands in game * pos x y - Positions the TH box.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/thtracker/readme.md,high
-timestamp,timestamp,chat_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,"**_format_:** defines the timestamp's format. The available constants are: **${year}**, **${y}**, **${year_short}**, **${month}**, **${m}**, **${month_short}**, **${month_long}**, **${day}**, **${d}**, **${day_short}**, ",https://github.com/Icydeath/ffxi-addons/blob/HEAD/timestamp/README.md,high
-treasurepool,TreasurePool,general_qol,Icydeath/ffxi-addons; Lygre/addons,2,69,1,1.72,General FFXI quality-of-life utility addon.,heuristic,low
-autosynth,autoSynth,combat_automation,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,Automates repeated job or combat actions with rule-based logic.,heuristic,low
-bluguide,bluguide,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-boxdestroyer,boxdestroyer,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-debuffed,Debuffed,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-digger,digger,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-distance,distance,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,# Distance Emulates the functionality of the Distance plugin.,https://github.com/mverteuil/windower4-addons/blob/HEAD/distance/readme.md,high
-gametime,gametime,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-instals,instaLS,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-latentchecker,latentchecker,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-linker,linker,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,"# Linker Opens certain links via simple console commands, with an optional search string.",https://github.com/mverteuil/windower4-addons/blob/HEAD/linker/readme.md,high
-ohnoyoudont,OhNoYouDont,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-opensesame,OpenSesame,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-packetviewer,PacketViewer,diagnostics,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,"Diagnostic utility for logs, packets, or runtime behavior visibility.",heuristic,low
-pettp,PetTP,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-pricer,Pricer,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-rolltracker,rolltracker,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,"If you have rolled a lucky roll, it will also prompt you and automatically stop you from doubling up on it (which can be bypassed by either doubling up again, or typing //rolltracker autostop Enjoy.",https://github.com/mverteuil/windower4-addons/blob/HEAD/rolltracker/readme.md,high
-scoreboard,scoreboard,ui_gear,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,"UI enhancement for combat, targeting, or gear visibility.",heuristic,low
-skillchain,Skillchain,combat_automation,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,Displays skillchain options/windows and timing during combat.,heuristic,low
-speedchecker,SpeedChecker,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-spellcheck,SpellCheck,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,#SpellCheck This addon lists spells you haven't unlocked yet.,https://github.com/mverteuil/windower4-addons/blob/HEAD/SpellCheck/README.md,high
-sprint,Sprint,travel,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,Travel quality-of-life helper for warps and navigation.,heuristic,low
-synthall,synthall,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,General FFXI quality-of-life utility addon.,heuristic,low
-update,update,general_qol,Lygre/addons; mverteuil/windower4-addons,2,18,1,1.6,# Update Once loaded can update all addons and plugins to the newest version using //update.,https://github.com/mverteuil/windower4-addons/blob/HEAD/update/readme.md,high
-fastcs,fastcs,general_qol,Icydeath/ffxi-addons; Lygre/addons; ProjectTako/ffxi-addons; mverteuil/windower4-addons,4,99,2,1.35,# ffxi-addons/fastcs FastCS: FastCS is an addon based on the Windower4 addon with the same name.,https://github.com/ProjectTako/ffxi-addons/blob/HEAD/fastcs/README.md,high
-auctionhelper,AuctionHelper,economy_inventory,Icydeath/ffxi-addons; Ivaar/Windower-addons; Lygre/addons,3,79,2,1.3,"AuctionHelper ============= Auction house bidding tool - addon for Windower ----------------------------------------------- Allows you to perform auction house actions with commands, much like bidder with additional func",https://github.com/Ivaar/Windower-addons/blob/HEAD/AuctionHelper/README.md,high
-sellnpc,SellNPC,economy_inventory,Icydeath/ffxi-addons; Ivaar/Windower-addons; Lygre/addons; mverteuil/windower4-addons,4,79,2,1.3,"# SellNPC ### Command Usage: Sales are now triggered by opening a shop window, you will need to queue items prior to this.",https://github.com/Ivaar/Windower-addons/blob/HEAD/SellNPC/README.md,high
-trade,Trade,economy_inventory,Icydeath/ffxi-addons; Ivaar/Windower-addons; Lygre/addons,3,79,2,1.3,# Trade #### Accepts trade requests and confirms from whitelisted players.,https://github.com/Ivaar/Windower-addons/blob/HEAD/Trade/README.md,high
-aecho,aecho,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,General FFXI quality-of-life utility addon.,heuristic,low
-autora,AutoRA,combat_automation,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,2.0.0 AutoRA simply causes ranged attacks to behave like the melee Auto-Attack while your weapon is drawn.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/AutoRA/README.md,high
-battlemod,battlemod,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,unload - unloads Battlemod,https://github.com/Icydeath/ffxi-addons/blob/HEAD/battlemod/README.md,high
-cancel,cancel,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,General FFXI quality-of-life utility addon.,heuristic,low
-consolebg,ConsoleBG,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,General FFXI quality-of-life utility addon.,heuristic,low
-dressup,DressUp,ui_gear,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,Applies visual appearance/style overrides.,heuristic,low
-enternity,enternity,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"**Author:** Giuliano Riccio **Version:** v 1.20131102 # Enternity # Enters ""Enter"" automatically when prompted during a cutscene or when talking to NPCs.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/enternity/README.md,high
-eval,eval,diagnostics,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,Author: Aureus Version: 1.0 Addon to evaluate lua code via windower commands Abbreviation: //eval Use //eval to run arbitrary lua code.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/eval/readme.md,high
-findall,findAll,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,# FindAll This addon searches items stored on all your characters.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/findAll/README.md,high
-gearswap,GearSwap,ui_gear,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"PLEASE DO NOT MESSAGE ME ABOUT ANYTHING THIRD PARTY IN GAME, however feel free to send me a way to contact you outside of game, through the game, and I'm happy to help, my preferred way of being contact is Discord, my St",https://github.com/Icydeath/ffxi-addons/blob/HEAD/GearSwap/README.md,high
-healbot,HealBot,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,To load healBot: //lua load healbot,https://github.com/Icydeath/ffxi-addons/blob/HEAD/HealBot/readme.md,high
-invspace,InvSpace,economy_inventory,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama,https://github.com/Icydeath/ffxi-addons#readme,medium
-itemizer,itemizer,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,#Itemizer Provides a chat/console interface for moving items around between bags.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/itemizer/readme.md,high
-logger,Logger,diagnostics,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"Diagnostic utility for logs, packets, or runtime behavior visibility.",heuristic,low
-organizer,organizer,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,General FFXI quality-of-life utility addon.,heuristic,low
-pointwatch,pointwatch,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,General FFXI quality-of-life utility addon.,heuristic,low
-pouches,Pouches,economy_inventory,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"Inventory/economy helper for storage, movement, and selling tasks.",heuristic,low
-shortcuts,shortcuts,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"#Shortcuts v2.9 ####written by Byrth Completes and properly formats commands (prefixed by at least one '/'), including emotes and checks.",https://github.com/Icydeath/ffxi-addons/blob/HEAD/shortcuts/readme.md,high
-skillchains,Skillchains,combat_automation,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,# SkillChains ### Active Battle Skillchain Display.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/Skillchains/README.md,high
-sparks,Sparks,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"**unm** - Updated to Darkdoom's v2, further modified the script to include the force option; which allows the player to continue to pop the unm even if sparks are capped.",https://github.com/Icydeath/ffxi-addons#readme,medium
-tparty,TParty,ui_gear,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,"UI enhancement for combat, targeting, or gear visibility.",heuristic,low
-treasury,Treasury,economy_inventory,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,Automates treasure pool lot/pass/drop decisions.,heuristic,low
-zonetimer,zonetimer,general_qol,Icydeath/ffxi-addons; Lygre/addons; mverteuil/windower4-addons,3,69,1,0.92,Commands: zonetimer posX # change the x position zonetimer posY # change the y position zonetimer fontsize # change the fontsize zoentimer help print these instructions in the log Original plugin by Krellion.,https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonetimer/readme.md,high
+xipivot,XIpivot,general_qol,HealsCodes/XIPivot,1,61,5,4.83,FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs,https://github.com/HealsCodes/XIPivot,medium
+trust,Trust,automation,cyritegamestudios/trust,1,49,5,4.83,Windower 4 addon for FFXI to automate your character in battle.,https://github.com/cyritegamestudios/trust,medium
+xivparty,XIvparty,ui_gear,Tylas11/XivParty,1,47,5,4.83,A party list addon for Windower 4.,https://github.com/Tylas11/XivParty,medium
+atreplace,Atreplace,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+augments,Augments,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+chatfix,Chatfix,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+clevel,Clevel,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+collector,Collector,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+dramagen,Dramagen,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+gilbox,Gilbox,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+indinope,Indinope,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+jobinit,Jobinit,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+kaomoji,Kaomoji,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+menufix,Menufix,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+mousehalo,Mousehalo,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+ondemand,Ondemand,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+position_manager,Position Manager,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+readable,Readable,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+safeoboro,Safeoboro,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+silttracker,Silttracker,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+smeagol,Smeagol,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+special,Special,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+tellapart,Tellapart,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+tellfix,Tellfix,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+tiptoes,Tiptoes,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+tpsreport,Tpsreport,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+trialtracker,Trialtracker,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+useall,Useall,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+waveback,Waveback,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+weathermon,Weathermon,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+witnessprotection,Witnessprotection,general_qol,lili-ffxi/FFXI-Addons,1,35,5,4.83,Addons I wrote for Final Fantasy XI. Compatible with Windower.,https://github.com/lili-ffxi/FFXI-Addons,medium
+bluspells,Bluspells,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+chatty,Chatty,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+colure,Colure,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+dxui,Dxui,ui_gear,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+imrecast,Imrecast,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+loggers,Loggers,diagnostics,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+minimap-helper,Minimap Helper,automation,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+rcheck,Rcheck,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+relicge,Relicge,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+repl,Repl,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+strats,Strats,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+trials,Trials,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+wheel,Wheel,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+xitools,XItools,general_qol,mousseng/xitools,1,29,5,4.83,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+attend,Attend,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+bars,Bars,ui_gear,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+battleplan,Battleplan,automation,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+callouts,Callouts,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+emotes,Emotes,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+exorcist,Exorcist,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+gaolplan,Gaolplan,automation,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+helper,Helper,automation,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+informer,Informer,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+jingle,Jingle,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+leaderboard,Leaderboard,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+llmchat,Llmchat,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+readycheck,Readycheck,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+sweeper,Sweeper,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+taskbar,Taskbar,ui_gear,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+vanafacts,Vanafacts,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+vanapad,Vanapad,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+vanity,Vanity,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+znmtracker,Znmtracker,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+addons,Addons,diagnostics,HealsCodes/statustimers,1,15,5,4.83,Statustimers for Ashita v4,https://github.com/HealsCodes/statustimers,medium
+ffxi-zonename,FFXI Zonename,travel_navigation,onimitch/ffxi-zonename,1,4,5,4.83,This addon for Ashita v4 displays the zone and region name for a short time while changing zones. This is a port of the Windower Zonename addon.,https://github.com/onimitch/ffxi-zonename,medium
+xichecklist,XIchecklist,travel_navigation,HiPotionQ8/XIchecklist,1,4,5,4.83,"windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",https://github.com/HiPotionQ8/XIchecklist,medium
+tourist,Tourist,travel_navigation,Bryenne-Sylph/tourist,1,3,5,4.83,An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ,https://github.com/Bryenne-Sylph/tourist,medium
+gmtools,Gmtools,automation,SQLCommit/GMTools,1,2,5,4.83,FFXI - Ashita v4.3 Addon - LSB GM Command Helper,https://github.com/SQLCommit/GMTools,medium
+lootscope,Lootscope,economy_inventory,SQLCommit/LootScope,1,2,5,4.83,FFXI - Ashita v4.3 Addon - Loot Drop Tracker,https://github.com/SQLCommit/LootScope,medium
+memscope,Memscope,diagnostics,SQLCommit/MemScope,1,2,5,4.83,FFXI - Ashita v4.3 Addon - Monitors Addon Memory Usage,https://github.com/SQLCommit/MemScope,medium
+zonelines,Zonelines,travel_navigation,SQLCommit/ZoneLines,1,2,5,4.83,FFXI - Ashita v4.3 Addon - Zone Line Visualizer,https://github.com/SQLCommit/ZoneLines,medium
+debuff-tracker,Debuff Tracker,automation,ProjectTako/ffxi-addons,1,99,2,3.78,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+menus,Menus,automation,ProjectTako/ffxi-addons,1,99,2,3.78,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+scanzone,Scanzone,travel_navigation,ProjectTako/ffxi-addons,1,99,2,3.78,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+turnaround,Turnaround,automation,ProjectTako/ffxi-addons,1,99,2,3.78,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+autodnc,Autodnc,automation,Ivaar/Windower-addons,1,79,2,3.78,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+chococard,Chococard,general_qol,Ivaar/Windower-addons,1,79,2,3.78,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+questlog,Questlog,general_qol,Ivaar/Windower-addons,1,79,2,3.78,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+packetviewerlogviewer,Packetviewerlogviewer,diagnostics,ZeromusXYZ/PacketViewerLogViewer,1,17,2,3.78,PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp,https://github.com/ZeromusXYZ/PacketViewerLogViewer,medium
+ui,Ui,ui_gear,AliekberFFXI/xivcrossbar,1,17,2,3.78,FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar,https://github.com/AliekberFFXI/xivcrossbar,medium
+bursting,Bursting,general_qol,ValokAsura/WindowerAddons,1,14,2,3.78,,,low
+crystaltrader,Crystaltrader,economy_inventory,ValokAsura/WindowerAddons,1,14,2,3.78,,,low
+quicktrade_2,Quicktrade 2,ui_gear,ValokAsura/WindowerAddons,1,14,2,3.78,,,low
+autoassist,Autoassist,automation,ekrividus/autoAssist,1,13,2,3.78,An ffxi windower addon to automatically assist a party member in combat,https://github.com/ekrividus/autoAssist,medium
+xivhotbar2,XIvhotbar2,ui_gear,Technyze/XIVHotbar2,1,13,2,3.78,,,low
+assist,Assist,automation,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+eradebuffed,Eradebuffed,combat_automation,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+eradistanceplus,Eradistanceplus,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+erainfobar,Erainfobar,ui_gear,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+erajobchange,Erajobchange,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+eramobdrops,Eramobdrops,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+eramoblevel,Eramoblevel,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+erapointwatch,Erapointwatch,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+erascoreboard,Erascoreboard,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+fastfollow,Fastfollow,general_qol,DiscipleOfEris/Windower4Addons,1,12,2,3.78,Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.,https://github.com/DiscipleOfEris/Windower4Addons,medium
+clickfind,Clickfind,general_qol,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+dupefind,Dupefind,general_qol,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+friendzone,Friendzone,travel_navigation,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+omen,Omen,general_qol,Icydeath/ffxi-addons;mousseng/xitools,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+posfind,Posfind,general_qol,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+statsearch,Statsearch,general_qol,Icydeath/ffxi-addons;lili-ffxi/FFXI-Addons,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+superwarp,Superwarp,travel_navigation,AkadenTK/superwarp;Icydeath/ffxi-addons,2,69,5,3.71,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+ambuloot,Ambuloot,economy_inventory,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+attackid,Attackid,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+attackwithme,Attackwithme,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autochain,Autochain,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autopup,Autopup,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autoraise,Autoraise,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autoskillchain,Autoskillchain,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autounm,Autounm,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autovw,Autovw,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autowatch,Autowatch,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+blist,Blist,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+canteen,Canteen,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+capetrader,Capetrader,economy_inventory,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+charmed,Charmed,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+checkparam,Checkparam,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+crb_addon,Crb Addon,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+cureplease_addon,Cureplease Addon,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+currencies,Currencies,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+distanceplus,Distanceplus,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+drop,Drop,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+eschachest,Eschachest,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+export_items,Export Items,economy_inventory,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+ffxikeys,FFXIkeys,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+finalalert,Finalalert,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+followme,Followme,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+giltracker,Giltracker,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+jobchange,Jobchange,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+locke,Locke,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+lockpick,Lockpick,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+maga,Maga,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+masstrade,Masstrade,economy_inventory,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+moveitems,Moveitems,economy_inventory,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+myhome,Myhome,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+myomen,Myomen,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+nnitimer,Nnitimer,diagnostics,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+noknock,Noknock,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+oneoffs,Oneoffs,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+partypets,Partypets,ui_gear,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+petparty,Petparty,ui_gear,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+positions,Positions,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+repeater,Repeater,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+roe,Roe,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+rolldistance,Rolldistance,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+rtfm,Rtfm,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+runicportal,Runicportal,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+schskillchain,Schskillchain,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+scriptedextender,Scriptedextender,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+sendalltarget,Sendalltarget,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+settarget,Settarget,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+simpleassist,Simpleassist,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+sirpopalot,Sirpopalot,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+smarttarget,Smarttarget,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+spellspammer,Spellspammer,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+stars,Stars,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+synergy,Synergy,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+targeter,Targeter,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+targetinfoex,Targetinfoex,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+targetplus,Targetplus,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+thfknife,Thfknife,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+tonic,Tonic,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+trader,Trader,economy_inventory,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+triggers,Triggers,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+valkyrie,Valkyrie,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+voidwalker,Voidwalker,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+voidwatch,Voidwatch,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+vwpop,Vwpop,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+warpmenu,Warpmenu,travel_navigation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+where,Where,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+widescantool,Widescantool,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+woehelper,Woehelper,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+xivcrossbar,XIvcrossbar,ui_gear,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+zenimonsnap,Zenimonsnap,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+zonename,Zonename,travel_navigation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+enemybar2,Enemybar2,ui_gear,AkadenTK/enemybar2,1,19,1,3.43,Evolution of the simpler Windower addon that displays a target health bar prominently onscreen,https://github.com/AkadenTK/enemybar2,medium
+ase,Ase,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+autoinvite,Autoinvite,automation,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+broseem,Broseem,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+impalert,Impalert,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+pet_fix,Pet Fix,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+plugin_manager,Plugin Manager,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+rollbot,Rollbot,automation,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+skilluptracker,Skilluptracker,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+stna,Stna,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+stopwatch,Stopwatch,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+text,Text,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+translate,Translate,general_qol,Lygre/addons,1,18,1,3.43,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+xivhotbar,XIvhotbar,ui_gear,Akirane/XIVHotbar,1,18,1,3.43,,,low
+barfiller,Barfiller,ui_gear,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+chars,Chars,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+chatlink,Chatlink,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+enemybar,Enemybar,ui_gear,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+ffxicaddieprovider,FFXIcaddieprovider,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+highlight,Highlight,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+inforeplacer,Inforeplacer,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+lazy,Lazy,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+nostrum,Nostrum,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+ohshi,Ohshi,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+plasmon,Plasmon,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+reive,Reive,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+rhombus,Rhombus,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+salvage2,Salvage2,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+satacast,Satacast,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+setbgm,Setbgm,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+strathelper,Strathelper,automation,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+taps,Taps,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+targetinfo,Targetinfo,combat_automation,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+truesight,Truesight,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+visiblefavor,Visiblefavor,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+yush,Yush,general_qol,mverteuil/windower4-addons,1,17,1,3.43,FFXI Windower 4 Addons,https://github.com/mverteuil/windower4-addons,medium
+skillchain,Skillchain,combat_automation,Lygre/addons;mousseng/xitools;mverteuil/windower4-addons,3,29,5,3.26,Some addons and plugins for FFXI (Ashita),https://github.com/mousseng/xitools,medium
+allseeingeye,Allseeingeye,general_qol,Icydeath/ffxi-addons;ProjectTako/ffxi-addons,2,99,2,2.66,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+equipviewer,Equipviewer,automation,Icydeath/ffxi-addons;ProjectTako/ffxi-addons,2,99,2,2.66,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+partybuffs,Partybuffs,automation,Lygre/addons;ProjectTako/ffxi-addons,2,99,2,2.66,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+react,React,automation,Icydeath/ffxi-addons;ProjectTako/ffxi-addons,2,99,2,2.66,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,medium
+autocor,Autocor,automation,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+autogeo,Autogeo,automation,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+chatman,Chatman,general_qol,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+htmb,Htmb,general_qol,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+porterpacker,Porterpacker,economy_inventory,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+singer,Singer,general_qol,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+tradenpc,Tradenpc,economy_inventory,Icydeath/ffxi-addons;Ivaar/Windower-addons,2,79,2,2.66,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+magicassistant,Magicassistant,automation,Icydeath/ffxi-addons;ValokAsura/WindowerAddons,2,69,2,2.66,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+quicktrade,Quicktrade,ui_gear,Icydeath/ffxi-addons;ValokAsura/WindowerAddons,2,69,2,2.66,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+sendtarget,Sendtarget,combat_automation,DiscipleOfEris/Windower4Addons;Icydeath/ffxi-addons,2,69,2,2.66,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+parse,Parse,diagnostics,Lygre/addons;flippant/parse,2,18,2,2.66,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+anchor,Anchor,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autocontrol,Autocontrol,automation,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autojoin,Autojoin,automation,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autows,Autows,automation,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+azuresets,Azuresets,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+clock,Clock,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+dostuff,Dostuff,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+dynamishelper,Dynamishelper,automation,Icydeath/ffxi-addons;mverteuil/windower4-addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+fisher,Fisher,general_qol,Icydeath/ffxi-addons;mverteuil/windower4-addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+lottery,Lottery,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+macrochanger,Macrochanger,general_qol,Icydeath/ffxi-addons;mverteuil/windower4-addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+porter,Porter,economy_inventory,Icydeath/ffxi-addons;mverteuil/windower4-addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+send,Send,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+silence,Silence,general_qol,Icydeath/ffxi-addons;mverteuil/windower4-addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+subtarget,Subtarget,combat_automation,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+thtracker,Thtracker,general_qol,Icydeath/ffxi-addons;mverteuil/windower4-addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+timestamp,Timestamp,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+treasurepool,Treasurepool,general_qol,Icydeath/ffxi-addons;Lygre/addons,2,69,1,2.31,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autosynth,Autosynth,automation,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+bluguide,Bluguide,travel_navigation,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+boxdestroyer,Boxdestroyer,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+debuffed,Debuffed,combat_automation,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+digger,Digger,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+distance,Distance,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+gametime,Gametime,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+instals,Instals,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+latentchecker,Latentchecker,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+linker,Linker,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+ohnoyoudont,Ohnoyoudont,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+opensesame,Opensesame,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+packetviewer,Packetviewer,diagnostics,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+pettp,Pettp,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+pricer,Pricer,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+rolltracker,Rolltracker,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+scoreboard,Scoreboard,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+speedchecker,Speedchecker,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+spellcheck,Spellcheck,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+sprint,Sprint,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+synthall,Synthall,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+update,Update,general_qol,Lygre/addons;mverteuil/windower4-addons,2,18,1,2.31,FFXI Windower Addons,https://github.com/Lygre/addons,medium
+skillchains,Skillchains,combat_automation,Icydeath/ffxi-addons;Ivaar/Skillchains;Lygre/addons;mverteuil/windower4-addons,4,69,3,2.27,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,low
+auctionhelper,Auctionhelper,automation,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons,3,79,2,2.21,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+trade,Trade,economy_inventory,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons,3,79,2,2.21,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,medium
+fastcs,Fastcs,general_qol,Icydeath/ffxi-addons;Lygre/addons;ProjectTako/ffxi-addons;mverteuil/windower4-addons,4,99,2,1.92,Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3,https://github.com/ProjectTako/ffxi-addons,low
+sellnpc,Sellnpc,economy_inventory,Icydeath/ffxi-addons;Ivaar/Windower-addons;Lygre/addons;mverteuil/windower4-addons,4,79,2,1.92,FFXI Windower addons,https://github.com/Ivaar/Windower-addons,low
+aecho,Aecho,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+autora,Autora,automation,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+battlemod,Battlemod,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+cancel,Cancel,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+consolebg,Consolebg,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+dressup,Dressup,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+enternity,Enternity,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+eval,Eval,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+findall,Findall,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+gearswap,Gearswap,ui_gear,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+invspace,Invspace,economy_inventory,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+itemizer,Itemizer,economy_inventory,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+logger,Logger,diagnostics,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+organizer,Organizer,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+pointwatch,Pointwatch,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+pouches,Pouches,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+shortcuts,Shortcuts,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+sparks,Sparks,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+tparty,Tparty,ui_gear,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+treasury,Treasury,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+zonetimer,Zonetimer,travel_navigation,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+healbot,Healbot,automation,Icydeath/ffxi-addons;Lygre/addons;lorand-ffxi/HealBot;mverteuil/windower4-addons,4,69,1,1.57,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,low
