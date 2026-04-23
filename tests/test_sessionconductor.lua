@@ -1,4 +1,4 @@
-package.path = '../tests/?.lua;../libs/?.lua;../addons/SessionConductor/?.lua;' .. package.path
+package.path = '../tests/?.lua;../lib/?.lua;../addons/SessionConductor/?.lua;' .. package.path
 
 local mock = require('mock_windower')
 mock.reset()

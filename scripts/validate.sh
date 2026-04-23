@@ -144,11 +144,14 @@ if command -v lua >/dev/null 2>&1 || command -v lua5.1 >/dev/null 2>&1; then
 
     if [ -n "$LUA_RUN" ]; then
         cd "$REPO_ROOT/tests"
-        if $LUA_RUN test_common.lua 2>&1; then
-            pass "test_common.lua"
-        else
-            fail "test_common.lua"
-        fi
+        export ODIN_TEST_REPO_ROOT="$REPO_ROOT"
+        for test_file in test_common.lua test_sessionconductor.lua test_travelrouter.lua test_addonhealth.lua; do
+            if $LUA_RUN "$test_file" 2>&1; then
+                pass "$test_file"
+            else
+                fail "$test_file"
+            fi
+        done
         cd "$REPO_ROOT"
     fi
 else

@@ -1,4 +1,4 @@
-package.path = '../libs/?.lua;' .. package.path
+package.path = '../lib/?.lua;' .. package.path
 
 local common = require('common')
 
