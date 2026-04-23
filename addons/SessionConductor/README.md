@@ -43,6 +43,7 @@ Multi-character session conductor addon for Windower.
 - `//conductor events tail [N]`
 - `//conductor trace on|off`
 - `//conductor emit <eventType>`
+- `//conductor sensor distance <yards>`
 
 ## Persistence
 - `data/roster.user.lua` stores groups, target selection, timeout, and automation toggles.
@@ -55,6 +56,16 @@ When `travel` is used:
 1. SessionConductor executes TravelRouter locally.
 2. Sends IPC event containing request id + target scope.
 3. Peers matching scope execute route and ACK result.
+
+## Built-in event detectors
+Current runtime detectors emit events for:
+- combat status transitions (`combat.engaged`, `combat.disengaged`, `combat.idle_timeout`)
+- target changes (`combat.target_changed`)
+- weapon-skill action events (`combat.ws_used`, synthetic `combat.skillchain_open`)
+- party HP/KO thresholds (`party.member.hp_low`, `party.member.hp_critical`, `party.member.ko`)
+- distance separation (`party.member.distance_exceeded`)
+- watched self debuffs (`party.member.debuff_added`, `party.member.debuff_removed`)
+- zone changes + ACK timeout/retry exhaustion system events
 
 ## IPC
 ### v2 (preferred, robust payload encoding)

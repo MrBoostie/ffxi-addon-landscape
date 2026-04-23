@@ -39,12 +39,26 @@ local state = {
         lastZone = nil,
         lastStatus = nil,
         lastTargetId = nil,
+        idleSince = 0,
         lowHpSeen = {},
         koSeen = {},
+        distanceSeen = {},
+        debuffSeen = {},
+        maxDistance = 25,
     },
 }
 
 math.randomseed(os.time())
+
+local WATCHED_DEBUFFS = {
+    [6] = 'silence',
+    [7] = 'paralysis',
+    [10] = 'blind',
+    [13] = 'poison',
+    [15] = 'doom',
+    [19] = 'sleep',
+    [28] = 'terror',
+}
 
 local function msg(text)
     windower.add_to_chat(121, ('[SessionConductor] %s'):format(text))
@@ -203,6 +217,18 @@ local function call_travel_router(dest)
     if not dest or dest == '' then return false end
     windower.send_command(('troute run %s'):format(dest))
     return true
+end
+
+local function party_actor_lookup()
+    local party = windower.ffxi.get_party() or {}
+    local map = {}
+    for i = 0, 5 do
+        local m = party['p' .. i]
+        if m and m.mob and m.mob.id then
+            map[m.mob.id] = m.mob.name or ('p' .. i)
+        end
+    end
+    return map
 end
 
 local function start_pending(op, target, payload)
@@ -621,10 +647,27 @@ local function monitor_tick()
     state.monitor.lastZone = info.zone
 
     if state.monitor.lastStatus and info.status and state.monitor.lastStatus ~= info.status then
-        if info.status == 1 then emit_event('combat.engaged', {}, 'system') end
-        if state.monitor.lastStatus == 1 and info.status ~= 1 then emit_event('combat.disengaged', {}, 'system') end
+        if info.status == 1 then
+            emit_event('combat.engaged', {}, 'system')
+            state.monitor.idleSince = 0
+        end
+        if state.monitor.lastStatus == 1 and info.status ~= 1 then
+            emit_event('combat.disengaged', {}, 'system')
+            state.monitor.idleSince = now()
+        end
     end
     state.monitor.lastStatus = info.status
+
+    if info.status ~= 1 then
+        if state.monitor.idleSince == 0 then
+            state.monitor.idleSince = now()
+        elseif now() - state.monitor.idleSince >= 20 then
+            emit_event('combat.idle_timeout', { idle_sec = now() - state.monitor.idleSince }, 'system')
+            state.monitor.idleSince = now()
+        end
+    else
+        state.monitor.idleSince = 0
+    end
 
     local player = windower.ffxi.get_player() or {}
     local target = player.target_index or nil
@@ -640,6 +683,20 @@ local function monitor_tick()
         if mob and mob.name then
             local id = tostring(mob.id or mob.name)
             local hp = tonumber(member.hp) or tonumber(mob.hpp) or 0
+            local dist = tonumber(mob.distance) or 0
+
+            if dist > state.monitor.maxDistance then
+                if not state.monitor.distanceSeen[id] then
+                    state.monitor.distanceSeen[id] = true
+                    emit_event('party.member.distance_exceeded', {
+                        member = mob.name,
+                        distance = dist,
+                        max_distance = state.monitor.maxDistance,
+                    }, 'system')
+                end
+            else
+                state.monitor.distanceSeen[id] = nil
+            end
 
             if hp <= 0 then
                 if not state.monitor.koSeen[id] then
@@ -667,6 +724,26 @@ local function monitor_tick()
             else
                 state.monitor.lowHpSeen[id .. ':low'] = nil
             end
+        end
+    end
+
+    local player = windower.ffxi.get_player() or {}
+    local buffs = player.buffs or {}
+    local active = {}
+    for _, bid in ipairs(buffs) do
+        local name = WATCHED_DEBUFFS[bid]
+        if name then active[name] = true end
+    end
+
+    for _, name in pairs(WATCHED_DEBUFFS) do
+        local was = state.monitor.debuffSeen[name] or false
+        local is = active[name] or false
+        if is and not was then
+            state.monitor.debuffSeen[name] = true
+            emit_event('party.member.debuff_added', { member = self_name(), debuff = name }, 'system')
+        elseif was and not is then
+            state.monitor.debuffSeen[name] = nil
+            emit_event('party.member.debuff_removed', { member = self_name(), debuff = name }, 'system')
         end
     end
 
@@ -751,6 +828,27 @@ local function on_ipc(data)
     end
 end
 
+local function on_action(act)
+    if type(act) ~= 'table' then return end
+    local partyActors = party_actor_lookup()
+    local actorName = partyActors[act.actor_id]
+    if not actorName then return end
+
+    local category = tonumber(act.category) or 0
+    if category == 3 or category == 7 or category == 11 then
+        emit_event('combat.ws_used', {
+            actor = actorName,
+            category = category,
+            target_count = tonumber(act.targets and #act.targets or 0) or 0,
+        }, 'system')
+        -- best-effort synthetic SC window
+        emit_event('combat.skillchain_open', {
+            actor = actorName,
+            window_ms = 8000,
+        }, 'system')
+    end
+end
+
 local function dispatch_travel(dest)
     local req = start_pending('travel', state.target, { dest = dest })
     call_travel_router(dest)
@@ -771,10 +869,12 @@ load_rules()
 
 local ipc_event_id = windower.register_event('ipc message', on_ipc)
 local monitor_event_id = windower.register_event('prerender', monitor_tick)
+local action_event_id = windower.register_event('action', on_action)
 
 windower.register_event('unload', function()
     if ipc_event_id then windower.unregister_event(ipc_event_id) end
     if monitor_event_id then windower.unregister_event(monitor_event_id) end
+    if action_event_id then windower.unregister_event(action_event_id) end
 end)
 
 windower.register_event('addon command', function(...)
@@ -782,7 +882,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: travel|command|follow|ping|target|roster|status|timeout|remotecmd|auto|mode|pause|rule|rules|events|trace|emit')
+        msg('Commands: travel|command|follow|ping|target|roster|status|timeout|remotecmd|auto|mode|pause|rule|rules|events|trace|emit|sensor')
         return
     end
 
@@ -912,6 +1012,19 @@ windower.register_event('addon command', function(...)
         if not evt then msg('Usage: //conductor emit <eventType>'); return end
         emit_event(evt, { manual = true }, 'local')
         msg('Emitted event ' .. evt)
+        return
+    end
+
+    if cmd == 'sensor' then
+        local what = normalize(args[2])
+        if what == 'distance' then
+            local v = tonumber(args[3] or '')
+            if not v or v < 5 then msg('Usage: //conductor sensor distance <yards> (>=5)'); return end
+            state.monitor.maxDistance = v
+            msg(('Distance trigger threshold set to %.1f'):format(v))
+            return
+        end
+        msg(('Sensors: distance=%.1f'):format(state.monitor.maxDistance))
         return
     end
 
