@@ -1,5 +1,65 @@
 [
   {
+    "addon_key": "xipivot",
+    "addon_name": "XIPivot",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/XIPivot"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 61,
+    "freshness_max": 5,
+    "opportunity_score": 4.3,
+    "description": "FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs",
+    "description_source": "https://github.com/HealsCodes/XIPivot",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "trust",
+    "addon_name": "trust",
+    "category": "automation",
+    "repos": [
+      "cyritegamestudios/trust"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 49,
+    "freshness_max": 5,
+    "opportunity_score": 4.26,
+    "description": "Windower 4 addon for FFXI to automate your character in battle.",
+    "description_source": "https://github.com/cyritegamestudios/trust",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "xichecklist",
+    "addon_name": "XIchecklist",
+    "category": "travel_navigation",
+    "repos": [
+      "HiPotionQ8/XIchecklist"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 4,
+    "freshness_max": 5,
+    "opportunity_score": 3.89,
+    "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
+    "description_source": "https://github.com/HiPotionQ8/XIchecklist",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tourist",
+    "addon_name": "tourist",
+    "category": "travel_navigation",
+    "repos": [
+      "Bryenne-Sylph/tourist"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 5,
+    "opportunity_score": 3.85,
+    "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
+    "description_source": "https://github.com/Bryenne-Sylph/tourist",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "atreplace",
     "addon_name": "atreplace",
     "category": "general_qol",
