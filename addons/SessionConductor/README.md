@@ -14,20 +14,41 @@ Multi-character session conductor addon for Windower.
 - Tracks ACK replies per dispatch and reports timeout state.
 
 ## Commands
+### Core dispatch
 - `//conductor travel <destination>`
 - `//conductor command <raw command>`
 - `//conductor follow <leader>`
 - `//conductor ping`
+
+### Targeting / roster
 - `//conductor target <group|all>`
 - `//conductor roster add <group> <name>`
 - `//conductor roster remove <group> <name>`
 - `//conductor roster list`
+
+### Reliability / safety
 - `//conductor timeout <seconds>`
 - `//conductor status`
 - `//conductor remotecmd on|off`
 
+### Event/rule automation (v1.1)
+- `//conductor auto on|off`
+- `//conductor mode <normal|recovery|emergency|travel>`
+- `//conductor pause <seconds>`
+- `//conductor rule enable <id>`
+- `//conductor rule disable <id>`
+- `//conductor rules list`
+- `//conductor rules explain <eventType>`
+- `//conductor rules reload`
+- `//conductor events tail [N]`
+- `//conductor trace on|off`
+- `//conductor emit <eventType>`
+
 ## Persistence
-- `data/roster.user.lua` stores groups, target selection, and timeout value.
+- `data/roster.user.lua` stores groups, target selection, timeout, and automation toggles.
+- `data/rules.default.lua` shipped baseline trigger rules.
+- `data/rules.user.lua` optional user overrides (same rule ids override defaults).
+- `data/events.log` rolling append-only event trail for debugging.
 
 ## Integration behavior
 When `travel` is used:

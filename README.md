@@ -106,6 +106,7 @@ If you only load `SessionConductor`, the `travel` command will still broadcast, 
 - `addons/TravelRouter` — content-aware travel route planner/executor
 - `addons/SessionConductor` — multi-character command coordinator
   - integrates with TravelRouter via `//conductor travel <destination>`
+  - includes v1.1 event/rule automation engine (`rules.default.lua` + overrides)
 
 See specs:
 - `specs/travelrouter-v1.0.md`
