@@ -122,6 +122,7 @@ See specs:
 - Verify planner: `//troute plan jeuno`
 - Verify execution: `//troute run jeuno`
 - (Optional) Configure unlock tokens: `//troute unlock add hp|sg|warp`
+- (Optional) Add typo-friendly shortcuts: `//troute alias add <alias> <destination>`
 - (Optional) Persist custom routes: `//troute add <dest> <step1> ; <step2>` then `//troute save`
 
 ### SessionConductor
@@ -146,6 +147,14 @@ python3 scripts/enrich_descriptions.py
 ```
 
 This pulls README text from indexed repos and assigns best-effort description sources per addon.
+
+## ✅ Local validation
+
+```bash
+./scripts/validate_addons.sh
+```
+
+Runs Lua syntax checks for addon files plus JSON parse validation for generated artifacts.
 
 ## 🚀 Next steps
 
