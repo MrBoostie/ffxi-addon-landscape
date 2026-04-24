@@ -23,6 +23,7 @@ Unified health dashboard for your Windower addon stack.
 | `//addonhealth export` | Export last report to `data/` directory |
 | `//addonhealth status` | Show current summary |
 | `//addonhealth summary` | Alias for `status` |
+| `//addonhealth reload` | Reload `data/addons.user.lua` custom monitored addons |
 
 ## Setup
 
@@ -48,6 +49,27 @@ The check displays severity, known-vs-unknown addon coverage, dependency issues,
 [AddonHealth] Summary: ok=2 warn=1 alert=0
 [AddonHealth] ---
 ```
+
+## Custom monitored addons
+
+You can add/override monitored addons without editing `addonhealth.lua`:
+
+Create `addons/AddonHealth/data/addons.user.lua`:
+
+```lua
+return {
+  { name = 'XIPivot', critical = true, deps = { 'Config' } },
+  { name = 'Treasury', critical = true, deps = {} }, -- override default severity/deps
+}
+```
+
+Then run:
+
+```text
+//addonhealth reload
+```
+
+The custom file is optional. If it is missing or malformed, AddonHealth keeps running with defaults.
 
 ## Notes
 

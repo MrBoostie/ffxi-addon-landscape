@@ -7,7 +7,7 @@ _addon.description = 'Unified health dashboard for Windower addon stack status a
 local REPORT_DIR = (windower.addon_path or '') .. 'data/'
 local WATCH_EVENT_ID = nil
 
-local KNOWN_ADDONS = {
+local DEFAULT_KNOWN_ADDONS = {
     { name = 'TravelRouter', critical = true, deps = {} },
     { name = 'SessionConductor', critical = true, deps = { 'TravelRouter' } },
     { name = 'GearSwap', critical = false, deps = {} },
@@ -20,6 +20,8 @@ local KNOWN_ADDONS = {
     { name = 'Enternity', critical = false, deps = {} },
 }
 
+local USER_ADDONS_FILE = (windower.addon_path or '') .. 'data/addons.user.lua'
+
 local FILE_CHECKS = {
     { label = 'TravelRouter routes', path = '../TravelRouter/data/routes.lua', severity = 'ok' },
     { label = 'SessionConductor rules', path = '../SessionConductor/data/rules.default.lua', severity = 'ok' },
@@ -30,6 +32,7 @@ local state = {
     watchInterval = 30,
     lastCheck = 0,
     lastReport = nil,
+    catalogEntries = {},
 }
 
 local function msg(text)
@@ -61,9 +64,77 @@ local function addon_base_path()
     return (windower.addon_path or ''):gsub('[\\/]+$', '')
 end
 
+local function sanitize_addon_entry(entry)
+    if type(entry) ~= 'table' or type(entry.name) ~= 'string' or entry.name == '' then
+        return nil
+    end
+    local deps = {}
+    if type(entry.deps) == 'table' then
+        for _, dep in ipairs(entry.deps) do
+            if type(dep) == 'string' and dep ~= '' then
+                deps[#deps+1] = dep
+            end
+        end
+    end
+    return {
+        name = entry.name,
+        critical = entry.critical == true,
+        deps = deps,
+    }
+end
+
+local function load_user_addons()
+    if not file_exists(USER_ADDONS_FILE) then return {} end
+
+    local ok, payload = pcall(dofile, USER_ADDONS_FILE)
+    if not ok then
+        msg(('Failed to load %s: %s'):format(USER_ADDONS_FILE, tostring(payload)))
+        return {}
+    end
+    if type(payload) ~= 'table' then
+        msg(('Ignoring %s (expected table return)'):format(USER_ADDONS_FILE))
+        return {}
+    end
+
+    local cleaned = {}
+    for _, entry in ipairs(payload) do
+        local item = sanitize_addon_entry(entry)
+        if item then cleaned[#cleaned+1] = item end
+    end
+    return cleaned
+end
+
+local function rebuild_catalog_entries()
+    local merged = {}
+    local by_key = {}
+
+    for _, entry in ipairs(DEFAULT_KNOWN_ADDONS) do
+        local item = sanitize_addon_entry(entry)
+        if item then
+            local key = normalize(item.name)
+            by_key[key] = #merged + 1
+            merged[#merged+1] = item
+        end
+    end
+
+    for _, entry in ipairs(load_user_addons()) do
+        local key = normalize(entry.name)
+        local idx = by_key[key]
+        if idx then
+            merged[idx] = entry
+        else
+            by_key[key] = #merged + 1
+            merged[#merged+1] = entry
+        end
+    end
+
+    table.sort(merged, function(a, b) return a.name < b.name end)
+    state.catalogEntries = merged
+end
+
 local function build_catalog()
     local catalog = {}
-    for _, entry in ipairs(KNOWN_ADDONS) do
+    for _, entry in ipairs(state.catalogEntries) do
         catalog[normalize(entry.name)] = {
             name = entry.name,
             critical = entry.critical,
@@ -124,7 +195,7 @@ end
 
 local function check_loaded(catalog, loaded)
     local results = {}
-    for _, entry in ipairs(KNOWN_ADDONS) do
+    for _, entry in ipairs(state.catalogEntries) do
         results[#results+1] = {
             addon = entry.name,
             loaded = loaded[normalize(entry.name)] or false,
@@ -137,7 +208,7 @@ end
 
 local function check_dependencies(catalog, loaded)
     local issues = {}
-    for _, entry in ipairs(KNOWN_ADDONS) do
+    for _, entry in ipairs(state.catalogEntries) do
         if loaded[normalize(entry.name)] then
             for _, dep in ipairs(entry.deps or {}) do
                 if not loaded[normalize(dep)] then
@@ -325,7 +396,10 @@ local function disable_watch()
     state.watchEnabled = false
 end
 
-windower.register_event('load', ensure_watch_registered)
+windower.register_event('load', function()
+    rebuild_catalog_entries()
+    ensure_watch_registered()
+end)
 windower.register_event('unload', function()
     disable_watch()
     if WATCH_EVENT_ID and windower.unregister_event then
@@ -333,6 +407,7 @@ windower.register_event('unload', function()
         WATCH_EVENT_ID = nil
     end
 end)
+rebuild_catalog_entries()
 ensure_watch_registered()
 
 windower.register_event('addon command', function(...)
@@ -340,7 +415,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1] or '')
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: check | watch on|off [interval] | export | status | summary')
+        msg('Commands: check | watch on|off [interval] | export | status | summary | reload')
         return
     end
 
@@ -357,13 +432,21 @@ windower.register_event('addon command', function(...)
 
     if cmd == 'status' or cmd == 'summary' then
         local report = state.lastReport or run_diagnostics()
-        msg(('status=%s watch=%s interval=%ss known=%d unknown=%d'):format(
+        msg(('status=%s watch=%s interval=%ss known=%d unknown=%d monitored=%d'):format(
             report.severity,
             state.watchEnabled and 'on' or 'off',
             state.watchInterval,
             #report.known_loaded,
-            #report.unknown_loaded
+            #report.unknown_loaded,
+            #state.catalogEntries
         ))
+        return
+    end
+
+    if cmd == 'reload' then
+        rebuild_catalog_entries()
+        state.lastReport = nil
+        msg(('catalog reloaded (%d monitored addons)'):format(#state.catalogEntries))
         return
     end
 
