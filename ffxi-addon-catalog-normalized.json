@@ -1,47 +1,33 @@
 [
   {
-    "addon_key": "xipivot",
-    "addon_name": "XIpivot",
+    "addon_key": "readycheck",
+    "addon_name": "Readycheck",
     "category": "general_qol",
     "repos": [
-      "HealsCodes/XIPivot"
+      "Lydya-nick77/readycheck",
+      "iLVL-Key/FFXI"
     ],
-    "repo_count": 1,
-    "best_repo_stars": 61,
+    "repo_count": 2,
+    "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs",
-    "description_source": "https://github.com/HealsCodes/XIPivot",
+    "description": "Various FFXI projects",
+    "description_source": "https://github.com/iLVL-Key/FFXI",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "trust",
-    "addon_name": "Trust",
-    "category": "automation",
+    "addon_key": "addons",
+    "addon_name": "Addons",
+    "category": "diagnostics",
     "repos": [
-      "cyritegamestudios/trust"
+      "HealsCodes/statustimers"
     ],
     "repo_count": 1,
-    "best_repo_stars": 49,
-    "freshness_max": 5,
+    "best_repo_stars": 15,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "Windower 4 addon for FFXI to automate your character in battle.",
-    "description_source": "https://github.com/cyritegamestudios/trust",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "xivparty",
-    "addon_name": "XIvparty",
-    "category": "ui_gear",
-    "repos": [
-      "Tylas11/XivParty"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 47,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "A party list addon for Windower 4.",
-    "description_source": "https://github.com/Tylas11/XivParty",
+    "description": "Statustimers for Ashita v4",
+    "description_source": "https://github.com/HealsCodes/statustimers",
     "description_confidence": "medium"
   },
   {
@@ -53,625 +39,10 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 35,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
     "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "augments",
-    "addon_name": "Augments",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "chatfix",
-    "addon_name": "Chatfix",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "clevel",
-    "addon_name": "Clevel",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "collector",
-    "addon_name": "Collector",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "dramagen",
-    "addon_name": "Dramagen",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "gilbox",
-    "addon_name": "Gilbox",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "indinope",
-    "addon_name": "Indinope",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "jobinit",
-    "addon_name": "Jobinit",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "kaomoji",
-    "addon_name": "Kaomoji",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "menufix",
-    "addon_name": "Menufix",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "mousehalo",
-    "addon_name": "Mousehalo",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "ondemand",
-    "addon_name": "Ondemand",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "position_manager",
-    "addon_name": "Position Manager",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "readable",
-    "addon_name": "Readable",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "safeoboro",
-    "addon_name": "Safeoboro",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "silttracker",
-    "addon_name": "Silttracker",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "smeagol",
-    "addon_name": "Smeagol",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "special",
-    "addon_name": "Special",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "tellapart",
-    "addon_name": "Tellapart",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "tellfix",
-    "addon_name": "Tellfix",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "tiptoes",
-    "addon_name": "Tiptoes",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "tpsreport",
-    "addon_name": "Tpsreport",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "trialtracker",
-    "addon_name": "Trialtracker",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "useall",
-    "addon_name": "Useall",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "waveback",
-    "addon_name": "Waveback",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "weathermon",
-    "addon_name": "Weathermon",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "witnessprotection",
-    "addon_name": "Witnessprotection",
-    "category": "general_qol",
-    "repos": [
-      "lili-ffxi/FFXI-Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 35,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "bluspells",
-    "addon_name": "Bluspells",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "chatty",
-    "addon_name": "Chatty",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "colure",
-    "addon_name": "Colure",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "dxui",
-    "addon_name": "Dxui",
-    "category": "ui_gear",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "imrecast",
-    "addon_name": "Imrecast",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "loggers",
-    "addon_name": "Loggers",
-    "category": "diagnostics",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "minimap-helper",
-    "addon_name": "Minimap Helper",
-    "category": "automation",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "rcheck",
-    "addon_name": "Rcheck",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "relicge",
-    "addon_name": "Relicge",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "repl",
-    "addon_name": "Repl",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "strats",
-    "addon_name": "Strats",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "trials",
-    "addon_name": "Trials",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "wheel",
-    "addon_name": "Wheel",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "xitools",
-    "addon_name": "XItools",
-    "category": "general_qol",
-    "repos": [
-      "mousseng/xitools"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 29,
-    "freshness_max": 5,
-    "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
     "description_confidence": "medium"
   },
   {
@@ -687,6 +58,21 @@
     "opportunity_score": 4.83,
     "description": "Various FFXI projects",
     "description_source": "https://github.com/iLVL-Key/FFXI",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "augments",
+    "addon_name": "Augments",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
     "description_confidence": "medium"
   },
   {
@@ -720,6 +106,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "bluspells",
+    "addon_name": "Bluspells",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "callouts",
     "addon_name": "Callouts",
     "category": "general_qol",
@@ -732,6 +133,111 @@
     "opportunity_score": 4.83,
     "description": "Various FFXI projects",
     "description_source": "https://github.com/iLVL-Key/FFXI",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "chatfix",
+    "addon_name": "Chatfix",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "chatty",
+    "addon_name": "Chatty",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "clevel",
+    "addon_name": "Clevel",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "collector",
+    "addon_name": "Collector",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "colure",
+    "addon_name": "Colure",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "dramagen",
+    "addon_name": "Dramagen",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "dxui",
+    "addon_name": "Dxui",
+    "category": "ui_gear",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
     "description_confidence": "medium"
   },
   {
@@ -765,6 +271,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "ffxi-zonename",
+    "addon_name": "FFXI Zonename",
+    "category": "travel_navigation",
+    "repos": [
+      "onimitch/ffxi-zonename"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 4,
+    "freshness_max": 5,
+    "opportunity_score": 4.83,
+    "description": "This addon for Ashita v4 displays the zone and region name for a short time while changing zones. This is a port of the Windower Zonename addon.",
+    "description_source": "https://github.com/onimitch/ffxi-zonename",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "gaolplan",
     "addon_name": "Gaolplan",
     "category": "automation",
@@ -780,6 +301,36 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "gilbox",
+    "addon_name": "Gilbox",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "gmtools",
+    "addon_name": "Gmtools",
+    "category": "automation",
+    "repos": [
+      "SQLCommit/GMTools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 2,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "FFXI - Ashita v4.3 Addon - LSB GM Command Helper",
+    "description_source": "https://github.com/SQLCommit/GMTools",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "helper",
     "addon_name": "Helper",
     "category": "automation",
@@ -792,6 +343,36 @@
     "opportunity_score": 4.83,
     "description": "Various FFXI projects",
     "description_source": "https://github.com/iLVL-Key/FFXI",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "imrecast",
+    "addon_name": "Imrecast",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "indinope",
+    "addon_name": "Indinope",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
     "description_confidence": "medium"
   },
   {
@@ -825,6 +406,36 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "jobinit",
+    "addon_name": "Jobinit",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "kaomoji",
+    "addon_name": "Kaomoji",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "leaderboard",
     "addon_name": "Leaderboard",
     "category": "general_qol",
@@ -855,19 +466,258 @@
     "description_confidence": "medium"
   },
   {
-    "addon_key": "readycheck",
-    "addon_name": "Readycheck",
+    "addon_key": "loggers",
+    "addon_name": "Loggers",
+    "category": "diagnostics",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "lootscope",
+    "addon_name": "Lootscope",
+    "category": "economy_inventory",
+    "repos": [
+      "SQLCommit/LootScope"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 2,
+    "freshness_max": 5,
+    "opportunity_score": 4.83,
+    "description": "FFXI - Ashita v4.3 Addon - Loot Drop Tracker",
+    "description_source": "https://github.com/SQLCommit/LootScope",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "memscope",
+    "addon_name": "Memscope",
+    "category": "diagnostics",
+    "repos": [
+      "SQLCommit/MemScope"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 2,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "FFXI - Ashita v4.3 Addon - Monitors Addon Memory Usage",
+    "description_source": "https://github.com/SQLCommit/MemScope",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "menufix",
+    "addon_name": "Menufix",
     "category": "general_qol",
     "repos": [
-      "Lydya-nick77/readycheck",
-      "iLVL-Key/FFXI"
+      "lili-ffxi/FFXI-Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 22,
-    "freshness_max": 1,
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "minimap-helper",
+    "addon_name": "Minimap Helper",
+    "category": "automation",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "mousehalo",
+    "addon_name": "Mousehalo",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "ondemand",
+    "addon_name": "Ondemand",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "position_manager",
+    "addon_name": "Position Manager",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "rcheck",
+    "addon_name": "Rcheck",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "readable",
+    "addon_name": "Readable",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "relicge",
+    "addon_name": "Relicge",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "repl",
+    "addon_name": "Repl",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "safeoboro",
+    "addon_name": "Safeoboro",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "silttracker",
+    "addon_name": "Silttracker",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "smeagol",
+    "addon_name": "Smeagol",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "special",
+    "addon_name": "Special",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "strats",
+    "addon_name": "Strats",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
     "description_confidence": "medium"
   },
   {
@@ -898,6 +748,141 @@
     "opportunity_score": 4.83,
     "description": "Various FFXI projects",
     "description_source": "https://github.com/iLVL-Key/FFXI",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tellapart",
+    "addon_name": "Tellapart",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tellfix",
+    "addon_name": "Tellfix",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tiptoes",
+    "addon_name": "Tiptoes",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tourist",
+    "addon_name": "Tourist",
+    "category": "travel_navigation",
+    "repos": [
+      "Bryenne-Sylph/tourist"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
+    "description_source": "https://github.com/Bryenne-Sylph/tourist",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tpsreport",
+    "addon_name": "Tpsreport",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "trials",
+    "addon_name": "Trials",
+    "category": "general_qol",
+    "repos": [
+      "mousseng/xitools"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "trialtracker",
+    "addon_name": "Trialtracker",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "trust",
+    "addon_name": "Trust",
+    "category": "automation",
+    "repos": [
+      "cyritegamestudios/trust"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 49,
+    "freshness_max": 5,
+    "opportunity_score": 4.83,
+    "description": "Windower 4 addon for FFXI to automate your character in battle.",
+    "description_source": "https://github.com/cyritegamestudios/trust",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "useall",
+    "addon_name": "Useall",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
     "description_confidence": "medium"
   },
   {
@@ -946,48 +931,63 @@
     "description_confidence": "medium"
   },
   {
-    "addon_key": "znmtracker",
-    "addon_name": "Znmtracker",
+    "addon_key": "waveback",
+    "addon_name": "Waveback",
     "category": "general_qol",
     "repos": [
-      "iLVL-Key/FFXI"
+      "lili-ffxi/FFXI-Addons"
     ],
     "repo_count": 1,
-    "best_repo_stars": 22,
-    "freshness_max": 5,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "addons",
-    "addon_name": "Addons",
-    "category": "diagnostics",
+    "addon_key": "weathermon",
+    "addon_name": "Weathermon",
+    "category": "general_qol",
     "repos": [
-      "HealsCodes/statustimers"
+      "lili-ffxi/FFXI-Addons"
     ],
     "repo_count": 1,
-    "best_repo_stars": 15,
-    "freshness_max": 5,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "Statustimers for Ashita v4",
-    "description_source": "https://github.com/HealsCodes/statustimers",
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "ffxi-zonename",
-    "addon_name": "FFXI Zonename",
-    "category": "travel_navigation",
+    "addon_key": "wheel",
+    "addon_name": "Wheel",
+    "category": "general_qol",
     "repos": [
-      "onimitch/ffxi-zonename"
+      "mousseng/xitools"
     ],
     "repo_count": 1,
-    "best_repo_stars": 4,
-    "freshness_max": 5,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "This addon for Ashita v4 displays the zone and region name for a short time while changing zones. This is a port of the Windower Zonename addon.",
-    "description_source": "https://github.com/onimitch/ffxi-zonename",
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "witnessprotection",
+    "addon_name": "Witnessprotection",
+    "category": "general_qol",
+    "repos": [
+      "lili-ffxi/FFXI-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 4,
+    "opportunity_score": 4.83,
+    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
     "description_confidence": "medium"
   },
   {
@@ -1006,63 +1006,63 @@
     "description_confidence": "medium"
   },
   {
-    "addon_key": "tourist",
-    "addon_name": "Tourist",
-    "category": "travel_navigation",
+    "addon_key": "xipivot",
+    "addon_name": "XIpivot",
+    "category": "general_qol",
     "repos": [
-      "Bryenne-Sylph/tourist"
+      "HealsCodes/XIPivot"
     ],
     "repo_count": 1,
-    "best_repo_stars": 3,
-    "freshness_max": 5,
+    "best_repo_stars": 61,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
-    "description_source": "https://github.com/Bryenne-Sylph/tourist",
+    "description": "FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs",
+    "description_source": "https://github.com/HealsCodes/XIPivot",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "gmtools",
-    "addon_name": "Gmtools",
-    "category": "automation",
+    "addon_key": "xitools",
+    "addon_name": "XItools",
+    "category": "general_qol",
     "repos": [
-      "SQLCommit/GMTools"
+      "mousseng/xitools"
     ],
     "repo_count": 1,
-    "best_repo_stars": 2,
-    "freshness_max": 5,
+    "best_repo_stars": 29,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - LSB GM Command Helper",
-    "description_source": "https://github.com/SQLCommit/GMTools",
+    "description": "Some addons and plugins for FFXI (Ashita)",
+    "description_source": "https://github.com/mousseng/xitools",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "lootscope",
-    "addon_name": "Lootscope",
-    "category": "economy_inventory",
+    "addon_key": "xivparty",
+    "addon_name": "XIvparty",
+    "category": "ui_gear",
     "repos": [
-      "SQLCommit/LootScope"
+      "Tylas11/XivParty"
     ],
     "repo_count": 1,
-    "best_repo_stars": 2,
-    "freshness_max": 5,
+    "best_repo_stars": 47,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - Loot Drop Tracker",
-    "description_source": "https://github.com/SQLCommit/LootScope",
+    "description": "A party list addon for Windower 4.",
+    "description_source": "https://github.com/Tylas11/XivParty",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "memscope",
-    "addon_name": "Memscope",
-    "category": "diagnostics",
+    "addon_key": "znmtracker",
+    "addon_name": "Znmtracker",
+    "category": "general_qol",
     "repos": [
-      "SQLCommit/MemScope"
+      "iLVL-Key/FFXI"
     ],
     "repo_count": 1,
-    "best_repo_stars": 2,
+    "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - Monitors Addon Memory Usage",
-    "description_source": "https://github.com/SQLCommit/MemScope",
+    "description": "Various FFXI projects",
+    "description_source": "https://github.com/iLVL-Key/FFXI",
     "description_confidence": "medium"
   },
   {
@@ -1074,70 +1074,325 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 2,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 4.83,
     "description": "FFXI - Ashita v4.3 Addon - Zone Line Visualizer",
     "description_source": "https://github.com/SQLCommit/ZoneLines",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "debuff-tracker",
-    "addon_name": "Debuff Tracker",
-    "category": "automation",
+    "addon_key": "automining",
+    "addon_name": "Automining",
+    "category": "general_qol",
     "repos": [
-      "ProjectTako/ffxi-addons"
+      "cybersoulwing/AutoMining"
     ],
     "repo_count": 1,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "FFXI Windower addon",
+    "description_source": "https://github.com/cybersoulwing/AutoMining",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "menus",
-    "addon_name": "Menus",
-    "category": "automation",
+    "addon_key": "closetcleaner2",
+    "addon_name": "Closetcleaner2",
+    "category": "general_qol",
     "repos": [
-      "ProjectTako/ffxi-addons"
+      "Gol-exe/closetCleaner2"
     ],
     "repo_count": 1,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "scanzone",
-    "addon_name": "Scanzone",
-    "category": "travel_navigation",
+    "addon_key": "digskill",
+    "addon_name": "Digskill",
+    "category": "general_qol",
     "repos": [
-      "ProjectTako/ffxi-addons"
+      "Phayde/Windower-addons"
     ],
     "repo_count": 1,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "best_repo_stars": 1,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "A collection of addons for FFXI Windower",
+    "description_source": "https://github.com/Phayde/Windower-addons",
     "description_confidence": "medium"
   },
   {
-    "addon_key": "turnaround",
-    "addon_name": "Turnaround",
-    "category": "automation",
+    "addon_key": "dpsmeter",
+    "addon_name": "Dpsmeter",
+    "category": "general_qol",
     "repos": [
-      "ProjectTako/ffxi-addons"
+      "cybersoulwing/dpsmeter"
     ],
     "repo_count": 1,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "FFXI Windower addon",
+    "description_source": "https://github.com/cybersoulwing/dpsmeter",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "fancytrusts",
+    "addon_name": "Fancytrusts",
+    "category": "general_qol",
+    "repos": [
+      "ariel-logos/FancyTrusts"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 5,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "A fancy UI to manage trusts",
+    "description_source": "https://github.com/ariel-logos/FancyTrusts",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "fasttarget",
+    "addon_name": "Fasttarget",
+    "category": "general_qol",
+    "repos": [
+      "LordAttilas/FastTarget"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "Windower 4 addon for FFXI that allow quicker target change",
+    "description_source": "https://github.com/LordAttilas/FastTarget",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "luaparser",
+    "addon_name": "Luaparser",
+    "category": "general_qol",
+    "repos": [
+      "Gol-exe/closetCleaner2"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "mogchat",
+    "addon_name": "Mogchat",
+    "category": "general_qol",
+    "repos": [
+      "glitchv0/mogchat"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "AIM/ICQ style FFXI chat addon",
+    "description_source": "https://github.com/glitchv0/mogchat",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "packrat",
+    "addon_name": "Packrat",
+    "category": "general_qol",
+    "repos": [
+      "Mr-Sithel/packrat"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "FFXI addon that tracks items in your inventory, Wardrobe and Wardrobe 2",
+    "description_source": "https://github.com/Mr-Sithel/packrat",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "trashit",
+    "addon_name": "Trashit",
+    "category": "general_qol",
+    "repos": [
+      "Phayde/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "A collection of addons for FFXI Windower",
+    "description_source": "https://github.com/Phayde/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "vanaclock",
+    "addon_name": "Vanaclock",
+    "category": "general_qol",
+    "repos": [
+      "BagTown/vanaclock"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
+    "description_source": "https://github.com/BagTown/vanaclock",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "vanatime",
+    "addon_name": "Vanatime",
+    "category": "general_qol",
+    "repos": [
+      "BagTown/vanaclock"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
+    "description_source": "https://github.com/BagTown/vanaclock",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "weeklier",
+    "addon_name": "Weeklier",
+    "category": "general_qol",
+    "repos": [
+      "patheed-ffxi/weeklier"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "An Ashita v4addon for HorizonXI that tracks weekly quest completion across all of your characters.",
+    "description_source": "https://github.com/patheed-ffxi/weeklier",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "automb",
+    "addon_name": "autoMB",
+    "category": "combat_automation",
+    "repos": [
+      "ekrividus/autoMB"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 7,
+    "freshness_max": 1,
+    "opportunity_score": 4.0,
+    "description": "An ffxi windower addon to help with magic bursts",
+    "description_source": "https://github.com/ekrividus/autoMB",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "magianws",
+    "addon_name": "magianws",
+    "category": "combat_automation",
+    "repos": [
+      "rouzazari/magianws"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 4,
+    "opportunity_score": 4.0,
+    "description": "FFXI Windower addon that assists with Magian Weapon Skill Trials",
+    "description_source": "https://github.com/rouzazari/magianws",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "moblevel",
+    "addon_name": "MobLevel",
+    "category": "ui_gear",
+    "repos": [
+      "DiscipleOfEris/MobLevel"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 1,
+    "opportunity_score": 4.0,
+    "description": "FFXI Windower addon that displays the level of the selected mob in their target box.",
+    "description_source": "https://github.com/DiscipleOfEris/MobLevel",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "mogmover",
+    "addon_name": "MogMover",
+    "category": "economy_inventory",
+    "repos": [
+      "djlabbe/MogMover"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 4,
+    "opportunity_score": 4.0,
+    "description": "FFXI / Windower Addon - Automated Inventory Management",
+    "description_source": "https://github.com/djlabbe/MogMover",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "npcinteract",
+    "addon_name": "NpcInteract",
+    "category": "automation",
+    "repos": [
+      "DiscipleOfEris/NpcInteract"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 7,
+    "freshness_max": 1,
+    "opportunity_score": 4.0,
+    "description": "FFXI Windower addon for multiboxers to reduce tedious switching. Allow your alts to copy your main's NPC interactions.",
+    "description_source": "https://github.com/DiscipleOfEris/NpcInteract",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "stats",
+    "addon_name": "Stats",
+    "category": "diagnostics",
+    "repos": [
+      "garyfromwork/Stats"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 4,
+    "opportunity_score": 4.0,
+    "description": "FFXI Windower Addon for tracking stats in game such as accuracy rate, min/max damage, spell debuff accuracy, ect.",
+    "description_source": "https://github.com/garyfromwork/Stats",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "assist",
+    "addon_name": "Assist",
+    "category": "automation",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "autoassist",
+    "addon_name": "Autoassist",
+    "category": "automation",
+    "repos": [
+      "ekrividus/autoAssist"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 13,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "An ffxi windower addon to automatically assist a party member in combat",
+    "description_source": "https://github.com/ekrividus/autoAssist",
     "description_confidence": "medium"
   },
   {
@@ -1149,70 +1404,10 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "chococard",
-    "addon_name": "Chococard",
-    "category": "general_qol",
-    "repos": [
-      "Ivaar/Windower-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 79,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "questlog",
-    "addon_name": "Questlog",
-    "category": "general_qol",
-    "repos": [
-      "Ivaar/Windower-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 79,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "packetviewerlogviewer",
-    "addon_name": "Packetviewerlogviewer",
-    "category": "diagnostics",
-    "repos": [
-      "ZeromusXYZ/PacketViewerLogViewer"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "ui",
-    "addon_name": "Ui",
-    "category": "ui_gear",
-    "repos": [
-      "AliekberFFXI/xivcrossbar"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
-    "description_source": "https://github.com/AliekberFFXI/xivcrossbar",
     "description_confidence": "medium"
   },
   {
@@ -1224,11 +1419,26 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 14,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "",
     "description_source": "",
     "description_confidence": "low"
+  },
+  {
+    "addon_key": "chococard",
+    "addon_name": "Chococard",
+    "category": "general_qol",
+    "repos": [
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 79,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "FFXI Windower addons",
+    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description_confidence": "medium"
   },
   {
     "addon_key": "crystaltrader",
@@ -1239,70 +1449,25 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 14,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "",
     "description_source": "",
     "description_confidence": "low"
   },
   {
-    "addon_key": "quicktrade_2",
-    "addon_name": "Quicktrade 2",
-    "category": "ui_gear",
-    "repos": [
-      "ValokAsura/WindowerAddons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 14,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low"
-  },
-  {
-    "addon_key": "autoassist",
-    "addon_name": "Autoassist",
+    "addon_key": "debuff-tracker",
+    "addon_name": "Debuff Tracker",
     "category": "automation",
     "repos": [
-      "ekrividus/autoAssist"
+      "ProjectTako/ffxi-addons"
     ],
     "repo_count": 1,
-    "best_repo_stars": 13,
-    "freshness_max": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "An ffxi windower addon to automatically assist a party member in combat",
-    "description_source": "https://github.com/ekrividus/autoAssist",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "xivhotbar2",
-    "addon_name": "XIvhotbar2",
-    "category": "ui_gear",
-    "repos": [
-      "Technyze/XIVHotbar2"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 13,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low"
-  },
-  {
-    "addon_key": "assist",
-    "addon_name": "Assist",
-    "category": "automation",
-    "repos": [
-      "DiscipleOfEris/Windower4Addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 12,
-    "freshness_max": 2,
-    "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
     "description_confidence": "medium"
   },
   {
@@ -1314,7 +1479,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1329,7 +1494,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1344,7 +1509,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1359,7 +1524,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1374,7 +1539,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1389,7 +1554,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1404,7 +1569,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1419,7 +1584,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1434,11 +1599,131 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
     "description_confidence": "medium"
+  },
+  {
+    "addon_key": "menus",
+    "addon_name": "Menus",
+    "category": "automation",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "packetviewerlogviewer",
+    "addon_name": "Packetviewerlogviewer",
+    "category": "diagnostics",
+    "repos": [
+      "ZeromusXYZ/PacketViewerLogViewer"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
+    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "questlog",
+    "addon_name": "Questlog",
+    "category": "general_qol",
+    "repos": [
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 79,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "FFXI Windower addons",
+    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "quicktrade_2",
+    "addon_name": "Quicktrade 2",
+    "category": "ui_gear",
+    "repos": [
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 14,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low"
+  },
+  {
+    "addon_key": "scanzone",
+    "addon_name": "Scanzone",
+    "category": "travel_navigation",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "turnaround",
+    "addon_name": "Turnaround",
+    "category": "automation",
+    "repos": [
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "ui",
+    "addon_name": "Ui",
+    "category": "ui_gear",
+    "repos": [
+      "AliekberFFXI/xivcrossbar"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
+    "description_source": "https://github.com/AliekberFFXI/xivcrossbar",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "xivhotbar2",
+    "addon_name": "XIvhotbar2",
+    "category": "ui_gear",
+    "repos": [
+      "Technyze/XIVHotbar2"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 13,
+    "freshness_max": 1,
+    "opportunity_score": 3.78,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low"
   },
   {
     "addon_key": "clickfind",
@@ -1450,7 +1735,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -1466,7 +1751,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -1482,7 +1767,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -1498,7 +1783,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -1514,7 +1799,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -1530,7 +1815,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -1546,8 +1831,24 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.71,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "smarttarget",
+    "addon_name": "Smarttarget",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Phayde/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 5,
+    "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "medium"
@@ -1565,6 +1866,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "ase",
+    "addon_name": "Ase",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -1610,6 +1926,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "autoinvite",
+    "addon_name": "Autoinvite",
+    "category": "automation",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -1703,6 +2034,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "barfiller",
+    "addon_name": "Barfiller",
+    "category": "ui_gear",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "blist",
     "addon_name": "Blist",
     "category": "general_qol",
@@ -1715,6 +2061,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "broseem",
+    "addon_name": "Broseem",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -1760,6 +2121,36 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "chars",
+    "addon_name": "Chars",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "chatlink",
+    "addon_name": "Chatlink",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
     "description_confidence": "medium"
   },
   {
@@ -1853,6 +2244,36 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "enemybar",
+    "addon_name": "Enemybar",
+    "category": "ui_gear",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "enemybar2",
+    "addon_name": "Enemybar2",
+    "category": "ui_gear",
+    "repos": [
+      "AkadenTK/enemybar2"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 19,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
+    "description_source": "https://github.com/AkadenTK/enemybar2",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "eschachest",
     "addon_name": "Eschachest",
     "category": "general_qol",
@@ -1880,6 +2301,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "ffxicaddieprovider",
+    "addon_name": "FFXIcaddieprovider",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
     "description_confidence": "medium"
   },
   {
@@ -1943,6 +2379,51 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "highlight",
+    "addon_name": "Highlight",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "impalert",
+    "addon_name": "Impalert",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "inforeplacer",
+    "addon_name": "Inforeplacer",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "jobchange",
     "addon_name": "Jobchange",
     "category": "general_qol",
@@ -1955,6 +2436,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "lazy",
+    "addon_name": "Lazy",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
     "description_confidence": "medium"
   },
   {
@@ -2093,6 +2589,36 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "nostrum",
+    "addon_name": "Nostrum",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "ohshi",
+    "addon_name": "Ohshi",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "oneoffs",
     "addon_name": "Oneoffs",
     "category": "general_qol",
@@ -2123,6 +2649,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "pet_fix",
+    "addon_name": "Pet Fix",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "petparty",
     "addon_name": "Petparty",
     "category": "ui_gear",
@@ -2135,6 +2676,36 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "plasmon",
+    "addon_name": "Plasmon",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "plugin_manager",
+    "addon_name": "Plugin Manager",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -2153,6 +2724,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "reive",
+    "addon_name": "Reive",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "repeater",
     "addon_name": "Repeater",
     "category": "general_qol",
@@ -2168,6 +2754,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "rhombus",
+    "addon_name": "Rhombus",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "roe",
     "addon_name": "Roe",
     "category": "general_qol",
@@ -2180,6 +2781,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "rollbot",
+    "addon_name": "Rollbot",
+    "category": "automation",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -2228,6 +2844,36 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "salvage2",
+    "addon_name": "Salvage2",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "satacast",
+    "addon_name": "Satacast",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "schskillchain",
     "addon_name": "Schskillchain",
     "category": "combat_automation",
@@ -2270,6 +2916,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "setbgm",
+    "addon_name": "Setbgm",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
     "description_confidence": "medium"
   },
   {
@@ -2318,19 +2979,18 @@
     "description_confidence": "medium"
   },
   {
-    "addon_key": "smarttarget",
-    "addon_name": "Smarttarget",
-    "category": "combat_automation",
+    "addon_key": "skilluptracker",
+    "addon_name": "Skilluptracker",
+    "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
-      "Phayde/Windower-addons"
+      "Lygre/addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 8,
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -2364,6 +3024,51 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "stna",
+    "addon_name": "Stna",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "stopwatch",
+    "addon_name": "Stopwatch",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "strathelper",
+    "addon_name": "Strathelper",
+    "category": "automation",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "synergy",
     "addon_name": "Synergy",
     "category": "general_qol",
@@ -2379,6 +3084,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "taps",
+    "addon_name": "Taps",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "targeter",
     "addon_name": "Targeter",
     "category": "combat_automation",
@@ -2391,6 +3111,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "targetinfo",
+    "addon_name": "Targetinfo",
+    "category": "combat_automation",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
     "description_confidence": "medium"
   },
   {
@@ -2421,6 +3156,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "text",
+    "addon_name": "Text",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
     "description_confidence": "medium"
   },
   {
@@ -2469,6 +3219,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "translate",
+    "addon_name": "Translate",
+    "category": "general_qol",
+    "repos": [
+      "Lygre/addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "triggers",
     "addon_name": "Triggers",
     "category": "general_qol",
@@ -2484,6 +3249,21 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "truesight",
+    "addon_name": "Truesight",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "valkyrie",
     "addon_name": "Valkyrie",
     "category": "general_qol",
@@ -2496,6 +3276,21 @@
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "visiblefavor",
+    "addon_name": "Visiblefavor",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
     "description_confidence": "medium"
   },
   {
@@ -2619,6 +3414,36 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "xivhotbar",
+    "addon_name": "XIvhotbar",
+    "category": "ui_gear",
+    "repos": [
+      "Akirane/XIVHotbar"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low"
+  },
+  {
+    "addon_key": "yush",
+    "addon_name": "Yush",
+    "category": "general_qol",
+    "repos": [
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 17,
+    "freshness_max": 1,
+    "opportunity_score": 3.43,
+    "description": "FFXI Windower 4 Addons",
+    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "zenimonsnap",
     "addon_name": "Zenimonsnap",
     "category": "general_qol",
@@ -2649,546 +3474,6 @@
     "description_confidence": "medium"
   },
   {
-    "addon_key": "enemybar2",
-    "addon_name": "Enemybar2",
-    "category": "ui_gear",
-    "repos": [
-      "AkadenTK/enemybar2"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 19,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
-    "description_source": "https://github.com/AkadenTK/enemybar2",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "ase",
-    "addon_name": "Ase",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "autoinvite",
-    "addon_name": "Autoinvite",
-    "category": "automation",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "broseem",
-    "addon_name": "Broseem",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "impalert",
-    "addon_name": "Impalert",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "pet_fix",
-    "addon_name": "Pet Fix",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "plugin_manager",
-    "addon_name": "Plugin Manager",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "rollbot",
-    "addon_name": "Rollbot",
-    "category": "automation",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "skilluptracker",
-    "addon_name": "Skilluptracker",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "stna",
-    "addon_name": "Stna",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "stopwatch",
-    "addon_name": "Stopwatch",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "text",
-    "addon_name": "Text",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "translate",
-    "addon_name": "Translate",
-    "category": "general_qol",
-    "repos": [
-      "Lygre/addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "xivhotbar",
-    "addon_name": "XIvhotbar",
-    "category": "ui_gear",
-    "repos": [
-      "Akirane/XIVHotbar"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low"
-  },
-  {
-    "addon_key": "barfiller",
-    "addon_name": "Barfiller",
-    "category": "ui_gear",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "chars",
-    "addon_name": "Chars",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "chatlink",
-    "addon_name": "Chatlink",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "enemybar",
-    "addon_name": "Enemybar",
-    "category": "ui_gear",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "ffxicaddieprovider",
-    "addon_name": "FFXIcaddieprovider",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "highlight",
-    "addon_name": "Highlight",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "inforeplacer",
-    "addon_name": "Inforeplacer",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "lazy",
-    "addon_name": "Lazy",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "nostrum",
-    "addon_name": "Nostrum",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "ohshi",
-    "addon_name": "Ohshi",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "plasmon",
-    "addon_name": "Plasmon",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "reive",
-    "addon_name": "Reive",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "rhombus",
-    "addon_name": "Rhombus",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "salvage2",
-    "addon_name": "Salvage2",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "satacast",
-    "addon_name": "Satacast",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "setbgm",
-    "addon_name": "Setbgm",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "strathelper",
-    "addon_name": "Strathelper",
-    "category": "automation",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "taps",
-    "addon_name": "Taps",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "targetinfo",
-    "addon_name": "Targetinfo",
-    "category": "combat_automation",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "truesight",
-    "addon_name": "Truesight",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "visiblefavor",
-    "addon_name": "Visiblefavor",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "yush",
-    "addon_name": "Yush",
-    "category": "general_qol",
-    "repos": [
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1,
-    "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
-  },
-  {
     "addon_key": "skillchain",
     "addon_name": "Skillchain",
     "category": "combat_automation",
@@ -3199,7 +3484,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 29,
-    "freshness_max": 5,
+    "freshness_max": 4,
     "opportunity_score": 3.26,
     "description": "Some addons and plugins for FFXI (Ashita)",
     "description_source": "https://github.com/mousseng/xitools",
@@ -3215,55 +3500,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 99,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "equipviewer",
-    "addon_name": "Equipviewer",
-    "category": "automation",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "ProjectTako/ffxi-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "partybuffs",
-    "addon_name": "Partybuffs",
-    "category": "automation",
-    "repos": [
-      "Lygre/addons",
-      "ProjectTako/ffxi-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "react",
-    "addon_name": "React",
-    "category": "automation",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "ProjectTako/ffxi-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 99,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
     "description_source": "https://github.com/ProjectTako/ffxi-addons",
@@ -3279,7 +3516,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
@@ -3295,7 +3532,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
@@ -3311,10 +3548,26 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "equipviewer",
+    "addon_name": "Equipviewer",
+    "category": "automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
     "description_confidence": "medium"
   },
   {
@@ -3327,55 +3580,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "porterpacker",
-    "addon_name": "Porterpacker",
-    "category": "economy_inventory",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Ivaar/Windower-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 79,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "singer",
-    "addon_name": "Singer",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Ivaar/Windower-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 79,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "tradenpc",
-    "addon_name": "Tradenpc",
-    "category": "economy_inventory",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Ivaar/Windower-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
@@ -3391,39 +3596,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "quicktrade",
-    "addon_name": "Quicktrade",
-    "category": "ui_gear",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "ValokAsura/WindowerAddons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 2,
-    "opportunity_score": 2.66,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "sendtarget",
-    "addon_name": "Sendtarget",
-    "category": "combat_automation",
-    "repos": [
-      "DiscipleOfEris/Windower4Addons",
-      "Icydeath/ffxi-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -3439,10 +3612,122 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.66,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "partybuffs",
+    "addon_name": "Partybuffs",
+    "category": "automation",
+    "repos": [
+      "Lygre/addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "porterpacker",
+    "addon_name": "Porterpacker",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "FFXI Windower addons",
+    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "quicktrade",
+    "addon_name": "Quicktrade",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ValokAsura/WindowerAddons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "react",
+    "addon_name": "React",
+    "category": "automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "ProjectTako/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 99,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "sendtarget",
+    "addon_name": "Sendtarget",
+    "category": "combat_automation",
+    "repos": [
+      "DiscipleOfEris/Windower4Addons",
+      "Icydeath/ffxi-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "singer",
+    "addon_name": "Singer",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "FFXI Windower addons",
+    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "tradenpc",
+    "addon_name": "Tradenpc",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Ivaar/Windower-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 79,
+    "freshness_max": 1,
+    "opportunity_score": 2.66,
+    "description": "FFXI Windower addons",
+    "description_source": "https://github.com/Ivaar/Windower-addons",
     "description_confidence": "medium"
   },
   {
@@ -3494,6 +3779,22 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "autosynth",
+    "addon_name": "Autosynth",
+    "category": "automation",
+    "repos": [
+      "Lygre/addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "autows",
     "addon_name": "Autows",
     "category": "automation",
@@ -3526,230 +3827,6 @@
     "description_confidence": "medium"
   },
   {
-    "addon_key": "clock",
-    "addon_name": "Clock",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "dostuff",
-    "addon_name": "Dostuff",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "dynamishelper",
-    "addon_name": "Dynamishelper",
-    "category": "automation",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "fisher",
-    "addon_name": "Fisher",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "lottery",
-    "addon_name": "Lottery",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "macrochanger",
-    "addon_name": "Macrochanger",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "porter",
-    "addon_name": "Porter",
-    "category": "economy_inventory",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "send",
-    "addon_name": "Send",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "silence",
-    "addon_name": "Silence",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "subtarget",
-    "addon_name": "Subtarget",
-    "category": "combat_automation",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "thtracker",
-    "addon_name": "Thtracker",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "timestamp",
-    "addon_name": "Timestamp",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "treasurepool",
-    "addon_name": "Treasurepool",
-    "category": "general_qol",
-    "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "autosynth",
-    "addon_name": "Autosynth",
-    "category": "automation",
-    "repos": [
-      "Lygre/addons",
-      "mverteuil/windower4-addons"
-    ],
-    "repo_count": 2,
-    "best_repo_stars": 18,
-    "freshness_max": 1,
-    "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
-  },
-  {
     "addon_key": "bluguide",
     "addon_name": "Bluguide",
     "category": "travel_navigation",
@@ -3779,6 +3856,22 @@
     "opportunity_score": 2.31,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "clock",
+    "addon_name": "Clock",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "medium"
   },
   {
@@ -3827,6 +3920,54 @@
     "opportunity_score": 2.31,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "dostuff",
+    "addon_name": "Dostuff",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "dynamishelper",
+    "addon_name": "Dynamishelper",
+    "category": "automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "fisher",
+    "addon_name": "Fisher",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "medium"
   },
   {
@@ -3894,6 +4035,38 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "lottery",
+    "addon_name": "Lottery",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "macrochanger",
+    "addon_name": "Macrochanger",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "ohnoyoudont",
     "addon_name": "Ohnoyoudont",
     "category": "general_qol",
@@ -3958,6 +4131,22 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "porter",
+    "addon_name": "Porter",
+    "category": "economy_inventory",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "pricer",
     "addon_name": "Pricer",
     "category": "general_qol",
@@ -4003,6 +4192,38 @@
     "opportunity_score": 2.31,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "send",
+    "addon_name": "Send",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "silence",
+    "addon_name": "Silence",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "medium"
   },
   {
@@ -4054,6 +4275,22 @@
     "description_confidence": "medium"
   },
   {
+    "addon_key": "subtarget",
+    "addon_name": "Subtarget",
+    "category": "combat_automation",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
     "addon_key": "synthall",
     "addon_name": "Synthall",
     "category": "general_qol",
@@ -4067,6 +4304,54 @@
     "opportunity_score": 2.31,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Lygre/addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "thtracker",
+    "addon_name": "Thtracker",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "mverteuil/windower4-addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "timestamp",
+    "addon_name": "Timestamp",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "treasurepool",
+    "addon_name": "Treasurepool",
+    "category": "general_qol",
+    "repos": [
+      "Icydeath/ffxi-addons",
+      "Lygre/addons"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 69,
+    "freshness_max": 1,
+    "opportunity_score": 2.31,
+    "description": "FFXI Windower Addons",
+    "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "medium"
   },
   {
@@ -4097,7 +4382,7 @@
     ],
     "repo_count": 4,
     "best_repo_stars": 69,
-    "freshness_max": 3,
+    "freshness_max": 1,
     "opportunity_score": 2.27,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -4114,7 +4399,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.21,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
@@ -4131,7 +4416,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 2.21,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
@@ -4149,7 +4434,7 @@
     ],
     "repo_count": 4,
     "best_repo_stars": 99,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 1.92,
     "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
     "description_source": "https://github.com/ProjectTako/ffxi-addons",
@@ -4167,7 +4452,7 @@
     ],
     "repo_count": 4,
     "best_repo_stars": 79,
-    "freshness_max": 2,
+    "freshness_max": 1,
     "opportunity_score": 1.92,
     "description": "FFXI Windower addons",
     "description_source": "https://github.com/Ivaar/Windower-addons",
@@ -4547,200 +4832,5 @@
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "low"
-  },
-  {
-    "addon_key": "digskill",
-    "addon_name": "Digskill",
-    "category": "general_qol",
-    "repos": [
-      "Phayde/Windower-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 1,
-    "freshness_max": 8,
-    "opportunity_score": 4.2,
-    "description": "A collection of addons for FFXI Windower",
-    "description_source": "https://github.com/Phayde/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "trashit",
-    "addon_name": "Trashit",
-    "category": "general_qol",
-    "repos": [
-      "Phayde/Windower-addons"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 1,
-    "freshness_max": 8,
-    "opportunity_score": 4.2,
-    "description": "A collection of addons for FFXI Windower",
-    "description_source": "https://github.com/Phayde/Windower-addons",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "vanaclock",
-    "addon_name": "Vanaclock",
-    "category": "general_qol",
-    "repos": [
-      "BagTown/vanaclock"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 3,
-    "freshness_max": 25,
-    "opportunity_score": 4.2,
-    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
-    "description_source": "https://github.com/BagTown/vanaclock",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "vanatime",
-    "addon_name": "Vanatime",
-    "category": "general_qol",
-    "repos": [
-      "BagTown/vanaclock"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 3,
-    "freshness_max": 25,
-    "opportunity_score": 4.2,
-    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
-    "description_source": "https://github.com/BagTown/vanaclock",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "fasttarget",
-    "addon_name": "Fasttarget",
-    "category": "general_qol",
-    "repos": [
-      "LordAttilas/FastTarget"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 6,
-    "opportunity_score": 4.2,
-    "description": "Windower 4 addon for FFXI that allow quicker target change",
-    "description_source": "https://github.com/LordAttilas/FastTarget",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "fancytrusts",
-    "addon_name": "Fancytrusts",
-    "category": "general_qol",
-    "repos": [
-      "ariel-logos/FancyTrusts"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 5,
-    "freshness_max": 14,
-    "opportunity_score": 4.2,
-    "description": "A fancy UI to manage trusts",
-    "description_source": "https://github.com/ariel-logos/FancyTrusts",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "closetcleaner2",
-    "addon_name": "Closetcleaner2",
-    "category": "general_qol",
-    "repos": [
-      "Gol-exe/closetCleaner2"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 0,
-    "opportunity_score": 4.2,
-    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
-    "description_source": "https://github.com/Gol-exe/closetCleaner2",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "luaparser",
-    "addon_name": "Luaparser",
-    "category": "general_qol",
-    "repos": [
-      "Gol-exe/closetCleaner2"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 0,
-    "opportunity_score": 4.2,
-    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
-    "description_source": "https://github.com/Gol-exe/closetCleaner2",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "weeklier",
-    "addon_name": "Weeklier",
-    "category": "general_qol",
-    "repos": [
-      "patheed-ffxi/weeklier"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 5,
-    "opportunity_score": 4.2,
-    "description": "An Ashita v4addon for HorizonXI that tracks weekly quest completion across all of your characters.",
-    "description_source": "https://github.com/patheed-ffxi/weeklier",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "mogchat",
-    "addon_name": "Mogchat",
-    "category": "general_qol",
-    "repos": [
-      "glitchv0/mogchat"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 1,
-    "opportunity_score": 4.2,
-    "description": "AIM/ICQ style FFXI chat addon",
-    "description_source": "https://github.com/glitchv0/mogchat",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "dpsmeter",
-    "addon_name": "Dpsmeter",
-    "category": "general_qol",
-    "repos": [
-      "cybersoulwing/dpsmeter"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 12,
-    "opportunity_score": 4.2,
-    "description": "FFXI Windower addon",
-    "description_source": "https://github.com/cybersoulwing/dpsmeter",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "automining",
-    "addon_name": "Automining",
-    "category": "general_qol",
-    "repos": [
-      "cybersoulwing/AutoMining"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 0,
-    "freshness_max": 14,
-    "opportunity_score": 4.2,
-    "description": "FFXI Windower addon",
-    "description_source": "https://github.com/cybersoulwing/AutoMining",
-    "description_confidence": "medium"
-  },
-  {
-    "addon_key": "packrat",
-    "addon_name": "Packrat",
-    "category": "general_qol",
-    "repos": [
-      "Mr-Sithel/packrat"
-    ],
-    "repo_count": 1,
-    "best_repo_stars": 1,
-    "freshness_max": 29,
-    "opportunity_score": 4.2,
-    "description": "FFXI addon that tracks items in your inventory, Wardrobe and Wardrobe 2",
-    "description_source": "https://github.com/Mr-Sithel/packrat",
-    "description_confidence": "medium"
   }
 ]

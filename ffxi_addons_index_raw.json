@@ -95,6 +95,24 @@
     ]
   },
   {
+    "repo": "DiscipleOfEris/MobLevel",
+    "stars": 3,
+    "pushed_at": "2022-08-31T07:34:49Z",
+    "description": "FFXI Windower addon that displays the level of the selected mob in their target box.",
+    "addon_dirs": [
+      "MobLevel"
+    ]
+  },
+  {
+    "repo": "DiscipleOfEris/NpcInteract",
+    "stars": 7,
+    "pushed_at": "2022-01-01T05:09:06Z",
+    "description": "FFXI Windower addon for multiboxers to reduce tedious switching. Allow your alts to copy your main's NPC interactions.",
+    "addon_dirs": [
+      "NpcInteract"
+    ]
+  },
+  {
     "repo": "DiscipleOfEris/Windower4Addons",
     "stars": 12,
     "pushed_at": "2024-02-18T18:22:59Z",
@@ -114,6 +132,15 @@
     ]
   },
   {
+    "repo": "djlabbe/MogMover",
+    "stars": 0,
+    "pushed_at": "2026-03-17T23:11:39Z",
+    "description": "FFXI / Windower Addon - Automated Inventory Management",
+    "addon_dirs": [
+      "MogMover"
+    ]
+  },
+  {
     "repo": "ekrividus/autoAssist",
     "stars": 13,
     "pushed_at": "2022-11-26T19:34:33Z",
@@ -121,11 +148,29 @@
     "addon_dirs": []
   },
   {
+    "repo": "ekrividus/autoMB",
+    "stars": 7,
+    "pushed_at": "2023-12-14T12:37:12Z",
+    "description": "An ffxi windower addon to help with magic bursts",
+    "addon_dirs": [
+      "autoMB"
+    ]
+  },
+  {
     "repo": "flippant/parse",
     "stars": 15,
     "pushed_at": "2023-08-12T01:51:20Z",
     "description": "FFXI Parser Addon for Windower",
     "addon_dirs": []
+  },
+  {
+    "repo": "garyfromwork/Stats",
+    "stars": 1,
+    "pushed_at": "2026-02-04T21:43:50Z",
+    "description": "FFXI Windower Addon for tracking stats in game such as accuracy rate, min/max damage, spell debuff accuracy, ect.",
+    "addon_dirs": [
+      "Stats"
+    ]
   },
   {
     "repo": "glitchv0/mogchat",
@@ -690,6 +735,15 @@
       "react",
       "scanzone",
       "turnaround"
+    ]
+  },
+  {
+    "repo": "rouzazari/magianws",
+    "stars": 0,
+    "pushed_at": "2026-03-17T05:02:37Z",
+    "description": "FFXI Windower addon that assists with Magian Weapon Skill Trials",
+    "addon_dirs": [
+      "magianws"
     ]
   },
   {
