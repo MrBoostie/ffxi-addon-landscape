@@ -28,8 +28,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:39+00:00"
   },
@@ -60,9 +60,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "table.vprint(test_table)",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ambuloot/ambuloot.lua",
-    "description_confidence": "high",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:02+00:00"
   },
   {
@@ -93,9 +93,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:01:42+00:00"
   },
   {
@@ -207,9 +207,9 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 2.21,
-    "description": "return string.format('%.2d:%.2d:%.2d',ts/(60*60), ts/60%60, ts%60); print('Modified packet 0x04B: %s\\n%s bytes':format(space_hex(obox:hex()),#obox))",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AuctionHelper/AuctionHelper.lua",
-    "description_confidence": "high",
+    "description": "Displays a text object with sales information when opening ah menu (if text object is set to show).",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AuctionHelper/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:10+00:00"
   },
   {
@@ -255,8 +255,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:46+00:00"
   },
@@ -387,9 +387,9 @@
     "best_repo_stars": 0,
     "freshness_max": 5,
     "opportunity_score": 4.2,
-    "description": "FFXI Windower addon",
-    "description_source": "https://github.com/cybersoulwing/AutoMining",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:01:50+00:00"
   },
   {
@@ -485,9 +485,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:01:57+00:00"
   },
   {
@@ -501,9 +501,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "Info and Display functions",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AutoUNM/autounm.lua",
-    "description_confidence": "high",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:33+00:00"
   },
   {
@@ -533,9 +533,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "Future: Find a successful event to trigger unbusy() for casting and abilities. (Action Complete packet most likely) Added trading if set to slave (for cells)",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/autowatch/autowatch.lua",
-    "description_confidence": "high",
+    "description": "**update 1/17/2021** autowatch (by Langly) : I've had some success with this one.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:34+00:00"
   },
   {
@@ -550,9 +550,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "local srx = {['<'] = '<%s*(%d+)', ['>'] = '>%s*(%d+)', ['='] = '=%s*(%d+)'} local vals = map(tonumber, map(arg_str:match, srx))",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/autoWS/autoWS.lua",
-    "description_confidence": "high",
+    "description": "Automates weapon skill usage based on configurable TP thresholds and combat conditions.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T16:13:37+00:00"
   },
   {
@@ -649,8 +649,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:01+00:00"
   },
@@ -699,9 +699,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "event callback functions",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/boxdestroyer/boxdestroyer.lua",
-    "description_confidence": "high",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T16:13:50+00:00"
   },
   {
@@ -715,9 +715,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:02:05+00:00"
   },
   {
@@ -731,9 +731,9 @@
     "best_repo_stars": 14,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "activeSkillchain = skillchains[289] activeSkillchainStartTime = os.time() - 3",
-    "description_source": "https://github.com/ValokAsura/WindowerAddons/blob/HEAD/Bursting/bursting.lua",
-    "description_confidence": "high",
+    "description": "# WindowerAddons Minor quality-of-life addons.",
+    "description_source": "https://github.com/ValokAsura/WindowerAddons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:49+00:00"
   },
   {
@@ -813,9 +813,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "modified from TParty.lua by wes (v0.3) modded by icy(v0.3i): Now shows charm image(data/icons/17.png) instead of textbox",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/charmed/charmed.lua",
-    "description_confidence": "high",
+    "description": "## charmed Created by wes, modified by icy v0.3 : Simple addon to show a pink <3 next to charmed alliance members.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/charmed/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:16:23+00:00"
   },
   {
@@ -845,8 +845,8 @@
     "best_repo_stars": 35,
     "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "# Chatfix **For private servers only.** Fixes chatlog displaying empty lines on private servers after the 10 Sept 2020 update to the retail client.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/chatfix/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T13:00:34+00:00"
   },
@@ -878,9 +878,9 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 2.66,
-    "description": "[[Copyright \u00c2\u00a9 2015, Ivaar",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ChatMan/ChatMan.lua",
-    "description_confidence": "high",
+    "description": "Configure chatbased alerts and more commands are as follows: Above commands support the following arguments: Additional commands:",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ChatMan/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:16:26+00:00"
   },
   {
@@ -1042,8 +1042,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:16+00:00"
   },
@@ -1189,9 +1189,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:02:23+00:00"
   },
   {
@@ -1221,9 +1221,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "inventory helper function event callback functions",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/digger/digger.lua",
-    "description_confidence": "high",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T16:17:00+00:00"
   },
   {
@@ -1303,9 +1303,9 @@
     "best_repo_stars": 0,
     "freshness_max": 5,
     "opportunity_score": 4.2,
-    "description": "FFXI Windower addon",
-    "description_source": "https://github.com/cybersoulwing/dpsmeter",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:02:27+00:00"
   },
   {
@@ -1370,9 +1370,9 @@
     "best_repo_stars": 69,
     "freshness_max": 4,
     "opportunity_score": 3.71,
-    "description": "README ------------------------------------ inspect = require('inspect')",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Dupefind/dupefind.lua",
-    "description_confidence": "high",
+    "description": "Dupefind (by Lili, modded by me) : Find and lists duplicate items.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:18:24+00:00"
   },
   {
@@ -1670,8 +1670,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:30+00:00"
   },
@@ -1686,8 +1686,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 4.0,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:34+00:00"
   },
@@ -1846,8 +1846,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:38+00:00"
   },
@@ -2012,9 +2012,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "[[ BSD License Disclaimer",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/giltracker/giltracker.lua",
-    "description_confidence": "high",
+    "description": "# giltracker This addon displays the current gil, similar to the FFXIV Gil HUD widget.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/giltracker/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:20:19+00:00"
   },
   {
@@ -2047,9 +2047,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.57,
-    "description": "============================================================================== ==============================================================================",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/HealBot/HB_Actions.lua",
-    "description_confidence": "high",
+    "description": "# HealBot ## Update: HealBot now depends on libs/lor ## NEW: IPC has been added!",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/HealBot/readme.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:20:19+00:00"
   },
   {
@@ -2142,9 +2142,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:02:45+00:00"
   },
   {
@@ -2241,9 +2241,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "[[Copyright \u00a9 2016, Kenshi bags_text:appendline(' ${gil|0}')",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/InvSpace/InvSpace.lua",
-    "description_confidence": "high",
+    "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:20:31+00:00"
   },
   {
@@ -2259,9 +2259,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "Remove temporary bag, because items cannot be moved from/to there, as such it's irrelevant to Itemizer Added this function for first load on new version. Because of the newly added features that weren't there before.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/itemizer/itemizer.lua",
-    "description_confidence": "high",
+    "description": "#Itemizer Provides a chat/console interface for moving items around between bags.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/itemizer/readme.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:20:32+00:00"
   },
   {
@@ -2371,9 +2371,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:02:49+00:00"
   },
   {
@@ -2489,8 +2489,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:00+00:00"
   },
@@ -2538,8 +2538,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:07+00:00"
   },
@@ -2651,9 +2651,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "Debug function to print to log Return the table containing the Inventory ID and the Count of the instances of itemID in our Inventory. Returns a minimum of zero to a maximum of tradeSlotLimit. --",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/MassTrade/masstrade.lua",
-    "description_confidence": "high",
+    "description": "# MassTrade MassTrade is a Windower addon that allows users to quickly trade large quantities of the same item to either a PC or NPC.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/MassTrade/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:22:34+00:00"
   },
   {
@@ -2683,8 +2683,8 @@
     "best_repo_stars": 35,
     "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "## Installation Install this addon like any other windower addon: - create a windowerfolder\\addons\\menufix folder, and put menufix.lua there - edit your windowerfolder\\scripts\\init.txt and add a line with lua load menufi",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/menufix/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:28+00:00"
   },
@@ -2793,7 +2793,7 @@
     "best_repo_stars": 35,
     "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:29+00:00"
@@ -2809,8 +2809,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:11+00:00"
   },
@@ -2857,9 +2857,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "[[ Addon is based off ZoneTimer objective = original:split(':')[2]",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/NniTimer/NniTimer.lua",
-    "description_confidence": "high",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:22:43+00:00"
   },
   {
@@ -2873,8 +2873,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:15+00:00"
   },
@@ -2922,9 +2922,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:03:22+00:00"
   },
   {
@@ -2987,8 +2987,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:26+00:00"
   },
@@ -3004,9 +3004,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:03:33+00:00"
   },
   {
@@ -3119,8 +3119,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:37+00:00"
   },
@@ -3167,9 +3167,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "ADJUST YOU BAR COLORS HERE!",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/petparty/petparty.lua",
-    "description_confidence": "high",
+    "description": "# petparty Displays all pet information for your alliance.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/petparty/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:25:22+00:00"
   },
   {
@@ -3184,9 +3184,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:03:44+00:00"
   },
   {
@@ -3348,9 +3348,9 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "local curtime = os.clock() if nexttime + delay <= curtime and follow_target then",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Positions/Positions.lua",
-    "description_confidence": "high",
+    "description": "# Positions Windower Addon for positioning mules The two functions of this addon are to have a character follow someone, and to have a character go to their position for fighting an nm.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Positions/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:28:06+00:00"
   },
   {
@@ -3383,9 +3383,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:03:52+00:00"
   },
   {
@@ -3430,9 +3430,9 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "[131] = 'Saved by the Bell', [134] = 'Geomancerrific',",
-    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/QuestLog/maps/adoulin.lua",
-    "description_confidence": "high",
+    "description": "# QuestLog used to track progress for adoulin/abyssea quest completion shows abyssea and adoulin quests you have not completed or undertaken ### Commands: ### Color code:",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/QuestLog/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:28:16+00:00"
   },
   {
@@ -3478,9 +3478,9 @@
     "best_repo_stars": 14,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low",
+    "description": "# WindowerAddons Minor quality-of-life addons.",
+    "description_source": "https://github.com/ValokAsura/WindowerAddons/blob/HEAD/README.md",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:56+00:00"
   },
   {
@@ -3686,9 +3686,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "Somewhat equivalent to Python's str.join(iterable) print(set_rolls[1],set_rolls[2],crookedRoll)",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/RollBot/RollBot.lua",
-    "description_confidence": "high",
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T17:04:05+00:00"
   },
   {
@@ -3719,8 +3719,8 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
+    "description": "If you have rolled a lucky roll, it will also prompt you and automatically stop you from doubling up on it (which can be bypassed by either doubling up again, or typing //rolltracker autostop Enjoy.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/rolltracker/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -3734,8 +3734,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "FFXI Windower Addon rtfm - Read The Freakin' Move Detect, alert and list mob moves as they occur in-game.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/rtfm/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3749,8 +3749,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "MagicAssistant (by Valok) : updated //maa help for more info RunicPortal (by icy) : Warping via runic portal, get sanction, get assault tag, get assault orders/armband and more.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3780,8 +3780,8 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description": "Author: Krizz Version: .5 Date: 20130601 Salvage2 Abbreviation: //s2 Commands: * help - Shows a menu of commands in game * pos <x> <y> - Positions the pathos remaining box.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/salvage2/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3795,9 +3795,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "scanzone",
@@ -3825,8 +3825,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "t or bt) - auto_dark_arts: use dark arts if you don't use dark arts.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/schskillchain/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3841,9 +3841,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "scriptedextender",
@@ -3856,8 +3856,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3874,9 +3874,9 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 1.92,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "low"
+    "description": "# SellNPC ### Command Usage: Sales are now triggered by opening a shop window, you will need to queue items prior to this.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SellNPC/README.md",
+    "description_confidence": "medium"
   },
   {
     "addon_key": "send",
@@ -3890,8 +3890,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Usage The target can be the receiver's name, @all to send to all instances, @other to send to all instances excluding the sender or @<job> to send to a specific job.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/send/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -3905,8 +3905,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "Abbreviation: //sat, //sendalltarget Commands: * //sat alltarget - All boxes on this computer target whatever the sender is targetting.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SendAllTarget/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3922,8 +3922,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.66,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# Development for this addon has been moved to https://github.com/DiscipleOfEris/Windower4Addons # SendTarget FFXI Windower addon that allows multiboxers to more easily send commands.",
+    "description_source": "https://github.com/DiscipleOfEris/SendTarget/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3937,9 +3937,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "settarget",
@@ -3952,8 +3952,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -3969,8 +3969,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "#Shortcuts v2.9 ####written by Byrth Completes and properly formats commands (prefixed by at least one '/'), including emotes and checks.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/shortcuts/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -3985,8 +3985,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "Use the line \"silence mode 0\" to not allow any lines to go through.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Silence/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -4016,8 +4016,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4032,8 +4032,8 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 2.66,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description": "# Sing ### Automates casting of bard buff songs.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Singer/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4047,8 +4047,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4082,9 +4082,9 @@
     "best_repo_stars": 69,
     "freshness_max": 2,
     "opportunity_score": 2.27,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
-    "description_confidence": "low"
+    "description": "# SkillChains ### Active Battle Skillchain Display.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Skillchains/README.md",
+    "description_confidence": "medium"
   },
   {
     "addon_key": "skilluptracker",
@@ -4097,8 +4097,8 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
+    "description": "**Author:** Mujihina **Version:** v 1.02 # Skillcaps # This addon will keep track of your current skill levels (as a floating number) and their caps.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/skilluptracker/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4113,8 +4113,8 @@
     "best_repo_stars": 69,
     "freshness_max": 5,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4146,8 +4146,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "**unm** - Updated to Darkdoom's v2, further modified the script to include the force option; which allows the player to continue to pop the unm even if sparks are capped.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4178,9 +4178,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "spellcheck",
@@ -4194,8 +4194,8 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
+    "description": "#SpellCheck This addon lists spells you haven't unlocked yet.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/SpellCheck/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4209,8 +4209,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "**spellSpammer** by Lorand - Set the list of spells that you want to spam in file.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4225,9 +4225,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "stars",
@@ -4240,8 +4240,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# Stars An addon which filters messages based on a filter.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Stars/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4272,8 +4272,8 @@
     "best_repo_stars": 69,
     "freshness_max": 4,
     "opportunity_score": 3.71,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4287,9 +4287,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "stopwatch",
@@ -4302,8 +4302,8 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
+    "description": "**Commands:** sw start to start the stopwatch sw stop to pause the stopwatch sw reset to reset the stopwatch cumulative time to 0 Addon by Patrick Finnigan (Puhfyn@Ragnarok) - https://github.com/finnigantime.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/stopwatch/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -4317,9 +4317,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "strats",
@@ -4349,8 +4349,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4365,8 +4365,8 @@
     "best_repo_stars": 69,
     "freshness_max": 4,
     "opportunity_score": 3.71,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# superwarp This is an addon for Windower4 for FFXI.",
+    "description_source": "https://github.com/AkadenTK/superwarp/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4396,8 +4396,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4412,9 +4412,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "taps",
@@ -4427,9 +4427,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "targeter",
@@ -4442,8 +4442,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# FFXI Targeter *Note: This is a work in progress.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/targeter/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4457,8 +4457,8 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
+    "description": "# TargetInfo # This addon shows some memory information of your current target, provided the target is an NPC.",
+    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/targetinfo/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -4472,8 +4472,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# TargetInfo # This addon shows some memory information of your current target, provided the target is an NPC.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/targetinfoEx/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -4487,8 +4487,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4534,8 +4534,8 @@
     "best_repo_stars": 35,
     "freshness_max": 4,
     "opportunity_score": 4.83,
-    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "# Tellfix **For private servers only.** Fixes being unable to send tells on private servers after the 10 Sept 2020 update to the retail client.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/tellfix/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:37+00:00"
   },
@@ -4550,9 +4550,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "textures",
@@ -4598,8 +4598,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4614,8 +4614,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "Authors: Krizz Version: 1.0 Date: 20170509 TH Tracker Abbreviation: //th Commands: * help - Shows a menu of commands in game * pos x y - Positions the TH box.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/thtracker/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -4630,8 +4630,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "**Author:** Giuliano Riccio **Version:** v 1.20131102 # Timestamp # This addon prefixes any chat message with a timestamp.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/timestamp/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4661,8 +4661,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "Information: * Author: ybot * tonic makes it easier to use Escha temp items Abbreviation: //tonic, //ton Commands: * //tonic help -- Shows all addon commands * //tonic \"Item Name\" -- Uses specified item.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/tonic/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4694,8 +4694,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4727,8 +4727,8 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 2.21,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4743,8 +4743,8 @@
     "best_repo_stars": 79,
     "freshness_max": 1,
     "opportunity_score": 2.66,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
+    "description": "# TradeNPC Trade an npc up to 8 stacks of items and gil with a single command.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/TradeNPC/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4758,8 +4758,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4773,9 +4773,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "trashit",
@@ -4805,8 +4805,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4822,8 +4822,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4869,8 +4869,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "**Author:** Mujihina **Version:** v1.0 # triggers # This addon will: - Let you set a text trigger and command response to it.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/triggers/README.md",
     "description_confidence": "medium"
   },
   {
@@ -4884,9 +4884,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "trust",
@@ -4946,8 +4946,8 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 2.31,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Lygre/addons",
+    "description": "# Update Once loaded can update all addons and plugins to the newest version using //update.",
+    "description_source": "https://github.com/Lygre/addons/blob/HEAD/update/readme.md",
     "description_confidence": "medium"
   },
   {
@@ -4977,8 +4977,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# Valkyrie A windower addon to streamline Einherjar entry.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Valkyrie/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5072,9 +5072,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "voidwalker",
@@ -5087,8 +5087,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5102,8 +5102,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5117,8 +5117,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5132,8 +5132,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "ADDING|REMOVING HOMEPOINT WARP TO WINDOW //wm window1 add 2 lower jeuno //wm window2 remove 1 western adoulin ADDING|REMOVING SURVIVAL GUIDE WARP TO WINDOW //wm win1 a gusgen mines //wm win1 r gusgen mines TOGGLE WARP AL",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/WarpMenu/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5211,8 +5211,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5241,8 +5241,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "**Author:** Mujihina **Version:** v 1.1 # Widescantool # This addon will offer you filters and alerts for widescan data, and proximity notification alerts.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/widescantool/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5272,8 +5272,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5335,8 +5335,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "Update Log 01/25/2021 : Added DRGs pet command macros Steps to get XIVCrossbar working: 1) Install Autohotkey (https://www.autohotkey.com/) 2) Run FFXI Configuration tool and set up your gamepad to match ConfigureYourGam",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/xivcrossbar/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5350,9 +5350,9 @@
     "best_repo_stars": 18,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low"
+    "description": "# XIVHotbar - [Version 0.5] This version is further work on SirEdeonX's original addon, you can check his work from here: https://github.com/SirEdeonX/FFXIAddons/tree/master/xivhotbar.",
+    "description_source": "https://github.com/Akirane/XIVHotbar/blob/HEAD/README.md",
+    "description_confidence": "medium"
   },
   {
     "addon_key": "xivhotbar2",
@@ -5365,9 +5365,9 @@
     "best_repo_stars": 13,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low"
+    "description": "Note: If playing Ranger, XIVHotbar2 with prioritize weapon changes to the range slot over main slot.",
+    "description_source": "https://github.com/Technyze/XIVHotbar2/blob/HEAD/README.md",
+    "description_confidence": "medium"
   },
   {
     "addon_key": "xivparty",
@@ -5396,9 +5396,9 @@
     "best_repo_stars": 17,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower 4 Addons",
-    "description_source": "https://github.com/mverteuil/windower4-addons",
-    "description_confidence": "medium"
+    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description_source": "heuristic",
+    "description_confidence": "low"
   },
   {
     "addon_key": "zenimonsnap",
@@ -5411,8 +5411,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "ZenimonSnap Automatically equips and uses Soultrapper and Soultrapper 2000 efficiently.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ZenimonSnap/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5458,8 +5458,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "# zonename This addon displays the zone and region name for a short time while changing zones.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonename/README.md",
     "description_confidence": "medium"
   },
   {
@@ -5475,8 +5475,8 @@
     "best_repo_stars": 69,
     "freshness_max": 1,
     "opportunity_score": 1.86,
-    "description": "FFXI Windower Addons",
-    "description_source": "https://github.com/Icydeath/ffxi-addons",
+    "description": "Commands: zonetimer posX # change the x position zonetimer posY # change the y position zonetimer fontsize # change the fontsize zoentimer help print these instructions in the log Original plugin by Krellion.",
+    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonetimer/readme.md",
     "description_confidence": "medium"
   }
 ]

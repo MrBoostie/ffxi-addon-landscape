@@ -19,6 +19,16 @@ BAD_PATTERNS = [
     r'^unknown$',
     r'^n/?a$',
     r'collection of addons',
+    r'some of my other repositories',
+    r'be sure to check my list of respositories',
+]
+CODE_LIKE_PATTERNS = [
+    r'_addon\.',
+    r'\brequire\s*\(',
+    r'\blocal\s+\w+\s*=\s*',
+    r'\bfunction\b',
+    r'==|~=',
+    r'\{\[',
 ]
 
 
@@ -52,11 +62,15 @@ def norm(s: str) -> str:
 
 
 def is_weak(desc: str) -> bool:
-    d = (desc or '').strip().lower()
+    raw = (desc or '').strip()
+    d = raw.lower()
     if len(d) < 24:
         return True
     for p in BAD_PATTERNS:
         if re.search(p, d):
+            return True
+    for p in CODE_LIKE_PATTERNS:
+        if re.search(p, raw):
             return True
     return False
 
