@@ -1,12 +1,17 @@
 # FFXI Addon Landscape
 
+[![GitHub Pages](https://img.shields.io/badge/pages-live-2ea44f?style=flat-square)](https://mrboostie.github.io/ffxi-addon-landscape/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MrBoostie/ffxi-addon-landscape?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MrBoostie/ffxi-addon-landscape?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/MrBoostie/ffxi-addon-landscape?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/MrBoostie/ffxi-addon-landscape?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/MrBoostie/ffxi-addon-landscape?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/MrBoostie/ffxi-addon-landscape?style=flat-square)
 
-A curated GitHub index + gap analysis for Final Fantasy XI addons (primarily Windower, with some Ashita mentions).
+Curated FFXI addon index + practical Windower addon suite (TravelRouter, SessionConductor, AddonHealth).
 
-Live searchable index (GitHub Pages): <https://mrboostie.github.io/ffxi-addon-landscape/>
+- Live index: <https://mrboostie.github.io/ffxi-addon-landscape/>
+- Repo: <https://github.com/MrBoostie/ffxi-addon-landscape>
 
 ## 🔥 Why this exists
 
