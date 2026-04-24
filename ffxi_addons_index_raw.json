@@ -199,6 +199,24 @@
     "addon_dirs": []
   },
   {
+    "repo": "garyfromwork/AutoJob",
+    "stars": 0,
+    "pushed_at": "2026-02-04T21:45:19Z",
+    "description": "FFXI Windower Addon for automating the boring aspects of jobs: Wyvern Cures, Jumps, Boost, Weapon Skills, etc.",
+    "addon_dirs": [
+      "wiki"
+    ]
+  },
+  {
+    "repo": "garyfromwork/mp3",
+    "stars": 0,
+    "pushed_at": "2026-02-04T21:42:02Z",
+    "description": "FFXI Windower Addon that allows users to change the background music to in-game tracks.",
+    "addon_dirs": [
+      "wiki"
+    ]
+  },
+  {
     "repo": "garyfromwork/Stats",
     "stars": 1,
     "pushed_at": "2026-02-04T21:43:50Z",
@@ -653,6 +671,15 @@
     ]
   },
   {
+    "repo": "murrain/ctimers",
+    "stars": 0,
+    "pushed_at": "2026-02-02T05:30:03Z",
+    "description": "ffxi windower addon that mimics ctimers",
+    "addon_dirs": [
+      "sounds"
+    ]
+  },
+  {
     "repo": "mverteuil/windower4-addons",
     "stars": 17,
     "pushed_at": "2016-08-28T03:33:55Z",
@@ -756,7 +783,7 @@
   {
     "repo": "Phayde/Windower-addons",
     "stars": 1,
-    "pushed_at": "2026-04-24T15:40:36Z",
+    "pushed_at": "2026-04-24T16:56:58Z",
     "description": "A collection of addons for FFXI Windower",
     "addon_dirs": [
       "digskill",
@@ -839,6 +866,15 @@
       "data",
       "priv_res",
       "themes"
+    ]
+  },
+  {
+    "repo": "tupsimati/nukes",
+    "stars": 0,
+    "pushed_at": "2026-02-23T16:55:26Z",
+    "description": "ffxi windower addon that allows you to set an element and cast your highest elemental magic spell available",
+    "addon_dirs": [
+      "nukes"
     ]
   },
   {
