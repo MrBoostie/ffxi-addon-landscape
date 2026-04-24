@@ -2,8 +2,8 @@ package.path = '../addons/AddonHealth/?.lua;../tests/?.lua;' .. package.path
 
 local mock = require('mock_windower')
 mock.reset()
-mock.install()
 mock.set_addon_path('../addons/AddonHealth/')
+mock.install()
 mock.set_addons({
     { name = 'TravelRouter', loaded = true, path = '../addons/TravelRouter/' },
     { name = 'SessionConductor', loaded = true, path = '../addons/SessionConductor/' },
@@ -25,7 +25,9 @@ end
 assert(saw_severity, 'expected severity line')
 assert(saw_unknown, 'expected unknown addon coverage line')
 
-local custom_file = '../addons/AddonHealth/data/addons.user.lua'
+local custom_dir = '../addons/AddonHealth/data'
+os.execute('mkdir -p ' .. custom_dir)
+local custom_file = custom_dir .. '/addons.user.lua'
 local custom = io.open(custom_file, 'w')
 assert(custom, 'expected to create addons.user.lua')
 custom:write([[return {
