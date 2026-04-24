@@ -88,7 +88,7 @@
   {
     "repo": "cyritegamestudios/trust",
     "stars": 49,
-    "pushed_at": "2026-04-23T16:00:56Z",
+    "pushed_at": "2026-04-24T14:25:24Z",
     "description": "Windower 4 addon for FFXI to automate your character in battle.",
     "addon_dirs": [
       "trust"
@@ -109,6 +109,13 @@
     "addon_dirs": []
   },
   {
+    "repo": "DiscipleOfEris/FastFollow",
+    "stars": 9,
+    "pushed_at": "2022-08-31T07:31:39Z",
+    "description": "FFXI Windower addon that allows multiboxers to keep their characters more tightly grouped and continue following through zoning.",
+    "addon_dirs": []
+  },
+  {
     "repo": "DiscipleOfEris/MobLevel",
     "stars": 3,
     "pushed_at": "2022-08-31T07:34:49Z",
@@ -125,6 +132,13 @@
     "addon_dirs": [
       "NpcInteract"
     ]
+  },
+  {
+    "repo": "DiscipleOfEris/SendTarget",
+    "stars": 4,
+    "pushed_at": "2022-08-31T07:31:20Z",
+    "description": "FFXI Windower addon that allows you to capture targets and subtargets to send commands to your multibox alts.",
+    "addon_dirs": []
   },
   {
     "repo": "DiscipleOfEris/Windower4Addons",
@@ -171,6 +185,13 @@
     ]
   },
   {
+    "repo": "ekrividus/autoSC",
+    "stars": 5,
+    "pushed_at": "2024-05-30T12:52:28Z",
+    "description": "FFXI Windower addon to help with closing skillchains",
+    "addon_dirs": []
+  },
+  {
     "repo": "flippant/parse",
     "stars": 15,
     "pushed_at": "2023-08-12T01:51:20Z",
@@ -198,7 +219,7 @@
   {
     "repo": "Gol-exe/closetCleaner2",
     "stars": 0,
-    "pushed_at": "2026-04-23T20:03:49Z",
+    "pushed_at": "2026-04-24T15:52:28Z",
     "description": "Rework of the ClosetCleaner FFXI Windower Addon",
     "addon_dirs": [
       "closetcleaner2",
@@ -226,7 +247,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-24T09:42:07Z",
+    "pushed_at": "2026-04-24T14:31:22Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "XIchecklist"
@@ -378,6 +399,15 @@
       "xivcrossbar",
       "zonename",
       "zonetimer"
+    ]
+  },
+  {
+    "repo": "Icydeath/ffxi-xivpetbar-addon",
+    "stars": 5,
+    "pushed_at": "2020-09-20T03:57:54Z",
+    "description": "ffxi windower addon to display your pets hp/mp/tp",
+    "addon_dirs": [
+      "themes"
     ]
   },
   {
@@ -726,7 +756,7 @@
   {
     "repo": "Phayde/Windower-addons",
     "stars": 1,
-    "pushed_at": "2026-04-16T02:53:51Z",
+    "pushed_at": "2026-04-24T15:40:36Z",
     "description": "A collection of addons for FFXI Windower",
     "addon_dirs": [
       "digskill",
@@ -758,6 +788,16 @@
     "description": "FFXI Windower addon that assists with Magian Weapon Skill Trials",
     "addon_dirs": [
       "magianws"
+    ]
+  },
+  {
+    "repo": "sebyg666/GearInfo",
+    "stars": 25,
+    "pushed_at": "2020-10-03T08:42:27Z",
+    "description": "FFXI Windower Addon, Multipurpose gear / buff tracker",
+    "addon_dirs": [
+      "res",
+      "textures"
     ]
   },
   {
