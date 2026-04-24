@@ -4380,9 +4380,9 @@
     "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description": "Sweeper is a game where your objective is to uncover all safe tiles on the board, while avoiding hitting the Goblin Bombs hidden by Boombox. - Left-click to reveal a tile - Right-click to mark a tile as a Goblin Bomb",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/Sweeper/readme.md",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T14:01:36+00:00"
   },
   {
@@ -4502,9 +4502,9 @@
     "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description": "TaskBar is a quality-of-life Windower addon for Final Fantasy XI that adds a customizable, in-game Windows Start Menu-style interface for quick access to commonly used addon commands. It features a static \"TASKBAR\" butto",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/TaskBar/readme.md",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T14:01:36+00:00"
   },
   {
@@ -5008,9 +5008,9 @@
     "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description": "All commands must be preceded with either //vanafacts or //vf (ex: //vf repeat) - repeat/r - Repeat the last Fact displayed. - help - Display a list of commands and addon info.",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/VanaFacts/readme.md",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T14:01:42+00:00"
   },
   {
@@ -5024,9 +5024,9 @@
     "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description": "- Mouse interface! - Type directly into VanaPad without using the games chatlog. - Save up to 10 notes, organized into tabs. - Copy a note to the clipboard to be able to paste into your chat log or anywhere on your PC! -",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/VanaPad/readme.md",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T14:01:43+00:00"
   },
   {
@@ -5056,9 +5056,9 @@
     "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description": "All commands must be preceded with either //vanity or //van (ex: //van set) [optional] <required> - combat/c - Display lockstyles for your current job in combat zones. - town/t - Display lockstyles for your current job i",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/Vanity/readme.md",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T14:01:44+00:00"
   },
   {
@@ -5426,9 +5426,9 @@
     "best_repo_stars": 22,
     "freshness_max": 5,
     "opportunity_score": 4.83,
-    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description": "All commands must be preceded with either //znmtracker or //znmtrack or //znmt (ex: //znmt tin) - (no command)/show/hide - Show/hide tracker window. - check/list - List all pop, trophy, and key items this character has a",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/ZNMTracker/readme.md",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T15:01:31+00:00"
   },
   {
