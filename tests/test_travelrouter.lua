@@ -48,6 +48,36 @@ check('explain produces output', #log > 1)
 check('explain includes candidate scoring header', log[1] and log[1].text:find('Candidate scoring') ~= nil)
 check('explain includes selected marker note', log[#log] and log[#log].text:find('top%-ranked option') ~= nil)
 
+
+-- test explain resolves aliases
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'alias', 'add', 'home', 'jeuno')
+mock.fire_event('addon command', 'explain', 'home')
+log = mock.get_chat_log()
+local saw_alias, saw_scoring = false, false
+for _, entry in ipairs(log) do
+    if entry.text:find('Alias "home" => "jeuno"') then saw_alias = true end
+    if entry.text:find('Candidate scoring for "jeuno"') then saw_scoring = true end
+end
+check('explain resolves alias', saw_alias)
+check('explain scores resolved destination', saw_scoring)
+
+-- test explain suggests close destination on miss
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'explain', 'jeu')
+log = mock.get_chat_log()
+local saw_suggestion = false
+for _, entry in ipairs(log) do
+    if entry.text:find('Did you mean:') and entry.text:find('jeuno') then saw_suggestion = true end
+end
+check('explain suggests close destination', saw_suggestion)
+
 -- test plan with unknown destination
 mock.reset()
 mock.install()
