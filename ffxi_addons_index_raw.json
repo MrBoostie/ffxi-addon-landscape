@@ -95,6 +95,20 @@
     ]
   },
   {
+    "repo": "Darkdoom22/Widescan",
+    "stars": 1,
+    "pushed_at": "2023-07-15T17:07:09Z",
+    "description": "Expose underlying FFXI widescan functions and info to lua addons.",
+    "addon_dirs": []
+  },
+  {
+    "repo": "DiscipleOfEris/Assist",
+    "stars": 1,
+    "pushed_at": "2022-08-31T07:33:03Z",
+    "description": "FFXI Windower addon that let's you tell your multiboxed alts to target your target without locking on.",
+    "addon_dirs": []
+  },
+  {
     "repo": "DiscipleOfEris/MobLevel",
     "stars": 3,
     "pushed_at": "2022-08-31T07:34:49Z",
@@ -212,7 +226,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-23T09:57:29Z",
+    "pushed_at": "2026-04-24T09:42:07Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "XIchecklist"
@@ -809,6 +823,13 @@
       "QuickTrade 2",
       "QuickTrade"
     ]
+  },
+  {
+    "repo": "xurion/ffxi-drop-stop",
+    "stars": 1,
+    "pushed_at": "2022-08-29T20:12:39Z",
+    "description": "A Lua addon for Windower 4 that prevents accidentally dropping valuable items.",
+    "addon_dirs": []
   },
   {
     "repo": "ZeromusXYZ/PacketViewerLogViewer",
