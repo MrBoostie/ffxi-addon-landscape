@@ -523,9 +523,10 @@
     "best_repo_stars": 2,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - Loot Drop Tracker",
-    "description_source": "https://github.com/SQLCommit/LootScope",
-    "description_confidence": "medium"
+    "description": "# LootScope v1.4.1 - Loot Drop Tracker for Ashita v4.3 Loot drop tracker for Ashita v4.3 with statistics, Treasure Hunter monitoring, and a full dashboard UI.",
+    "description_source": "https://github.com/SQLCommit/LootScope/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:27+00:00"
   },
   {
     "addon_key": "memscope",
@@ -538,9 +539,10 @@
     "best_repo_stars": 2,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - Monitors Addon Memory Usage",
-    "description_source": "https://github.com/SQLCommit/MemScope",
-    "description_confidence": "medium"
+    "description": "# MemScope v1.0.3 - Memory Monitoring Addon for Ashita v4.3 A memory monitoring tool that tracks per-addon Lua memory, process memory, and provides growth analysis with historical trends.",
+    "description_source": "https://github.com/SQLCommit/MemScope/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:27+00:00"
   },
   {
     "addon_key": "menufix",
@@ -553,9 +555,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:28+00:00"
   },
   {
     "addon_key": "minimap-helper",
@@ -568,9 +571,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:29+00:00"
   },
   {
     "addon_key": "mousehalo",
@@ -583,9 +587,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:29+00:00"
   },
   {
     "addon_key": "ondemand",
@@ -598,9 +603,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:30+00:00"
   },
   {
     "addon_key": "position_manager",
@@ -613,9 +619,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:30+00:00"
   },
   {
     "addon_key": "rcheck",
@@ -628,9 +635,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "## addons - xitools is a suite of UI replacement components, check its README for details - recast is a fork of recast that has been imgui-fied - skillchain tracks active and potential skillchains and magic bursts - whee",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:31+00:00"
   },
   {
     "addon_key": "readable",
@@ -643,9 +651,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:31+00:00"
   },
   {
     "addon_key": "relicge",
@@ -658,9 +667,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:32+00:00"
   },
   {
     "addon_key": "repl",
@@ -673,9 +683,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "## addons - xitools is a suite of UI replacement components, check its README for details - recast is a fork of recast that has been imgui-fied - skillchain tracks active and potential skillchains and magic bursts - whee",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:32+00:00"
   },
   {
     "addon_key": "safeoboro",
@@ -688,9 +699,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- SafeOboro: makes everybody around Oboro in Port Jeuno disappear, so that you don't have any risk whatsoever of trading to scammers.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:33+00:00"
   },
   {
     "addon_key": "silttracker",
@@ -703,9 +715,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:34+00:00"
   },
   {
     "addon_key": "smeagol",
@@ -718,9 +731,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "A bit facetious, but working.) Complete addons: - Smeagol: automatically use CP/XP rings (and gear).",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:34+00:00"
   },
   {
     "addon_key": "special",
@@ -733,9 +747,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:35+00:00"
   },
   {
     "addon_key": "strats",
@@ -748,9 +763,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:35+00:00"
   },
   {
     "addon_key": "sweeper",
@@ -763,9 +779,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:36+00:00"
   },
   {
     "addon_key": "taskbar",
@@ -778,9 +795,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:36+00:00"
   },
   {
     "addon_key": "tellapart",
@@ -793,9 +811,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- tellapart: add progressive letters to mobs with identical names: Mandragora A, Mandragora B, Mandragora C, etc, instead of endless identical Mandragoras.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:37+00:00"
   },
   {
     "addon_key": "tellfix",
@@ -808,9 +827,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:37+00:00"
   },
   {
     "addon_key": "tiptoes",
@@ -823,9 +843,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- tiptoes: applies Sneak and Invisible with a single command according to job: supports spells, Spectral Jig, Ninjutsu, and items (Silent Oils and Prism Powders).",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:38+00:00"
   },
   {
     "addon_key": "tourist",
@@ -840,7 +861,8 @@
     "opportunity_score": 4.83,
     "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
     "description_source": "https://github.com/Bryenne-Sylph/tourist",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:39+00:00"
   },
   {
     "addon_key": "tpsreport",
@@ -853,9 +875,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- TPSReport: exports an XML list of current alliance members.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:40+00:00"
   },
   {
     "addon_key": "trials",
@@ -868,9 +891,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:40+00:00"
   },
   {
     "addon_key": "trialtracker",
@@ -883,9 +907,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:41+00:00"
   },
   {
     "addon_key": "trust",
@@ -898,9 +923,10 @@
     "best_repo_stars": 49,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Windower 4 addon for FFXI to automate your character in battle.",
-    "description_source": "https://github.com/cyritegamestudios/trust",
-    "description_confidence": "medium"
+    "description": "# Trust ## Summary Trust is a Windower 4 addon for FFXI that turns your character into a Trust.",
+    "description_source": "https://github.com/cyritegamestudios/trust/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:41+00:00"
   },
   {
     "addon_key": "useall",
@@ -913,9 +939,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:42+00:00"
   },
   {
     "addon_key": "vanafacts",
@@ -928,9 +955,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:42+00:00"
   },
   {
     "addon_key": "vanapad",
@@ -943,9 +971,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:43+00:00"
   },
   {
     "addon_key": "vanity",
@@ -958,9 +987,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:44+00:00"
   },
   {
     "addon_key": "waveback",
@@ -973,9 +1003,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- waveback: wave back to people that wave/check you.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:44+00:00"
   },
   {
     "addon_key": "weathermon",
@@ -988,9 +1019,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T14:01:45+00:00"
   },
   {
     "addon_key": "wheel",
