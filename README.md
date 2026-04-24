@@ -121,6 +121,7 @@ See specs:
 - Load: `//lua load TravelRouter`
 - Verify routes: `//troute list`
 - Verify planner: `//troute plan jeuno`
+- Verify route scoring detail: `//troute explain jeuno`
 - Verify execution: `//troute run jeuno`
 - (Optional) Configure unlock tokens: `//troute unlock add hp|sg|warp`
 - (Optional) Add typo-friendly shortcuts: `//troute alias add <alias> <destination>`

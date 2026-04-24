@@ -17,6 +17,7 @@ Content-aware travel routing addon for Windower.
 ## Commands
 - `//troute list` — list known destinations
 - `//troute plan <destination>` — print best route + scoring rationale
+- `//troute explain <destination>` — show ranked candidate scores and selection reasons
 - `//troute run <destination>` — execute selected route
 - `//troute add <destination> <step1> ; <step2> ; ...` — persist user route override
 - `//troute reset <destination>` — remove user override for destination

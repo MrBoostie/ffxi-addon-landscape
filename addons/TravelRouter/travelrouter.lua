@@ -194,6 +194,41 @@ local function print_plan(dest)
     return true, plan
 end
 
+local function explain_plan(dest)
+    local key = normalize(dest)
+    local candidates = route_candidates(key)
+    if not candidates then
+        msg(('No route for "%s". Use //troute list or //troute add ...'):format(dest or ''))
+        return false
+    end
+
+    local ranked = {}
+    for idx, c in ipairs(candidates) do
+        local score, reasons = score_candidate(c)
+        ranked[#ranked+1] = { idx = idx, candidate = c, score = score, reasons = reasons }
+    end
+
+    table.sort(ranked, function(a, b)
+        if a.score == b.score then
+            return (a.candidate.name or ('option-' .. a.idx)) < (b.candidate.name or ('option-' .. b.idx))
+        end
+        return a.score > b.score
+    end)
+
+    msg(('Candidate scoring for "%s" (%d option%s):'):format(key, #ranked, (#ranked == 1 and '' or 's')))
+    for i, row in ipairs(ranked) do
+        local c = row.candidate
+        local req = (c.requires and #c.requires > 0) and table.concat(c.requires, ', ') or 'none'
+        local marker = (i == 1) and '*' or '-'
+        msg(('  %s %d) %s | score=%d | requires=%s'):format(marker, i, c.name or ('option-' .. row.idx), row.score, req))
+        if row.reasons and #row.reasons > 0 then
+            msg('      rationale: ' .. table.concat(row.reasons, ', '))
+        end
+    end
+    msg('  * top-ranked option is used by //troute plan and //troute run')
+    return true
+end
+
 local function execute_step(step)
     if step:sub(1,4) == 'say:' then msg(step:sub(5)); return end
     if step:sub(1,5) == 'wait:' then
@@ -371,11 +406,12 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | plan <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
+        msg('Commands: list | plan <dest> | explain <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
         return
     end
     if cmd == 'list' then list_destinations(); return end
     if cmd == 'plan' then print_plan(join(args, ' ', 2)); return end
+    if cmd == 'explain' then explain_plan(join(args, ' ', 2)); return end
     if cmd == 'run' then run_plan(join(args, ' ', 2)); return end
     if cmd == 'add' then add_route(args[2], join(args, ' ', 3)); return end
     if cmd == 'reset' then reset_route(join(args, ' ', 2)); return end
