@@ -11,9 +11,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "# ReadyCheck ReadyCheck is an Ashita v4 addon for HorizonXI that runs a party/alliance ready check.",
+    "description_source": "https://github.com/Lydya-nick77/readycheck/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:29+00:00"
   },
   {
     "addon_key": "addons",
@@ -26,9 +27,10 @@
     "best_repo_stars": 15,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Statustimers for Ashita v4",
-    "description_source": "https://github.com/HealsCodes/statustimers",
-    "description_confidence": "medium"
+    "description": "## # Theming Support statustimers supports custom (non DAT) themes, for details see _addons\\statustimers\\themes\\README.md_",
+    "description_source": "https://github.com/HealsCodes/statustimers/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:30+00:00"
   },
   {
     "addon_key": "atreplace",
@@ -41,9 +43,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:30+00:00"
   },
   {
     "addon_key": "attend",
@@ -56,9 +59,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:31+00:00"
   },
   {
     "addon_key": "augments",
@@ -71,9 +75,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- augments: search items by name and print their augments to chatlog.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:32+00:00"
   },
   {
     "addon_key": "bars",
@@ -86,9 +91,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:32+00:00"
   },
   {
     "addon_key": "battleplan",
@@ -101,9 +107,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:33+00:00"
   },
   {
     "addon_key": "bluspells",
@@ -116,9 +123,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:33+00:00"
   },
   {
     "addon_key": "callouts",
@@ -131,9 +139,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:34+00:00"
   },
   {
     "addon_key": "chatfix",
@@ -146,9 +155,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:34+00:00"
   },
   {
     "addon_key": "chatty",
@@ -161,9 +171,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:35+00:00"
   },
   {
     "addon_key": "clevel",
@@ -176,9 +187,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- clevel: prints your current true master level to chatlog while under level sync.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:35+00:00"
   },
   {
     "addon_key": "collector",
@@ -191,9 +203,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- collector: display owned and missing items from an item set.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:36+00:00"
   },
   {
     "addon_key": "colure",
@@ -206,9 +219,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:37+00:00"
   },
   {
     "addon_key": "dramagen",
@@ -221,9 +235,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- Dramagen: the only and last parser you will ever need.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:37+00:00"
   },
   {
     "addon_key": "dxui",
@@ -236,9 +251,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:38+00:00"
   },
   {
     "addon_key": "emotes",
@@ -251,9 +267,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:39+00:00"
   },
   {
     "addon_key": "exorcist",
@@ -266,9 +283,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:40+00:00"
   },
   {
     "addon_key": "ffxi-zonename",
@@ -281,9 +299,10 @@
     "best_repo_stars": 4,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "This addon for Ashita v4 displays the zone and region name for a short time while changing zones. This is a port of the Windower Zonename addon.",
-    "description_source": "https://github.com/onimitch/ffxi-zonename",
-    "description_confidence": "medium"
+    "description": "# zonename This addon for Ashita v4 displays the zone and region name for a short time while changing zones.",
+    "description_source": "https://github.com/onimitch/ffxi-zonename/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:40+00:00"
   },
   {
     "addon_key": "gaolplan",
@@ -296,9 +315,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:41+00:00"
   },
   {
     "addon_key": "gilbox",
@@ -311,9 +331,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:42+00:00"
   },
   {
     "addon_key": "gmtools",
@@ -326,9 +347,10 @@
     "best_repo_stars": 2,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - LSB GM Command Helper",
-    "description_source": "https://github.com/SQLCommit/GMTools",
-    "description_confidence": "medium"
+    "description": "Copy the gmtools folder to your Ashita addons directory 2.",
+    "description_source": "https://github.com/SQLCommit/GMTools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:42+00:00"
   },
   {
     "addon_key": "helper",
@@ -341,9 +363,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:43+00:00"
   },
   {
     "addon_key": "imrecast",
@@ -356,9 +379,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:44+00:00"
   },
   {
     "addon_key": "indinope",
@@ -371,9 +395,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:44+00:00"
   },
   {
     "addon_key": "informer",
@@ -386,9 +411,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:45+00:00"
   },
   {
     "addon_key": "jingle",
@@ -401,9 +427,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:46+00:00"
   },
   {
     "addon_key": "jobinit",
@@ -416,9 +443,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- JobInit: like init.txt, but specific per character per job.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:47+00:00"
   },
   {
     "addon_key": "kaomoji",
@@ -431,9 +459,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "- kaomoji: minimal kaomoji support for ffxi (behaves like /shrug /tableflip and /unflip do on discord)",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:47+00:00"
   },
   {
     "addon_key": "leaderboard",
@@ -446,9 +475,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:48+00:00"
   },
   {
     "addon_key": "llmchat",
@@ -461,9 +491,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:49+00:00"
   },
   {
     "addon_key": "loggers",
@@ -476,9 +507,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T13:00:49+00:00"
   },
   {
     "addon_key": "lootscope",
