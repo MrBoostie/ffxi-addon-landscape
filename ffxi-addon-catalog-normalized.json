@@ -31,7 +31,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:01:41+00:00"
+    "description_reviewed_at": "2026-04-24T23:01:47+00:00"
   },
   {
     "addon_key": "allseeingeye",
@@ -260,7 +260,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:01:45+00:00"
+    "description_reviewed_at": "2026-04-24T23:01:51+00:00"
   },
   {
     "addon_key": "autocontrol",
@@ -655,7 +655,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:01:49+00:00"
+    "description_reviewed_at": "2026-04-24T23:01:55+00:00"
   },
   {
     "addon_key": "bluguide",
@@ -1048,7 +1048,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:01:59+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:06+00:00"
   },
   {
     "addon_key": "crb_addon",
@@ -1689,7 +1689,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:03+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:10+00:00"
   },
   {
     "addon_key": "exportitems",
@@ -1705,7 +1705,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:07+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:13+00:00"
   },
   {
     "addon_key": "fancytrusts",
@@ -1852,7 +1852,8 @@
     "opportunity_score": 4.0,
     "description": "This addon for Ashita v4 displays the zone and region name for a short time while changing zones. This is a port of the Windower Zonename addon.",
     "description_source": "https://github.com/onimitch/ffxi-zonename",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T23:03:40+00:00"
   },
   {
     "addon_key": "finalalert",
@@ -1868,7 +1869,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:11+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:17+00:00"
   },
   {
     "addon_key": "findall",
@@ -1934,7 +1935,8 @@
     "opportunity_score": 4.0,
     "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
     "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T23:03:43+00:00"
   },
   {
     "addon_key": "friendzone",
@@ -2018,7 +2020,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:14+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:21+00:00"
   },
   {
     "addon_key": "giltracker",
@@ -2100,7 +2102,8 @@
     "opportunity_score": 4.0,
     "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
     "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T23:03:47+00:00"
   },
   {
     "addon_key": "highlight",
@@ -2148,7 +2151,8 @@
     "opportunity_score": 4.0,
     "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
     "description_source": "https://github.com/AkadenTK/enemybar2",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T23:03:51+00:00"
   },
   {
     "addon_key": "impalert",
@@ -2375,9 +2379,10 @@
     "best_repo_stars": 47,
     "freshness_max": 4,
     "opportunity_score": 4.0,
-    "description": "A party list addon for Windower 4.",
-    "description_source": "https://github.com/Tylas11/XivParty",
-    "description_confidence": "medium"
+    "description": "| | //xp layout [file] | Loads a UI layout file from the XivParty/layouts directory.",
+    "description_source": "https://github.com/Tylas11/XivParty/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T23:03:54+00:00"
   },
   {
     "addon_key": "lazy",
@@ -2426,9 +2431,10 @@
     "best_repo_stars": 69,
     "freshness_max": 4,
     "opportunity_score": 4.0,
-    "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
-    "description_source": "https://github.com/AliekberFFXI/xivcrossbar",
-    "description_confidence": "medium"
+    "description": "Define singleton XML characters that can delimit inner tag strings. Takes a numbered XML entity as second argument and converts it to the corresponding symbol.",
+    "description_source": "https://github.com/AliekberFFXI/xivcrossbar/blob/HEAD/libs/xml2.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T23:03:57+00:00"
   },
   {
     "addon_key": "linker",
@@ -2511,7 +2517,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:26+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:32+00:00"
   },
   {
     "addon_key": "loggers",
@@ -2560,7 +2566,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:33+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:39+00:00"
   },
   {
     "addon_key": "luaparser",
@@ -2655,9 +2661,10 @@
     "best_repo_stars": 55,
     "freshness_max": 4,
     "opportunity_score": 4.0,
-    "description": "Addon for Windower 4 for FFXI that allows text commands to utilize homepoint, waypoint and survival guide teleport npcs",
-    "description_source": "https://github.com/AkadenTK/superwarp",
-    "description_confidence": "medium"
+    "description": "have xyz data and within zone. must be conflux. elseif destination.invoffset then",
+    "description_source": "https://github.com/AkadenTK/superwarp/blob/HEAD/map/abyssea.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T23:03:58+00:00"
   },
   {
     "addon_key": "masstrade",
@@ -2718,9 +2725,10 @@
     "best_repo_stars": 99,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
-    "description_confidence": "medium"
+    "description": "Ensure it's a menus command. Make sure we have enough args to begin with.",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/menus/ashita/menus.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T23:03:59+00:00"
   },
   {
     "addon_key": "minimap-helper",
@@ -2749,9 +2757,10 @@
     "best_repo_stars": 29,
     "freshness_max": 4,
     "opportunity_score": 4.0,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "Sets the minimap scale and saves to character configuration.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/addons/minimap-helper/minimap-helper.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T23:03:59+00:00"
   },
   {
     "addon_key": "moblevel",
@@ -2831,7 +2840,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:37+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:43+00:00"
   },
   {
     "addon_key": "myhome",
@@ -2895,7 +2904,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:40+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:47+00:00"
   },
   {
     "addon_key": "nostrum",
@@ -3025,7 +3034,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:44+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:51+00:00"
   },
   {
     "addon_key": "opensesame",
@@ -3157,7 +3166,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:48+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:54+00:00"
   },
   {
     "addon_key": "pet_fix",
@@ -3628,7 +3637,7 @@
     "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:51+00:00"
+    "description_reviewed_at": "2026-04-24T23:02:58+00:00"
   },
   {
     "addon_key": "repeater",
@@ -3894,7 +3903,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:55+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:01+00:00"
   },
   {
     "addon_key": "sellnpc",
@@ -3991,7 +4000,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:02:58+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:05+00:00"
   },
   {
     "addon_key": "shortcuts",
@@ -4056,7 +4065,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:02+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:09+00:00"
   },
   {
     "addon_key": "singer",
@@ -4088,7 +4097,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:06+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:13+00:00"
   },
   {
     "addon_key": "skillchain",
@@ -4220,7 +4229,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:10+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:16+00:00"
   },
   {
     "addon_key": "speedchecker",
@@ -4392,7 +4401,7 @@
     "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:14+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:20+00:00"
   },
   {
     "addon_key": "subtarget",
@@ -4906,7 +4915,7 @@
     "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:17+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:24+00:00"
   },
   {
     "addon_key": "trialtracker",
@@ -4922,7 +4931,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:21+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:28+00:00"
   },
   {
     "addon_key": "triggers",
@@ -5030,7 +5039,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:25+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:31+00:00"
   },
   {
     "addon_key": "valkyrie",
@@ -5156,7 +5165,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:28+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:35+00:00"
   },
   {
     "addon_key": "voidwatch",
@@ -5235,7 +5244,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T22:03:32+00:00"
+    "description_reviewed_at": "2026-04-24T23:03:39+00:00"
   },
   {
     "addon_key": "weeklier",
