@@ -56,7 +56,7 @@ informer,Informer,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,ht
 jingle,Jingle,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
 leaderboard,Leaderboard,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
 llmchat,Llmchat,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
-readycheck,Readycheck,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
+readycheck,Readycheck,general_qol,Lydya-nick77/readycheck;iLVL-Key/FFXI,2,22,1,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
 sweeper,Sweeper,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
 taskbar,Taskbar,ui_gear,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
 vanafacts,Vanafacts,general_qol,iLVL-Key/FFXI,1,22,5,4.83,Various FFXI projects,https://github.com/iLVL-Key/FFXI,medium
@@ -153,7 +153,7 @@ sendalltarget,Sendalltarget,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,F
 settarget,Settarget,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 simpleassist,Simpleassist,automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 sirpopalot,Sirpopalot,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
-smarttarget,Smarttarget,combat_automation,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
+smarttarget,Smarttarget,combat_automation,Icydeath/ffxi-addons;Phayde/Windower-addons,2,69,8,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 spellspammer,Spellspammer,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 stars,Stars,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 synergy,Synergy,general_qol,Icydeath/ffxi-addons,1,69,1,3.43,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
@@ -294,3 +294,16 @@ tparty,Tparty,ui_gear,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addo
 treasury,Treasury,general_qol,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 zonetimer,Zonetimer,travel_navigation,Icydeath/ffxi-addons;Lygre/addons;mverteuil/windower4-addons,3,69,1,1.86,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,medium
 healbot,Healbot,automation,Icydeath/ffxi-addons;Lygre/addons;lorand-ffxi/HealBot;mverteuil/windower4-addons,4,69,1,1.57,FFXI Windower Addons,https://github.com/Icydeath/ffxi-addons,low
+digskill,Digskill,general_qol,Phayde/Windower-addons,1,1,8,4.2,A collection of addons for FFXI Windower,https://github.com/Phayde/Windower-addons,medium
+trashit,Trashit,general_qol,Phayde/Windower-addons,1,1,8,4.2,A collection of addons for FFXI Windower,https://github.com/Phayde/Windower-addons,medium
+vanaclock,Vanaclock,general_qol,BagTown/vanaclock,1,3,25,4.2,Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.,https://github.com/BagTown/vanaclock,medium
+vanatime,Vanatime,general_qol,BagTown/vanaclock,1,3,25,4.2,Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.,https://github.com/BagTown/vanaclock,medium
+fasttarget,Fasttarget,general_qol,LordAttilas/FastTarget,1,0,6,4.2,Windower 4 addon for FFXI that allow quicker target change,https://github.com/LordAttilas/FastTarget,medium
+fancytrusts,Fancytrusts,general_qol,ariel-logos/FancyTrusts,1,5,14,4.2,A fancy UI to manage trusts,https://github.com/ariel-logos/FancyTrusts,medium
+closetcleaner2,Closetcleaner2,general_qol,Gol-exe/closetCleaner2,1,0,0,4.2,Rework of the ClosetCleaner FFXI Windower Addon,https://github.com/Gol-exe/closetCleaner2,medium
+luaparser,Luaparser,general_qol,Gol-exe/closetCleaner2,1,0,0,4.2,Rework of the ClosetCleaner FFXI Windower Addon,https://github.com/Gol-exe/closetCleaner2,medium
+weeklier,Weeklier,general_qol,patheed-ffxi/weeklier,1,0,5,4.2,An Ashita v4addon for HorizonXI that tracks weekly quest completion across all of your characters.,https://github.com/patheed-ffxi/weeklier,medium
+mogchat,Mogchat,general_qol,glitchv0/mogchat,1,0,1,4.2,AIM/ICQ style FFXI chat addon,https://github.com/glitchv0/mogchat,medium
+dpsmeter,Dpsmeter,general_qol,cybersoulwing/dpsmeter,1,0,12,4.2,FFXI Windower addon,https://github.com/cybersoulwing/dpsmeter,medium
+automining,Automining,general_qol,cybersoulwing/AutoMining,1,0,14,4.2,FFXI Windower addon,https://github.com/cybersoulwing/AutoMining,medium
+packrat,Packrat,general_qol,Mr-Sithel/packrat,1,1,29,4.2,"FFXI addon that tracks items in your inventory, Wardrobe and Wardrobe 2",https://github.com/Mr-Sithel/packrat,medium

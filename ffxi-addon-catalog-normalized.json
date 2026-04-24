@@ -859,11 +859,12 @@
     "addon_name": "Readycheck",
     "category": "general_qol",
     "repos": [
+      "Lydya-nick77/readycheck",
       "iLVL-Key/FFXI"
     ],
-    "repo_count": 1,
+    "repo_count": 2,
     "best_repo_stars": 22,
-    "freshness_max": 5,
+    "freshness_max": 1,
     "opportunity_score": 4.83,
     "description": "Various FFXI projects",
     "description_source": "https://github.com/iLVL-Key/FFXI",
@@ -2321,11 +2322,12 @@
     "addon_name": "Smarttarget",
     "category": "combat_automation",
     "repos": [
-      "Icydeath/ffxi-addons"
+      "Icydeath/ffxi-addons",
+      "Phayde/Windower-addons"
     ],
-    "repo_count": 1,
+    "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 1,
+    "freshness_max": 8,
     "opportunity_score": 3.43,
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
@@ -4545,5 +4547,200 @@
     "description": "FFXI Windower Addons",
     "description_source": "https://github.com/Icydeath/ffxi-addons",
     "description_confidence": "low"
+  },
+  {
+    "addon_key": "digskill",
+    "addon_name": "Digskill",
+    "category": "general_qol",
+    "repos": [
+      "Phayde/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 8,
+    "opportunity_score": 4.2,
+    "description": "A collection of addons for FFXI Windower",
+    "description_source": "https://github.com/Phayde/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "trashit",
+    "addon_name": "Trashit",
+    "category": "general_qol",
+    "repos": [
+      "Phayde/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 8,
+    "opportunity_score": 4.2,
+    "description": "A collection of addons for FFXI Windower",
+    "description_source": "https://github.com/Phayde/Windower-addons",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "vanaclock",
+    "addon_name": "Vanaclock",
+    "category": "general_qol",
+    "repos": [
+      "BagTown/vanaclock"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 25,
+    "opportunity_score": 4.2,
+    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
+    "description_source": "https://github.com/BagTown/vanaclock",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "vanatime",
+    "addon_name": "Vanatime",
+    "category": "general_qol",
+    "repos": [
+      "BagTown/vanaclock"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": 25,
+    "opportunity_score": 4.2,
+    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
+    "description_source": "https://github.com/BagTown/vanaclock",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "fasttarget",
+    "addon_name": "Fasttarget",
+    "category": "general_qol",
+    "repos": [
+      "LordAttilas/FastTarget"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 6,
+    "opportunity_score": 4.2,
+    "description": "Windower 4 addon for FFXI that allow quicker target change",
+    "description_source": "https://github.com/LordAttilas/FastTarget",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "fancytrusts",
+    "addon_name": "Fancytrusts",
+    "category": "general_qol",
+    "repos": [
+      "ariel-logos/FancyTrusts"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 5,
+    "freshness_max": 14,
+    "opportunity_score": 4.2,
+    "description": "A fancy UI to manage trusts",
+    "description_source": "https://github.com/ariel-logos/FancyTrusts",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "closetcleaner2",
+    "addon_name": "Closetcleaner2",
+    "category": "general_qol",
+    "repos": [
+      "Gol-exe/closetCleaner2"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 0,
+    "opportunity_score": 4.2,
+    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "luaparser",
+    "addon_name": "Luaparser",
+    "category": "general_qol",
+    "repos": [
+      "Gol-exe/closetCleaner2"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 0,
+    "opportunity_score": 4.2,
+    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "weeklier",
+    "addon_name": "Weeklier",
+    "category": "general_qol",
+    "repos": [
+      "patheed-ffxi/weeklier"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 5,
+    "opportunity_score": 4.2,
+    "description": "An Ashita v4addon for HorizonXI that tracks weekly quest completion across all of your characters.",
+    "description_source": "https://github.com/patheed-ffxi/weeklier",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "mogchat",
+    "addon_name": "Mogchat",
+    "category": "general_qol",
+    "repos": [
+      "glitchv0/mogchat"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 1,
+    "opportunity_score": 4.2,
+    "description": "AIM/ICQ style FFXI chat addon",
+    "description_source": "https://github.com/glitchv0/mogchat",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "dpsmeter",
+    "addon_name": "Dpsmeter",
+    "category": "general_qol",
+    "repos": [
+      "cybersoulwing/dpsmeter"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 12,
+    "opportunity_score": 4.2,
+    "description": "FFXI Windower addon",
+    "description_source": "https://github.com/cybersoulwing/dpsmeter",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "automining",
+    "addon_name": "Automining",
+    "category": "general_qol",
+    "repos": [
+      "cybersoulwing/AutoMining"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 14,
+    "opportunity_score": 4.2,
+    "description": "FFXI Windower addon",
+    "description_source": "https://github.com/cybersoulwing/AutoMining",
+    "description_confidence": "medium"
+  },
+  {
+    "addon_key": "packrat",
+    "addon_name": "Packrat",
+    "category": "general_qol",
+    "repos": [
+      "Mr-Sithel/packrat"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 29,
+    "opportunity_score": 4.2,
+    "description": "FFXI addon that tracks items in your inventory, Wardrobe and Wardrobe 2",
+    "description_source": "https://github.com/Mr-Sithel/packrat",
+    "description_confidence": "medium"
   }
 ]
