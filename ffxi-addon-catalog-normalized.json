@@ -31,7 +31,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:01:41+00:00"
+    "description_reviewed_at": "2026-04-24T22:01:41+00:00"
   },
   {
     "addon_key": "allseeingeye",
@@ -260,7 +260,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:01:46+00:00"
+    "description_reviewed_at": "2026-04-24T22:01:45+00:00"
   },
   {
     "addon_key": "autocontrol",
@@ -655,7 +655,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:01:49+00:00"
+    "description_reviewed_at": "2026-04-24T22:01:49+00:00"
   },
   {
     "addon_key": "bluguide",
@@ -1048,7 +1048,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:01+00:00"
+    "description_reviewed_at": "2026-04-24T22:01:59+00:00"
   },
   {
     "addon_key": "crb_addon",
@@ -1540,9 +1540,10 @@
     "best_repo_stars": 12,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "[[Copyright \u00a9 2018, Kenshi spawn_type is no longer being set the same way.",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraInfoBar/EraInfoBar.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:33+00:00"
   },
   {
     "addon_key": "erajobchange",
@@ -1555,9 +1556,10 @@
     "best_repo_stars": 12,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "EraJobChange 1.1.1 Reduce the number of intermediary job changes when there's a conflict. EraJobChange 1.1.0 Enable job change from any town on Era. Change main/sub with a single command.",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraJobChange/EraJobChange.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:34+00:00"
   },
   {
     "addon_key": "eramobdrops",
@@ -1570,9 +1572,10 @@
     "best_repo_stars": 12,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "Exit if we're just moving the mouse (drag+drop handled by text object). Exit if the mouse is not inside the text box",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraMobDrops/EraMobDrops.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:35+00:00"
   },
   {
     "addon_key": "eramoblevel",
@@ -1585,9 +1588,10 @@
     "best_repo_stars": 12,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "Stores the level of mobs from widescan, and then displays the level of your current target. Adjust position for party member count",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraMobLevel/EraMobLevel.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:36+00:00"
   },
   {
     "addon_key": "erapointwatch",
@@ -1600,9 +1604,10 @@
     "best_repo_stars": 12,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraPointWatch/EraPointWatch.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:36+00:00"
   },
   {
     "addon_key": "erascoreboard",
@@ -1615,9 +1620,10 @@
     "best_repo_stars": 12,
     "freshness_max": 1,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "Scoreboard addon for Windower4. See readme.md for a complete description. EraScoreboard 1.0.0 Fix compatibility issues due to Windower and FFXI client mismatch (Era uses old version)",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraScoreboard/EraScoreboard.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:37+00:00"
   },
   {
     "addon_key": "eschachest",
@@ -1683,7 +1689,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:04+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:03+00:00"
   },
   {
     "addon_key": "exportitems",
@@ -1699,7 +1705,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:08+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:07+00:00"
   },
   {
     "addon_key": "fancytrusts",
@@ -1731,9 +1737,10 @@
     "best_repo_stars": 99,
     "freshness_max": 1,
     "opportunity_score": 1.92,
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons",
-    "description_confidence": "low"
+    "description": "func: change_fps_divisor desc: finds and writes the desired fps divisor to memory. I got this from fps.lua (thanks Atom0s)",
+    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/fastcs/ashita/fastcs.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T22:03:44+00:00"
   },
   {
     "addon_key": "fastfollow",
@@ -1749,7 +1756,8 @@
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T22:03:49+00:00"
   },
   {
     "addon_key": "fasttarget",
@@ -1812,7 +1820,8 @@
     "opportunity_score": 4.0,
     "description": "A Lua addon for Windower 4 that prevents accidentally dropping valuable items.",
     "description_source": "https://github.com/xurion/ffxi-drop-stop",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T22:03:50+00:00"
   },
   {
     "addon_key": "ffxikeys",
@@ -1859,7 +1868,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:12+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:11+00:00"
   },
   {
     "addon_key": "findall",
@@ -2009,7 +2018,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:16+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:14+00:00"
   },
   {
     "addon_key": "giltracker",
@@ -2502,7 +2511,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:27+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:26+00:00"
   },
   {
     "addon_key": "loggers",
@@ -2551,7 +2560,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:34+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:33+00:00"
   },
   {
     "addon_key": "luaparser",
@@ -2822,7 +2831,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:38+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:37+00:00"
   },
   {
     "addon_key": "myhome",
@@ -2886,7 +2895,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:42+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:40+00:00"
   },
   {
     "addon_key": "nostrum",
@@ -3016,7 +3025,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:45+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:44+00:00"
   },
   {
     "addon_key": "opensesame",
@@ -3148,7 +3157,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:49+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:48+00:00"
   },
   {
     "addon_key": "pet_fix",
@@ -3619,7 +3628,7 @@
     "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:53+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:51+00:00"
   },
   {
     "addon_key": "repeater",
@@ -3885,7 +3894,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:02:56+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:55+00:00"
   },
   {
     "addon_key": "sellnpc",
@@ -3982,7 +3991,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:00+00:00"
+    "description_reviewed_at": "2026-04-24T22:02:58+00:00"
   },
   {
     "addon_key": "shortcuts",
@@ -4047,7 +4056,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:04+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:02+00:00"
   },
   {
     "addon_key": "singer",
@@ -4079,7 +4088,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:08+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:06+00:00"
   },
   {
     "addon_key": "skillchain",
@@ -4211,7 +4220,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:11+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:10+00:00"
   },
   {
     "addon_key": "speedchecker",
@@ -4383,7 +4392,7 @@
     "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:15+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:14+00:00"
   },
   {
     "addon_key": "subtarget",
@@ -4897,7 +4906,7 @@
     "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:19+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:17+00:00"
   },
   {
     "addon_key": "trialtracker",
@@ -4913,7 +4922,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:23+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:21+00:00"
   },
   {
     "addon_key": "triggers",
@@ -5021,7 +5030,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:27+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:25+00:00"
   },
   {
     "addon_key": "valkyrie",
@@ -5147,7 +5156,7 @@
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:30+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:28+00:00"
   },
   {
     "addon_key": "voidwatch",
@@ -5226,7 +5235,7 @@
     "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:34+00:00"
+    "description_reviewed_at": "2026-04-24T22:03:32+00:00"
   },
   {
     "addon_key": "weeklier",
