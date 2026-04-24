@@ -2912,6 +2912,22 @@
     "description_reviewed_at": "2026-04-24T15:01:44+00:00"
   },
   {
+    "addon_key": "nukes",
+    "addon_name": "Nukes",
+    "category": "general_qol",
+    "repos": [
+      "tupsimati/nukes"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 4,
+    "opportunity_score": 4.0,
+    "description": "ffxi windower addon that allows you to set an element and cast your highest elemental magic spell available",
+    "description_source": "https://github.com/tupsimati/nukes",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-24T20:04:03+00:00"
+  },
+  {
     "addon_key": "ohnoyoudont",
     "addon_name": "Ohnoyoudont",
     "category": "general_qol",
@@ -4140,6 +4156,22 @@
     "description_reviewed_at": "2026-04-24T14:01:34+00:00"
   },
   {
+    "addon_key": "sounds",
+    "addon_name": "Sounds",
+    "category": "general_qol",
+    "repos": [
+      "murrain/ctimers"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 4,
+    "opportunity_score": 4.0,
+    "description": "ffxi windower addon that mimics ctimers",
+    "description_source": "https://github.com/murrain/ctimers",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-24T20:04:03+00:00"
+  },
+  {
     "addon_key": "sparks",
     "addon_name": "Sparks",
     "category": "general_qol",
@@ -5264,6 +5296,23 @@
     "description": "**Author:** Mujihina **Version:** v 1.1 # Widescantool # This addon will offer you filters and alerts for widescan data, and proximity notification alerts.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/widescantool/README.md",
     "description_confidence": "medium"
+  },
+  {
+    "addon_key": "wiki",
+    "addon_name": "Wiki",
+    "category": "general_qol",
+    "repos": [
+      "garyfromwork/AutoJob",
+      "garyfromwork/mp3"
+    ],
+    "repo_count": 2,
+    "best_repo_stars": 0,
+    "freshness_max": 4,
+    "opportunity_score": 4.0,
+    "description": "FFXI Windower Addon for automating the boring aspects of jobs: Wyvern Cures, Jumps, Boost, Weapon Skills, etc.",
+    "description_source": "https://github.com/garyfromwork/AutoJob",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
     "addon_key": "witnessprotection",
