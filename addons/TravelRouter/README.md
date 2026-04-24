@@ -23,11 +23,14 @@ Content-aware travel routing addon for Windower.
 - `//troute unlock list` — list unlock tokens used for scoring
 - `//troute unlock add <token>` — mark unlock available (e.g. `hp`, `sg`, `warp`)
 - `//troute unlock remove <token>` — clear unlock token
+- `//troute alias list` — list destination aliases
+- `//troute alias add <alias> <destination>` — add an alias (e.g. `jueno` => `jeuno`)
+- `//troute alias remove <alias>` — delete an alias
 - `//troute save` — force-save user routes/state files
 
 ## Persistence files
 - `data/routes.user.lua` — user route overrides
-- `data/state.user.lua` — unlock/state tokens
+- `data/state.user.lua` — unlock/state tokens + aliases
 
 ## Route data model
 `data/routes.lua` supports either:
@@ -62,4 +65,6 @@ Each step is one of:
 
 ## Current behavior notes
 - Unlock/state signals are token-driven (`//troute unlock ...`) and can be extended.
+- Destination aliases are applied before route lookup (`//troute alias ...`).
+- Unknown destination lookups now include best-effort suggestions.
 - Capability checks for third-party addon commands are not auto-detected yet.

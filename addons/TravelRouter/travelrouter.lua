@@ -1,6 +1,6 @@
 _addon.name = 'TravelRouter'
 _addon.author = 'boostie'
-_addon.version = '0.2.0'
+_addon.version = '0.2.1'
 _addon.commands = {'troute', 'travelrouter'}
 _addon.description = 'Content-aware travel route planner/executor with persistence and v2 IPC.'
 
@@ -11,7 +11,7 @@ local USER_STATE_FILE = (windower.addon_path or '') .. 'data/state.user.lua'
 
 local routes = {}
 local user_routes = {}
-local state = { unlocks = { hp = true, sg = true, warp = true } }
+local state = { unlocks = { hp = true, sg = true, warp = true }, aliases = {} }
 
 local function msg(text)
     windower.add_to_chat(207, ('[TravelRouter] %s'):format(text))
@@ -79,6 +79,7 @@ local function load_user_files()
     user_routes = safe_load(USER_ROUTE_FILE) or {}
     state = safe_load(USER_STATE_FILE) or state
     if type(state.unlocks) ~= 'table' then state.unlocks = {} end
+    if type(state.aliases) ~= 'table' then state.aliases = {} end
     merge_routes()
 end
 
@@ -133,6 +134,43 @@ local function pick_plan(dest)
     return best, { score = best_score, reasons = best_reasons }
 end
 
+local function resolve_destination(dest)
+    local key = normalize(dest)
+    local alias = normalize(state.aliases[key] or '')
+    if alias ~= '' then return alias, key end
+    return key, nil
+end
+
+local function suggest_destinations(input, max_results)
+    local key = normalize(input)
+    if key == '' then return {} end
+
+    local starts, contains = {}, {}
+    for dest, _ in pairs(routes) do
+        if dest:sub(1, #key) == key then
+            starts[#starts+1] = dest
+        elseif dest:find(key, 1, true) then
+            contains[#contains+1] = dest
+        end
+    end
+
+    table.sort(starts)
+    table.sort(contains)
+
+    local out, seen = {}, {}
+    for _, list in ipairs({ starts, contains }) do
+        for _, item in ipairs(list) do
+            if not seen[item] then
+                seen[item] = true
+                out[#out+1] = item
+                if max_results and #out >= max_results then return out end
+            end
+        end
+    end
+
+    return out
+end
+
 local function list_destinations()
     local keys = {}
     for k, _ in pairs(routes) do keys[#keys+1] = k end
@@ -141,12 +179,16 @@ local function list_destinations()
 end
 
 local function print_plan(dest)
-    local plan, meta = pick_plan(dest)
+    local resolved, alias_used = resolve_destination(dest)
+    local plan, meta = pick_plan(resolved)
     if not plan then
         msg(('No route for "%s". Use //troute list or //troute add ...'):format(dest or ''))
+        local suggestions = suggest_destinations(dest, 5)
+        if #suggestions > 0 then msg('Did you mean: ' .. table.concat(suggestions, ', ')) end
         return false, nil
     end
-    msg(('Route plan for "%s" via "%s" (score %d):'):format(dest, plan.name or 'default', meta.score or 0))
+    if alias_used then msg(('Alias "%s" => "%s"'):format(alias_used, resolved)) end
+    msg(('Route plan for "%s" via "%s" (score %d):'):format(resolved, plan.name or 'default', meta.score or 0))
     if meta.reasons and #meta.reasons > 0 then msg('  rationale: ' .. table.concat(meta.reasons, ', ')) end
     for i, step in ipairs(plan.steps or {}) do msg(('  %d) %s'):format(i, step)) end
     return true, plan
@@ -176,9 +218,16 @@ local function execute_step(step)
 end
 
 local function run_plan(dest)
-    local plan = pick_plan(dest)
-    if not plan then msg(('No route for "%s".'):format(dest or '')); return false end
-    msg(('Executing route "%s" (%s)...'):format(dest, plan.name or 'default'))
+    local resolved, alias_used = resolve_destination(dest)
+    local plan = pick_plan(resolved)
+    if not plan then
+        msg(('No route for "%s".'):format(dest or ''))
+        local suggestions = suggest_destinations(dest, 5)
+        if #suggestions > 0 then msg('Did you mean: ' .. table.concat(suggestions, ', ')) end
+        return false
+    end
+    if alias_used then msg(('Alias "%s" => "%s"'):format(alias_used, resolved)) end
+    msg(('Executing route "%s" (%s)...'):format(resolved, plan.name or 'default'))
     for _, step in ipairs(plan.steps or {}) do execute_step(step) end
     return true
 end
@@ -220,6 +269,41 @@ local function unlock_cmd(action, token)
     if action == 'add' then state.unlocks[key] = true; save_user_state(); msg('Unlock added: ' .. key); return end
     if action == 'remove' then state.unlocks[key] = nil; save_user_state(); msg('Unlock removed: ' .. key); return end
     msg('Usage: //troute unlock list|add|remove ...')
+end
+
+local function alias_cmd(action, alias, dest)
+    local a = normalize(alias)
+    if action == 'list' then
+        local keys = {}
+        for k, _ in pairs(state.aliases) do keys[#keys+1] = k end
+        table.sort(keys)
+        if #keys == 0 then msg('Aliases: (none)'); return end
+        for _, k in ipairs(keys) do msg(('alias %s => %s'):format(k, state.aliases[k])) end
+        return
+    end
+
+    if a == '' then msg('Usage: //troute alias add|remove <alias> [destination]'); return end
+
+    if action == 'add' then
+        local target = normalize(dest)
+        if target == '' then msg('Usage: //troute alias add <alias> <destination>'); return end
+        if not routes[target] then msg(('Unknown destination "%s". Use //troute list first.'):format(target)); return end
+        if a == target then msg('Alias and destination are the same.'); return end
+        state.aliases[a] = target
+        save_user_state()
+        msg(('Alias saved: %s => %s'):format(a, target))
+        return
+    end
+
+    if action == 'remove' then
+        if not state.aliases[a] then msg(('Alias not found: %s'):format(a)); return end
+        state.aliases[a] = nil
+        save_user_state()
+        msg(('Alias removed: %s'):format(a))
+        return
+    end
+
+    msg('Usage: //troute alias list|add|remove ...')
 end
 
 local function enc(s)
@@ -287,7 +371,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | plan <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | unlock list|add|remove <k> | save')
+        msg('Commands: list | plan <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
         return
     end
     if cmd == 'list' then list_destinations(); return end
@@ -297,6 +381,7 @@ windower.register_event('addon command', function(...)
     if cmd == 'reset' then reset_route(join(args, ' ', 2)); return end
     if cmd == 'save' then save_user_routes(); save_user_state(); return end
     if cmd == 'unlock' then unlock_cmd(normalize(args[2]), args[3]); return end
+    if cmd == 'alias' then alias_cmd(normalize(args[2]), args[3], join(args, ' ', 4)); return end
 
     msg(('Unknown command "%s"'):format(cmd))
 end)
