@@ -195,12 +195,15 @@ local function print_plan(dest)
 end
 
 local function explain_plan(dest)
-    local key = normalize(dest)
+    local key, alias_used = resolve_destination(dest)
     local candidates = route_candidates(key)
     if not candidates then
         msg(('No route for "%s". Use //troute list or //troute add ...'):format(dest or ''))
+        local suggestions = suggest_destinations(dest, 5)
+        if #suggestions > 0 then msg('Did you mean: ' .. table.concat(suggestions, ', ')) end
         return false
     end
+    if alias_used then msg(('Alias "%s" => "%s"'):format(alias_used, key)) end
 
     local ranked = {}
     for idx, c in ipairs(candidates) do

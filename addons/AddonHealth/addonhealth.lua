@@ -156,11 +156,12 @@ local function get_loaded_addons()
         if type(v) == 'string' then
             names[#names+1] = v
         elseif type(v) == 'table' then
+            if type(k) == 'string' then names[#names+1] = k end
             names[#names+1] = v.name
             names[#names+1] = v.addon
             names[#names+1] = v.short_name
             names[#names+1] = basename(v.path)
-            if v.loaded == false then
+            if v.loaded == false or v.enabled == false then
                 is_loaded = false
             end
         elseif type(k) == 'string' and v then
@@ -169,7 +170,10 @@ local function get_loaded_addons()
 
         for _, name in ipairs(names) do
             if type(name) == 'string' and name ~= '' then
-                loaded[normalize(name)] = is_loaded
+                local key = normalize(name)
+                if is_loaded or loaded[key] == nil then
+                    loaded[key] = is_loaded
+                end
             end
         end
     end

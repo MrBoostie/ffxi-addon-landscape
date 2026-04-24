@@ -67,4 +67,23 @@ for _, entry in pairs(registered_after) do
     assert(entry.name ~= 'prerender', 'expected prerender to be unregistered on unload')
 end
 
+
+mock.reset()
+mock.set_addon_path('../addons/AddonHealth/')
+mock.install()
+mock.set_addons({
+    TravelRouter = { loaded = false, path = '../addons/TravelRouter/' },
+    SessionConductor = { loaded = true, path = '../addons/SessionConductor/' },
+})
+assert(loadfile('../addons/AddonHealth/addonhealth.lua'))()
+mock.fire_event('addon command', 'check')
+local keyed_log = mock.get_chat_log()
+local saw_travel_alert, saw_dependency_alert = false, false
+for _, entry in ipairs(keyed_log) do
+    if entry.text:find('%[!%] TravelRouter') then saw_travel_alert = true end
+    if entry.text:find('%[alert%] SessionConductor requires TravelRouter') then saw_dependency_alert = true end
+end
+assert(saw_travel_alert, 'expected keyed unloaded addon table to remain unloaded')
+assert(saw_dependency_alert, 'expected dependency alert when keyed dependency is unloaded')
+
 print('test_addonhealth.lua: ok')
