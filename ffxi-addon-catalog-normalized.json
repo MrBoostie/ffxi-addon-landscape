@@ -1035,9 +1035,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "## addons - xitools is a suite of UI replacement components, check its README for details - recast is a fork of recast that has been imgui-fied - skillchain tracks active and potential skillchains and magic bursts - whee",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:27+00:00"
   },
   {
     "addon_key": "witnessprotection",
@@ -1050,9 +1051,10 @@
     "best_repo_stars": 35,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Addons I wrote for Final Fantasy XI. Compatible with Windower.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons",
-    "description_confidence": "medium"
+    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
+    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:28+00:00"
   },
   {
     "addon_key": "xichecklist",
@@ -1065,9 +1067,10 @@
     "best_repo_stars": 4,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
-    "description_source": "https://github.com/HiPotionQ8/XIchecklist",
-    "description_confidence": "medium"
+    "description": "## **Usage**: | Command | Description | |---|---| | //lua load xichecklist | load then <ins>**zone**</ins> to get the UI menu updated | | //xic help | print help in chatlog | | //xic hide | hide the UI | | //xic show | s",
+    "description_source": "https://github.com/HiPotionQ8/XIchecklist/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:28+00:00"
   },
   {
     "addon_key": "xipivot",
@@ -1080,9 +1083,10 @@
     "best_repo_stars": 61,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs",
-    "description_source": "https://github.com/HealsCodes/XIPivot",
-    "description_confidence": "medium"
+    "description": "The goals behind Pivot are simple: - no modifications to the original DAT / spw or bgw files - no more huge folder with thousands of anonymous files - the ability to sort Mods into separate folders for each mod - the abi",
+    "description_source": "https://github.com/HealsCodes/XIPivot/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:29+00:00"
   },
   {
     "addon_key": "xitools",
@@ -1095,9 +1099,10 @@
     "best_repo_stars": 29,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "description_source": "https://github.com/mousseng/xitools",
-    "description_confidence": "medium"
+    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
+    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:29+00:00"
   },
   {
     "addon_key": "xivparty",
@@ -1110,9 +1115,10 @@
     "best_repo_stars": 47,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "A party list addon for Windower 4.",
-    "description_source": "https://github.com/Tylas11/XivParty",
-    "description_confidence": "medium"
+    "description": "# XivParty A party list addon for Windower 4.",
+    "description_source": "https://github.com/Tylas11/XivParty/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:30+00:00"
   },
   {
     "addon_key": "znmtracker",
@@ -1125,9 +1131,10 @@
     "best_repo_stars": 22,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "Various FFXI projects",
-    "description_source": "https://github.com/iLVL-Key/FFXI",
-    "description_confidence": "medium"
+    "description": "<h1 align=\"center\">Welcome to my FFXI GitHub!</h1> <p align=\"center\"> <em>Support development in Vana'diel</em> </p> <p align=\"center\"> <a href=\"https://www.paypal.com/donate/?hosted_button_id=7NELJEHF84YRQ\"> <img src=\"h",
+    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:31+00:00"
   },
   {
     "addon_key": "zonelines",
@@ -1140,9 +1147,10 @@
     "best_repo_stars": 2,
     "freshness_max": 1,
     "opportunity_score": 4.83,
-    "description": "FFXI - Ashita v4.3 Addon - Zone Line Visualizer",
-    "description_source": "https://github.com/SQLCommit/ZoneLines",
-    "description_confidence": "medium"
+    "description": "# ZoneLines v1.2.3 - Zone Line Visualizer for Ashita v4.3 Zone line visualizer for Ashita v4.3.",
+    "description_source": "https://github.com/SQLCommit/ZoneLines/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:31+00:00"
   },
   {
     "addon_key": "automining",
@@ -1157,7 +1165,8 @@
     "opportunity_score": 4.2,
     "description": "FFXI Windower addon",
     "description_source": "https://github.com/cybersoulwing/AutoMining",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:33+00:00"
   },
   {
     "addon_key": "closetcleaner2",
@@ -1170,9 +1179,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
-    "description_source": "https://github.com/Gol-exe/closetCleaner2",
-    "description_confidence": "medium"
+    "description": "addon: closetCleaner2 A Windower 4 addon that scans your GearSwap lua files and compares the gear they reference against your current inventory, producing a clean report that shows which pieces are unused, which are in a",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:33+00:00"
   },
   {
     "addon_key": "digskill",
@@ -1185,9 +1195,10 @@
     "best_repo_stars": 1,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "A collection of addons for FFXI Windower",
-    "description_source": "https://github.com/Phayde/Windower-addons",
-    "description_confidence": "medium"
+    "description": "# Phayde's Windower Addons > **Quality-of-life addons for Final Fantasy XI, built for the 2026 endgame meta.** > Developed and maintained by **Phayde** on the Windower platform.",
+    "description_source": "https://github.com/Phayde/Windower-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:34+00:00"
   },
   {
     "addon_key": "dpsmeter",
@@ -1202,7 +1213,8 @@
     "opportunity_score": 4.2,
     "description": "FFXI Windower addon",
     "description_source": "https://github.com/cybersoulwing/dpsmeter",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:35+00:00"
   },
   {
     "addon_key": "fancytrusts",
@@ -1215,9 +1227,10 @@
     "best_repo_stars": 5,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "A fancy UI to manage trusts",
-    "description_source": "https://github.com/ariel-logos/FancyTrusts",
-    "description_confidence": "medium"
+    "description": "FancyTrusts is an add-on for FFXI's third-party loader and hook Ashita (https://www.ashitaxi.com/).",
+    "description_source": "https://github.com/ariel-logos/FancyTrusts/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:36+00:00"
   },
   {
     "addon_key": "fasttarget",
@@ -1230,9 +1243,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "Windower 4 addon for FFXI that allow quicker target change",
-    "description_source": "https://github.com/LordAttilas/FastTarget",
-    "description_confidence": "medium"
+    "description": "# FastTarget Windower 4 addon for FFXI that allow quicker target change.",
+    "description_source": "https://github.com/LordAttilas/FastTarget/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:36+00:00"
   },
   {
     "addon_key": "luaparser",
@@ -1245,9 +1259,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
-    "description_source": "https://github.com/Gol-exe/closetCleaner2",
-    "description_confidence": "medium"
+    "description": "## Files - closetCleaner2.lua - Addon entry point (commands, inventory reading, report generation) - luaParser.lua - Text-based parser that extracts gear names from GearSwap lua files - data/settings.xml - User configura",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:37+00:00"
   },
   {
     "addon_key": "mogchat",
@@ -1260,9 +1275,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "AIM/ICQ style FFXI chat addon",
-    "description_source": "https://github.com/glitchv0/mogchat",
-    "description_confidence": "medium"
+    "description": "# MogChat - FFXI Tell Messenger An Ashita v4 addon for FFXI that provides an instant messenger-style interface for tells.",
+    "description_source": "https://github.com/glitchv0/mogchat/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:37+00:00"
   },
   {
     "addon_key": "packrat",
@@ -1275,9 +1291,10 @@
     "best_repo_stars": 1,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "FFXI addon that tracks items in your inventory, Wardrobe and Wardrobe 2",
-    "description_source": "https://github.com/Mr-Sithel/packrat",
-    "description_confidence": "medium"
+    "description": "### Info Packrat was originally created and maintained by Colorglut, who no longer seems to be active.",
+    "description_source": "https://github.com/Mr-Sithel/packrat/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:38+00:00"
   },
   {
     "addon_key": "trashit",
@@ -1290,9 +1307,10 @@
     "best_repo_stars": 1,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "A collection of addons for FFXI Windower",
-    "description_source": "https://github.com/Phayde/Windower-addons",
-    "description_confidence": "medium"
+    "description": "# Phayde's Windower Addons > **Quality-of-life addons for Final Fantasy XI, built for the 2026 endgame meta.** > Developed and maintained by **Phayde** on the Windower platform.",
+    "description_source": "https://github.com/Phayde/Windower-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:38+00:00"
   },
   {
     "addon_key": "vanaclock",
@@ -1305,9 +1323,10 @@
     "best_repo_stars": 3,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
-    "description_source": "https://github.com/BagTown/vanaclock",
-    "description_confidence": "medium"
+    "description": "# vanaclock Addon for FFXI to implement a vanadiel clock into the game.",
+    "description_source": "https://github.com/BagTown/vanaclock/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:39+00:00"
   },
   {
     "addon_key": "vanatime",
@@ -1320,9 +1339,10 @@
     "best_repo_stars": 3,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
-    "description_source": "https://github.com/BagTown/vanaclock",
-    "description_confidence": "medium"
+    "description": "The vanatime.lua library is required and must be placed into either the vanaclock addon directory or the addons/libs directory.",
+    "description_source": "https://github.com/BagTown/vanaclock/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:39+00:00"
   },
   {
     "addon_key": "weeklier",
@@ -1335,9 +1355,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.2,
-    "description": "An Ashita v4addon for HorizonXI that tracks weekly quest completion across all of your characters.",
-    "description_source": "https://github.com/patheed-ffxi/weeklier",
-    "description_confidence": "medium"
+    "description": "# Weeklier An Ashita v4 addon for HorizonXI that tracks weekly quest completion across all of your characters.",
+    "description_source": "https://github.com/patheed-ffxi/weeklier/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:40+00:00"
   },
   {
     "addon_key": "automb",
@@ -1350,9 +1371,10 @@
     "best_repo_stars": 7,
     "freshness_max": 4,
     "opportunity_score": 4.0,
-    "description": "An ffxi windower addon to help with magic bursts",
-    "description_source": "https://github.com/ekrividus/autoMB",
-    "description_confidence": "medium"
+    "description": "# autoMB A windower 4 addon that helps with magic bursts.",
+    "description_source": "https://github.com/ekrividus/autoMB/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:41+00:00"
   },
   {
     "addon_key": "magianws",
@@ -1365,9 +1387,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.0,
-    "description": "FFXI Windower addon that assists with Magian Weapon Skill Trials",
-    "description_source": "https://github.com/rouzazari/magianws",
-    "description_confidence": "medium"
+    "description": "# MagianWS **Author:** renzler **Version:** 0.0.1 **Date:** 2/26/2026 ## Description MagianWS automatically uses a weaponskill at a configurable TP threshold when the player is engaged.",
+    "description_source": "https://github.com/rouzazari/magianws/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:41+00:00"
   },
   {
     "addon_key": "moblevel",
@@ -1380,9 +1403,10 @@
     "best_repo_stars": 3,
     "freshness_max": 4,
     "opportunity_score": 4.0,
-    "description": "FFXI Windower addon that displays the level of the selected mob in their target box.",
-    "description_source": "https://github.com/DiscipleOfEris/MobLevel",
-    "description_confidence": "medium"
+    "description": "# Development for this addon has been moved to https://github.com/DiscipleOfEris/Windower4Addons # MobLevel Displays the level of the currently selected mob.",
+    "description_source": "https://github.com/DiscipleOfEris/MobLevel/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:42+00:00"
   },
   {
     "addon_key": "mogmover",
@@ -1395,9 +1419,10 @@
     "best_repo_stars": 0,
     "freshness_max": 1,
     "opportunity_score": 4.0,
-    "description": "FFXI / Windower Addon - Automated Inventory Management",
-    "description_source": "https://github.com/djlabbe/MogMover",
-    "description_confidence": "medium"
+    "description": "# MogMover A Windower addon for FFXI that automatically moves items from your inventory to designated storage locations when you receive them.",
+    "description_source": "https://github.com/djlabbe/MogMover/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:42+00:00"
   },
   {
     "addon_key": "npcinteract",
@@ -1412,7 +1437,8 @@
     "opportunity_score": 4.0,
     "description": "FFXI Windower addon for multiboxers to reduce tedious switching. Allow your alts to copy your main's NPC interactions.",
     "description_source": "https://github.com/DiscipleOfEris/NpcInteract",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:44+00:00"
   },
   {
     "addon_key": "stats",
@@ -1425,9 +1451,10 @@
     "best_repo_stars": 1,
     "freshness_max": 1,
     "opportunity_score": 4.0,
-    "description": "FFXI Windower Addon for tracking stats in game such as accuracy rate, min/max damage, spell debuff accuracy, ect.",
-    "description_source": "https://github.com/garyfromwork/Stats",
-    "description_confidence": "medium"
+    "description": "# Stats - FFXI Windower Addon **Author:** Garyfromwork **Version:** 1.0.0 **Commands:** //stats or //st ## Overview Stats is a comprehensive combat statistics tracking addon for Final Fantasy XI (Windower).",
+    "description_source": "https://github.com/garyfromwork/Stats/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:44+00:00"
   },
   {
     "addon_key": "assist",
@@ -1441,9 +1468,10 @@
     "best_repo_stars": 12,
     "freshness_max": 4,
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
-    "description_confidence": "medium"
+    "description": "# Windower4Addons Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
+    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:46+00:00"
   },
   {
     "addon_key": "autoassist",
@@ -1458,7 +1486,8 @@
     "opportunity_score": 3.78,
     "description": "An ffxi windower addon to automatically assist a party member in combat",
     "description_source": "https://github.com/ekrividus/autoAssist",
-    "description_confidence": "medium"
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:48+00:00"
   },
   {
     "addon_key": "autodnc",
@@ -1471,9 +1500,10 @@
     "best_repo_stars": 79,
     "freshness_max": 4,
     "opportunity_score": 3.78,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
+    "description": "# Windower-addons FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:48+00:00"
   },
   {
     "addon_key": "bursting",
@@ -1486,9 +1516,10 @@
     "best_repo_stars": 14,
     "freshness_max": 4,
     "opportunity_score": 3.78,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low"
+    "description": "activeSkillchain = skillchains[289] activeSkillchainStartTime = os.time() - 3",
+    "description_source": "https://github.com/ValokAsura/WindowerAddons/blob/HEAD/Bursting/bursting.lua",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-24T15:01:49+00:00"
   },
   {
     "addon_key": "chococard",
@@ -1501,9 +1532,10 @@
     "best_repo_stars": 79,
     "freshness_max": 4,
     "opportunity_score": 3.78,
-    "description": "FFXI Windower addons",
-    "description_source": "https://github.com/Ivaar/Windower-addons",
-    "description_confidence": "medium"
+    "description": "# Windower-addons FFXI Windower addons Support: https://discord.gg/3J38wkE Disclaimer: AuctionHelper, Trade, TradeNPC SellNPC and NPCit inject packet to the ffxi server and have a potential risk of getting you banned.",
+    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/README.md",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-24T15:01:49+00:00"
   },
   {
     "addon_key": "crystaltrader",
