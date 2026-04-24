@@ -1,40 +1,149 @@
 [
   {
-    "repo": "ProjectTako/ffxi-addons",
-    "stars": 99,
-    "pushed_at": "2022-11-09T19:45:51Z",
-    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "repo": "AkadenTK/enemybar2",
+    "stars": 19,
+    "pushed_at": "2021-01-30T19:48:45Z",
+    "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
     "addon_dirs": [
-      "allseeingeye",
-      "debuff-tracker",
-      "equipviewer",
-      "fastcs",
-      "menus",
-      "partybuffs",
-      "react",
-      "scanzone",
-      "turnaround"
+      "icons"
     ]
   },
   {
-    "repo": "Ivaar/Windower-addons",
-    "stars": 79,
-    "pushed_at": "2023-09-12T03:56:46Z",
-    "description": "FFXI Windower addons",
+    "repo": "AkadenTK/superwarp",
+    "stars": 55,
+    "pushed_at": "2026-03-18T13:55:18Z",
+    "description": "Addon for Windower 4 for FFXI that allows text commands to utilize homepoint, waypoint and survival guide teleport npcs",
     "addon_dirs": [
-      "AuctionHelper",
-      "AutoCOR",
-      "AutoDNC",
-      "AutoGEO",
-      "ChatMan",
-      "PorterPacker",
-      "QuestLog",
-      "SellNPC",
-      "Singer",
-      "Trade",
-      "TradeNPC",
-      "chococard",
-      "htmb"
+      "map"
+    ]
+  },
+  {
+    "repo": "Akirane/XIVHotbar",
+    "stars": 18,
+    "pushed_at": "2020-12-26T23:55:51Z",
+    "description": "",
+    "addon_dirs": [
+      "data",
+      "priv_res",
+      "themes"
+    ]
+  },
+  {
+    "repo": "AliekberFFXI/xivcrossbar",
+    "stars": 17,
+    "pushed_at": "2022-09-15T22:03:23Z",
+    "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
+    "addon_dirs": [
+      "libs",
+      "themes",
+      "ui"
+    ]
+  },
+  {
+    "repo": "ariel-logos/FancyTrusts",
+    "stars": 5,
+    "pushed_at": "2026-04-09T10:34:01Z",
+    "description": "A fancy UI to manage trusts",
+    "addon_dirs": [
+      "FancyTrusts"
+    ]
+  },
+  {
+    "repo": "BagTown/vanaclock",
+    "stars": 3,
+    "pushed_at": "2026-03-30T01:43:40Z",
+    "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
+    "addon_dirs": [
+      "vanaclock",
+      "vanatime"
+    ]
+  },
+  {
+    "repo": "Bryenne-Sylph/tourist",
+    "stars": 3,
+    "pushed_at": "2026-03-15T20:10:54Z",
+    "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
+    "addon_dirs": [
+      "tourist"
+    ]
+  },
+  {
+    "repo": "cyritegamestudios/trust",
+    "stars": 49,
+    "pushed_at": "2026-04-23T04:17:39Z",
+    "description": "Windower 4 addon for FFXI to automate your character in battle.",
+    "addon_dirs": [
+      "trust"
+    ]
+  },
+  {
+    "repo": "DiscipleOfEris/Windower4Addons",
+    "stars": 12,
+    "pushed_at": "2024-02-18T18:22:59Z",
+    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
+    "addon_dirs": [
+      "EraDebuffed",
+      "EraDistancePlus",
+      "EraInfoBar",
+      "EraJobChange",
+      "EraMobDrops",
+      "EraMobLevel",
+      "EraPointWatch",
+      "EraScoreboard",
+      "FastFollow",
+      "SendTarget",
+      "assist"
+    ]
+  },
+  {
+    "repo": "ekrividus/autoAssist",
+    "stars": 13,
+    "pushed_at": "2022-11-26T19:34:33Z",
+    "description": "An ffxi windower addon to automatically assist a party member in combat",
+    "addon_dirs": []
+  },
+  {
+    "repo": "flippant/parse",
+    "stars": 15,
+    "pushed_at": "2023-08-12T01:51:20Z",
+    "description": "FFXI Parser Addon for Windower",
+    "addon_dirs": []
+  },
+  {
+    "repo": "Gol-exe/closetCleaner2",
+    "stars": 0,
+    "pushed_at": "2026-04-23T20:03:49Z",
+    "description": "Rework of the ClosetCleaner FFXI Windower Addon",
+    "addon_dirs": [
+      "closetCleaner2",
+      "luaParser"
+    ]
+  },
+  {
+    "repo": "HealsCodes/statustimers",
+    "stars": 15,
+    "pushed_at": "2026-03-01T14:25:55Z",
+    "description": "Statustimers for Ashita v4",
+    "addon_dirs": [
+      "addons"
+    ]
+  },
+  {
+    "repo": "HealsCodes/XIPivot",
+    "stars": 61,
+    "pushed_at": "2026-01-31T13:44:31Z",
+    "description": "FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs",
+    "addon_dirs": [
+      "XIPivot"
+    ]
+  },
+  {
+    "repo": "HiPotionQ8/XIchecklist",
+    "stars": 4,
+    "pushed_at": "2026-04-23T09:57:29Z",
+    "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
+    "addon_dirs": [
+      "XIchecklist"
     ]
   },
   {
@@ -186,21 +295,30 @@
     ]
   },
   {
-    "repo": "HealsCodes/XIPivot",
-    "stars": 61,
-    "pushed_at": "2026-01-31T13:44:31Z",
-    "description": "FFXI Ashita & Windower 4 addon to allow dynamic loading of Mods without modification of the original DATs",
+    "repo": "iLVL-Key/FFXI",
+    "stars": 22,
+    "pushed_at": "2026-04-22T15:03:22Z",
+    "description": "Various FFXI projects",
     "addon_dirs": [
-      "XIPivot"
-    ]
-  },
-  {
-    "repo": "AkadenTK/superwarp",
-    "stars": 55,
-    "pushed_at": "2026-03-18T13:55:18Z",
-    "description": "Addon for Windower 4 for FFXI that allows text commands to utilize homepoint, waypoint and survival guide teleport npcs",
-    "addon_dirs": [
-      "map"
+      "Attend",
+      "Bars",
+      "BattlePlan",
+      "Callouts",
+      "Exorcist",
+      "GaolPlan",
+      "Helper",
+      "Informer",
+      "Jingle",
+      "LLMChat",
+      "Leaderboard",
+      "ReadyCheck",
+      "Sweeper",
+      "TaskBar",
+      "VanaFacts",
+      "VanaPad",
+      "Vanity",
+      "ZNMTracker",
+      "emotes"
     ]
   },
   {
@@ -211,22 +329,24 @@
     "addon_dirs": []
   },
   {
-    "repo": "cyritegamestudios/trust",
-    "stars": 49,
-    "pushed_at": "2026-04-23T04:17:39Z",
-    "description": "Windower 4 addon for FFXI to automate your character in battle.",
+    "repo": "Ivaar/Windower-addons",
+    "stars": 79,
+    "pushed_at": "2023-09-12T03:56:46Z",
+    "description": "FFXI Windower addons",
     "addon_dirs": [
-      "trust"
-    ]
-  },
-  {
-    "repo": "Tylas11/XivParty",
-    "stars": 47,
-    "pushed_at": "2026-02-26T20:01:30Z",
-    "description": "A party list addon for Windower 4.",
-    "addon_dirs": [
-      "assets",
-      "layouts"
+      "AuctionHelper",
+      "AutoCOR",
+      "AutoDNC",
+      "AutoGEO",
+      "ChatMan",
+      "PorterPacker",
+      "QuestLog",
+      "SellNPC",
+      "Singer",
+      "Trade",
+      "TradeNPC",
+      "chococard",
+      "htmb"
     ]
   },
   {
@@ -271,31 +391,6 @@
     ]
   },
   {
-    "repo": "mousseng/xitools",
-    "stars": 29,
-    "pushed_at": "2026-03-10T17:38:26Z",
-    "description": "Some addons and plugins for FFXI (Ashita)",
-    "addon_dirs": [
-      "bluspells",
-      "chatty",
-      "colure",
-      "dxui",
-      "imrecast",
-      "libs",
-      "loggers",
-      "minimap-helper",
-      "omen",
-      "rcheck",
-      "relicge",
-      "repl",
-      "skillchain",
-      "strats",
-      "trials",
-      "wheel",
-      "xitools"
-    ]
-  },
-  {
     "repo": "lorand-ffxi/HealBot",
     "stars": 28,
     "pushed_at": "2018-05-22T20:21:49Z",
@@ -305,50 +400,21 @@
     ]
   },
   {
-    "repo": "iLVL-Key/FFXI",
-    "stars": 22,
-    "pushed_at": "2026-04-22T15:03:22Z",
-    "description": "Various FFXI projects",
+    "repo": "LordAttilas/FastTarget",
+    "stars": 0,
+    "pushed_at": "2026-04-18T01:11:58Z",
+    "description": "Windower 4 addon for FFXI that allow quicker target change",
     "addon_dirs": [
-      "Attend",
-      "Bars",
-      "BattlePlan",
-      "Callouts",
-      "Exorcist",
-      "GaolPlan",
-      "Helper",
-      "Informer",
-      "Jingle",
-      "LLMChat",
-      "Leaderboard",
-      "ReadyCheck",
-      "Sweeper",
-      "TaskBar",
-      "VanaFacts",
-      "VanaPad",
-      "Vanity",
-      "ZNMTracker",
-      "emotes"
+      "FastTarget"
     ]
   },
   {
-    "repo": "AkadenTK/enemybar2",
-    "stars": 19,
-    "pushed_at": "2021-01-30T19:48:45Z",
-    "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
+    "repo": "Lydya-nick77/readycheck",
+    "stars": 0,
+    "pushed_at": "2026-04-12T14:11:47Z",
+    "description": "FFXI addon to execute a WoW Style Readycheck with the party/alliance",
     "addon_dirs": [
-      "icons"
-    ]
-  },
-  {
-    "repo": "Akirane/XIVHotbar",
-    "stars": 18,
-    "pushed_at": "2020-12-26T23:55:51Z",
-    "description": "",
-    "addon_dirs": [
-      "data",
-      "priv_res",
-      "themes"
+      "readycheck"
     ]
   },
   {
@@ -437,14 +503,28 @@
     ]
   },
   {
-    "repo": "AliekberFFXI/xivcrossbar",
-    "stars": 17,
-    "pushed_at": "2022-09-15T22:03:23Z",
-    "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
+    "repo": "mousseng/xitools",
+    "stars": 29,
+    "pushed_at": "2026-03-10T17:38:26Z",
+    "description": "Some addons and plugins for FFXI (Ashita)",
     "addon_dirs": [
+      "bluspells",
+      "chatty",
+      "colure",
+      "dxui",
+      "imrecast",
       "libs",
-      "themes",
-      "ui"
+      "loggers",
+      "minimap-helper",
+      "omen",
+      "rcheck",
+      "relicge",
+      "repl",
+      "skillchain",
+      "strats",
+      "trials",
+      "wheel",
+      "xitools"
     ]
   },
   {
@@ -533,95 +613,6 @@
     ]
   },
   {
-    "repo": "ZeromusXYZ/PacketViewerLogViewer",
-    "stars": 17,
-    "pushed_at": "2023-05-18T06:00:22Z",
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "addon_dirs": [
-      "Properties",
-      "Res",
-      "data",
-      "forms",
-      "helpers",
-      "redist"
-    ]
-  },
-  {
-    "repo": "flippant/parse",
-    "stars": 15,
-    "pushed_at": "2023-08-12T01:51:20Z",
-    "description": "FFXI Parser Addon for Windower",
-    "addon_dirs": []
-  },
-  {
-    "repo": "HealsCodes/statustimers",
-    "stars": 15,
-    "pushed_at": "2026-03-01T14:25:55Z",
-    "description": "Statustimers for Ashita v4",
-    "addon_dirs": [
-      "addons"
-    ]
-  },
-  {
-    "repo": "ValokAsura/WindowerAddons",
-    "stars": 14,
-    "pushed_at": "2023-02-04T00:29:37Z",
-    "description": "",
-    "addon_dirs": [
-      "Bursting",
-      "CrystalTrader",
-      "MagicAssistant",
-      "QuickTrade 2",
-      "QuickTrade"
-    ]
-  },
-  {
-    "repo": "ekrividus/autoAssist",
-    "stars": 13,
-    "pushed_at": "2022-11-26T19:34:33Z",
-    "description": "An ffxi windower addon to automatically assist a party member in combat",
-    "addon_dirs": []
-  },
-  {
-    "repo": "Technyze/XIVHotbar2",
-    "stars": 13,
-    "pushed_at": "2023-03-12T03:29:46Z",
-    "description": "",
-    "addon_dirs": [
-      "data",
-      "priv_res",
-      "themes"
-    ]
-  },
-  {
-    "repo": "DiscipleOfEris/Windower4Addons",
-    "stars": 12,
-    "pushed_at": "2024-02-18T18:22:59Z",
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "addon_dirs": [
-      "EraDebuffed",
-      "EraDistancePlus",
-      "EraInfoBar",
-      "EraJobChange",
-      "EraMobDrops",
-      "EraMobLevel",
-      "EraPointWatch",
-      "EraScoreboard",
-      "FastFollow",
-      "SendTarget",
-      "assist"
-    ]
-  },
-  {
-    "repo": "HiPotionQ8/XIchecklist",
-    "stars": 4,
-    "pushed_at": "2026-04-23T09:57:29Z",
-    "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
-    "addon_dirs": [
-      "XIchecklist"
-    ]
-  },
-  {
     "repo": "onimitch/ffxi-zonename",
     "stars": 4,
     "pushed_at": "2026-04-05T14:44:54Z",
@@ -629,12 +620,40 @@
     "addon_dirs": []
   },
   {
-    "repo": "Bryenne-Sylph/tourist",
-    "stars": 3,
-    "pushed_at": "2026-03-15T20:10:54Z",
-    "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
+    "repo": "patheed-ffxi/weeklier",
+    "stars": 0,
+    "pushed_at": "2026-04-18T13:06:18Z",
+    "description": "An Ashita v4addon for HorizonXI that tracks weekly quest completion across all of your characters.",
     "addon_dirs": [
-      "tourist"
+      "weeklier"
+    ]
+  },
+  {
+    "repo": "Phayde/Windower-addons",
+    "stars": 1,
+    "pushed_at": "2026-04-16T02:53:51Z",
+    "description": "A collection of addons for FFXI Windower",
+    "addon_dirs": [
+      "digskill",
+      "smarttarget",
+      "trashit"
+    ]
+  },
+  {
+    "repo": "ProjectTako/ffxi-addons",
+    "stars": 99,
+    "pushed_at": "2022-11-09T19:45:51Z",
+    "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
+    "addon_dirs": [
+      "allseeingeye",
+      "debuff-tracker",
+      "equipviewer",
+      "fastcs",
+      "menus",
+      "partybuffs",
+      "react",
+      "scanzone",
+      "turnaround"
     ]
   },
   {
@@ -666,5 +685,53 @@
     "pushed_at": "2026-03-20T01:38:26Z",
     "description": "FFXI - Ashita v4.3 Addon - Zone Line Visualizer",
     "addon_dirs": []
+  },
+  {
+    "repo": "Technyze/XIVHotbar2",
+    "stars": 13,
+    "pushed_at": "2023-03-12T03:29:46Z",
+    "description": "",
+    "addon_dirs": [
+      "data",
+      "priv_res",
+      "themes"
+    ]
+  },
+  {
+    "repo": "Tylas11/XivParty",
+    "stars": 47,
+    "pushed_at": "2026-02-26T20:01:30Z",
+    "description": "A party list addon for Windower 4.",
+    "addon_dirs": [
+      "assets",
+      "layouts"
+    ]
+  },
+  {
+    "repo": "ValokAsura/WindowerAddons",
+    "stars": 14,
+    "pushed_at": "2023-02-04T00:29:37Z",
+    "description": "",
+    "addon_dirs": [
+      "Bursting",
+      "CrystalTrader",
+      "MagicAssistant",
+      "QuickTrade 2",
+      "QuickTrade"
+    ]
+  },
+  {
+    "repo": "ZeromusXYZ/PacketViewerLogViewer",
+    "stars": 17,
+    "pushed_at": "2023-05-18T06:00:22Z",
+    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
+    "addon_dirs": [
+      "Properties",
+      "Res",
+      "data",
+      "forms",
+      "helpers",
+      "redist"
+    ]
   }
 ]
