@@ -37,6 +37,17 @@ log = mock.get_chat_log()
 check('plan produces output', #log > 0)
 check('plan mentions jeuno', log[1] and log[1].text:find('jeuno') ~= nil)
 
+-- test explain with known destination
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'explain', 'jeuno')
+log = mock.get_chat_log()
+check('explain produces output', #log > 1)
+check('explain includes candidate scoring header', log[1] and log[1].text:find('Candidate scoring') ~= nil)
+check('explain includes selected marker note', log[#log] and log[#log].text:find('top%-ranked option') ~= nil)
+
 -- test plan with unknown destination
 mock.reset()
 mock.install()
