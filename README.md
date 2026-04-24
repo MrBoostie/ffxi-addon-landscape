@@ -107,6 +107,7 @@ If you only load `SessionConductor`, the `travel` command will still broadcast, 
 - `addons/SessionConductor` — multi-character command coordinator
   - integrates with TravelRouter via `//conductor travel <destination>`
   - includes v1.1 event/rule automation engine (`rules.default.lua` + overrides)
+- `addons/AddonHealth` — health/diagnostics dashboard for addon stack, with optional user-extended monitoring catalog via `data/addons.user.lua`
 
 See specs:
 - `specs/travelrouter-v1.0.md`

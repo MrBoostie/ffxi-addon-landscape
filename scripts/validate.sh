@@ -32,7 +32,7 @@ if [ -n "$LUA_CMD" ]; then
         else
             fail "$(basename "$f") syntax error"
         fi
-    done < <(find "$REPO_ROOT/addons" "$REPO_ROOT/libs" -name '*.lua' -print0 2>/dev/null)
+    done < <(find "$REPO_ROOT/addons" "$REPO_ROOT/lib" -name '*.lua' -print0 2>/dev/null)
 else
     warn "luac not found, skipping Lua syntax checks"
 fi
