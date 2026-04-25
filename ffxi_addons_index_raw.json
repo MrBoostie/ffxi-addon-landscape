@@ -11,14 +11,18 @@
     "stars": 55,
     "pushed_at": "2026-03-18T13:55:18Z",
     "description": "Addon for Windower 4 for FFXI that allows text commands to utilize homepoint, waypoint and survival guide teleport npcs",
-    "addon_dirs": []
+    "addon_dirs": [
+      "map"
+    ]
   },
   {
     "repo": "Akirane/XIVHotbar",
     "stars": 18,
     "pushed_at": "2020-12-26T23:55:51Z",
     "description": "",
-    "addon_dirs": []
+    "addon_dirs": [
+      "priv_res"
+    ]
   },
   {
     "repo": "AliekberFFXI/xivcrossbar",
@@ -26,7 +30,7 @@
     "pushed_at": "2022-09-15T22:03:23Z",
     "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
     "addon_dirs": [
-      "tools"
+      "ui"
     ]
   },
   {
@@ -44,6 +48,22 @@
     "pushed_at": "2026-03-30T01:43:40Z",
     "description": "Addon for FFXI to implement a vanadiel clock into the game. Including features similar to mithrapride.",
     "addon_dirs": []
+  },
+  {
+    "repo": "Broguypal/Addons",
+    "stars": 6,
+    "pushed_at": "2026-04-11T16:17:05Z",
+    "description": "Addons for FFXI",
+    "addon_dirs": [
+      "AbysseaProc",
+      "Gearswap Includes",
+      "Hivemind",
+      "TrueTargetLock",
+      "Wardrobe9",
+      "dbTracker",
+      "faceaway",
+      "tTracker"
+    ]
   },
   {
     "repo": "Bryenne-Sylph/tourist",
@@ -76,15 +96,9 @@
     "pushed_at": "2026-04-24T14:25:24Z",
     "description": "Windower 4 addon for FFXI to automate your character in battle.",
     "addon_dirs": [
-      "Setup",
-      "commands",
       "cylibs",
-      "includes",
-      "loading",
-      "logs",
-      "settings",
-      "sounds",
-      "translations"
+      "resources",
+      "ui"
     ]
   },
   {
@@ -211,6 +225,28 @@
     ]
   },
   {
+    "repo": "GetAwayCoxn/Ashita-v4-Addons",
+    "stars": 9,
+    "pushed_at": "2024-03-18T19:31:27Z",
+    "description": "Addons created or ported for FFXI only for use with Ashita v4",
+    "addon_dirs": [
+      "autochecker",
+      "boxhelper",
+      "database",
+      "luopantime",
+      "mountme",
+      "muffins",
+      "ninhelper",
+      "nomnom",
+      "puphelper",
+      "runehelper",
+      "segments",
+      "thtracker",
+      "weatherhelper",
+      "zenihelper"
+    ]
+  },
+  {
     "repo": "glitchv0/mogchat",
     "stars": 0,
     "pushed_at": "2026-04-22T15:44:33Z",
@@ -233,7 +269,6 @@
     "pushed_at": "2026-03-01T14:25:55Z",
     "description": "Statustimers for Ashita v4",
     "addon_dirs": [
-      "addons",
       "statustimers"
     ]
   },
@@ -253,9 +288,10 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-24T14:31:22Z",
+    "pushed_at": "2026-04-25T06:29:17Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
+      "maps",
       "util"
     ]
   },
@@ -294,115 +330,7 @@
       "JobChange",
       "Locke",
       "Logger",
-      "MagicAssistant",
-      "MassTrade",
-      "MoveItems",
-      "MyHome",
-      "MyOmen",
-      "NniTimer",
-      "Omen",
-      "OneOffs",
-      "PartyPets",
-      "PorterPacker",
-      "Positions",
-      "Pouches",
-      "QuickTrade",
-      "React",
-      "Repeater",
-      "RunicPortal",
-      "ScriptedExtender",
-      "SellNPC",
-      "SendAllTarget",
-      "SendTarget",
-      "SetTarget",
-      "Silence",
-      "SimpleAssist",
-      "Singer",
-      "SirPopaLot",
-      "Skillchains",
-      "Sparks",
-      "Stars",
-      "StatSearch",
-      "SubTarget",
-      "Synergy",
-      "TParty",
-      "TargetPlus",
-      "ThfKnife",
-      "Trade",
-      "TradeNPC",
-      "Trader",
-      "TreasurePool",
-      "Treasury",
-      "VWPop",
-      "Valkyrie",
-      "WarpMenu",
-      "WoEHelper",
-      "ZenimonSnap",
-      "aecho",
-      "allseeingeye",
-      "ambuloot",
-      "anchor",
-      "attackid",
-      "attackwithme",
-      "autocontrol",
-      "autojoin",
-      "autowatch",
-      "azureSets",
-      "battlemod",
-      "blist",
-      "cancel",
-      "capetrader",
-      "charmed",
-      "checkparam",
-      "clickfind",
-      "crb_addon",
-      "dostuff",
-      "dynamishelper",
-      "enternity",
-      "equipviewer",
-      "eval",
-      "export_items",
-      "ffxikeys",
-      "finalAlert",
-      "findAll",
-      "fisher",
-      "followme",
-      "friendzone",
-      "giltracker",
-      "htmb",
-      "itemizer",
-      "lockpick",
-      "lottery",
-      "macrochanger",
-      "maga",
-      "noknock",
-      "organizer",
-      "petparty",
-      "pointwatch",
-      "porter",
-      "posfind",
-      "roe",
-      "rolldistance",
-      "rtfm",
-      "schskillchain",
-      "send",
-      "shortcuts",
-      "smarttarget",
-      "spellSpammer",
-      "superwarp",
-      "targeter",
-      "targetinfoEx",
-      "thtracker",
-      "timestamp",
-      "tonic",
-      "triggers",
-      "voidwalker",
-      "voidwatch",
-      "where",
-      "widescantool",
-      "xivcrossbar",
-      "zonename",
-      "zonetimer"
+      "MagicAssistant"
     ]
   },
   {
@@ -418,8 +346,6 @@
     "pushed_at": "2026-04-22T15:03:22Z",
     "description": "Various FFXI projects",
     "addon_dirs": [
-      "addons",
-      "gearswap",
       "Attend",
       "Bars",
       "BattlePlan",
@@ -438,7 +364,8 @@
       "VanaPad",
       "Vanity",
       "ZNMTracker",
-      "emotes"
+      "emotes",
+      "gearswap"
     ]
   },
   {
@@ -504,10 +431,7 @@
       "tiptoes",
       "tpsreport",
       "trialtracker",
-      "useall",
-      "waveback",
-      "weathermon",
-      "witnessprotection"
+      "useall"
     ]
   },
   {
@@ -568,53 +492,7 @@
       "Sparks",
       "SpeedChecker",
       "SpellCheck",
-      "Sprint",
-      "SubTarget",
-      "Synthall",
-      "TParty",
-      "Text",
-      "Trade",
-      "TreasurePool",
-      "Treasury",
-      "aecho",
-      "autoSynth",
-      "autoWS",
-      "autocontrol",
-      "autoinvite",
-      "autojoin",
-      "azureSets",
-      "battlemod",
-      "bluguide",
-      "boxdestroyer",
-      "broseem",
-      "cancel",
-      "digger",
-      "distance",
-      "enternity",
-      "eval",
-      "findAll",
-      "gametime",
-      "instaLS",
-      "itemizer",
-      "latentchecker",
-      "linker",
-      "lottery",
-      "organizer",
-      "parse",
-      "pet_fix",
-      "plugin_manager",
-      "pointwatch",
-      "rolltracker",
-      "scoreboard",
-      "send",
-      "shortcuts",
-      "skilluptracker",
-      "stna",
-      "stopwatch",
-      "timestamp",
-      "translate",
-      "update",
-      "zonetimer"
+      "Sprint"
     ]
   },
   {
@@ -623,7 +501,6 @@
     "pushed_at": "2026-03-10T17:38:26Z",
     "description": "Some addons and plugins for FFXI (Ashita)",
     "addon_dirs": [
-      "addons",
       "bluspells",
       "chatty",
       "colure",
@@ -695,53 +572,7 @@
       "SpeedChecker",
       "SpellCheck",
       "Sprint",
-      "StratHelper",
-      "TParty",
-      "Treasury",
-      "VisibleFavor",
-      "Yush",
-      "aecho",
-      "autoSynth",
-      "barfiller",
-      "battlemod",
-      "bluguide",
-      "boxdestroyer",
-      "cancel",
-      "chars",
-      "digger",
-      "distance",
-      "dynamishelper",
-      "enemybar",
-      "enternity",
-      "eval",
-      "ffxicaddieProvider",
-      "findAll",
-      "fisher",
-      "gametime",
-      "highlight",
-      "instaLS",
-      "itemizer",
-      "latentchecker",
-      "linker",
-      "macrochanger",
-      "ohShi",
-      "organizer",
-      "plasmon",
-      "pointwatch",
-      "porter",
-      "reive",
-      "rolltracker",
-      "salvage2",
-      "scoreboard",
-      "setbgm",
-      "shortcuts",
-      "synthall",
-      "taps",
-      "targetinfo",
-      "thtracker",
-      "truesight",
-      "update",
-      "zonetimer"
+      "StratHelper"
     ]
   },
   {
@@ -750,7 +581,6 @@
     "pushed_at": "2025-12-09T22:58:35Z",
     "description": "This is an Ashita v4 port of the Balloon addon, forked from StarlitGhost's version.  The original Windower Balloon addon was created by Hando and modified by Kenshi, Yuki and Ghosty.",
     "addon_dirs": [
-      "portraits",
       "wlibs"
     ]
   },
@@ -786,15 +616,7 @@
     "pushed_at": "2022-11-09T19:45:51Z",
     "description": "Some addons that I've made for FINAL FANTASY XI for both Windower v4 and Ashita v3",
     "addon_dirs": [
-      "allseeingeye",
-      "debuff-tracker",
-      "equipviewer",
-      "fastcs",
-      "menus",
-      "partybuffs",
-      "react",
-      "scanzone",
-      "turnaround"
+      "debuff-tracker"
     ]
   },
   {
@@ -810,7 +632,36 @@
     "pushed_at": "2020-10-03T08:42:27Z",
     "description": "FFXI Windower Addon, Multipurpose gear / buff tracker",
     "addon_dirs": [
-      "textures"
+      "res"
+    ]
+  },
+  {
+    "repo": "sethmccauley/Addons",
+    "stars": 13,
+    "pushed_at": "2026-02-25T19:58:13Z",
+    "description": "Lua Addons for FFXI",
+    "addon_dirs": [
+      "ambuloot",
+      "autowatch",
+      "gobbie",
+      "lastsynth",
+      "packetviewer",
+      "parse",
+      "rolltracker",
+      "shortcuts",
+      "sparks"
+    ]
+  },
+  {
+    "repo": "Sippius/Ashita-v4-addons",
+    "stars": 21,
+    "pushed_at": "2023-11-24T17:00:47Z",
+    "description": "FFXI Ashita-v4 addons",
+    "addon_dirs": [
+      "RollTracker",
+      "chains",
+      "find",
+      "pupsets"
     ]
   },
   {
@@ -862,7 +713,9 @@
     "stars": 13,
     "pushed_at": "2023-03-12T03:29:46Z",
     "description": "",
-    "addon_dirs": []
+    "addon_dirs": [
+      "priv_res"
+    ]
   },
   {
     "repo": "ThornyFFXI/mobdb",

@@ -1,5 +1,37 @@
 [
   {
+    "addon_key": "3rdparty",
+    "addon_name": "3rdparty",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/XIPivot"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 61,
+    "freshness_max": 83,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
+    "addon_key": "abysseaproc",
+    "addon_name": "Abysseaproc",
+    "category": "general_qol",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "addons",
     "addon_name": "Addons",
     "category": "diagnostics",
@@ -55,11 +87,11 @@
     "addon_name": "Ambuloot",
     "category": "economy_inventory",
     "repos": [
-      "Icydeath/ffxi-addons"
+      "sethmccauley/Addons"
     ],
     "repo_count": 1,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "best_repo_stars": 13,
+    "freshness_max": 58,
     "opportunity_score": 3.43,
     "description": "table.vprint(test_table)",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ambuloot/ambuloot.lua",
@@ -71,11 +103,10 @@
     "addon_name": "Anchor",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Lygre/addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
+    "repo_count": 1,
+    "best_repo_stars": 18,
     "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "bit manipulation helper functions event callback functions",
@@ -120,12 +151,11 @@
     "addon_name": "Assist",
     "category": "automation",
     "repos": [
-      "DiscipleOfEris/Assist",
       "DiscipleOfEris/Windower4Addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 1332,
+    "freshness_max": 796,
     "opportunity_score": 3.78,
     "description": "# Windower4Addons Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/README.md",
@@ -207,7 +237,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 79,
-    "freshness_max": 3349,
+    "freshness_max": 956,
     "opportunity_score": 2.21,
     "description": "Displays a text object with sales information when opening ah menu (if text object is set to show).",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AuctionHelper/README.md",
@@ -263,6 +293,22 @@
     "description_reviewed_at": "2026-04-25T07:01:42+00:00"
   },
   {
+    "addon_key": "autochecker",
+    "addon_name": "Autochecker",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "autocontrol",
     "addon_name": "Autocontrol",
     "category": "automation",
@@ -289,7 +335,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "4/7/21: fixed fold and snake eye issues being used when it shouldn't be. 1/11/21: Added toggle settings for fold and snake eye",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AutoCOR/AutoCOR.lua",
@@ -322,7 +368,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "Some have been modified by me to suit my own needs, full credit goes to the original creators._ **allseeingeye** by Project Tako **AllWarps** by Ivaar - Gives access to the menu options for the following warps: Homepoint",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
@@ -421,7 +467,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 1489,
     "opportunity_score": 1.86,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AutoRA/AutoRA.lua",
@@ -530,11 +576,11 @@
     "addon_name": "Autowatch",
     "category": "automation",
     "repos": [
-      "Icydeath/ffxi-addons"
+      "sethmccauley/Addons"
     ],
     "repo_count": 1,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "best_repo_stars": 13,
+    "freshness_max": 58,
     "opportunity_score": 3.43,
     "description": "**update 1/17/2021** autowatch (by Langly) : I've had some success with this one.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
@@ -546,12 +592,11 @@
     "addon_name": "Autows",
     "category": "automation",
     "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons"
+      "Icydeath/ffxi-addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 69,
-    "freshness_max": 3349,
+    "freshness_max": 1489,
     "opportunity_score": 2.31,
     "description": "Automates weapon skill usage based on configurable TP thresholds and combat conditions.",
     "description_source": "heuristic",
@@ -724,6 +769,22 @@
     "description_reviewed_at": "2026-04-24T16:13:50+00:00"
   },
   {
+    "addon_key": "boxhelper",
+    "addon_name": "Boxhelper",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "broseem",
     "addon_name": "Broseem",
     "category": "general_qol",
@@ -822,6 +883,22 @@
     "description_reviewed_at": "2026-04-24T16:16:22+00:00"
   },
   {
+    "addon_key": "chains",
+    "addon_name": "Chains",
+    "category": "general_qol",
+    "repos": [
+      "Sippius/Ashita-v4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 21,
+    "freshness_max": 882,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "charmed",
     "addon_name": "Charmed",
     "category": "general_qol",
@@ -895,7 +972,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "Configure chatbased alerts and more commands are as follows: Above commands support the following arguments: Additional commands:",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ChatMan/README.md",
@@ -971,12 +1048,11 @@
     "addon_name": "Clickfind",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "lili-ffxi/FFXI-Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 50,
     "opportunity_score": 3.71,
     "description": "Prints the X,Y position of the mouse in the chatlog. Triggers when the left mouse button is *released*.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/clickfind/clickfind.lua",
@@ -993,7 +1069,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 3349,
+    "freshness_max": 1489,
     "opportunity_score": 2.31,
     "description": "Use loadstring to let Lua interpret things like \\n for us",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Clock/Clock.lua",
@@ -1059,7 +1135,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 1489,
     "opportunity_score": 1.86,
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
@@ -1163,6 +1239,22 @@
     "description_reviewed_at": "2026-04-24T16:16:51+00:00"
   },
   {
+    "addon_key": "cylibs",
+    "addon_name": "Cylibs",
+    "category": "general_qol",
+    "repos": [
+      "cyritegamestudios/trust"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 49,
+    "freshness_max": 0,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "data",
     "addon_name": "data",
     "category": "general_qol",
@@ -1181,6 +1273,38 @@
     "description_source": "https://github.com/Akirane/XIVHotbar/blob/HEAD/data/Akirane/General.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T21:03:41+00:00"
+  },
+  {
+    "addon_key": "database",
+    "addon_name": "Database",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
+    "addon_key": "dbtracker",
+    "addon_name": "Dbtracker",
+    "category": "diagnostics",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "debuff-tracker",
@@ -1208,7 +1332,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -1302,11 +1426,10 @@
     "addon_name": "Dostuff",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Lygre/addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
+    "repo_count": 1,
+    "best_repo_stars": 18,
     "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "Parse and process commands Need more args from here on",
@@ -1357,7 +1480,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 1489,
     "opportunity_score": 1.86,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/DressUp/DressUp.lua",
@@ -1390,7 +1513,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "freshness_max": 50,
     "opportunity_score": 3.71,
     "description": "Dupefind (by Lili, modded by me) : Find and lists duplicate items.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
@@ -1724,6 +1847,22 @@
     "description_reviewed_at": "2026-04-25T07:02:03+00:00"
   },
   {
+    "addon_key": "faceaway",
+    "addon_name": "Faceaway",
+    "category": "general_qol",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "fancytrusts",
     "addon_name": "Fancytrusts",
     "category": "general_qol",
@@ -1746,12 +1885,11 @@
     "repos": [
       "Icydeath/ffxi-addons",
       "Lygre/addons",
-      "ProjectTako/ffxi-addons",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 4,
-    "best_repo_stars": 99,
-    "freshness_max": 3527,
+    "repo_count": 3,
+    "best_repo_stars": 69,
+    "freshness_max": 1489,
     "opportunity_score": 1.92,
     "description": "func: change_fps_divisor desc: finds and writes the desired fps divisor to memory. I got this from fps.lua (thanks Atom0s)",
     "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/fastcs/ashita/fastcs.lua",
@@ -1763,12 +1901,11 @@
     "addon_name": "Fastfollow",
     "category": "general_qol",
     "repos": [
-      "DiscipleOfEris/FastFollow",
       "DiscipleOfEris/Windower4Addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 12,
-    "freshness_max": 1332,
+    "freshness_max": 796,
     "opportunity_score": 3.78,
     "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
@@ -1904,6 +2041,22 @@
     "description_reviewed_at": "2026-04-25T07:02:08+00:00"
   },
   {
+    "addon_key": "find",
+    "addon_name": "Find",
+    "category": "general_qol",
+    "repos": [
+      "Sippius/Ashita-v4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 21,
+    "freshness_max": 882,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "findall",
     "addon_name": "Findall",
     "category": "general_qol",
@@ -1963,7 +2116,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 17,
-    "freshness_max": 1072,
+    "freshness_max": 1073,
     "opportunity_score": 4.0,
     "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
     "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
@@ -1975,12 +2128,11 @@
     "addon_name": "Friendzone",
     "category": "travel_navigation",
     "repos": [
-      "Icydeath/ffxi-addons",
       "lili-ffxi/FFXI-Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 50,
     "opportunity_score": 3.71,
     "description": "Put the trusts you want in here, in the order you want them. Use spell names, case sensitive.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/friendzone/friendzone.lua",
@@ -2027,16 +2179,33 @@
     "repos": [
       "Icydeath/ffxi-addons",
       "Lygre/addons",
+      "iLVL-Key/FFXI",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 3,
+    "repo_count": 4,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 2,
     "opportunity_score": 1.86,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/GearSwap/equip_processing.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:18:57+00:00"
+  },
+  {
+    "addon_key": "gearswapincludes",
+    "addon_name": "Gearswap Includes",
+    "category": "general_qol",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "gilbox",
@@ -2087,18 +2256,33 @@
     "description_reviewed_at": "2026-04-24T13:00:42+00:00"
   },
   {
+    "addon_key": "gobbie",
+    "addon_name": "Gobbie",
+    "category": "economy_inventory",
+    "repos": [
+      "sethmccauley/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 13,
+    "freshness_max": 58,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "healbot",
     "addon_name": "Healbot",
     "category": "automation",
     "repos": [
       "Icydeath/ffxi-addons",
       "Lygre/addons",
-      "lorand-ffxi/HealBot",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 4,
+    "repo_count": 3,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 1489,
     "opportunity_score": 1.57,
     "description": "# HealBot ## Update: HealBot now depends on libs/lor ## NEW: IPC has been added!",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/HealBot/readme.md",
@@ -2130,7 +2314,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 17,
-    "freshness_max": 1072,
+    "freshness_max": 1073,
     "opportunity_score": 4.0,
     "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
     "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
@@ -2154,16 +2338,31 @@
     "description_reviewed_at": "2026-04-24T16:20:21+00:00"
   },
   {
+    "addon_key": "hivemind",
+    "addon_name": "Hivemind",
+    "category": "general_qol",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "htmb",
     "addon_name": "Htmb",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Ivaar/Windower-addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "windower.add_to_chat(170, '')",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/htmb/htmb.lua",
@@ -2294,7 +2493,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 1489,
     "opportunity_score": 1.86,
     "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
@@ -2382,6 +2581,22 @@
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T13:00:47+00:00"
+  },
+  {
+    "addon_key": "lastsynth",
+    "addon_name": "Lastsynth",
+    "category": "general_qol",
+    "repos": [
+      "sethmccauley/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 13,
+    "freshness_max": 58,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "latentchecker",
@@ -2544,7 +2759,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "freshness_max": 1489,
     "opportunity_score": 1.86,
     "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
@@ -2617,6 +2832,22 @@
     "description_reviewed_at": "2026-04-24T15:01:37+00:00"
   },
   {
+    "addon_key": "luopantime",
+    "addon_name": "Luopantime",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "macrochanger",
     "addon_name": "Macrochanger",
     "category": "general_qol",
@@ -2675,7 +2906,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "freshness_max": 1176,
     "opportunity_score": 2.66,
     "description": "Setting this to true will allow you to see skillchains created by anyone, not just the ones created by your party or alliance You may want to set this to 'true' for fights like Wildskeeper Reives where anyone can attack ",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/MagicAssistant/magicassistant.lua",
@@ -2697,6 +2928,22 @@
     "description_source": "https://github.com/AkadenTK/superwarp/blob/HEAD/map/abyssea.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T23:03:58+00:00"
+  },
+  {
+    "addon_key": "maps",
+    "addon_name": "Maps",
+    "category": "general_qol",
+    "repos": [
+      "HiPotionQ8/XIchecklist"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 4,
+    "freshness_max": 0,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "masstrade",
@@ -2859,6 +3106,22 @@
     "description_reviewed_at": "2026-04-24T15:01:42+00:00"
   },
   {
+    "addon_key": "mountme",
+    "addon_name": "Mountme",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "mousehalo",
     "addon_name": "Mousehalo",
     "category": "general_qol",
@@ -2889,6 +3152,22 @@
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T07:02:32+00:00"
+  },
+  {
+    "addon_key": "muffins",
+    "addon_name": "Muffins",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "myhome",
@@ -2923,6 +3202,22 @@
     "description_reviewed_at": "2026-04-24T16:22:42+00:00"
   },
   {
+    "addon_key": "ninhelper",
+    "addon_name": "Ninhelper",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "nnitimer",
     "addon_name": "Nnitimer",
     "category": "diagnostics",
@@ -2953,6 +3248,22 @@
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T07:02:35+00:00"
+  },
+  {
+    "addon_key": "nomnom",
+    "addon_name": "Nomnom",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "nostrum",
@@ -3012,7 +3323,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -3040,12 +3351,11 @@
     "addon_name": "Omen",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "mousseng/xitools"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 29,
+    "freshness_max": 45,
     "opportunity_score": 3.71,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Omen/Omen.lua",
@@ -3094,7 +3404,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -3136,16 +3446,33 @@
     "description_reviewed_at": "2026-04-25T07:02:42+00:00"
   },
   {
+    "addon_key": "originalicons",
+    "addon_name": "Original Icons",
+    "category": "general_qol",
+    "repos": [
+      "ThornyFFXI/mobdb"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 24,
+    "freshness_max": 42,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "packetviewer",
     "addon_name": "Packetviewer",
     "category": "diagnostics",
     "repos": [
       "Lygre/addons",
-      "mverteuil/windower4-addons"
+      "mverteuil/windower4-addons",
+      "sethmccauley/Addons"
     ],
-    "repo_count": 2,
+    "repo_count": 3,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 58,
     "opportunity_score": 2.31,
     "description": "Scroll through display packets Precompute hex string tables for lookups, instead of constant computation.",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/PacketViewer/PacketViewer.lua",
@@ -3177,7 +3504,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 1,
-    "freshness_max": 30,
+    "freshness_max": 31,
     "opportunity_score": 4.2,
     "description": "### Info Packrat was originally created and maintained by Colorglut, who no longer seems to be active.",
     "description_source": "https://github.com/Mr-Sithel/packrat/blob/HEAD/README.md",
@@ -3189,12 +3516,11 @@
     "addon_name": "Parse",
     "category": "diagnostics",
     "repos": [
-      "Lygre/addons",
-      "flippant/parse"
+      "sethmccauley/Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 18,
-    "freshness_max": 3349,
+    "repo_count": 1,
+    "best_repo_stars": 13,
+    "freshness_max": 58,
     "opportunity_score": 2.66,
     "description": "debug('key not found, making new') debug('adding value to previous record')",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/parse/utility.lua",
@@ -3206,11 +3532,10 @@
     "addon_name": "Partybuffs",
     "category": "automation",
     "repos": [
-      "Lygre/addons",
-      "ProjectTako/ffxi-addons"
+      "Lygre/addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 99,
+    "repo_count": 1,
+    "best_repo_stars": 18,
     "freshness_max": 3349,
     "opportunity_score": 2.66,
     "description": "[[Copyright \u00a9 2016, Kenshi Adjust position for party member count",
@@ -3292,7 +3617,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -3387,12 +3712,11 @@
     "addon_name": "Porterpacker",
     "category": "economy_inventory",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Ivaar/Windower-addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "# PorterPacker ### Commands: command|alias [optional] //porterpacker or //packer or //po",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/PorterPacker/README.md",
@@ -3420,12 +3744,11 @@
     "addon_name": "Posfind",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "lili-ffxi/FFXI-Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 50,
     "opportunity_score": 3.71,
     "description": "Return the position of the player character, truncated to 2 decimals. Triggers when left mouse button is pressed.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/posfind/posfind.lua",
@@ -3485,13 +3808,12 @@
     "addon_name": "Pouches",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Lygre/addons",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 3,
-    "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 3349,
     "opportunity_score": 1.86,
     "description": "Requiring libraries used in this addon These should be saved in addons/libs",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Pouches/Pouches.lua",
@@ -3508,7 +3830,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -3525,7 +3847,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 1945,
+    "freshness_max": 1140,
     "opportunity_score": 4.0,
     "description": "import skills from resources",
     "description_source": "https://github.com/Akirane/XIVHotbar/blob/HEAD/priv_res/database.lua",
@@ -3541,12 +3863,44 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 17,
-    "freshness_max": 1072,
+    "freshness_max": 1073,
     "opportunity_score": 4.0,
     "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
     "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T01:03:32+00:00"
+  },
+  {
+    "addon_key": "puphelper",
+    "addon_name": "Puphelper",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
+    "addon_key": "pupsets",
+    "addon_name": "Pupsets",
+    "category": "general_qol",
+    "repos": [
+      "Sippius/Ashita-v4-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 21,
+    "freshness_max": 882,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "questlog",
@@ -3569,12 +3923,11 @@
     "addon_name": "Quicktrade",
     "category": "ui_gear",
     "repos": [
-      "Icydeath/ffxi-addons",
       "ValokAsura/WindowerAddons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 14,
+    "freshness_max": 1176,
     "opportunity_score": 2.66,
     "description": "1.8.1 : added Neo Nyzul ??? +1 +2 item's w/ loop support. //qtr loop 10 Tables of the tradeable itemIDs that may be found in the player inventory",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/QuickTrade/QuickTrade.lua",
@@ -3667,12 +4020,11 @@
     "addon_name": "Readycheck",
     "category": "general_qol",
     "repos": [
-      "Lydya-nick77/readycheck",
       "iLVL-Key/FFXI"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 22,
-    "freshness_max": 12,
+    "freshness_max": 2,
     "opportunity_score": 4.83,
     "description": "# ReadyCheck ReadyCheck is an Ashita v4 addon for HorizonXI that runs a party/alliance ready check.",
     "description_source": "https://github.com/Lydya-nick77/readycheck/blob/HEAD/README.md",
@@ -3688,7 +4040,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 17,
-    "freshness_max": 1072,
+    "freshness_max": 1073,
     "opportunity_score": 4.0,
     "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
     "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
@@ -3764,10 +4116,9 @@
     "addon_name": "res",
     "category": "general_qol",
     "repos": [
-      "ZeromusXYZ/PacketViewerLogViewer",
       "sebyg666/GearInfo"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 25,
     "freshness_max": 2029,
     "opportunity_score": 4.0,
@@ -3775,6 +4126,22 @@
     "description_source": "https://github.com/sebyg666/GearInfo/blob/HEAD/res/DW_Gear.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T01:03:44+00:00"
+  },
+  {
+    "addon_key": "resources",
+    "addon_name": "Resources",
+    "category": "general_qol",
+    "repos": [
+      "cyritegamestudios/trust"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 49,
+    "freshness_max": 0,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "rhombus",
@@ -3845,12 +4212,12 @@
     "addon_name": "Rolltracker",
     "category": "general_qol",
     "repos": [
-      "Lygre/addons",
-      "mverteuil/windower4-addons"
+      "Sippius/Ashita-v4-addons",
+      "sethmccauley/Addons"
     ],
     "repo_count": 2,
-    "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "best_repo_stars": 21,
+    "freshness_max": 58,
     "opportunity_score": 2.31,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/rolltracker/rolltracker.lua",
@@ -3872,6 +4239,22 @@
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/rtfm/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T02:03:37+00:00"
+  },
+  {
+    "addon_key": "runehelper",
+    "addon_name": "Runehelper",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "runicportal",
@@ -3920,6 +4303,22 @@
     "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/salvage2/salvage2.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T03:03:32+00:00"
+  },
+  {
+    "addon_key": "sandworm",
+    "addon_name": "Sandworm",
+    "category": "general_qol",
+    "repos": [
+      "Phayde/Windower-addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 0,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "satacast",
@@ -3987,6 +4386,22 @@
     "description_reviewed_at": "2026-04-25T03:03:36+00:00"
   },
   {
+    "addon_key": "screenshots",
+    "addon_name": "Screenshots",
+    "category": "general_qol",
+    "repos": [
+      "glitchv0/mogchat"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 2,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "scriptedextender",
     "addon_name": "Scriptedextender",
     "category": "general_qol",
@@ -4003,18 +4418,33 @@
     "description_reviewed_at": "2026-04-25T07:02:56+00:00"
   },
   {
+    "addon_key": "segments",
+    "addon_name": "Segments",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "sellnpc",
     "addon_name": "Sellnpc",
     "category": "economy_inventory",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Ivaar/Windower-addons",
       "Lygre/addons",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 4,
+    "repo_count": 3,
     "best_repo_stars": 79,
-    "freshness_max": 3527,
+    "freshness_max": 956,
     "opportunity_score": 1.92,
     "description": "Add items to existing profiles or create your own to sell groups of items using alias commands 'Stone', -- [Scroll of Stone] can't be sold to NPC's",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SellNPC/profiles.lua",
@@ -4059,13 +4489,11 @@
     "addon_name": "Sendtarget",
     "category": "combat_automation",
     "repos": [
-      "DiscipleOfEris/SendTarget",
-      "DiscipleOfEris/Windower4Addons",
-      "Icydeath/ffxi-addons"
+      "DiscipleOfEris/Windower4Addons"
     ],
-    "repo_count": 3,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 12,
+    "freshness_max": 796,
     "opportunity_score": 2.66,
     "description": "State machine for subtarget capturing, involves 'outgoing text' and 'prerender' events. This state machine is rather convoluted, but has been reliable so far in testing.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/SendTarget/SendTarget.lua",
@@ -4109,13 +4537,11 @@
     "addon_name": "Shortcuts",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
-      "Lygre/addons",
-      "mverteuil/windower4-addons"
+      "sethmccauley/Addons"
     ],
-    "repo_count": 3,
-    "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "repo_count": 1,
+    "best_repo_stars": 13,
+    "freshness_max": 58,
     "opportunity_score": 1.86,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/shortcuts/helper_functions.lua",
@@ -4127,11 +4553,10 @@
     "addon_name": "Silence",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
+    "repo_count": 1,
+    "best_repo_stars": 17,
     "freshness_max": 3527,
     "opportunity_score": 2.31,
     "description": "Use the line \"silence mode 0\" to not allow any lines to go through.",
@@ -4176,12 +4601,11 @@
     "addon_name": "Singer",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Ivaar/Windower-addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "(Icy) added this so it will toggle my dummy set in Gearswap.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Singer/sing_cast.lua",
@@ -4215,7 +4639,7 @@
     ],
     "repo_count": 3,
     "best_repo_stars": 29,
-    "freshness_max": 3527,
+    "freshness_max": 45,
     "opportunity_score": 3.26,
     "description": "Courtesy of Thorny in the Ashita discord add packet to current chunk's buffer",
     "description_source": "https://github.com/mousseng/xitools/blob/HEAD/addons/skillchain/packet-dedupe.lua",
@@ -4227,14 +4651,12 @@
     "addon_name": "Skillchains",
     "category": "combat_automation",
     "repos": [
-      "Icydeath/ffxi-addons",
-      "Ivaar/Skillchains",
       "Lygre/addons",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 4,
-    "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "repo_count": 2,
+    "best_repo_stars": 18,
+    "freshness_max": 3349,
     "opportunity_score": 2.27,
     "description": "# SkillChains ### Active Battle Skillchain Display.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Skillchains/README.md",
@@ -4262,12 +4684,11 @@
     "addon_name": "Smarttarget",
     "category": "combat_automation",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Phayde/Windower-addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 0,
     "opportunity_score": 3.43,
     "description": "Split a comma-separated settings string into a clean sequential Lua table. Serialize a list table back to a comma-separated string for saving.",
     "description_source": "https://github.com/Phayde/Windower-addons/blob/HEAD/smarttarget/smarttarget.lua",
@@ -4291,15 +4712,32 @@
     "description_reviewed_at": "2026-04-24T14:01:34+00:00"
   },
   {
+    "addon_key": "sound",
+    "addon_name": "Sound",
+    "category": "general_qol",
+    "repos": [
+      "Lydya-nick77/readycheck"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 12,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "sounds",
     "addon_name": "Sounds",
     "category": "general_qol",
     "repos": [
+      "glitchv0/mogchat",
       "murrain/ctimers"
     ],
-    "repo_count": 1,
+    "repo_count": 2,
     "best_repo_stars": 0,
-    "freshness_max": 81,
+    "freshness_max": 2,
     "opportunity_score": 4.0,
     "description": "ffxi windower addon that mimics ctimers",
     "description_source": "https://github.com/murrain/ctimers",
@@ -4311,13 +4749,13 @@
     "addon_name": "Sparks",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Lygre/addons",
-      "mverteuil/windower4-addons"
+      "mverteuil/windower4-addons",
+      "sethmccauley/Addons"
     ],
     "repo_count": 3,
-    "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "best_repo_stars": 18,
+    "freshness_max": 58,
     "opportunity_score": 1.86,
     "description": "print(pkt['Target']..\"-\"..pkt['Target Index']) print(pkt['Option Index'])",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/Sparks/Sparks.lua",
@@ -4350,7 +4788,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -4367,7 +4805,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/SpellCheck/SpellCheck.lua",
@@ -4400,7 +4838,7 @@
     ],
     "repo_count": 2,
     "best_repo_stars": 18,
-    "freshness_max": 3527,
+    "freshness_max": 3349,
     "opportunity_score": 2.31,
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
@@ -4442,17 +4880,32 @@
     "addon_name": "Statsearch",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
       "lili-ffxi/FFXI-Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "repo_count": 1,
+    "best_repo_stars": 35,
+    "freshness_max": 50,
     "opportunity_score": 3.71,
     "description": "# statsearch **NOTE:** due to limitations of the extdata library of windower, statsearch is currently unable to read text from some items, mainly divergence weapons/necks and odyssey gear.",
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/statsearch/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T18:03:25+00:00"
+  },
+  {
+    "addon_key": "statustimers",
+    "addon_name": "Statustimers",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/statustimers"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 15,
+    "freshness_max": 54,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "stna",
@@ -4789,12 +5242,11 @@
     "addon_name": "Thtracker",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons",
-      "mverteuil/windower4-addons"
+      "GetAwayCoxn/Ashita-v4-Addons"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 69,
-    "freshness_max": 3527,
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
     "opportunity_score": 2.31,
     "description": "Authors: Krizz Version: 1.0 Date: 20170509 TH Tracker Abbreviation: //th Commands: * help - Shows a menu of commands in game * pos x y - Positions the TH box.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/thtracker/readme.md",
@@ -4902,13 +5354,11 @@
     "addon_name": "Trade",
     "category": "economy_inventory",
     "repos": [
-      "Icydeath/ffxi-addons",
-      "Ivaar/Windower-addons",
-      "Lygre/addons"
+      "Ivaar/Windower-addons"
     ],
-    "repo_count": 3,
+    "repo_count": 1,
     "best_repo_stars": 79,
-    "freshness_max": 3349,
+    "freshness_max": 956,
     "opportunity_score": 2.21,
     "description": "# Trade #### Accepts trade requests and confirms from whitelisted players.",
     "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/Trade/README.md",
@@ -4920,12 +5370,11 @@
     "addon_name": "Tradenpc",
     "category": "economy_inventory",
     "repos": [
-      "Icydeath/ffxi-addons",
       "Ivaar/Windower-addons"
     ],
-    "repo_count": 2,
+    "repo_count": 1,
     "best_repo_stars": 79,
-    "freshness_max": 1489,
+    "freshness_max": 956,
     "opportunity_score": 2.66,
     "description": "# TradeNPC Trade an npc up to 8 stacks of items and gil with a single command.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/TradeNPC/README.md",
@@ -5076,6 +5525,22 @@
     "description_confidence": "low"
   },
   {
+    "addon_key": "truetargetlock",
+    "addon_name": "Truetargetlock",
+    "category": "general_qol",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "trust",
     "addon_name": "Trust",
     "category": "automation",
@@ -5090,6 +5555,22 @@
     "description_source": "https://github.com/cyritegamestudios/trust/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:41+00:00"
+  },
+  {
+    "addon_key": "ttracker",
+    "addon_name": "Ttracker",
+    "category": "diagnostics",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "turnaround",
@@ -5111,11 +5592,12 @@
     "addon_name": "Ui",
     "category": "ui_gear",
     "repos": [
-      "AliekberFFXI/xivcrossbar"
+      "AliekberFFXI/xivcrossbar",
+      "cyritegamestudios/trust"
     ],
-    "repo_count": 1,
-    "best_repo_stars": 17,
-    "freshness_max": 1317,
+    "repo_count": 2,
+    "best_repo_stars": 49,
+    "freshness_max": 0,
     "opportunity_score": 3.78,
     "description": "FFXIV-style crossbar for FFXI -- Based on Edeon's XIVHotbar",
     "description_source": "https://github.com/AliekberFFXI/xivcrossbar",
@@ -5152,6 +5634,22 @@
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T07:03:23+00:00"
+  },
+  {
+    "addon_key": "util",
+    "addon_name": "Util",
+    "category": "general_qol",
+    "repos": [
+      "HiPotionQ8/XIchecklist"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 4,
+    "freshness_max": 0,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "valkyrie",
@@ -5312,6 +5810,22 @@
     "description_reviewed_at": "2026-04-24T19:03:36+00:00"
   },
   {
+    "addon_key": "wardrobe9",
+    "addon_name": "Wardrobe9",
+    "category": "economy_inventory",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": 13,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
     "addon_key": "warpmenu",
     "addon_name": "Warpmenu",
     "category": "travel_navigation",
@@ -5341,6 +5855,22 @@
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:44+00:00"
+  },
+  {
+    "addon_key": "weatherhelper",
+    "addon_name": "Weatherhelper",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "weathermon",
@@ -5442,10 +5972,11 @@
     "category": "general_qol",
     "repos": [
       "garyfromwork/AutoJob",
+      "garyfromwork/Stats",
       "garyfromwork/mp3"
     ],
-    "repo_count": 2,
-    "best_repo_stars": 0,
+    "repo_count": 3,
+    "best_repo_stars": 1,
     "freshness_max": 79,
     "opportunity_score": 4.0,
     "description": "FFXI Windower Addon for automating the boring aspects of jobs: Wyvern Cures, Jumps, Boost, Weapon Skills, etc.",
@@ -5532,6 +6063,70 @@
     "description_source": "https://github.com/HealsCodes/XIPivot/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:29+00:00"
+  },
+  {
+    "addon_key": "xipivotashita",
+    "addon_name": "Xipivot.ashita",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/XIPivot"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 61,
+    "freshness_max": 83,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
+    "addon_key": "xipivotashitav4",
+    "addon_name": "Xipivot.ashita V4",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/XIPivot"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 61,
+    "freshness_max": 83,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
+    "addon_key": "xipivotcore",
+    "addon_name": "Xipivot.core",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/XIPivot"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 61,
+    "freshness_max": 83,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
+  },
+  {
+    "addon_key": "xipivotwindower",
+    "addon_name": "Xipivot.windower",
+    "category": "general_qol",
+    "repos": [
+      "HealsCodes/XIPivot"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 61,
+    "freshness_max": 83,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "xitools",
@@ -5624,6 +6219,22 @@
     "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
     "description_source": "heuristic",
     "description_confidence": "low"
+  },
+  {
+    "addon_key": "zenihelper",
+    "addon_name": "Zenihelper",
+    "category": "general_qol",
+    "repos": [
+      "GetAwayCoxn/Ashita-v4-Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 9,
+    "freshness_max": 767,
+    "opportunity_score": 3.0,
+    "description": "",
+    "description_source": "",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T08:06:05+00:00"
   },
   {
     "addon_key": "zenimonsnap",
