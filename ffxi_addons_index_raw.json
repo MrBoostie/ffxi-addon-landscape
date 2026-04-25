@@ -30,6 +30,15 @@
     ]
   },
   {
+    "repo": "aravikusu/stfu",
+    "stars": 0,
+    "pushed_at": "2025-12-26T15:28:32Z",
+    "description": "FFXI Windower addon that blacklists people based on user-specified words.",
+    "addon_dirs": [
+      "stfu"
+    ]
+  },
+  {
     "repo": "ariel-logos/FancyTrusts",
     "stars": 5,
     "pushed_at": "2026-04-09T10:34:01Z",
@@ -253,7 +262,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-24T14:31:22Z",
+    "pushed_at": "2026-04-25T06:29:17Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "util"
@@ -470,6 +479,24 @@
     ]
   },
   {
+    "repo": "Kaiconure/SellNPC",
+    "stars": 2,
+    "pushed_at": "2025-12-01T20:38:20Z",
+    "description": "Improvements on Ivaar's original SellNPC addon for Windower 4 and FFXI.",
+    "addon_dirs": [
+      "SellNPC"
+    ]
+  },
+  {
+    "repo": "Kaiconure/TradeNPC",
+    "stars": 2,
+    "pushed_at": "2025-12-13T20:10:39Z",
+    "description": "Improvements on Ivaar's original TradeNPC addon for Windower 4 and FFXI.",
+    "addon_dirs": [
+      "TradeNPC"
+    ]
+  },
+  {
     "repo": "lili-ffxi/FFXI-Addons",
     "stars": 35,
     "pushed_at": "2026-03-05T11:17:05Z",
@@ -523,6 +550,15 @@
     "pushed_at": "2026-04-18T01:11:58Z",
     "description": "Windower 4 addon for FFXI that allow quicker target change",
     "addon_dirs": []
+  },
+  {
+    "repo": "LordAttilas/NyzulBestBuddy",
+    "stars": 1,
+    "pushed_at": "2025-11-26T16:19:07Z",
+    "description": "FFXi Windower 4 helper addon for Nyzul Isle Investigation",
+    "addon_dirs": [
+      "NyzulBestBuddy"
+    ]
   },
   {
     "repo": "Lydya-nick77/readycheck",
@@ -781,6 +817,15 @@
     ]
   },
   {
+    "repo": "professorpalmer/ffxiAddons",
+    "stars": 1,
+    "pushed_at": "2026-01-18T08:02:10Z",
+    "description": "FFXI Addons for Ashita & Windower",
+    "addon_dirs": [
+      "addons"
+    ]
+  },
+  {
     "repo": "ProjectTako/ffxi-addons",
     "stars": 99,
     "pushed_at": "2022-11-09T19:45:51Z",
@@ -803,6 +848,15 @@
     "pushed_at": "2026-03-17T05:02:37Z",
     "description": "FFXI Windower addon that assists with Magian Weapon Skill Trials",
     "addon_dirs": []
+  },
+  {
+    "repo": "RoXXiaN/Singer",
+    "stars": 0,
+    "pushed_at": "2026-01-05T11:07:51Z",
+    "description": "Windower 4 FFXI Addon for Bard to automatically apply Songs",
+    "addon_dirs": [
+      "Singer"
+    ]
   },
   {
     "repo": "sebyg666/GearInfo",

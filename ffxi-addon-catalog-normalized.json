@@ -4,11 +4,12 @@
     "addon_name": "Addons",
     "category": "diagnostics",
     "repos": [
-      "HealsCodes/statustimers"
+      "HealsCodes/statustimers",
+      "professorpalmer/ffxiAddons"
     ],
-    "repo_count": 1,
+    "repo_count": 2,
     "best_repo_stars": 15,
-    "freshness_max": 54,
+    "freshness_max": 97,
     "opportunity_score": 4.83,
     "description": "## # Theming Support statustimers supports custom (non DAT) themes, for details see _addons\\statustimers\\themes\\README.md_",
     "description_source": "https://github.com/HealsCodes/statustimers/blob/HEAD/README.md",
@@ -3003,6 +3004,22 @@
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
+    "addon_key": "nyzulbestbuddy",
+    "addon_name": "NyzulBestBuddy",
+    "category": "utility",
+    "repos": [
+      "LordAttilas/NyzulBestBuddy"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": 149,
+    "opportunity_score": 7.5,
+    "description": "Auto-discovered addon entry for NyzulBestBuddy.",
+    "description_source": "generated:sync",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T16:00:00+00:00"
+  },
+  {
     "addon_key": "ohnoyoudont",
     "addon_name": "Ohnoyoudont",
     "category": "general_qol",
@@ -4009,10 +4026,11 @@
     "repos": [
       "Icydeath/ffxi-addons",
       "Ivaar/Windower-addons",
+      "Kaiconure/SellNPC",
       "Lygre/addons",
       "mverteuil/windower4-addons"
     ],
-    "repo_count": 4,
+    "repo_count": 5,
     "best_repo_stars": 79,
     "freshness_max": 3527,
     "opportunity_score": 1.92,
@@ -4177,9 +4195,10 @@
     "category": "general_qol",
     "repos": [
       "Icydeath/ffxi-addons",
-      "Ivaar/Windower-addons"
+      "Ivaar/Windower-addons",
+      "RoXXiaN/Singer"
     ],
-    "repo_count": 2,
+    "repo_count": 3,
     "best_repo_stars": 79,
     "freshness_max": 1489,
     "opportunity_score": 2.66,
@@ -4455,6 +4474,22 @@
     "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/statsearch/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T18:03:25+00:00"
+  },
+  {
+    "addon_key": "stfu",
+    "addon_name": "stfu",
+    "category": "utility",
+    "repos": [
+      "aravikusu/stfu"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 120,
+    "opportunity_score": 7.5,
+    "description": "Auto-discovered addon entry for stfu.",
+    "description_source": "generated:sync",
+    "description_confidence": "low",
+    "description_reviewed_at": "2026-04-25T16:00:00+00:00"
   },
   {
     "addon_key": "stna",
@@ -4938,9 +4973,10 @@
     "category": "economy_inventory",
     "repos": [
       "Icydeath/ffxi-addons",
-      "Ivaar/Windower-addons"
+      "Ivaar/Windower-addons",
+      "Kaiconure/TradeNPC"
     ],
-    "repo_count": 2,
+    "repo_count": 3,
     "best_repo_stars": 79,
     "freshness_max": 1489,
     "opportunity_score": 2.66,
