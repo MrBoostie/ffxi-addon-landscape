@@ -99,6 +99,7 @@ Suggested smoke test:
 
 ```text
 //troute list
+//troute search je
 //troute plan jeuno
 //conductor ping
 //conductor travel jeuno
