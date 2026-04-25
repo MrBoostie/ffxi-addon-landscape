@@ -27,6 +27,25 @@ local log = mock.get_chat_log()
 check('list produces output', #log > 0)
 check('list mentions destinations', log[1] and log[1].text:find('destinations') ~= nil)
 
+-- test search with partial destination
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'search', 'jeu')
+log = mock.get_chat_log()
+check('search produces output', #log > 0)
+check('search includes matching destination', log[1] and log[1].text:find('jeuno') ~= nil)
+
+-- test search with no matches
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'search', 'zzz-nope')
+log = mock.get_chat_log()
+check('search no-match message', #log > 0 and log[1].text:find('No destinations match') ~= nil)
+
 -- test plan with known destination
 mock.reset()
 mock.install()

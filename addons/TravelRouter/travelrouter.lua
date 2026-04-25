@@ -178,6 +178,15 @@ local function list_destinations()
     msg(('Known destinations (%d): %s'):format(#keys, table.concat(keys, ', ')))
 end
 
+local function search_destinations(input)
+    local suggestions = suggest_destinations(input, 15)
+    if #suggestions == 0 then
+        msg(('No destinations match "%s".'):format(input or ''))
+        return
+    end
+    msg(('Matches for "%s" (%d): %s'):format(input or '', #suggestions, table.concat(suggestions, ', ')))
+end
+
 local function print_plan(dest)
     local resolved, alias_used = resolve_destination(dest)
     local plan, meta = pick_plan(resolved)
@@ -409,10 +418,11 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | plan <dest> | explain <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
+        msg('Commands: list | search <text> | plan <dest> | explain <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
         return
     end
     if cmd == 'list' then list_destinations(); return end
+    if cmd == 'search' then search_destinations(join(args, ' ', 2)); return end
     if cmd == 'plan' then print_plan(join(args, ' ', 2)); return end
     if cmd == 'explain' then explain_plan(join(args, ' ', 2)); return end
     if cmd == 'run' then run_plan(join(args, ' ', 2)); return end
