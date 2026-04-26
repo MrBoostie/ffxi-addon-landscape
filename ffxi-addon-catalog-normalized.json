@@ -5539,7 +5539,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 4,
-    "freshness_max": 0,
+    "freshness_max": 1,
     "opportunity_score": 4.83,
     "description": "## **Usage**: | Command | Description | |---|---| | //lua load xichecklist | load then <ins>**zone**</ins> to get the UI menu updated | | //xic help | print help in chatlog | | //xic hide | hide the UI | | //xic show | s",
     "description_source": "https://github.com/HiPotionQ8/XIchecklist/blob/HEAD/README.md",
