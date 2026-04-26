@@ -1,6 +1,6 @@
 _addon.name = 'TravelRouter'
 _addon.author = 'boostie'
-_addon.version = '0.2.1'
+_addon.version = '0.2.2'
 _addon.commands = {'troute', 'travelrouter'}
 _addon.description = 'Content-aware travel route planner/executor with persistence and v2 IPC.'
 
@@ -241,27 +241,75 @@ local function explain_plan(dest)
     return true
 end
 
-local function execute_step(step)
-    if step:sub(1,4) == 'say:' then msg(step:sub(5)); return end
+local function analyze_step(step)
+    if step:sub(1,4) == 'say:' then return 'say', step:sub(5) end
     if step:sub(1,5) == 'wait:' then
-        local sec = tonumber(step:sub(6)) or 0
-        if sec > 0 then
-            if coroutine and coroutine.sleep then
-                coroutine.sleep(sec)
-            else
-                windower.send_command(('wait %.1f'):format(sec))
-            end
-            msg(('wait: %.1fs'):format(sec))
-        end
-        return
+        local sec = tonumber(step:sub(6))
+        if sec and sec > 0 then return 'wait', sec end
+        return 'invalid-wait', step
     end
     if step:sub(1,4) == 'cmd:' then
         local cmd = normalize_cmd(step:sub(5))
-        windower.send_command(cmd)
-        msg(('exec: %s'):format(cmd))
+        if cmd == '' then return 'invalid-cmd', step end
+        return 'cmd', cmd
+    end
+    return 'raw', step
+end
+
+local function execute_step(step)
+    local kind, value = analyze_step(step)
+    if kind == 'say' then msg(value); return end
+    if kind == 'wait' then
+        local sec = value
+        if coroutine and coroutine.sleep then
+            coroutine.sleep(sec)
+        else
+            windower.send_command(('wait %.1f'):format(sec))
+        end
+        msg(('wait: %.1fs'):format(sec))
+        return
+    end
+    if kind == 'cmd' then
+        windower.send_command(value)
+        msg(('exec: %s'):format(value))
         return
     end
     msg(step)
+end
+
+local function audit_plan(dest)
+    local resolved, alias_used = resolve_destination(dest)
+    local plan, meta = pick_plan(resolved)
+    if not plan then
+        msg(('No route for "%s".'):format(dest or ''))
+        local suggestions = suggest_destinations(dest, 5)
+        if #suggestions > 0 then msg('Did you mean: ' .. table.concat(suggestions, ', ')) end
+        return false
+    end
+
+    if alias_used then msg(('Alias "%s" => "%s"'):format(alias_used, resolved)) end
+
+    local waits, commands, says, raw, issues = 0, 0, 0, 0, {}
+    for i, step in ipairs(plan.steps or {}) do
+        local kind, value = analyze_step(step)
+        if kind == 'wait' then waits = waits + value
+        elseif kind == 'cmd' then commands = commands + 1
+        elseif kind == 'say' then says = says + 1
+        elseif kind == 'raw' then raw = raw + 1
+        elseif kind == 'invalid-wait' then issues[#issues+1] = ('step %d has invalid wait value: %s'):format(i, step)
+        elseif kind == 'invalid-cmd' then issues[#issues+1] = ('step %d has empty cmd payload: %s'):format(i, step)
+        end
+    end
+
+    msg(('Audit for "%s" via "%s" (score %d):'):format(resolved, plan.name or 'default', meta.score or 0))
+    msg(('  steps=%d | cmd=%d | wait=%.1fs | say=%d | raw=%d'):format(#(plan.steps or {}), commands, waits, says, raw))
+    if #issues == 0 then
+        msg('  issues: none detected')
+    else
+        msg(('  issues (%d):'):format(#issues))
+        for _, issue in ipairs(issues) do msg('   - ' .. issue) end
+    end
+    return true
 end
 
 local function run_plan(dest)
@@ -418,13 +466,14 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | search <text> | plan <dest> | explain <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
+        msg('Commands: list | search <text> | plan <dest> | explain <dest> | audit <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
         return
     end
     if cmd == 'list' then list_destinations(); return end
     if cmd == 'search' then search_destinations(join(args, ' ', 2)); return end
     if cmd == 'plan' then print_plan(join(args, ' ', 2)); return end
     if cmd == 'explain' then explain_plan(join(args, ' ', 2)); return end
+    if cmd == 'audit' then audit_plan(join(args, ' ', 2)); return end
     if cmd == 'run' then run_plan(join(args, ' ', 2)); return end
     if cmd == 'add' then add_route(args[2], join(args, ' ', 3)); return end
     if cmd == 'reset' then reset_route(join(args, ' ', 2)); return end
