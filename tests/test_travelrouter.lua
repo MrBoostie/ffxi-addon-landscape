@@ -135,6 +135,35 @@ local ipc = mock.get_ipc_messages()
 check('ipc plan sends reply', #ipc > 0)
 check('ipc reply has TR2R prefix', ipc[1] and ipc[1]:sub(1,4) == 'TR2R')
 
+-- test audit reports route summary
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'audit', 'jeuno')
+log = mock.get_chat_log()
+local saw_audit, saw_steps = false, false
+for _, entry in ipairs(log) do
+    if entry.text:find('Audit for "jeuno"') then saw_audit = true end
+    if entry.text:find('steps=') and entry.text:find('wait=') then saw_steps = true end
+end
+check('audit prints header', saw_audit)
+check('audit prints stats row', saw_steps)
+
+-- test audit flags invalid custom command payload
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'add', 'auditbad', 'cmd:   ; wait:1')
+mock.fire_event('addon command', 'audit', 'auditbad')
+log = mock.get_chat_log()
+local saw_issue = false
+for _, entry in ipairs(log) do
+    if entry.text:find('empty cmd payload') then saw_issue = true end
+end
+check('audit detects invalid cmd payload', saw_issue)
+
 -- test unknown command
 mock.reset()
 mock.install()

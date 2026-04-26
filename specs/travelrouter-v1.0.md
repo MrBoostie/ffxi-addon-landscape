@@ -9,10 +9,14 @@
 
 ## Commands
 - `//troute list`
+- `//troute search <text>`
 - `//troute plan <destination>`
+- `//troute explain <destination>`
+- `//troute audit <destination>`
 - `//troute run <destination>`
 - `//troute add <destination> <step1> ; <step2> ; ...`
 - `//troute reset <destination>`
+- `//troute alias list|add|remove ...`
 - `//troute unlock list|add|remove <token>`
 - `//troute save`
 
