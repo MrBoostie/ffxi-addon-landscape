@@ -923,11 +923,12 @@
     "addon_name": "Checkparam",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons"
+      "Icydeath/ffxi-addons",
+      "izaniki/checkparam"
     ],
-    "repo_count": 1,
+    "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "freshness_max": 0,
     "opportunity_score": 3.43,
     "description": "# checkparam ## English - /check OR /c (in-game command) - Whenever you /check any player, displays the total of property of that players current equipments.(defined in settings.xml) - //checkparam OR //cp (addon command",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/checkparam/README.md",
@@ -5539,7 +5540,7 @@
     ],
     "repo_count": 1,
     "best_repo_stars": 4,
-    "freshness_max": 1,
+    "freshness_max": 0,
     "opportunity_score": 4.83,
     "description": "## **Usage**: | Command | Description | |---|---| | //lua load xichecklist | load then <ins>**zone**</ins> to get the UI menu updated | | //xic help | print help in chatlog | | //xic hide | hide the UI | | //xic show | s",
     "description_source": "https://github.com/HiPotionQ8/XIchecklist/blob/HEAD/README.md",
@@ -5739,5 +5740,37 @@
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonetimer/readme.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T18:03:32+00:00"
+  },
+  {
+    "addon_key": "beads",
+    "addon_name": "Beads",
+    "category": "general_qol",
+    "repos": [
+      "zierk/Beads"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 0,
+    "opportunity_score": 4.83,
+    "description": "A FFXI Windower addon to farm Domain Invasion for Escha Beads",
+    "description_source": "https://github.com/zierk/Beads",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-26T16:00:00Z"
+  },
+  {
+    "addon_key": "ffxiguesswho",
+    "addon_name": "ffxi-guess-who",
+    "category": "general_qol",
+    "repos": [
+      "xurion/ffxi-guess-who"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 1,
+    "opportunity_score": 4.83,
+    "description": "A Windower 4 addon for FFXI that assigns names to enemies",
+    "description_source": "https://github.com/xurion/ffxi-guess-who",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-26T16:00:00Z"
   }
 ]

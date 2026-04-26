@@ -253,7 +253,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-25T06:29:17Z",
+    "pushed_at": "2026-04-26T15:15:06Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "util"
@@ -920,5 +920,26 @@
       "helpers",
       "redist"
     ]
+  },
+  {
+    "repo": "zierk/Beads",
+    "stars": 0,
+    "pushed_at": "2026-04-26T14:31:28Z",
+    "description": "A FFXI Windower addon to farm Domain Invasion for Escha Beads",
+    "addon_dirs": []
+  },
+  {
+    "repo": "xurion/ffxi-guess-who",
+    "stars": 0,
+    "pushed_at": "2026-04-25T10:58:08Z",
+    "description": "A Windower 4 addon for FFXI that assigns names to enemies",
+    "addon_dirs": []
+  },
+  {
+    "repo": "izaniki/checkparam",
+    "stars": 1,
+    "pushed_at": "2026-04-26T03:24:59Z",
+    "description": "Fork of Checkparam addon for FFXI",
+    "addon_dirs": []
   }
 ]
