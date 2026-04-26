@@ -17,13 +17,15 @@ mock.fire_event('addon command', 'check')
 local log = mock.get_chat_log()
 assert(#log > 0, 'expected health output')
 
-local saw_severity, saw_unknown = false, false
+local saw_severity, saw_unknown, saw_actions = false, false, false
 for _, entry in ipairs(log) do
     if entry.text:find('Severity:') then saw_severity = true end
     if entry.text:find('Unknown Loaded Addons: utility') then saw_unknown = true end
+    if entry.text:find('Recommended Actions:') then saw_actions = true end
 end
 assert(saw_severity, 'expected severity line')
 assert(saw_unknown, 'expected unknown addon coverage line')
+assert(saw_actions, 'expected recommended actions section')
 
 local custom_dir = '../addons/AddonHealth/data'
 os.execute('mkdir -p ' .. custom_dir)
@@ -77,13 +79,18 @@ mock.set_addons({
 })
 assert(loadfile('../addons/AddonHealth/addonhealth.lua'))()
 mock.fire_event('addon command', 'check')
+mock.fire_event('addon command', 'fixes')
 local keyed_log = mock.get_chat_log()
-local saw_travel_alert, saw_dependency_alert = false, false
+local saw_travel_alert, saw_dependency_alert, saw_load_hint, saw_fixes_header = false, false, false, false
 for _, entry in ipairs(keyed_log) do
     if entry.text:find('%[!%] TravelRouter') then saw_travel_alert = true end
     if entry.text:find('%[alert%] SessionConductor requires TravelRouter') then saw_dependency_alert = true end
+    if entry.text:find('Load critical addon: //lua load TravelRouter') then saw_load_hint = true end
+    if entry.text:find('Recommended actions') then saw_fixes_header = true end
 end
 assert(saw_travel_alert, 'expected keyed unloaded addon table to remain unloaded')
 assert(saw_dependency_alert, 'expected dependency alert when keyed dependency is unloaded')
+assert(saw_load_hint, 'expected remediation hint for critical addon load')
+assert(saw_fixes_header, 'expected fixes command output')
 
 print('test_addonhealth.lua: ok')

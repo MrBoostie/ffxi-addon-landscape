@@ -23,6 +23,7 @@ Unified health dashboard for your Windower addon stack.
 | `//addonhealth export` | Export last report to `data/` directory |
 | `//addonhealth status` | Show current summary |
 | `//addonhealth summary` | Alias for `status` |
+| `//addonhealth fixes` | Show actionable remediation hints from the latest report |
 | `//addonhealth reload` | Reload `data/addons.user.lua` custom monitored addons |
 
 ## Setup
@@ -35,7 +36,7 @@ Unified health dashboard for your Windower addon stack.
 
 ## Output
 
-The check displays severity, known-vs-unknown addon coverage, dependency issues, and file validation results:
+The check displays severity, known-vs-unknown addon coverage, dependency issues, file validation results, and recommended actions:
 
 ```text
 [AddonHealth] --- Health Check @ 14:23:05 ---

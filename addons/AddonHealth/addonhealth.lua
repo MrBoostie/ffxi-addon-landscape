@@ -1,6 +1,6 @@
 _addon.name = 'AddonHealth'
 _addon.author = 'odin'
-_addon.version = '0.2.0'
+_addon.version = '0.2.1'
 _addon.commands = {'addonhealth', 'ahealth'}
 _addon.description = 'Unified health dashboard for Windower addon stack status and diagnostics.'
 
@@ -283,6 +283,38 @@ local function summarize_severity(report)
     return severity, counts
 end
 
+local function build_recommendations(report)
+    local tips = {}
+
+    for _, entry in ipairs(report.loaded or {}) do
+        if not entry.loaded and entry.critical then
+            tips[#tips+1] = ('Load critical addon: //lua load %s'):format(entry.addon)
+        end
+    end
+
+    for _, issue in ipairs(report.dep_issues or {}) do
+        tips[#tips+1] = ('Load dependency for %s: //lua load %s'):format(issue.addon, issue.missing_dep)
+    end
+
+    for _, issue in ipairs(report.file_issues or {}) do
+        tips[#tips+1] = ('Reinstall or verify file path for %s'):format(issue.label)
+    end
+
+    if #report.unknown_loaded > 0 then
+        tips[#tips+1] = 'Optional: add recurring unknown addons to AddonHealth/data/addons.user.lua for explicit monitoring'
+    end
+
+    local deduped, seen = {}, {}
+    for _, tip in ipairs(tips) do
+        if not seen[tip] then
+            seen[tip] = true
+            deduped[#deduped+1] = tip
+        end
+    end
+
+    return deduped
+end
+
 local function run_diagnostics()
     local player = windower.ffxi.get_player() or {}
     local info = windower.ffxi.get_info() or {}
@@ -300,6 +332,7 @@ local function run_diagnostics()
         unknown_loaded = unknown_loaded,
     }
     report.severity, report.counts = summarize_severity(report)
+    report.recommendations = build_recommendations(report)
     state.lastReport = report
     state.lastCheck = now()
     return report
@@ -331,6 +364,13 @@ local function display_report(report)
         msg('File Issues:')
         for _, issue in ipairs(report.file_issues) do
             msg(('  [%s] %s: %s (%s)'):format(issue.severity, issue.label, issue.status, issue.path))
+        end
+    end
+
+    if report.recommendations and #report.recommendations > 0 then
+        msg('Recommended Actions:')
+        for _, tip in ipairs(report.recommendations) do
+            msg('  - ' .. tip)
         end
     end
 
@@ -378,6 +418,13 @@ local function export_report(report)
         end
     end
 
+    if report.recommendations and #report.recommendations > 0 then
+        f:write('\nRecommended Actions:\n')
+        for _, tip in ipairs(report.recommendations) do
+            f:write(('  - %s\n'):format(tip))
+        end
+    end
+
     f:write(('\nSummary: ok=%d warn=%d alert=%d\n'):format(report.counts.ok or 0, report.counts.warn or 0, report.counts.alert or 0))
     f:close()
     msg('Report exported: ' .. path)
@@ -419,7 +466,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1] or '')
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: check | watch on|off [interval] | export | status | summary | reload')
+        msg('Commands: check | watch on|off [interval] | export | status | summary | fixes | reload')
         return
     end
 
@@ -444,6 +491,19 @@ windower.register_event('addon command', function(...)
             #report.unknown_loaded,
             #state.catalogEntries
         ))
+        return
+    end
+
+    if cmd == 'fixes' then
+        local report = state.lastReport or run_diagnostics()
+        if report.recommendations and #report.recommendations > 0 then
+            msg(('Recommended actions (%d):'):format(#report.recommendations))
+            for _, tip in ipairs(report.recommendations) do
+                msg('  - ' .. tip)
+            end
+        else
+            msg('No remediation actions suggested (health is clean).')
+        end
         return
     end
 
