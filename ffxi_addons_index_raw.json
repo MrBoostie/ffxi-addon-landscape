@@ -253,7 +253,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-24T14:31:22Z",
+    "pushed_at": "2026-04-25T06:29:17Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "util"
@@ -874,6 +874,15 @@
     ]
   },
   {
+    "repo": "ThornyFFXI/tHotBar",
+    "stars": 6,
+    "pushed_at": "2026-02-08T18:03:54Z",
+    "description": "Macro binding interface for keyboard users in FFXI.",
+    "addon_dirs": [
+      "thotbar"
+    ]
+  },
+  {
     "repo": "tupsimati/nukes",
     "stars": 0,
     "pushed_at": "2026-02-23T16:55:26Z",
@@ -900,6 +909,15 @@
       "MagicAssistant",
       "QuickTrade 2",
       "QuickTrade"
+    ]
+  },
+  {
+    "repo": "XavierRobles/MobAbility",
+    "stars": 2,
+    "pushed_at": "2025-04-26T11:52:19Z",
+    "description": "Mobability is an addon designed to enhance your situational awareness in combat by monitoring and alerting you to mob actions. It captures events such as mobs starting to cast spells or initiating TP moves (special abilities) based on the mode you select. The alerts are displayed in a clear, floating window with color-coded elements to help you",
+    "addon_dirs": [
+      "mobability"
     ]
   },
   {
