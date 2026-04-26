@@ -253,7 +253,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-24T14:31:22Z",
+    "pushed_at": "2026-04-25T06:29:17Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "util"
@@ -872,6 +872,13 @@
     "addon_dirs": [
       "original icons"
     ]
+  },
+  {
+    "repo": "ThornyFFXI/ScentHound",
+    "stars": 3,
+    "pushed_at": "2026-03-13T11:08:25Z",
+    "description": "Addon for Ashita4 (FFXI) that tracks monster spawns, displays visual indicators, and makes audio alerts.",
+    "addon_dirs": []
   },
   {
     "repo": "tupsimati/nukes",
