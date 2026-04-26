@@ -107,6 +107,39 @@ log = mock.get_chat_log()
 check('unknown plan gives message', #log > 0)
 check('unknown plan mentions no route', log[1] and log[1].text:find('No route') ~= nil)
 
+-- test lint with known destination
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'lint', 'jeuno')
+log = mock.get_chat_log()
+local saw_preflight, saw_summary = false, false
+for _, entry in ipairs(log) do
+    if entry.text:find('Preflight check for "jeuno"') then saw_preflight = true end
+    if entry.text:find('Preflight summary:') then saw_summary = true end
+end
+check('lint prints preflight header', saw_preflight)
+check('lint prints summary', saw_summary)
+
+-- test lint catches invalid user route steps
+mock.reset()
+mock.install()
+dofile('../addons/TravelRouter/travelrouter.lua')
+
+mock.fire_event('addon command', 'add', 'lintdemo', 'wait:oops ; cmd: ; hello world')
+mock.fire_event('addon command', 'lint', 'lintdemo')
+log = mock.get_chat_log()
+local saw_invalid_wait, saw_empty_cmd, saw_plain_text = false, false, false
+for _, entry in ipairs(log) do
+    if entry.text:find('wait value') then saw_invalid_wait = true end
+    if entry.text:find('missing a command') then saw_empty_cmd = true end
+    if entry.text:find('Plain text step only prints chat output') then saw_plain_text = true end
+end
+check('lint reports invalid wait', saw_invalid_wait)
+check('lint reports empty cmd', saw_empty_cmd)
+check('lint reports plain text step warning', saw_plain_text)
+
 -- test help command
 mock.reset()
 mock.install()

@@ -241,6 +241,87 @@ local function explain_plan(dest)
     return true
 end
 
+local function lint_step(step)
+    local s = (step or ''):gsub('^%s+', ''):gsub('%s+$', '')
+    if s == '' then
+        return { level = 'warn', code = 'empty', detail = 'Empty step will be ignored.' }
+    end
+
+    if s:sub(1, 4) == 'say:' then
+        local payload = s:sub(5):gsub('^%s+', ''):gsub('%s+$', '')
+        if payload == '' then
+            return { level = 'warn', code = 'say-empty', detail = 'say: step has no message.' }
+        end
+        return nil
+    end
+
+    if s:sub(1, 5) == 'wait:' then
+        local raw = s:sub(6):gsub('^%s+', ''):gsub('%s+$', '')
+        local sec = tonumber(raw)
+        if not sec then
+            return { level = 'error', code = 'wait-invalid', detail = ('wait value "%s" is not a number.'):format(raw) }
+        end
+        if sec < 0 then
+            return { level = 'error', code = 'wait-negative', detail = ('wait value %.2f is negative.'):format(sec) }
+        end
+        if sec == 0 then
+            return { level = 'warn', code = 'wait-zero', detail = 'wait:0 has no effect.' }
+        end
+        if sec > 30 then
+            return { level = 'warn', code = 'wait-long', detail = ('wait %.1fs is long; verify this is intentional.'):format(sec) }
+        end
+        return nil
+    end
+
+    if s:sub(1, 4) == 'cmd:' then
+        local payload = normalize_cmd(s:sub(5))
+        if payload == '' then
+            return { level = 'error', code = 'cmd-empty', detail = 'cmd: step is missing a command.' }
+        end
+        return nil
+    end
+
+    return { level = 'warn', code = 'plain-text', detail = 'Plain text step only prints chat output (no command executed).' }
+end
+
+local function lint_plan(dest)
+    local resolved, alias_used = resolve_destination(dest)
+    local plan = pick_plan(resolved)
+    if not plan then
+        msg(('No route for "%s".'):format(dest or ''))
+        local suggestions = suggest_destinations(dest, 5)
+        if #suggestions > 0 then msg('Did you mean: ' .. table.concat(suggestions, ', ')) end
+        return false
+    end
+
+    if alias_used then msg(('Alias "%s" => "%s"'):format(alias_used, resolved)) end
+
+    local warn_count, err_count = 0, 0
+    local total_wait = 0
+    msg(('Preflight check for "%s" (%s):'):format(resolved, plan.name or 'default'))
+
+    for idx, step in ipairs(plan.steps or {}) do
+        local issue = lint_step(step)
+        local wait_sec = nil
+        local raw = tostring(step or '')
+        if raw:sub(1, 5) == 'wait:' then wait_sec = tonumber(raw:sub(6)) end
+        if wait_sec and wait_sec > 0 then total_wait = total_wait + wait_sec end
+
+        if issue then
+            if issue.level == 'error' then err_count = err_count + 1 else warn_count = warn_count + 1 end
+            msg(('  %d) [%s] %s :: %s'):format(idx, issue.level:upper(), step, issue.detail))
+        else
+            msg(('  %d) [OK] %s'):format(idx, step))
+        end
+    end
+
+    msg(('Preflight summary: %d step(s), %d warning(s), %d error(s), %.1fs cumulative waits.'):format(#(plan.steps or {}), warn_count, err_count, total_wait))
+    if err_count > 0 then
+        msg('Fix preflight errors before using //troute run for reliable execution.')
+    end
+    return err_count == 0
+end
+
 local function execute_step(step)
     if step:sub(1,4) == 'say:' then msg(step:sub(5)); return end
     if step:sub(1,5) == 'wait:' then
@@ -418,13 +499,14 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1])
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: list | search <text> | plan <dest> | explain <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
+        msg('Commands: list | search <text> | plan <dest> | explain <dest> | lint <dest> | run <dest> | add <dest> <s1>;... | reset <dest> | alias list|add|remove ... | unlock list|add|remove <k> | save')
         return
     end
     if cmd == 'list' then list_destinations(); return end
     if cmd == 'search' then search_destinations(join(args, ' ', 2)); return end
     if cmd == 'plan' then print_plan(join(args, ' ', 2)); return end
     if cmd == 'explain' then explain_plan(join(args, ' ', 2)); return end
+    if cmd == 'lint' then lint_plan(join(args, ' ', 2)); return end
     if cmd == 'run' then run_plan(join(args, ' ', 2)); return end
     if cmd == 'add' then add_route(args[2], join(args, ' ', 3)); return end
     if cmd == 'reset' then reset_route(join(args, ' ', 2)); return end

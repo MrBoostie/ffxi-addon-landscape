@@ -19,6 +19,7 @@ Content-aware travel routing addon for Windower.
 - `//troute search <text>` — find destinations by prefix/substring (e.g. typo recovery)
 - `//troute plan <destination>` — print best route + scoring rationale
 - `//troute explain <destination>` — show ranked candidate scores and selection reasons
+- `//troute lint <destination>` — preflight-check route steps for common mistakes before execution
 - `//troute run <destination>` — execute selected route
 - `//troute add <destination> <step1> ; <step2> ; ...` — persist user route override
 - `//troute reset <destination>` — remove user override for destination
@@ -51,7 +52,11 @@ jeuno = {
 ## Route step format
 Each step is one of:
 - `say:<text>` — prints instruction text
+- `wait:<seconds>` — delay before the next step
 - `cmd:<windower command>` — executes command (leading `//` optional)
+- plain text — printed only (useful as annotations, but not executable)
+
+Use `//troute lint <destination>` to validate step formatting and catch common issues (empty `cmd:`, invalid `wait:` values, etc.) before running.
 
 ## IPC
 ### v2 (preferred, robust payload encoding)
