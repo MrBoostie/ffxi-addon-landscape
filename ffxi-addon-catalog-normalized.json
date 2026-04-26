@@ -658,6 +658,22 @@
     "description_reviewed_at": "2026-04-24T16:16:10+00:00"
   },
   {
+    "addon_key": "beads",
+    "addon_name": "Beads",
+    "category": "general_qol",
+    "repos": [
+      "zierk/Beads"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 0,
+    "opportunity_score": 4.83,
+    "description": "A FFXI Windower addon to farm Domain Invasion for Escha Beads",
+    "description_source": "https://github.com/zierk/Beads",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-26T20:00:00Z"
+  },
+  {
     "addon_key": "blist",
     "addon_name": "Blist",
     "category": "general_qol",
@@ -923,11 +939,12 @@
     "addon_name": "Checkparam",
     "category": "general_qol",
     "repos": [
-      "Icydeath/ffxi-addons"
+      "Icydeath/ffxi-addons",
+      "izaniki/checkparam"
     ],
-    "repo_count": 1,
+    "repo_count": 2,
     "best_repo_stars": 69,
-    "freshness_max": 1489,
+    "freshness_max": 0,
     "opportunity_score": 3.43,
     "description": "# checkparam ## English - /check OR /c (in-game command) - Whenever you /check any player, displays the total of property of that players current equipments.(defined in settings.xml) - //checkparam OR //cp (addon command",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/checkparam/README.md",
@@ -1854,6 +1871,22 @@
     "description_source": "https://github.com/xurion/ffxi-drop-stop",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T22:03:50+00:00"
+  },
+  {
+    "addon_key": "ffxiguesswho",
+    "addon_name": "ffxi-guess-who",
+    "category": "general_qol",
+    "repos": [
+      "xurion/ffxi-guess-who"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 1,
+    "opportunity_score": 4.83,
+    "description": "A Windower 4 addon for FFXI that assigns names to enemies",
+    "description_source": "https://github.com/xurion/ffxi-guess-who",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-26T20:00:00Z"
   },
   {
     "addon_key": "ffxikeys",
@@ -4305,6 +4338,22 @@
     "description_source": "https://github.com/murrain/ctimers",
     "description_confidence": "low",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
+  },
+  {
+    "addon_key": "spamblock",
+    "addon_name": "SpamBlock",
+    "category": "general_qol",
+    "repos": [
+      "Daleterrence/SpamBlock"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": 2,
+    "opportunity_score": 4.2,
+    "description": "A Windower 4 addon to make yell chat usable.",
+    "description_source": "https://github.com/Daleterrence/SpamBlock",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-26T20:00:00Z"
   },
   {
     "addon_key": "sparks",

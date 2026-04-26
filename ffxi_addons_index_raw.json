@@ -73,7 +73,7 @@
   {
     "repo": "cyritegamestudios/trust",
     "stars": 49,
-    "pushed_at": "2026-04-24T14:25:24Z",
+    "pushed_at": "2026-04-26T19:17:56Z",
     "description": "Windower 4 addon for FFXI to automate your character in battle.",
     "addon_dirs": [
       "Setup",
@@ -86,6 +86,13 @@
       "sounds",
       "translations"
     ]
+  },
+  {
+    "repo": "Daleterrence/SpamBlock",
+    "stars": 0,
+    "pushed_at": "2026-04-23T16:01:50Z",
+    "description": "A Windower 4 addon to make yell chat usable.",
+    "addon_dirs": []
   },
   {
     "repo": "Darkdoom22/Widescan",
@@ -468,6 +475,13 @@
       "chococard",
       "htmb"
     ]
+  },
+  {
+    "repo": "izaniki/checkparam",
+    "stars": 1,
+    "pushed_at": "2026-04-26T19:39:25Z",
+    "description": "Fork of Checkparam addon for FFXI",
+    "addon_dirs": []
   },
   {
     "repo": "lili-ffxi/FFXI-Addons",
@@ -910,6 +924,13 @@
     "addon_dirs": []
   },
   {
+    "repo": "xurion/ffxi-guess-who",
+    "stars": 0,
+    "pushed_at": "2026-04-25T10:58:08Z",
+    "description": "A Windower 4 addon for FFXI that assigns names to enemies",
+    "addon_dirs": []
+  },
+  {
     "repo": "ZeromusXYZ/PacketViewerLogViewer",
     "stars": 17,
     "pushed_at": "2023-05-18T06:00:22Z",
@@ -920,5 +941,12 @@
       "helpers",
       "redist"
     ]
+  },
+  {
+    "repo": "zierk/Beads",
+    "stars": 0,
+    "pushed_at": "2026-04-26T14:31:28Z",
+    "description": "A FFXI Windower addon to farm Domain Invasion for Escha Beads",
+    "addon_dirs": []
   }
 ]
