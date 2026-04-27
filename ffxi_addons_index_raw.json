@@ -17,7 +17,7 @@
     "repo": "Akirane/XIVHotbar",
     "stars": 18,
     "pushed_at": "2020-12-26T23:55:51Z",
-    "description": "",
+    "description": null,
     "addon_dirs": []
   },
   {
@@ -73,7 +73,7 @@
   {
     "repo": "cyritegamestudios/trust",
     "stars": 49,
-    "pushed_at": "2026-04-24T14:25:24Z",
+    "pushed_at": "2026-04-26T19:17:56Z",
     "description": "Windower 4 addon for FFXI to automate your character in battle.",
     "addon_dirs": [
       "Setup",
@@ -223,7 +223,7 @@
   {
     "repo": "Gol-exe/closetCleaner2",
     "stars": 0,
-    "pushed_at": "2026-04-24T21:47:50Z",
+    "pushed_at": "2026-04-26T23:28:10Z",
     "description": "Rework of the ClosetCleaner FFXI Windower Addon",
     "addon_dirs": []
   },
@@ -253,7 +253,7 @@
   {
     "repo": "HiPotionQ8/XIchecklist",
     "stars": 4,
-    "pushed_at": "2026-04-25T06:29:17Z",
+    "pushed_at": "2026-04-26T15:15:06Z",
     "description": "windower addon for ffxi - Checklist for todo list / mastery rank (quests, key items, warps, monstrosity, fish, roe, moblin maze and other things)",
     "addon_dirs": [
       "util"
@@ -415,7 +415,7 @@
   {
     "repo": "iLVL-Key/FFXI",
     "stars": 22,
-    "pushed_at": "2026-04-22T15:03:22Z",
+    "pushed_at": "2026-04-26T23:36:04Z",
     "description": "Various FFXI projects",
     "addon_dirs": [
       "addons",
@@ -814,6 +814,18 @@
     ]
   },
   {
+    "repo": "Sippius/Ashita-v4-addons",
+    "stars": 21,
+    "pushed_at": "2023-11-24T17:00:47Z",
+    "description": "FFXI Ashita-v4 addons",
+    "addon_dirs": [
+      "RollTracker",
+      "chains",
+      "find",
+      "pupsets"
+    ]
+  },
+  {
     "repo": "SQLCommit/GMTools",
     "stars": 2,
     "pushed_at": "2026-03-07T16:05:59Z",
@@ -861,7 +873,7 @@
     "repo": "Technyze/XIVHotbar2",
     "stars": 13,
     "pushed_at": "2023-03-12T03:29:46Z",
-    "description": "",
+    "description": null,
     "addon_dirs": []
   },
   {
@@ -893,7 +905,7 @@
     "repo": "ValokAsura/WindowerAddons",
     "stars": 14,
     "pushed_at": "2023-02-04T00:29:37Z",
-    "description": "",
+    "description": null,
     "addon_dirs": [
       "Bursting",
       "CrystalTrader",
