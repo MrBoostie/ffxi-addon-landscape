@@ -61,9 +61,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "table.vprint(test_table)",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ambuloot/ambuloot.lua",
-    "description_confidence": "high",
+    "description": "Automates Ambuscade reward chest interactions and lot/pass flow to speed up runs.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T18:01:40+00:00"
   },
   {
@@ -94,9 +94,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Packet/event utility addon for advanced users. It hooks game events to automate small actions.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:42+00:00"
   },
   {
@@ -143,8 +143,8 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "For more details: https://www.ffxiah.com/forum/topic/58154/atreplace-autotranslate-in-scripts-and-aliases/ _**USE THIS AT YOUR OWN RISK**_, I did my best to make sure it copied client behavior 100% but it's entirely poss",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/atreplace/README.md",
+    "description": "Expands auto-translate placeholders in aliases/scripts so chat macros are easier to write.",
+    "description_source": "manual_curated",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:06+00:00"
   },
@@ -389,9 +389,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-09T21:16:04Z",
     "opportunity_score": 4.2,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates chocobo digging/mining loops so you can farm with fewer manual inputs.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:50+00:00"
   },
   {
@@ -488,9 +488,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automatically repeats synthesis recipes and can stop when materials run out.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:57+00:00"
   },
   {
@@ -553,9 +553,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Automates weapon skill usage based on configurable TP thresholds and combat conditions.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automatically uses your configured weapon skill when TP reaches your set threshold.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:37+00:00"
   },
   {
@@ -718,9 +718,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates opening and clearing item boxes/chests to reduce repetitive menu clicks.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:50+00:00"
   },
   {
@@ -734,9 +734,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates common blue-mage spell learning/farming routines for easier setup.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:05+00:00"
   },
   {
@@ -1226,9 +1226,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Shows your current debuffs in a clear on-screen list so you can react faster.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:23+00:00"
   },
   {
@@ -1259,9 +1259,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates digging actions and related timing checks for repeat farming.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:17:00+00:00"
   },
   {
@@ -1341,9 +1341,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-12T01:09:08Z",
     "opportunity_score": 4.2,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Tracks fight damage and shows DPS totals in a live meter window.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:27+00:00"
   },
   {
@@ -2229,9 +2229,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Alerts you when important enemy spell/ability events happen so you can respond quickly.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:45+00:00"
   },
   {
@@ -2459,9 +2459,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates routine support actions (buffs/items/abilities) using configurable rules.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:49+00:00"
   },
   {
@@ -3029,9 +3029,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-23T16:55:26Z",
     "opportunity_score": 4.0,
-    "description": "ffxi windower addon that allows you to set an element and cast your highest elemental magic spell available",
-    "description_source": "https://github.com/tupsimati/nukes",
-    "description_confidence": "low",
+    "description": "Casts your highest available nuke for the selected element with one command.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -3046,9 +3046,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Auto-interrupt helper that tries to stop dangerous enemy casts (stun/silence style workflow).",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:22+00:00"
   },
   {
@@ -3128,9 +3128,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automatically opens nearby doors/interactive targets when possible.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:33+00:00"
   },
   {
@@ -3326,9 +3326,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Displays your pet's TP so pet jobs can time abilities more reliably.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:44+00:00"
   },
   {
@@ -3542,9 +3542,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Looks up item prices to help you decide what to sell or buy.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:52+00:00"
   },
   {
@@ -3867,9 +3867,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates Corsair rolling with configurable roll choices and timing.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:04:05+00:00"
   },
   {
@@ -4132,9 +4132,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Changes in-game background music by zone or state using custom rules.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T05:03:44+00:00"
   },
   {
@@ -4350,9 +4350,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-02T05:30:03Z",
     "opportunity_score": 4.0,
-    "description": "ffxi windower addon that mimics ctimers",
-    "description_source": "https://github.com/murrain/ctimers",
-    "description_confidence": "low",
+    "description": "Sound/timer alerts for spell and ability recasts (ctimers-style notifications).",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -4401,9 +4401,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Displays movement speed data so you can verify speed buffs/debuffs.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T07:03:42+00:00"
   },
   {
@@ -4451,9 +4451,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Movement-speed helper that manages sprint-style speed effects and checks.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T09:03:37+00:00"
   },
   {
@@ -4791,9 +4791,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Creates configurable on-screen text boxes for status notes, timers, or reminders.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T11:03:36+00:00"
   },
   {
@@ -5140,9 +5140,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Improves visibility of detection/aggro state indicators for safer movement.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T14:03:36+00:00"
   },
   {
@@ -5333,9 +5333,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Shows your currently active Summoner spirit favor effect in a visible UI element.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T15:03:34+00:00"
   },
   {
@@ -5526,9 +5526,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-04T21:45:19Z",
     "opportunity_score": 4.0,
-    "description": "FFXI Windower Addon for automating the boring aspects of jobs: Wyvern Cures, Jumps, Boost, Weapon Skills, etc.",
-    "description_source": "https://github.com/garyfromwork/AutoJob",
-    "description_confidence": "low",
+    "description": "In-game wiki lookup helper for quick command-based references while playing.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -5702,9 +5702,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates fishing actions (cast/reel/repeat) with configurable behavior.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T17:03:36+00:00"
   },
   {
