@@ -1,6 +1,6 @@
 _addon.name = 'AddonHealth'
 _addon.author = 'odin'
-_addon.version = '0.2.1'
+_addon.version = '0.3.0'
 _addon.commands = {'addonhealth', 'ahealth'}
 _addon.description = 'Unified health dashboard for Windower addon stack status and diagnostics.'
 
@@ -58,6 +58,14 @@ local function file_exists(path)
     if not f then return false end
     f:close()
     return true
+end
+
+local function ensure_dir(path)
+    if type(path) ~= 'string' or path == '' then return false end
+    local normalized = path:gsub('[\\/]+$', '')
+    if normalized == '' then return false end
+    local ok = os.execute(('mkdir -p "%s"'):format(normalized))
+    return ok == true or ok == 0
 end
 
 local function addon_base_path()
@@ -378,13 +386,87 @@ local function display_report(report)
     msg('---')
 end
 
-local function export_report(report)
-    local filename = ('addonhealth-report-%s.txt'):format(os.date('%Y%m%d-%H%M%S', report.timestamp))
+local function json_escape(s)
+    return (s:gsub('\\', '\\\\')
+        :gsub('"', '\\"')
+        :gsub('\b', '\\b')
+        :gsub('\f', '\\f')
+        :gsub('\n', '\\n')
+        :gsub('\r', '\\r')
+        :gsub('\t', '\\t'))
+end
+
+local function is_array(tbl)
+    local count = 0
+    for k, _ in pairs(tbl) do
+        if type(k) ~= 'number' then return false end
+        if k < 1 or k % 1 ~= 0 then return false end
+        count = count + 1
+    end
+    return count == #tbl
+end
+
+local function to_json(value)
+    local t = type(value)
+    if t == 'nil' then
+        return 'null'
+    elseif t == 'boolean' then
+        return value and 'true' or 'false'
+    elseif t == 'number' then
+        return tostring(value)
+    elseif t == 'string' then
+        return '"' .. json_escape(value) .. '"'
+    elseif t == 'table' then
+        if is_array(value) then
+            local out = {}
+            for i = 1, #value do
+                out[#out+1] = to_json(value[i])
+            end
+            return '[' .. table.concat(out, ',') .. ']'
+        end
+
+        local keys = {}
+        for k, _ in pairs(value) do
+            if type(k) == 'string' then keys[#keys+1] = k end
+        end
+        table.sort(keys)
+
+        local out = {}
+        for _, key in ipairs(keys) do
+            out[#out+1] = ('"%s":%s'):format(json_escape(key), to_json(value[key]))
+        end
+        return '{' .. table.concat(out, ',') .. '}'
+    end
+
+    return 'null'
+end
+
+local function export_report(report, format)
+    format = normalize(format or 'txt')
+    if format ~= 'txt' and format ~= 'json' then
+        msg('Usage: //addonhealth export [txt|json]')
+        return false
+    end
+
+    if not ensure_dir(REPORT_DIR) then
+        msg('Failed to ensure report directory: ' .. REPORT_DIR)
+        return false
+    end
+
+    local filename = ('addonhealth-report-%s.%s'):format(os.date('%Y%m%d-%H%M%S', report.timestamp), format)
     local path = REPORT_DIR .. filename
     local f = io.open(path, 'w')
     if not f then
         msg('Failed to write report file: ' .. path)
         return false
+    end
+
+    if format == 'json' then
+        f:write(to_json(report))
+        f:write('\n')
+        f:close()
+        msg('Report exported: ' .. path)
+        return true
     end
 
     f:write(('AddonHealth Report - %s\n'):format(os.date('%Y-%m-%d %H:%M:%S', report.timestamp)))
@@ -466,7 +548,7 @@ windower.register_event('addon command', function(...)
     local cmd = normalize(args[1] or '')
 
     if cmd == '' or cmd == 'help' then
-        msg('Commands: check | watch on|off [interval] | export | status | summary | fixes | reload')
+        msg('Commands: check | watch on|off [interval] | export [txt|json] | status | summary | fixes | reload')
         return
     end
 
@@ -477,7 +559,7 @@ windower.register_event('addon command', function(...)
 
     if cmd == 'export' then
         local report = state.lastReport or run_diagnostics()
-        export_report(report)
+        export_report(report, args[2] or 'txt')
         return
     end
 
