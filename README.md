@@ -103,6 +103,8 @@ Suggested smoke test:
 //troute plan jeuno
 //conductor ping
 //conductor travel jeuno
+//addonhealth check
+//addonhealth export json
 ```
 
 If you only load `SessionConductor`, the `travel` command will still broadcast, but actual route execution expects `TravelRouter` to be present on the receiving instance.
@@ -143,6 +145,13 @@ See specs:
 - Connectivity check: `//conductor ping`
 - Verify travel orchestration: `//conductor travel jeuno`
 - Review ACK/timeouts: `//conductor status`
+
+### AddonHealth
+- Copy `addons/AddonHealth` into Windower `addons/`
+- Load: `//lua load AddonHealth`
+- Run diagnostics: `//addonhealth check`
+- Export text report: `//addonhealth export`
+- Export JSON report (automation-friendly): `//addonhealth export json`
 
 ### Safety defaults
 - Remote command execution is disabled by default.

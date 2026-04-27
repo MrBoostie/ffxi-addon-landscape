@@ -27,6 +27,23 @@ assert(saw_severity, 'expected severity line')
 assert(saw_unknown, 'expected unknown addon coverage line')
 assert(saw_actions, 'expected recommended actions section')
 
+mock.fire_event('addon command', 'export', 'json')
+local exported_json
+for _, entry in ipairs(mock.get_chat_log()) do
+    local path = entry.text:match('Report exported:%s+(.+%.json)$')
+    if path then
+        exported_json = path
+    end
+end
+assert(exported_json, 'expected json export path')
+local exported_handle = io.open(exported_json, 'r')
+assert(exported_handle, 'expected json export file to exist')
+local exported_body = exported_handle:read('*a')
+exported_handle:close()
+assert(exported_body:find('"severity"'), 'expected severity field in json export')
+assert(exported_body:find('"recommendations"'), 'expected recommendations field in json export')
+os.remove(exported_json)
+
 local custom_dir = '../addons/AddonHealth/data'
 os.execute('mkdir -p ' .. custom_dir)
 local custom_file = custom_dir .. '/addons.user.lua'
