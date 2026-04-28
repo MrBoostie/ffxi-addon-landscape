@@ -159,7 +159,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "# attackid id\u3092\u6307\u5b9a\u3057\u3066/attack(\u6226\u95d8\u958b\u59cb)\u3092\u3059\u308b\u30a2\u30c9\u30aa\u30f3 - \u4f7f\u3044\u65b9 //atkid 123456 send\u304b\u3089\u4f7f\u7528\u3059\u308b //send @others atkid <tid>",
+    "description": "# attackid idを指定して/attack(戦闘開始)をするアドオン - 使い方 //atkid 123456 sendから使用する //send @others atkid <tid>",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/attackid/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:07+00:00"
@@ -772,6 +772,22 @@
     "description_reviewed_at": "2026-04-24T16:16:19+00:00"
   },
   {
+    "addon_key": "campbuddy",
+    "addon_name": "CampBuddy",
+    "category": "general_qol",
+    "repos": [
+      "JamesAnBo/CampBuddy"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": "2023-07-12T15:07:45Z",
+    "opportunity_score": 2.1,
+    "description": "Tracks placeholder mob kills and starts repeatable respawn timers for camp management.",
+    "description_source": "https://github.com/JamesAnBo/CampBuddy/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
     "addon_key": "cancel",
     "addon_name": "Cancel",
     "category": "general_qol",
@@ -816,7 +832,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "[[Copyright \u00a9 2016, Burntwaffle@Odin",
+    "description": "[[Copyright © 2016, Burntwaffle@Odin",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/capetrader/allAugPaths.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:16:22+00:00"
@@ -864,7 +880,7 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "# Chars # This addon lets you input special chars using simple tags (e.g.: for \u266a).",
+    "description": "# Chars # This addon lets you input special chars using simple tags (e.g.: for ♪).",
     "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/chars/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:16:24+00:00"
@@ -1129,6 +1145,22 @@
     "description_source": "https://github.com/ValokAsura/WindowerAddons/blob/HEAD/CrystalTrader/CrystalTrader.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:16:46+00:00"
+  },
+  {
+    "addon_key": "ctimers",
+    "addon_name": "CTimers",
+    "category": "general_qol",
+    "repos": [
+      "murrain/ctimers"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": "2026-02-02T05:30:06Z",
+    "opportunity_score": 2.6,
+    "description": "Creates named custom countdown timers, including absolute-time and repeating HNM-style timers.",
+    "description_source": "https://github.com/murrain/ctimers/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "cureplease_addon",
@@ -1572,7 +1604,7 @@
     "best_repo_stars": 12,
     "freshness_max": "2024-02-18T18:22:59Z",
     "opportunity_score": 3.78,
-    "description": "[[Copyright \u00a9 2018, Kenshi spawn_type is no longer being set the same way.",
+    "description": "[[Copyright © 2018, Kenshi spawn_type is no longer being set the same way.",
     "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraInfoBar/EraInfoBar.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T22:03:33+00:00"
@@ -2053,6 +2085,22 @@
     "description_reviewed_at": "2026-04-24T16:18:55+00:00"
   },
   {
+    "addon_key": "gearinfo",
+    "addon_name": "GearInfo",
+    "category": "ui_gear",
+    "repos": [
+      "sebyg666/GearInfo"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 25,
+    "freshness_max": "2025-09-29T12:11:30Z",
+    "opportunity_score": 3.7,
+    "description": "Tracks gear, buffs, and combat state so GearSwap can make more accurate equipment decisions.",
+    "description_source": "https://github.com/sebyg666/GearInfo",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
     "addon_key": "gearswap",
     "addon_name": "Gearswap",
     "category": "ui_gear",
@@ -2117,6 +2165,38 @@
     "description_source": "https://github.com/SQLCommit/GMTools/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T13:00:42+00:00"
+  },
+  {
+    "addon_key": "grimoire",
+    "addon_name": "Grimoire",
+    "category": "general_qol",
+    "repos": [
+      "glitchv0/grimoire"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": "2026-02-18T14:51:10Z",
+    "opportunity_score": 2.85,
+    "description": "Provides a searchable spell compendium with acquisition details, job filters, and known-spell progress tracking.",
+    "description_source": "https://github.com/glitchv0/grimoire/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
+    "addon_key": "hasteinfo",
+    "addon_name": "HasteInfo",
+    "category": "ui_gear",
+    "repos": [
+      "shastaxc/HasteInfo"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": "2025-04-30T06:35:02Z",
+    "opportunity_score": 2.65,
+    "description": "Calculates haste and dual-wield requirements, then exposes that information to GearSwap.",
+    "description_source": "https://github.com/shastaxc/HasteInfo/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "healbot",
@@ -2184,6 +2264,22 @@
     "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/highlight/highlight.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:20:21+00:00"
+  },
+  {
+    "addon_key": "hivemind",
+    "addon_name": "Hivemind",
+    "category": "general_qol",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": "2026-04-11T16:17:08Z",
+    "opportunity_score": 3.2,
+    "description": "Relays tells and linkshell chat across multiboxed characters and supports quick cross-character replies through Send.",
+    "description_source": "https://github.com/Broguypal/Addons/tree/main/Hivemind/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "htmb",
@@ -2427,7 +2523,7 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "[[Copyright \u00a9 2014-2016, smd111",
+    "description": "[[Copyright © 2014-2016, smd111",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/latentchecker/latentchecker.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:20:34+00:00"
@@ -2499,6 +2595,22 @@
     "description_source": "https://github.com/AliekberFFXI/xivcrossbar/blob/HEAD/libs/xml2.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T23:03:57+00:00"
+  },
+  {
+    "addon_key": "limbox",
+    "addon_name": "Limbox",
+    "category": "general_qol",
+    "repos": [
+      "Quenala/Limbox"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": "2025-07-18T19:36:55Z",
+    "opportunity_score": 2.7,
+    "description": "Tracks Limbus progress in Temenos and Apollyon by reading temporary key items, cleared floors, and points earned.",
+    "description_source": "https://github.com/Quenala/Limbox/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "linker",
@@ -2997,7 +3109,7 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "[[Copyright \u00a9 2014-2015, trv",
+    "description": "[[Copyright © 2014-2015, trv",
     "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/Nostrum/Nostrum.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:22:48+00:00"
@@ -3245,7 +3357,7 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 2.66,
-    "description": "[[Copyright \u00a9 2016, Kenshi Adjust position for party member count",
+    "description": "[[Copyright © 2016, Kenshi Adjust position for party member count",
     "description_source": "https://github.com/Lygre/addons/blob/HEAD/PartyBuffs/PartyBuffs.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T01:03:27+00:00"
@@ -3662,6 +3774,22 @@
     "description_reviewed_at": "2026-04-24T17:03:56+00:00"
   },
   {
+    "addon_key": "randomount",
+    "addon_name": "RandoMount",
+    "category": "general_qol",
+    "repos": [
+      "erkamerf/RandoMount"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 2,
+    "freshness_max": "2025-09-25T20:45:45Z",
+    "opportunity_score": 2.75,
+    "description": "Chooses a random mount from the mounts your character owns.",
+    "description_source": "https://github.com/erkamerf/RandoMount/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
     "addon_key": "rcheck",
     "addon_name": "Rcheck",
     "category": "general_qol",
@@ -3835,7 +3963,7 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "[[Copyright \u00a9 2014-2015, trv",
+    "description": "[[Copyright © 2014-2015, trv",
     "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/Rhombus/Rhombus.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:04:03+00:00"
@@ -4013,7 +4141,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "# schskillchain(ssc) - usage example Open Liquefacrion(\u6eb6\u89e3) //ssc fire open Close Liquefacrion(\u6eb6\u89e3) (settable the first letter of parameter) //ssc f c Close Liquefacrion(\u6eb6\u89e3) and Magic Burst Pyrohelix II (\u706b\u9580\u306e\u8a08II) //ssc f c ",
+    "description": "# schskillchain(ssc) - usage example Open Liquefacrion(溶解) //ssc fire open Close Liquefacrion(溶解) (settable the first letter of parameter) //ssc f c Close Liquefacrion(溶解) and Magic Burst Pyrohelix II (火門の計II) //ssc f c ",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/schskillchain/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T03:03:35+00:00"
@@ -4506,6 +4634,22 @@
     "description_reviewed_at": "2026-04-24T18:03:25+00:00"
   },
   {
+    "addon_key": "stfu",
+    "addon_name": "STFU",
+    "category": "general_qol",
+    "repos": [
+      "aravikusu/stfu"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 0,
+    "freshness_max": "2025-12-26T15:28:35Z",
+    "opportunity_score": 2.45,
+    "description": "Automatically blacklists chat senders who use user-configured spam or harassment terms.",
+    "description_source": "https://github.com/aravikusu/stfu/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
     "addon_key": "stna",
     "addon_name": "Stna",
     "category": "general_qol",
@@ -4898,6 +5042,22 @@
     "description_reviewed_at": "2026-04-24T14:01:38+00:00"
   },
   {
+    "addon_key": "titrigger",
+    "addon_name": "TimeTrigger",
+    "category": "automation",
+    "repos": [
+      "Icydeath/FFXI-TimeTrigger"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 3,
+    "freshness_max": "2022-10-23T10:57:36Z",
+    "opportunity_score": 2.4,
+    "description": "Runs configured commands at specific Vana’diel times.",
+    "description_source": "https://github.com/Icydeath/FFXI-TimeTrigger/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
     "addon_key": "tonic",
     "addon_name": "Tonic",
     "category": "general_qol",
@@ -5058,7 +5218,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "[[Copyright \u00a9 2019, Kenshi Double packet and leaving pt fix",
+    "description": "[[Copyright © 2019, Kenshi Double packet and leaving pt fix",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/TreasurePool/TreasurePool.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T19:03:19+00:00"
@@ -5144,6 +5304,22 @@
     "description_source": "heuristic",
     "description_confidence": "low",
     "description_reviewed_at": "2026-04-25T14:03:36+00:00"
+  },
+  {
+    "addon_key": "truetargetlock",
+    "addon_name": "TrueTargetLock",
+    "category": "combat_automation",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": "2026-04-11T16:17:08Z",
+    "opportunity_score": 3.1,
+    "description": "Keeps your character facing the current combat target to prevent lost attacks from not-facing-target errors.",
+    "description_source": "https://github.com/Broguypal/Addons/tree/main/TrueTargetLock/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "trust",
@@ -5387,6 +5563,22 @@
     "description_reviewed_at": "2026-04-24T19:03:36+00:00"
   },
   {
+    "addon_key": "wardrobe9",
+    "addon_name": "Wardrobe9",
+    "category": "ui_gear",
+    "repos": [
+      "Broguypal/Addons"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 6,
+    "freshness_max": "2026-04-11T16:17:08Z",
+    "opportunity_score": 3.25,
+    "description": "Analyzes GearSwap Lua files and helps move required gear into wardrobes from an in-game Mog House interface.",
+    "description_source": "https://github.com/Broguypal/Addons/tree/main/Wardrobe9/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
+  },
+  {
     "addon_key": "warpmenu",
     "addon_name": "Warpmenu",
     "category": "travel_navigation",
@@ -5433,6 +5625,22 @@
     "description_source": "manual_curated_description_pass_2026_04_28",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-28T12:00:00+00:00"
+  },
+  {
+    "addon_key": "weatherwatch",
+    "addon_name": "WeatherWatch",
+    "category": "general_qol",
+    "repos": [
+      "cocosolos/WeatherWatch"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 1,
+    "freshness_max": "2025-06-07T13:49:20Z",
+    "opportunity_score": 2.5,
+    "description": "Tracks current and upcoming weather changes and logs weather observations by zone.",
+    "description_source": "https://github.com/cocosolos/WeatherWatch/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "weeklier",
@@ -5690,6 +5898,22 @@
     "description_source": "https://github.com/Tylas11/XivParty/blob/HEAD/README.md",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:30+00:00"
+  },
+  {
+    "addon_key": "xivpetbar",
+    "addon_name": "xivpetbar",
+    "category": "ui_gear",
+    "repos": [
+      "Icydeath/ffxi-xivpetbar-addon"
+    ],
+    "repo_count": 1,
+    "best_repo_stars": 5,
+    "freshness_max": "2026-03-24T01:05:00Z",
+    "opportunity_score": 3.35,
+    "description": "Displays pet HP, MP, and TP in configurable FFXIV- or FFXI-style status bars.",
+    "description_source": "https://github.com/Icydeath/ffxi-xivpetbar-addon/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "yush",
