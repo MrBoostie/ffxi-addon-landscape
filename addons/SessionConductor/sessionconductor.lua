@@ -425,30 +425,27 @@ local function apply_rules(evt)
             state.ruleStats[id] = stats
 
             local cd = tonumber(rule.cooldown_sec or 0) or 0
-            if cd > 0 and (now() - (stats.lastFired or 0)) < cd then
-                trace(('Rule %s skipped by cooldown'):format(id))
-                goto continue_rule
-            end
-
+            local coolingDown = cd > 0 and (now() - (stats.lastFired or 0)) < cd
             local maxFires = tonumber(rule.max_fires or 999999)
-            if stats.fires >= maxFires then
-                goto continue_rule
-            end
+            local exhausted = stats.fires >= maxFires
 
-            local any = false
-            for _, action in ipairs(rule.then_actions or {}) do
-                local ok = execute_action(action, evt)
-                any = any or ok
-            end
+            if coolingDown then
+                trace(('Rule %s skipped by cooldown'):format(id))
+            elseif not exhausted then
+                local any = false
+                for _, action in ipairs(rule.then_actions or {}) do
+                    local ok = execute_action(action, evt)
+                    any = any or ok
+                end
 
-            if any then
-                stats.fires = stats.fires + 1
-                stats.lastFired = now()
-                set_lockout(rule)
-                trace(('Rule fired: %s on %s'):format(id, evt.type))
+                if any then
+                    stats.fires = stats.fires + 1
+                    stats.lastFired = now()
+                    set_lockout(rule)
+                    trace(('Rule fired: %s on %s'):format(id, evt.type))
+                end
             end
         end
-        ::continue_rule::
     end
 end
 
