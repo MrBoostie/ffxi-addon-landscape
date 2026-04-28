@@ -1193,10 +1193,10 @@
     "best_repo_stars": 28,
     "freshness_max": "2026-03-30T12:56:07Z",
     "opportunity_score": 4.0,
-    "description": "{'f 5 0', 'ct', '/refa all',nil,'Ref'},",
-    "description_source": "https://github.com/Akirane/XIVHotbar/blob/HEAD/data/Akirane/General.lua",
-    "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T21:03:41+00:00"
+    "description": "Shared data/resources used by other addons (command maps, config snippets, assets, or lookup tables).",
+    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "debuff-tracker",
@@ -2148,10 +2148,10 @@
     "best_repo_stars": 22,
     "freshness_max": "2026-04-26T23:36:04Z",
     "opportunity_score": 4.83,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/Helper/Helper.lua",
-    "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:20:20+00:00"
+    "description": "Provides configurable helper overlays/assist tools for common combat or event workflows.",
+    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "helpers",
@@ -4082,10 +4082,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "## Usage The target can be the receiver's name, @all to send to all instances, @other to send to all instances excluding the sender or @<job> to send to a specific job.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/send/readme.md",
+    "description": "Sends addon commands/messages to other Windower instances so multibox characters stay synchronized.",
+    "description_source": "manual_forum_cleanup_2026_04_28",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T05:03:39+00:00"
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "sendalltarget",
@@ -4199,10 +4199,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/silttracker/silttracker.lua",
-    "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T18:03:06+00:00"
+    "description": "Tracks Domain Invasion/related currency progress and displays current farming totals.",
+    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "simpleassist",
@@ -4924,10 +4924,10 @@
     "best_repo_stars": 3,
     "freshness_max": "2026-03-15T20:10:54Z",
     "opportunity_score": 4.83,
-    "description": "An addon for FFXI Windower 4 that shows a zone-specific loading screen every time the game loads a new zone. ",
-    "description_source": "https://github.com/Bryenne-Sylph/tourist",
+    "description": "Shows a zone-specific loading screen or splash when you zone, for flavor and immersion.",
+    "description_source": "manual_forum_cleanup_2026_04_28",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T14:01:39+00:00"
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "tparty",
@@ -5477,10 +5477,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "[[ BSD License Disclaimer airships: 223,224,225,226",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/where/regionZones.lua",
-    "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T19:03:41+00:00"
+    "description": "Shows location-oriented info (such as target/system/location lookups) via in-game commands.",
+    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "widescan",
@@ -5734,10 +5734,10 @@
     "best_repo_stars": 22,
     "freshness_max": "2026-04-26T23:36:04Z",
     "opportunity_score": 4.83,
-    "description": "All commands must be preceded with either //znmtracker or //znmtrack or //znmt (ex: //znmt tin) - (no command)/show/hide - Show/hide tracker window. - check/list - List all pop, trophy, and key items this character has a",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/ZNMTracker/readme.md",
-    "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T15:01:31+00:00"
+    "description": "Tracks your ZNM pop-item progress and helps you monitor ZNM farming steps.",
+    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
   {
     "addon_key": "zonelines",
