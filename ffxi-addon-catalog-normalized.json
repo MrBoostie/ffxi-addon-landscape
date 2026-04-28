@@ -28,10 +28,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Plays an alert sound (echo beep) when triggered, so you notice important chat or event messages.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:01:41+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "allseeingeye",
@@ -61,9 +61,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "table.vprint(test_table)",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ambuloot/ambuloot.lua",
-    "description_confidence": "high",
+    "description": "Automates Ambuscade reward chest interactions and lot/pass flow to speed up runs.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T18:01:40+00:00"
   },
   {
@@ -94,9 +94,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Packet/event utility addon for advanced users. It hooks game events to automate small actions.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:42+00:00"
   },
   {
@@ -143,8 +143,8 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "For more details: https://www.ffxiah.com/forum/topic/58154/atreplace-autotranslate-in-scripts-and-aliases/ _**USE THIS AT YOUR OWN RISK**_, I did my best to make sure it copied client behavior 100% but it's entirely poss",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/atreplace/README.md",
+    "description": "Expands auto-translate placeholders in aliases/scripts so chat macros are easier to write.",
+    "description_source": "manual_curated",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:06+00:00"
   },
@@ -257,10 +257,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Automates repeated skillchain steps to reduce manual timing during weapon skill setups.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:01:45+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "autocontrol",
@@ -389,9 +389,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-09T21:16:04Z",
     "opportunity_score": 4.2,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates chocobo digging/mining loops so you can farm with fewer manual inputs.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:50+00:00"
   },
   {
@@ -488,9 +488,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automatically repeats synthesis recipes and can stop when materials run out.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:01:57+00:00"
   },
   {
@@ -553,9 +553,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Automates weapon skill usage based on configurable TP thresholds and combat conditions.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automatically uses your configured weapon skill when TP reaches your set threshold.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:37+00:00"
   },
   {
@@ -586,10 +586,10 @@
     "best_repo_stars": 19,
     "freshness_max": "2022-08-11T01:32:07Z",
     "opportunity_score": 10.0,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-25T21:01:46+00:00"
+    "description": "Shows floating speech balloons above characters or NPCs so nearby messages are easier to read in crowded areas.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "barfiller",
@@ -668,10 +668,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Manages a quick block list so you can hide unwanted chat lines or spammy message sources.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:01:50+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "bluguide",
@@ -718,9 +718,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates opening and clearing item boxes/chests to reduce repetitive menu clicks.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:13:50+00:00"
   },
   {
@@ -734,9 +734,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates common blue-mage spell learning/farming routines for easier setup.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:05+00:00"
   },
   {
@@ -832,10 +832,10 @@
     "best_repo_stars": 21,
     "freshness_max": "2023-11-24T17:00:47Z",
     "opportunity_score": 5.0,
-    "description": "FFXI Ashita-v4 addons",
-    "description_source": "https://github.com/Sippius/Ashita-v4-addons",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-27T08:04:34+00:00"
+    "description": "Tracks active skillchains in battle and shows current chain windows so you can follow up on time.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "charmed",
@@ -1077,10 +1077,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Adds a background behind the chat log/console to improve text readability against bright scenes.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:00+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "crb_addon",
@@ -1226,9 +1226,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Shows your current debuffs in a clear on-screen list so you can react faster.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:23+00:00"
   },
   {
@@ -1259,9 +1259,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates digging actions and related timing checks for repeat farming.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:17:00+00:00"
   },
   {
@@ -1341,9 +1341,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-12T01:09:08Z",
     "opportunity_score": 4.2,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Tracks fight damage and shows DPS totals in a live meter window.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:27+00:00"
   },
   {
@@ -1718,10 +1718,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Exports your current inventory and storage item lists to a file for tracking, planning, or sharing.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:03+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "exportitems",
@@ -1734,10 +1734,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 4.0,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Exports your inventory and storage items to a file so you can audit gear and materials outside the game.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:07+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "fancytrusts",
@@ -1818,10 +1818,10 @@
     "best_repo_stars": 11,
     "freshness_max": "2025-12-09T22:58:35Z",
     "opportunity_score": 8.15,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-25T21:02:07+00:00"
+    "description": "Ashita v4 version of Balloon that displays chat as floating speech bubbles near characters.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "ffxi-zonename",
@@ -1914,10 +1914,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Plays a final warning alert when key timers are about to expire so you can react in time.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:11+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "find",
@@ -1930,10 +1930,10 @@
     "best_repo_stars": 21,
     "freshness_max": "2023-11-24T17:00:47Z",
     "opportunity_score": 5.0,
-    "description": "FFXI Ashita-v4 addons",
-    "description_source": "https://github.com/Sippius/Ashita-v4-addons",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-27T08:04:34+00:00"
+    "description": "Adds fast search commands to locate items, terms, or entries without manually scanning long lists.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "findall",
@@ -2081,10 +2081,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Tracks gil flow (earned/spent) during play sessions so you can see where your money is going.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:15+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "giltracker",
@@ -2229,9 +2229,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Alerts you when important enemy spell/ability events happen so you can respond quickly.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:45+00:00"
   },
   {
@@ -2459,9 +2459,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates routine support actions (buffs/items/abilities) using configurable rules.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:02:49+00:00"
   },
   {
@@ -2578,10 +2578,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Logs selected chat/events to files for later review, troubleshooting, or record keeping.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:25+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "loggers",
@@ -2627,10 +2627,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Helps run simple random rolls or pick winners for loot/order decisions in party play.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:32+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "luaparser",
@@ -2917,10 +2917,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Moves items between bags automatically based on rules to reduce manual inventory sorting.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:35+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "myhome",
@@ -2981,10 +2981,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Suppresses repetitive knock/interaction prompts to speed up repeated NPC interactions.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:39+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "nostrum",
@@ -3029,9 +3029,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-23T16:55:26Z",
     "opportunity_score": 4.0,
-    "description": "ffxi windower addon that allows you to set an element and cast your highest elemental magic spell available",
-    "description_source": "https://github.com/tupsimati/nukes",
-    "description_confidence": "low",
+    "description": "Casts your highest available nuke for the selected element with one command.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -3046,9 +3046,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Auto-interrupt helper that tries to stop dangerous enemy casts (stun/silence style workflow).",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:22+00:00"
   },
   {
@@ -3111,10 +3111,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Small collection of one-off utility commands for quick fixes and niche quality-of-life tasks.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:42+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "opensesame",
@@ -3128,9 +3128,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automatically opens nearby doors/interactive targets when possible.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:33+00:00"
   },
   {
@@ -3162,10 +3162,10 @@
     "best_repo_stars": 24,
     "freshness_max": "2026-03-13T11:12:17Z",
     "opportunity_score": 7.64,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-25T21:02:46+00:00"
+    "description": "Restores or supplies original-style icon assets used by related UI data tools.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "packetviewer",
@@ -3261,10 +3261,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Shows party pet status/details so you can track summons, avatars, or automaton state at a glance.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:49+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "pet_fix",
@@ -3326,9 +3326,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Displays your pet's TP so pet jobs can time abilities more reliably.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:44+00:00"
   },
   {
@@ -3442,10 +3442,10 @@
     "best_repo_stars": 19,
     "freshness_max": "2022-08-11T01:32:07Z",
     "opportunity_score": 10.0,
-    "description": "",
-    "description_source": "",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-25T21:02:52+00:00"
+    "description": "Adds character portrait visuals to UI elements for clearer target or speaker identification.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "posfind",
@@ -3542,9 +3542,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Looks up item prices to help you decide what to sell or buy.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:03:52+00:00"
   },
   {
@@ -3591,10 +3591,10 @@
     "best_repo_stars": 21,
     "freshness_max": "2023-11-24T17:00:47Z",
     "opportunity_score": 5.0,
-    "description": "FFXI Ashita-v4 addons",
-    "description_source": "https://github.com/Sippius/Ashita-v4-addons",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-27T08:04:34+00:00"
+    "description": "Puppetmaster loadout helper for quickly swapping automaton attachment sets.",
+    "description_source": "manual_curation_2026-04-27",
+    "description_confidence": "medium",
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "questlog",
@@ -3770,10 +3770,10 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description": "Tracks relic/gear progress and related upgrade checkpoints so grind status is easier to monitor.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:56+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "repeater",
@@ -3867,9 +3867,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates Corsair rolling with configurable roll choices and timing.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T17:04:05+00:00"
   },
   {
@@ -4046,10 +4046,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Extends scripting support with helper hooks so larger custom automation scripts are easier to maintain.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:02:59+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "sellnpc",
@@ -4132,9 +4132,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Changes in-game background music by zone or state using custom rules.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T05:03:44+00:00"
   },
   {
@@ -4148,10 +4148,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Provides faster target selection commands so you can lock onto specific party, mob, or assist targets quickly.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:03+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "shortcuts",
@@ -4215,10 +4215,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Lightweight assist helper that targets your assist source and follows their combat target changes.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:06+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "singer",
@@ -4248,10 +4248,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Popping helper for timed/NM content that reminds or assists with repeated spawn checks.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:10+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "skillchain",
@@ -4350,9 +4350,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-02T05:30:03Z",
     "opportunity_score": 4.0,
-    "description": "ffxi windower addon that mimics ctimers",
-    "description_source": "https://github.com/murrain/ctimers",
-    "description_confidence": "low",
+    "description": "Sound/timer alerts for spell and ability recasts (ctimers-style notifications).",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -4384,10 +4384,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Collection of special-purpose utility commands that do not fit into a single addon category.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:13+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "speedchecker",
@@ -4401,9 +4401,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Displays movement speed data so you can verify speed buffs/debuffs.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T07:03:42+00:00"
   },
   {
@@ -4451,9 +4451,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Movement-speed helper that manages sprint-style speed effects and checks.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T09:03:37+00:00"
   },
   {
@@ -4564,10 +4564,10 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description": "Strategy helper that stores or displays fight notes/callouts for repeatable encounter execution.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:17+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "subtarget",
@@ -4791,9 +4791,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Creates configurable on-screen text boxes for status notes, timers, or reminders.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T11:03:36+00:00"
   },
   {
@@ -5092,10 +5092,10 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "# xitools a collection of addons (and maybe some plugins) for Ashita v4 that I made.",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description": "Tracks trial objectives and progress so you can see remaining requirements while playing.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:21+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "trialtracker",
@@ -5108,10 +5108,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Tracks Magian/trial progress and updates remaining steps so grind sessions stay organized.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:24+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "triggers",
@@ -5140,9 +5140,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Improves visibility of detection/aggro state indicators for safer movement.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T14:03:36+00:00"
   },
   {
@@ -5221,10 +5221,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Uses batches of consumable items (where allowed) to reduce repetitive menu input.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:27+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "valkyrie",
@@ -5333,9 +5333,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Shows your currently active Summoner spirit favor effect in a visible UI element.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T15:03:34+00:00"
   },
   {
@@ -5349,10 +5349,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "## Some of my other repositories - Addon_Manager - PartyBars - WarpMenu - XIVPetBars - StoreMats - ShoutAlert - InstanceNotifier ### _Be sure to check my list of respositories.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Voidwatch helper for tracking procs, phases, and encounter reminders during Voidwatch fights.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:31+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "voidwatch",
@@ -5429,10 +5429,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "# Lili's Addons A collection of addons I wrote for Final Fantasy XI, compatible with the Windower launcher.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Monitors in-game weather/day conditions and alerts when target elements are active.",
+    "description_source": "manual_curation_2026-04-27",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T21:03:34+00:00"
+    "description_reviewed_at": "2026-04-27T11:46:21+00:00"
   },
   {
     "addon_key": "weeklier",
@@ -5526,9 +5526,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-04T21:45:19Z",
     "opportunity_score": 4.0,
-    "description": "FFXI Windower Addon for automating the boring aspects of jobs: Wyvern Cures, Jumps, Boost, Weapon Skills, etc.",
-    "description_source": "https://github.com/garyfromwork/AutoJob",
-    "description_confidence": "low",
+    "description": "In-game wiki lookup helper for quick command-based references while playing.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -5702,9 +5702,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
-    "description_source": "heuristic",
-    "description_confidence": "low",
+    "description": "Automates fishing actions (cast/reel/repeat) with configurable behavior.",
+    "description_source": "manual_curated",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T17:03:36+00:00"
   },
   {
