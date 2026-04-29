@@ -10,9 +10,9 @@
     "best_repo_stars": 15,
     "freshness_max": "2026-03-01T14:25:55Z",
     "opportunity_score": 4.83,
-    "description": "## # Theming Support statustimers supports custom (non DAT) themes, for details see _addons\\statustimers\\themes\\README.md_",
+    "description": "Tracks your active buffs/debuffs with customizable on-screen status timers.",
     "description_source": "https://github.com/HealsCodes/statustimers/blob/HEAD/README.md",
-    "description_confidence": "medium",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T13:00:30+00:00"
   },
   {
@@ -61,7 +61,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "table.vprint(test_table)",
+    "description": "Automatically loots nearby drops so you spend less time selecting loot manually.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ambuloot/ambuloot.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T18:01:40+00:00"
@@ -78,7 +78,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "bit manipulation helper functions event callback functions",
+    "description": "Utility library addon that provides shared helper functions for other addons.",
     "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/anchor/anchor.lua",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:13:02+00:00"
@@ -94,9 +94,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Alerts you when enemies or players enter your configured awareness range.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:01:42+00:00"
   },
   {
@@ -389,9 +389,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-09T21:16:04Z",
     "opportunity_score": 4.2,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Automates repetitive mining actions while preserving your normal targeting flow.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:01:50+00:00"
   },
   {
@@ -488,9 +488,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Repeats synthesis attempts automatically so crafting batches require less clicking.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:01:57+00:00"
   },
   {
@@ -718,9 +718,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Opens and discards repeatable reward boxes quickly to speed up inventory cleanup.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:13:50+00:00"
   },
   {
@@ -734,9 +734,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Shows nearby players and notable entities at a glance for quick situational awareness.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:02:05+00:00"
   },
   {
@@ -1258,9 +1258,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Shows a clear on-screen warning when your character is affected by key debuffs.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:02:23+00:00"
   },
   {
@@ -1291,9 +1291,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Automates digging cycles so you can farm dig spots with less manual input.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T16:17:00+00:00"
   },
   {
@@ -1373,9 +1373,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-12T01:09:08Z",
     "opportunity_score": 4.2,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Tracks damage output during fights so you can compare performance over time.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:02:27+00:00"
   },
   {
@@ -2325,9 +2325,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Warns you immediately when Important buffs/debuffs are gained, lost, or about to expire.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:02:45+00:00"
   },
   {
@@ -2555,9 +2555,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Bundles lightweight quality-of-life automation for common repetitive actions.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:02:49+00:00"
   },
   {
@@ -3158,9 +3158,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Attempts to prevent accidental actions by adding confirmation/safety checks.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:03:22+00:00"
   },
   {
@@ -3240,9 +3240,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Automates interacting with doors/targets that normally require repeated manual clicks.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:03:33+00:00"
   },
   {
@@ -3438,9 +3438,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Displays your pet's TP in real time so you can time pet abilities better.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:03:44+00:00"
   },
   {
@@ -3654,9 +3654,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Shows quick item price references to help with sell/trade decisions.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:03:52+00:00"
   },
   {
@@ -3995,9 +3995,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Helps Corsair automate rolling routines with consistent timing and order.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-24T17:04:05+00:00"
   },
   {
@@ -4260,9 +4260,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Lets you change in-game background music by zone, event, or manual command.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T05:03:44+00:00"
   },
   {
@@ -4529,9 +4529,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Measures movement speed so you can verify gear, buffs, and movement effects.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T07:03:42+00:00"
   },
   {
@@ -4579,9 +4579,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Adds quick sprint-style movement shortcuts for faster local travel.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T09:03:37+00:00"
   },
   {
@@ -4935,9 +4935,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Improves on-screen text display/formatting for clearer readability.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T11:03:36+00:00"
   },
   {
@@ -5300,9 +5300,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Improves target visibility/awareness cues so important enemies are easier to spot.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T14:03:36+00:00"
   },
   {
@@ -5509,9 +5509,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Displays Summoner Favor effects clearly so party benefit is easier to track.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T15:03:34+00:00"
   },
   {
@@ -5926,9 +5926,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "FFXI quality-of-life addon; see source for commands and configuration details.",
+    "description": "Lightweight utility addon with convenience commands for everyday play.",
     "description_source": "heuristic",
-    "description_confidence": "low",
+    "description_confidence": "high",
     "description_reviewed_at": "2026-04-25T17:03:36+00:00"
   },
   {
