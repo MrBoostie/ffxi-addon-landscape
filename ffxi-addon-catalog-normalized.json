@@ -241,10 +241,10 @@
     "best_repo_stars": 13,
     "freshness_max": "2022-11-26T19:34:33Z",
     "opportunity_score": 3.78,
-    "description": "An ffxi windower addon to automatically assist a party member in combat",
-    "description_source": "https://github.com/ekrividus/autoAssist",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T15:01:48+00:00"
+    "description": "Automatically assists a chosen party member during combat.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "autochain",
@@ -291,10 +291,10 @@
     "best_repo_stars": 79,
     "freshness_max": "2023-09-12T03:56:46Z",
     "opportunity_score": 2.66,
-    "description": "4/7/21: fixed fold and snake eye issues being used when it shouldn't be. 1/11/21: Added toggle settings for fold and snake eye",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/AutoCOR/AutoCOR.lua",
+    "description": "Automates common Corsair actions like rolling and related support abilities.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:13:17+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "autodnc",
@@ -636,10 +636,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/battlemod/generic_helpers.lua",
+    "description": "Improves battle log readability with cleaner, easier-to-scan messages.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:13:41+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "battleplan",
@@ -652,10 +652,10 @@
     "best_repo_stars": 22,
     "freshness_max": "2026-04-26T23:36:04Z",
     "opportunity_score": 4.83,
-    "description": "Create the default settings A quick message on the first time BP is loaded",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/BattlePlan/BattlePlan.lua",
+    "description": "Provides configurable combat callouts and action planning helpers.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:16:10+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "blist",
@@ -701,10 +701,10 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "Builds summary tables for the stats and traits of the working set. Filters the spell list based on whether it should contain only those included",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/addons/bluspells/bluspells-state.lua",
+    "description": "Helps manage Blue Mage spell sets, traits, and point limits.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:16:15+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "boxdestroyer",
@@ -800,10 +800,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/cancel/cancel.lua",
+    "description": "Lets you cancel selected buffs with simple commands.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:16:20+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "canteen",
@@ -961,10 +961,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "# checkparam ## English - /check OR /c (in-game command) - Whenever you /check any player, displays the total of property of that players current equipments.(defined in settings.xml) - //checkparam OR //cp (addon command",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/checkparam/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T16:16:29+00:00"
+    "description": "Shows estimated gear-based combat parameters from /check results.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "chococard",
@@ -1027,10 +1027,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Use loadstring to let Lua interpret things like \\n for us",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Clock/Clock.lua",
+    "description": "Displays real-world and/or in-game time in a small on-screen clock.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:16:31+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "closetcleaner2",
@@ -1407,10 +1407,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/DressUp/DressUp.lua",
+    "description": "Changes how player and NPC gear appears on your client.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:18:20+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "drop",
@@ -1521,10 +1521,10 @@
     "best_repo_stars": 19,
     "freshness_max": "2021-01-30T19:48:45Z",
     "opportunity_score": 3.43,
-    "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
-    "description_source": "https://github.com/AkadenTK/enemybar2",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T21:03:44+00:00"
+    "description": "Shows a large on-screen HP bar for your current target.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "enternity",
@@ -1556,10 +1556,10 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 2.66,
-    "description": "gets the currently equipped item data for the slot information provided desc: Updates the ui object(s) for the given slot",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/equipviewer/equipviewer.lua",
+    "description": "Displays what equipment another player has equipped.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T21:03:45+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "eradebuffed",
@@ -1980,10 +1980,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "This is to maintain sorting order. I don't know why this was done, but omitting this will sort the bags arbitrarily, which (I guess) was not intended",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/findAll/findAll.lua",
+    "description": "Searches your inventories to find matching items quickly.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:18:51+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "fisher",
@@ -2063,10 +2063,10 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/gametime/gametime.lua",
+    "description": "Shows Vana’diel time and day information in-game.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:18:54+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "gaolplan",
@@ -2113,10 +2113,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/GearSwap/equip_processing.lua",
+    "description": "Automatically swaps gear based on actions, spells, and status.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:18:57+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "gilbox",
@@ -2212,10 +2212,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.57,
-    "description": "# HealBot ## Update: HealBot now depends on libs/lor ## NEW: IPC has been added!",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/HealBot/readme.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T16:20:19+00:00"
+    "description": "Automates party healing and support spell priorities.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "helper",
@@ -2389,10 +2389,10 @@
     "best_repo_stars": 22,
     "freshness_max": "2026-04-26T23:36:04Z",
     "opportunity_score": 4.83,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/Informer/Informer.lua",
+    "description": "Displays detailed item and target info in chat.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:20:29+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "instals",
@@ -2424,10 +2424,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Edit the buy_list in file **InvSpace** by Kenshi - Shows each inventory containers free space in a moveable box **Juggler** by psykad - Juggler is to simplify the use of Ready commands for jug pets **lazyMB** by kotodama",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T16:20:31+00:00"
+    "description": "Shows free space across your inventory bags.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "itemizer",
@@ -2506,10 +2506,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "- kaomoji: minimal kaomoji support for ffxi (behaves like /shrug /tableflip and /unflip do on discord)",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T13:00:47+00:00"
+    "description": "Adds quick commands for kaomoji and text emotes.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "latentchecker",
@@ -2523,10 +2523,10 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "[[Copyright © 2014-2016, smd111",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/latentchecker/latentchecker.lua",
+    "description": "Checks whether latent effects are currently active.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:20:34+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "layouts",
@@ -2772,10 +2772,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/macrochanger/macrochanger.lua",
+    "description": "Switches macro books/sets automatically by job or context.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:22:30+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "maga",
@@ -3141,10 +3141,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-23T16:55:26Z",
     "opportunity_score": 4.0,
-    "description": "ffxi windower addon that allows you to set an element and cast your highest elemental magic spell available",
-    "description_source": "https://github.com/tupsimati/nukes",
-    "description_confidence": "low",
-    "description_reviewed_at": "2026-04-24T20:04:03+00:00"
+    "description": "Casts your highest available elemental nuke for a selected element.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "ohnoyoudont",
@@ -3191,10 +3191,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 3.71,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Omen/Omen.lua",
+    "description": "Tracks Omen objectives and run progress.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:22:58+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "ondemand",
@@ -3258,10 +3258,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/organizer/items.lua",
+    "description": "Moves and organizes gear/items based on sets or rules.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:25:12+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "original_icons",
@@ -3357,10 +3357,10 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 2.66,
-    "description": "[[Copyright © 2016, Kenshi Adjust position for party member count",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/PartyBuffs/PartyBuffs.lua",
+    "description": "Shows key buffs on party members in a compact display.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T01:03:27+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "partypets",
@@ -3470,10 +3470,10 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/plugin_manager/plugin_manager.lua",
+    "description": "Loads, unloads, and manages addons/plugins from chat commands.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:25:32+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "pluginmanager",
@@ -3504,10 +3504,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/pointwatch/message_ids.lua",
+    "description": "Tracks point-based currencies and progress.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:25:34+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "porter",
@@ -3538,10 +3538,10 @@
     "best_repo_stars": 79,
     "freshness_max": "2023-09-12T03:56:46Z",
     "opportunity_score": 2.66,
-    "description": "# PorterPacker ### Commands: command|alias [optional] //porterpacker or //packer or //po",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/PorterPacker/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T16:28:03+00:00"
+    "description": "Helps pack and unpack storable gear with Porter Moogles.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "portraits",
@@ -3719,10 +3719,10 @@
     "best_repo_stars": 79,
     "freshness_max": "2023-09-12T03:56:46Z",
     "opportunity_score": 3.78,
-    "description": "# QuestLog used to track progress for adoulin/abyssea quest completion shows abyssea and adoulin quests you have not completed or undertaken ### Commands: ### Color code:",
-    "description_source": "https://github.com/Ivaar/Windower-addons/blob/HEAD/QuestLog/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T16:28:16+00:00"
+    "description": "Tracks Adoulin and Abyssea quest completion progress.",
+    "description_source": "manual_rewrite_2026-04-29",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "quicktrade",
@@ -3736,10 +3736,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2023-02-04T00:29:37Z",
     "opportunity_score": 2.66,
-    "description": "1.8.1 : added Neo Nyzul ??? +1 +2 item's w/ loop support. //qtr loop 10 Tables of the tradeable itemIDs that may be found in the player inventory",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/QuickTrade/QuickTrade.lua",
+    "description": "Automates repeated trades for supported NPC interactions.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:28:17+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "quicktrade2",
@@ -3817,10 +3817,10 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 2.66,
-    "description": "1.3.0 changing map.lua to job specific 1.4.0 Allow react to react to PCs only if target = self",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/React/react.lua",
+    "description": "Triggers configurable actions in response to combat events.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T01:03:37+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "readable",
@@ -3833,10 +3833,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "Open the file in write mode Check if the file was opened successfully",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/readable/readable.lua",
+    "description": "Converts hard-to-read text output into cleaner readable formatting.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T17:03:57+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "readycheck",
@@ -3914,10 +3914,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Repeater/Repeater.lua",
+    "description": "Repeats commands or chat text at set intervals.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T17:04:02+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "repl",
@@ -3979,10 +3979,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/roe/roe.lua",
+    "description": "Tracks Records of Eminence objectives and status.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T17:04:04+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "rollbot",
@@ -4011,10 +4011,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "loop over p1 - p5. p0 is you no party members, hide and do nothing",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/rolldistance/rolldistance.lua",
+    "description": "Shows distance to party members for Corsair roll range management.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T17:04:06+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "rolltracker",
@@ -4029,10 +4029,10 @@
     "best_repo_stars": 21,
     "freshness_max": "2023-11-24T17:00:47Z",
     "opportunity_score": 2.31,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/rolltracker/rolltracker.lua",
+    "description": "Tracks Corsair roll values and durations for your party.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T02:03:36+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "rtfm",
@@ -4093,10 +4093,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/salvage2/salvage2.lua",
+    "description": "Tracks Salvage II run information and useful reminders.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T03:03:32+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "satacast",
@@ -4109,10 +4109,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/SATACast/SATACast.lua",
+    "description": "Automates positioning/timing support for Sneak Attack and Trick Attack actions.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T03:03:32+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "scanzone",
@@ -4226,10 +4226,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "windower.add_to_chat(10, 'Command Sent: '..str)",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/SendAllTarget/SendAllTarget.lua",
+    "description": "Sends target-based commands to multiple characters at once.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T05:03:40+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "sendtarget",
@@ -4294,10 +4294,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/shortcuts/helper_functions.lua",
+    "description": "Expands abbreviated commands and item names into full actions.",
+    "description_source": "manual_rewrite_2026-04-29",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T06:03:38+00:00"
+    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
     "addon_key": "silence",
