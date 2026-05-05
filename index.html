@@ -17,6 +17,14 @@
     a { color:#8fc6ff; text-decoration:none; }
     a:hover { text-decoration:underline; }
     .tag { background:#1f2b58; border:1px solid #334179; padding:.1rem .4rem; border-radius:.4rem; font-size:.78rem; display:inline-block; }
+    .view-tabs { display:flex; gap:.6rem; margin:1rem 0; }
+    .view-tabs button { padding:.45rem .7rem; border-radius:.45rem; border:1px solid #2b3666; background:#131a33; color:#e8ecff; cursor:pointer; }
+    .view-tabs button.active { background:#223061; border-color:#4961b6; }
+    .hidden { display:none; }
+    .rec-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .8rem; }
+    .card { border:1px solid #27305c; background:#0f1530; border-radius:.6rem; padding:.75rem; }
+    .card h3 { margin:.1rem 0 .4rem; font-size:1rem; }
+    .card ul { margin:.3rem 0 0 1rem; }
   </style>
 </head>
 <body>
@@ -24,30 +32,42 @@
   <p class="muted">Searchable index of FFXI addons across GitHub repos.</p>
   <p class="muted">Latest forum sweep: <a href="./docs/forum-discoveries-2026-04-28.md" target="_blank" rel="noreferrer">FFXIAH candidate addon discoveries (2026-04-28)</a></p>
 
-  <div class="controls">
-    <input id="q" placeholder="Search addon/repo/category..." size="36" />
-    <select id="cat"><option value="">All categories</option></select>
-    <select id="minFresh">
-      <option value="0">Any freshness</option>
-      <option value="5">Freshness 5 (≤6mo)</option>
-      <option value="4">Freshness 4+ (≤1y)</option>
-      <option value="3">Freshness 3+ (≤2y)</option>
-    </select>
+  <div class="view-tabs">
+    <button id="tab-catalog" class="active">Catalog</button>
+    <button id="tab-recommended">Recommended Packs</button>
   </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Addon</th>
-        <th>Description</th>
-        <th>Category</th>
-        <th>Repos</th>
-        <th>Freshness</th>
-        <th>Score</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+  <section id="catalog-view">
+    <div class="controls">
+      <input id="q" placeholder="Search addon/repo/category..." size="36" />
+      <select id="cat"><option value="">All categories</option></select>
+      <select id="minFresh">
+        <option value="0">Any freshness</option>
+        <option value="5">Freshness 5 (≤6mo)</option>
+        <option value="4">Freshness 4+ (≤1y)</option>
+        <option value="3">Freshness 3+ (≤2y)</option>
+      </select>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Addon</th>
+          <th>Description</th>
+          <th>Category</th>
+          <th>Repos</th>
+          <th>Freshness</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+
+  <section id="recommended-view" class="hidden">
+    <p class="muted">Opinionated starter packs. Click an addon to jump to it in the catalog search.</p>
+    <div class="rec-grid" id="rec-grid"></div>
+  </section>
 
 <script>
 let DATA=[];
@@ -55,6 +75,68 @@ const q=document.getElementById('q');
 const cat=document.getElementById('cat');
 const minFresh=document.getElementById('minFresh');
 const rows=document.getElementById('rows');
+const catalogView=document.getElementById('catalog-view');
+const recommendedView=document.getElementById('recommended-view');
+const tabCatalog=document.getElementById('tab-catalog');
+const tabRecommended=document.getElementById('tab-recommended');
+const recGrid=document.getElementById('rec-grid');
+
+const RECOMMENDED_PACKS = [
+  {
+    name: 'Beginner (Quality of Life)',
+    note: 'Low-drama utility picks for everyday play.',
+    addons: ['Battlemod','Gearswap','Organizer','Itemizer','Distanceplus','XICamera','Chatman']
+  },
+  {
+    name: 'Advanced (Optimization / Multibox)',
+    note: 'More automation and coordination tools.',
+    addons: ['Healbot','Autoassist','React','Send','Fastfollow','Partybuffs','Porterpakker']
+  },
+  {
+    name: 'Trying to get Banned (Risky / Packet-y)',
+    note: 'High-risk automation territory. Use at your own risk.',
+    addons: ['TradeNPC','SellNPC','NPCit','Autora','Autoskillchain','Quicktrade','Autojoin']
+  }
+];
+
+function addonLink(name){
+  const q = encodeURIComponent(name);
+  return `<a href="#" data-addon="${name}" class="rec-link">${name}</a>`;
+}
+
+function renderRecommended(){
+  recGrid.innerHTML = RECOMMENDED_PACKS.map(pack => `
+    <div class="card">
+      <h3>${pack.name}</h3>
+      <div class="muted">${pack.note}</div>
+      <ul>${pack.addons.map(a=>`<li>${addonLink(a)}</li>`).join('')}</ul>
+    </div>
+  `).join('');
+
+  document.querySelectorAll('.rec-link').forEach(a=>{
+    a.addEventListener('click', (e)=>{
+      e.preventDefault();
+      const addon = e.target.getAttribute('data-addon');
+      q.value = addon;
+      showCatalog();
+      render();
+    });
+  });
+}
+
+function showCatalog(){
+  catalogView.classList.remove('hidden');
+  recommendedView.classList.add('hidden');
+  tabCatalog.classList.add('active');
+  tabRecommended.classList.remove('active');
+}
+
+function showRecommended(){
+  catalogView.classList.add('hidden');
+  recommendedView.classList.remove('hidden');
+  tabCatalog.classList.remove('active');
+  tabRecommended.classList.add('active');
+}
 
 function render(){
   const needle=(q.value||'').toLowerCase().trim();
@@ -82,10 +164,13 @@ fetch('./ffxi-addon-catalog-normalized.json').then(r=>r.json()).then(d=>{
   const cats=[...new Set(DATA.map(x=>x.category))].sort();
   cats.forEach(c=>{ const o=document.createElement('option'); o.value=c; o.textContent=c; cat.appendChild(o); });
   render();
+  renderRecommended();
 });
 
 [q,cat,minFresh].forEach(el=>el.addEventListener('input',render));
 [q,cat,minFresh].forEach(el=>el.addEventListener('change',render));
+tabCatalog.addEventListener('click', showCatalog);
+tabRecommended.addEventListener('click', showRecommended);
 </script>
 </body>
 </html>
