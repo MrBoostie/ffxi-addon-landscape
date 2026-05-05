@@ -318,10 +318,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Utility library addon that provides shared helper functions for other addons.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/anchor/anchor.lua",
+    "description": "Shared utility library used by other addons for common helper functions.",
+    "description_source": "description_quality_pass_2026_05_05",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:13:02+00:00"
+    "description_reviewed_at": "2026-05-05T00:00:42+00:00"
   },
   {
     "addon_key": "antisocial",
@@ -7478,10 +7478,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "Declaring default settings Fill settings from either defaults table or settings.xml",
-    "description_source": "https://github.com/mverteuil/windower4-addons/blob/HEAD/ohShi/default_settings.lua",
+    "description": "Loads default addon settings, then merges user overrides from settings.xml.",
+    "description_source": "description_quality_pass_2026_05_05",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:22:57+00:00"
+    "description_reviewed_at": "2026-05-05T00:00:42+00:00"
   },
   {
     "addon_key": "omen",
@@ -10710,10 +10710,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2026-03-18T13:55:18Z",
     "opportunity_score": 3.71,
-    "description": "thanks to Lili for doing this research. https://www.lua.org/wshop12/Snyder1.pdf",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/superwarp/fuzzyfind.lua",
+    "description": "Warp and teleport helper that speeds up travel by automating common destination selections.",
+    "description_source": "description_quality_pass_2026_05_05",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T10:03:31+00:00"
+    "description_reviewed_at": "2026-05-05T00:00:42+00:00"
   },
   {
     "addon_key": "survivalguide",
@@ -11390,10 +11390,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "- TPSReport: exports an XML list of current alliance members.",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T14:01:40+00:00"
+    "description": "Exports your current alliance member list as XML for external tools or logging.",
+    "description_source": "description_quality_pass_2026_05_05",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-05T00:00:42+00:00"
   },
   {
     "addon_key": "tpwatch",
@@ -12149,10 +12149,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "copied lots of code from https://github.com/Muddshuvel/Voidwatch/blob/master/voidwatch.lua",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/voidwatch/voidwatch.lua",
+    "description": "Automates Voidwatch fight setup and tracking steps to reduce repetitive menu actions.",
+    "description_source": "description_quality_pass_2026_05_05",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T19:03:36+00:00"
+    "description_reviewed_at": "2026-05-05T00:00:42+00:00"
   },
   {
     "addon_key": "vwatch",
