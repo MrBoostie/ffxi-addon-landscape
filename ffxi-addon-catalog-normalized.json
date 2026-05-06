@@ -1628,7 +1628,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-01-14 00:32:08 UTC",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -3081,10 +3081,10 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 3.78,
-    "description": "[156] = { name = 'Feint', duration = 30, overwrites = {} }, [561] = { name = 'Frightful Roar', duration = 180, overwrites = { } },",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/debuff-tracker/debuff_tracker.lua",
+    "description": "Tracks enemy debuffs with named timers so you can see what is active and when reapplication is needed.",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T21:03:42+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "debuffed",
@@ -3130,10 +3130,10 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 4.0,
-    "description": "[156] = { name = 'Feint', duration = 30, overwrites = {} }, [561] = { name = 'Frightful Roar', duration = 180, overwrites = { } },",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/debuff-tracker/debuff_tracker.lua",
+    "description": "Tracks enemy debuffs with named timers so you can see what is active and when reapplication is needed.",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T21:03:43+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "demand",
@@ -3276,7 +3276,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-24T00:28:38Z",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -4230,10 +4230,10 @@
     "best_repo_stars": 5,
     "freshness_max": "2026-04-09T10:34:01Z",
     "opportunity_score": 4.2,
-    "description": "FancyTrusts is an add-on for FFXI's third-party loader and hook Ashita (https://www.ashitaxi.com/).",
-    "description_source": "https://github.com/ariel-logos/FancyTrusts/blob/HEAD/README.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T15:01:36+00:00"
+    "description": "Automates trust summoning and upkeep so your preferred trust party is rebuilt quickly after zoning or wipes.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "faqme",
@@ -4605,10 +4605,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T23:03:43+00:00"
+    "description": "Internal PacketViewerLogViewer UI component; not a gameplay addon for regular players.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "friendzone",
@@ -4719,7 +4719,7 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -5220,10 +5220,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T23:03:47+00:00"
+    "description": "Internal PacketViewerLogViewer helper module used for packet analysis tooling.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "helpfulalt",
@@ -6272,10 +6272,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "This addon was built to test Rufuso's TH Theory: https://www.youtube.com/watch?v=r1pLv_aF7-s Removed the usage of GS, wasn't consistent enough for what I'm trying to accomblish.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Locke/Locke.lua",
+    "description": "Tracks Treasure Hunter test data and logs results so players can compare TH behavior over time.",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:20:43+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "lockpick",
@@ -7237,7 +7237,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -7691,10 +7691,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 3.78,
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T01:03:26+00:00"
+    "description": "Developer utility for reviewing captured FFXI packet logs outside the game client.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "packrat",
@@ -8391,10 +8391,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T01:03:32+00:00"
+    "description": "Internal PacketViewerLogViewer property definitions used by the packet log viewer tool.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "pupsets",
@@ -8634,10 +8634,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "PacketViewerLogViewer for analyzing FFXI network packets in C-Sharp",
-    "description_source": "https://github.com/ZeromusXYZ/PacketViewerLogViewer",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T01:03:40+00:00"
+    "description": "Redistributable runtime files required by PacketViewerLogViewer tools.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "reive",
@@ -8811,10 +8811,10 @@
     "best_repo_stars": 25,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "[28522] = {id = 28522 , en = \"Dudgeon Earring\" , [\"Dual Wield\"] = } [28523] = {id = 28523 , en = \"Heartseeker Earring\", [\"Dual Wield\"] = }",
-    "description_source": "https://github.com/sebyg666/GearInfo/blob/HEAD/res/DW_Gear.lua",
+    "description": "Provides item/resource reference data used by addons to resolve names, stats, and IDs.",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T01:03:44+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "resizer",
@@ -9374,10 +9374,10 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "Returns the corresponding Player instance. Will create it if necessary. Returns a table {player1 = stat1, player2 = stat2...}.",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/scoreboard/damagedb.lua",
+    "description": "Shows a live party performance board with damage and activity stats for quick fight review.",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T03:03:36+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "scriptedextender",
@@ -10548,10 +10548,10 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "**Commands:** sw start to start the stopwatch sw stop to pause the stopwatch sw reset to reset the stopwatch cumulative time to 0 Addon by Patrick Finnigan (Puhfyn@Ragnarok) - https://github.com/finnigantime.",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/stopwatch/readme.md",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T09:03:40+00:00"
+    "description": "Adds simple in-game stopwatch timers you can start, stop, and reset for pull timing or event callouts.",
+    "description_source": "manual_description_cleanup_2026_05_06",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "storemats",
@@ -10967,10 +10967,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Enhancing Targetting, aka Better F8 https://pastebin.com/Kqbq1YeF",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/TargetPlus/TargetPlus.lua",
+    "description": "Improves target cycling and nearest-target selection so grabbing the right mob is faster and more reliable.",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T18:03:32+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "targetpractice",
@@ -11079,7 +11079,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2019-02-27 08:16:58 UTC",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -11259,7 +11259,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-04T21:36:55Z",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -11324,7 +11324,7 @@
     "best_repo_stars": 3,
     "freshness_max": "2022-10-23T10:57:36Z",
     "opportunity_score": 2.4,
-    "description": "Runs configured commands at specific Vana\u2019diel times.",
+    "description": "Runs configured commands at specific Vana’diel times.",
     "description_source": "https://github.com/Icydeath/FFXI-TimeTrigger/blob/HEAD/README.md",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-28T16:20:00+00:00"
@@ -11340,10 +11340,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "PLD zerg pre-fight buff items [\"atk\"] = {name=\"Barbarian's Drink\", option=1031, key_item=false, offset=21},",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/tonic/buffup.lua",
+    "description": "Automates pre-fight consumable usage from configurable item sets (for example zerg or defensive prep).",
+    "description_source": "manual_description_cleanup_2026_05_06",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-25T13:03:31+00:00"
+    "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
     "addon_key": "tourist",
@@ -12021,7 +12021,7 @@
     "best_repo_stars": 3,
     "freshness_max": "2026-03-30T01:43:40Z",
     "opportunity_score": 4.2,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -12085,7 +12085,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2023-09-28 13:18:11 UTC",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
