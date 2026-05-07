@@ -318,7 +318,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Shared support library used by other addons for common utility functions.",
+    "description": "Shared utility library that other addons depend on; not meant to be loaded on its own.",
     "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-05T00:00:42+00:00"
@@ -2320,7 +2320,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Created by wes, modified by icy v0.3 : Simple addon to show a pink <3 next to charmed alliance members.",
+    "description": "Marks charmed alliance members in party/alliance lists so you can spot them quickly.",
     "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:16:23+00:00"
@@ -2627,8 +2627,8 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-26T23:28:10Z",
     "opportunity_score": 4.2,
-    "description": "addon: closetCleaner2 A Windower 4 addon that scans your GearSwap lua files and compares the gear they reference against your current inventory, producing a clean report that shows which pieces are unused, which are in a",
-    "description_source": "https://github.com/Gol-exe/closetCleaner2/blob/HEAD/README.md",
+    "description": "Scans your GearSwap files and compares referenced gear to your inventory to find unused items.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:33+00:00"
   },
@@ -3029,7 +3029,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2022-03-29 00:53:46 UTC",
     "opportunity_score": 4.0,
-    "description": "Combat helper for CutsceneAddonHider: surfaces fight data and reduces repetitive battle actions.",
+    "description": "Temporarily hides selected addons during cutscenes so the screen stays clear.",
     "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-06T12:00:00+00:00"
@@ -3049,8 +3049,8 @@
     "best_repo_stars": 28,
     "freshness_max": "2026-03-30T12:56:07Z",
     "opportunity_score": 4.0,
-    "description": "Shared data/resources used by other addons (command maps, config snippets, assets, or lookup tables).",
-    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description": "Shared data/resources folder used by other addons; not a standalone gameplay addon.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
@@ -3407,8 +3407,8 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "register chamber, enter chamber, drop lamp ---- If you need further information be sure to check out the addons readme file, otherwise you can skim the addons .lua to get an idea of how it works.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/README.md",
+    "description": "Automates Einherjar lamp/chamber interactions to speed up repeated runs.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:18:23+00:00"
   },
@@ -3956,9 +3956,9 @@
     "best_repo_stars": 12,
     "freshness_max": "2024-02-18T18:22:59Z",
     "opportunity_score": 3.78,
-    "description": "Scoreboard addon for Windower4. See readme.md for a complete description. EraScoreboard 1.0.0 Fix compatibility issues due to Windower and FFXI client mismatch (Era uses old version)",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons/blob/HEAD/EraScoreboard/EraScoreboard.lua",
-    "description_confidence": "high",
+    "description": "Scoreboard display tuned for Era/private-server setups with compatibility fixes.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T22:03:37+00:00"
   },
   {
@@ -3988,9 +3988,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "set this to false if you don't want it to automatically open the boxes when it reads the msg in the chat log. To manually trigger the addon use the below commands:",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/EschaChest/EschaChest.lua",
-    "description_confidence": "high",
+    "description": "Opens Escha coffers automatically (or manually by command) when chest messages are detected.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:18:31+00:00"
   },
   {
@@ -4022,8 +4022,8 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Author: Aureus Version: 1.0 Addon to evaluate lua code via windower commands Abbreviation: //eval Use //eval to run arbitrary lua code.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/eval/readme.md",
+    "description": "Runs Lua snippets from chat commands for quick testing/debugging.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:18:33+00:00"
   },
@@ -4298,8 +4298,8 @@
     "best_repo_stars": 12,
     "freshness_max": "2024-02-18T18:22:59Z",
     "opportunity_score": 3.78,
-    "description": "Addons for FFXI using Windower4 that I (DiscipleOfEris) have written or modified.",
-    "description_source": "https://github.com/DiscipleOfEris/Windower4Addons",
+    "description": "Follower helper that keeps alts synced to a leader with fewer manual follow commands.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T22:03:49+00:00"
   },
@@ -4378,8 +4378,8 @@
     "best_repo_stars": 1,
     "freshness_max": "2022-08-29T20:12:39Z",
     "opportunity_score": 4.0,
-    "description": "A Lua addon for Windower 4 that prevents accidentally dropping valuable items.",
-    "description_source": "https://github.com/xurion/ffxi-drop-stop",
+    "description": "Prevents accidental item drops by blocking risky drop actions.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T22:03:50+00:00"
   },
@@ -4394,9 +4394,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Generate default values for the addon. Returns a dicitionary with defaulted values.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/ffxikeys/util/settings.lua",
-    "description_confidence": "high",
+    "description": "Keyboard/input helper for FFXI clients, including default key-state handling.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:18:46+00:00"
   },
   {
@@ -4426,8 +4426,8 @@
     "best_repo_stars": 4,
     "freshness_max": "2026-04-05T14:44:54Z",
     "opportunity_score": 4.0,
-    "description": "This addon for Ashita v4 displays the zone and region name for a short time while changing zones. This is a port of the Windower Zonename addon.",
-    "description_source": "https://github.com/onimitch/ffxi-zonename",
+    "description": "Shows the current zone and region name on zone change (Ashita port of Zonename).",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T23:03:40+00:00"
   },
@@ -4589,9 +4589,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "added getting KI from SR NPC. //fm sr removed mount feature; Use addon MountRoulette, it works well. \"//mr\" or \"//send @all mr\" to mount and dismount.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/followme/followme.lua",
-    "description_confidence": "high",
+    "description": "Multibox follow assistant for keeping party alts on your main while moving between objectives.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:18:53+00:00"
   },
   {
@@ -4605,9 +4605,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "Internal PacketViewerLogViewer UI component; not a gameplay addon for regular players.",
-    "description_source": "manual_description_cleanup_2026_05_06",
-    "description_confidence": "high",
+    "description": "Internal UI component used by PacketViewerLogViewer; not a standalone addon.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
@@ -4929,8 +4929,8 @@
     "best_repo_stars": 2,
     "freshness_max": "2026-03-07T16:05:59Z",
     "opportunity_score": 4.83,
-    "description": "Copy the gmtools folder to your Ashita addons directory 2.",
-    "description_source": "https://github.com/SQLCommit/GMTools/blob/HEAD/README.md",
+    "description": "GM/private-server utility command bundle for moderation and administrative tasks.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T13:00:42+00:00"
   },
@@ -5445,8 +5445,8 @@
     "best_repo_stars": 19,
     "freshness_max": "2021-01-30T19:48:45Z",
     "opportunity_score": 4.0,
-    "description": "Evolution of the simpler Windower addon that displays a target health bar prominently onscreen",
-    "description_source": "https://github.com/AkadenTK/enemybar2",
+    "description": "Displays clear on-screen target HP/status icons for easier combat readability.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T23:03:51+00:00"
   },
@@ -6403,8 +6403,8 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-26T23:28:10Z",
     "opportunity_score": 4.2,
-    "description": "## Files - closetCleaner2.lua - Addon entry point (commands, inventory reading, report generation) - luaParser.lua - Text-based parser that extracts gear names from GearSwap lua files - data/settings.xml - User configura",
-    "description_source": "https://github.com/Gol-exe/closetCleaner2/blob/HEAD/README.md",
+    "description": "Parses Lua/GearSwap files to extract referenced gear and related metadata.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:37+00:00"
   },
@@ -6629,8 +6629,8 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "## Installation Install this addon like any other windower addon: - create a windowerfolder\\addons\\menufix folder, and put menufix.lua there - edit your windowerfolder\\scripts\\init.txt and add a line with lua load menufi",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/menufix/README.md",
+    "description": "Fixes menu-related crashes or glitches on certain private-server/client combinations.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:28+00:00"
   },
@@ -6949,8 +6949,8 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "-- Addons to fix issues on private servers: - chatfix (fixes empty or garbled chat messages) - menufix (fixes crash when opening the status menu) - tellfix (fixes empty or garbled tell messages) Utilities: - clickfind (c",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Draws a visible halo around your mouse cursor so it is easier to track in-game.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T18:02:37+00:00"
   },
@@ -7317,8 +7317,8 @@
     "best_repo_stars": 7,
     "freshness_max": "2022-01-01T05:09:06Z",
     "opportunity_score": 4.0,
-    "description": "FFXI Windower addon for multiboxers to reduce tedious switching. Allow your alts to copy your main's NPC interactions.",
-    "description_source": "https://github.com/DiscipleOfEris/NpcInteract",
+    "description": "Lets alts mirror the main character's NPC interactions to reduce multibox tab-switching.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:44+00:00"
   },
@@ -7478,9 +7478,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "Loads default addon settings, then merges user overrides from settings.xml.",
-    "description_source": "description_quality_pass_2026_05_05",
-    "description_confidence": "high",
+    "description": "Auto-uses CP/XP rings and related consumables based on your configured rules.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-05-05T00:00:42+00:00"
   },
   {
@@ -8046,9 +8046,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "Loads, unloads, and manages addons/plugins from chat commands.",
-    "description_source": "manual_rewrite_2026-04-29",
-    "description_confidence": "high",
+    "description": "Loads, unloads, and manages Windower addons/plugins from in-game commands.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-29T12:00:00+00:00"
   },
   {
@@ -8062,7 +8062,7 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 4.0,
-    "description": "Quality-of-life helper for plugin_manager: adds convenient commands and light automation for everyday gameplay.",
+    "description": "Quality-of-life wrapper around Plugin Manager for faster bulk load/unload workflows.",
     "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-06T12:00:00+00:00"
@@ -8309,9 +8309,9 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Requiring libraries used in this addon These should be saved in addons/libs",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/Pouches/Pouches.lua",
-    "description_confidence": "high",
+    "description": "Tracks and opens pouches/caskets to simplify item conversion and inventory cleanup.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T16:28:07+00:00"
   },
   {
@@ -8391,9 +8391,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "Internal PacketViewerLogViewer property definitions used by the packet log viewer tool.",
-    "description_source": "manual_description_cleanup_2026_05_06",
-    "description_confidence": "high",
+    "description": "Internal property definitions for PacketViewerLogViewer; not a standalone gameplay addon.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
@@ -8552,8 +8552,8 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "## addons - xitools is a suite of UI replacement components, check its README for details - recast is a fork of recast that has been imgui-fied - skillchain tracks active and potential skillchains and magic bursts - whee",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description": "Readiness/check helper for party status, cooldown, or setup verification before pulls.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:31+00:00"
   },
@@ -8762,8 +8762,8 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "## addons - xitools is a suite of UI replacement components, check its README for details - recast is a fork of recast that has been imgui-fied - skillchain tracks active and potential skillchains and magic bursts - whee",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description": "In-game Lua REPL for running and testing commands/code interactively.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:32+00:00"
   },
@@ -8811,9 +8811,9 @@
     "best_repo_stars": 25,
     "freshness_max": "2023-05-18T06:00:22Z",
     "opportunity_score": 4.0,
-    "description": "Provides item/resource reference data used by addons to resolve names, stats, and IDs.",
-    "description_source": "manual_description_cleanup_2026_05_06",
-    "description_confidence": "high",
+    "description": "Resource reference library (items/spells/zones/IDs) consumed by other addons.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-05-06T00:00:00+00:00"
   },
   {
@@ -9021,8 +9021,8 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "FFXI Windower Addon rtfm - Read The Freakin' Move Detect, alert and list mob moves as they occur in-game.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/rtfm/README.md",
+    "description": "Detects enemy TP moves and alerts/logs them as they happen.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T02:03:37+00:00"
   },
@@ -9213,7 +9213,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-06-04 16:19:38 UTC",
     "opportunity_score": 4.0,
-    "description": "Job-specific helper for SampleAddon: streamlines common actions and tracking for that role.",
+    "description": "Template/example addon used as a starting point for new addon development.",
     "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-06T12:00:00+00:00"
@@ -9506,8 +9506,8 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Sends addon commands/messages to other Windower instances so multibox characters stay synchronized.",
-    "description_source": "manual_forum_cleanup_2026_04_28",
+    "description": "Sends addon commands/messages to other Windower instances for multibox sync.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-28T16:20:00+00:00"
   },
@@ -9997,9 +9997,9 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "job_grades.lua (included with this addon) Do not load anything if we are not logged in",
-    "description_source": "https://github.com/Lygre/addons/blob/HEAD/skilluptracker/skilluptracker.lua",
-    "description_confidence": "high",
+    "description": "Tracks skill-up progress and rates while you level combat/magic skills.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T07:03:31+00:00"
   },
   {
@@ -10094,8 +10094,8 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "A bit facetious, but working.) Complete addons: - Smeagol: automatically use CP/XP rings (and gear).",
-    "description_source": "https://github.com/lili-ffxi/FFXI-Addons/blob/HEAD/README.md",
+    "description": "Automatically uses EXP/CP rings and optional support gear when conditions match.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:34+00:00"
   },
@@ -10320,8 +10320,8 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "Provides special-case utility commands that do not fit into larger addon categories.",
-    "description_source": "manual_curated_description_pass_2026_04_28",
+    "description": "Miscellaneous utility commands that don't fit larger addon categories.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-28T12:00:00+00:00"
   },
@@ -11015,9 +11015,9 @@
     "best_repo_stars": 22,
     "freshness_max": "2026-04-26T23:36:04Z",
     "opportunity_score": 4.83,
-    "description": "TaskBar is a quality-of-life Windower addon for Final Fantasy XI that adds a customizable, in-game Windows Start Menu-style interface for quick access to commonly used addon commands. It features a static \"TASKBAR\" butto",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/TaskBar/readme.md",
-    "description_confidence": "high",
+    "description": "Adds a customizable in-game launcher bar for quick access to common addon commands.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:36+00:00"
   },
   {
@@ -11191,8 +11191,8 @@
     "best_repo_stars": 25,
     "freshness_max": "2020-10-03T08:42:27Z",
     "opportunity_score": 4.0,
-    "description": "FFXI Windower Addon, Multipurpose gear / buff tracker",
-    "description_source": "https://github.com/sebyg666/GearInfo",
+    "description": "Texture/overlay assets package used by UI addons; not usually loaded directly.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T11:03:40+00:00"
   },
@@ -11210,8 +11210,8 @@
     "best_repo_stars": 18,
     "freshness_max": "2023-03-12T03:29:46Z",
     "opportunity_score": 4.0,
-    "description": "Create a folder inside the *theme* directory of the addon: **_Windower4\\addons\\xivpetbar\\themes\\MY_CUSTOM_THEME_** 2.",
-    "description_source": "https://github.com/Icydeath/ffxi-xivpetbar-addon/blob/HEAD/README.md",
+    "description": "Theme assets/config for UI addons; not a standalone gameplay addon.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T11:03:43+00:00"
   },
@@ -11780,9 +11780,9 @@
     "best_repo_stars": 99,
     "freshness_max": "2022-11-09T19:45:51Z",
     "opportunity_score": 3.78,
-    "description": "desc: First called when our addon is loaded. desc: Called when our addon receives a command.",
-    "description_source": "https://github.com/ProjectTako/ffxi-addons/blob/HEAD/turnaround/ashita/turnaround.lua",
-    "description_confidence": "high",
+    "description": "Automatically turns your character to face targets or headings for scripted actions.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T14:03:37+00:00"
   },
   {
@@ -12037,9 +12037,9 @@
     "best_repo_stars": 22,
     "freshness_max": "2026-04-26T23:36:04Z",
     "opportunity_score": 4.83,
-    "description": "All commands must be preceded with either //vanafacts or //vf (ex: //vf repeat) - repeat/r - Repeat the last Fact displayed. - help - Display a list of commands and addon info.",
-    "description_source": "https://github.com/iLVL-Key/FFXI/blob/HEAD/addons/VanaFacts/readme.md",
-    "description_confidence": "high",
+    "description": "Displays random Vana'diel trivia/facts with repeat/help commands.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T14:01:42+00:00"
   },
   {
@@ -12069,8 +12069,8 @@
     "best_repo_stars": 3,
     "freshness_max": "2026-03-30T01:43:40Z",
     "opportunity_score": 4.2,
-    "description": "The vanatime.lua library is required and must be placed into either the vanaclock addon directory or the addons/libs directory.",
-    "description_source": "https://github.com/BagTown/vanaclock/blob/HEAD/README.md",
+    "description": "Shows Vana'diel time/date and related timers in-game.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:39+00:00"
   },
@@ -12373,8 +12373,8 @@
     "best_repo_stars": 29,
     "freshness_max": "2026-03-10T17:38:26Z",
     "opportunity_score": 4.83,
-    "description": "## addons - xitools is a suite of UI replacement components, check its README for details - recast is a fork of recast that has been imgui-fied - skillchain tracks active and potential skillchains and magic bursts - whee",
-    "description_source": "https://github.com/mousseng/xitools/blob/HEAD/README.md",
+    "description": "Quick command wheel/menu for commonly used actions or addon shortcuts.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T15:01:27+00:00"
   },
@@ -12470,9 +12470,9 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-04T21:45:19Z",
     "opportunity_score": 4.0,
-    "description": "FFXI Windower Addon for automating the boring aspects of jobs: Wyvern Cures, Jumps, Boost, Weapon Skills, etc.",
-    "description_source": "https://github.com/garyfromwork/AutoJob",
-    "description_confidence": "low",
+    "description": "Job automation helper for routine actions like jumps, cures, boosts, and weapon skills.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-24T20:04:03+00:00"
   },
   {
@@ -12854,9 +12854,9 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "Lightweight utility addon with convenience commands for everyday play.",
-    "description_source": "heuristic",
-    "description_confidence": "high",
+    "description": "Lightweight utility addon with small convenience commands.",
+    "description_source": "manual_description_cleanup_2026_05_07",
+    "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T17:03:36+00:00"
   },
   {
@@ -12984,8 +12984,8 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Commands: zonetimer posX # change the x position zonetimer posY # change the y position zonetimer fontsize # change the fontsize zoentimer help print these instructions in the log Original plugin by Krellion.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/zonetimer/readme.md",
+    "description": "Shows a timer after zoning, with configurable screen position and font size.",
+    "description_source": "manual_description_cleanup_2026_05_07",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-04-25T18:03:32+00:00"
   },
