@@ -2627,10 +2627,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-26T23:28:10Z",
     "opportunity_score": 4.2,
-    "description": "Scans your GearSwap files and compares referenced gear to your inventory to find unused items.",
-    "description_source": "manual_description_cleanup_2026_05_07",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-24T15:01:33+00:00"
+    "description": "Scans your GearSwap Lua files, compares referenced gear against your inventory, and reports unused items so you can clean storage safely.",
+    "description_source": "https://github.com/Gol-exe/closetCleaner2/blob/HEAD/README.md",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-07T19:12:00+00:00"
   },
   {
     "addon_key": "collector",
