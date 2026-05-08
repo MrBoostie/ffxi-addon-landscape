@@ -10,10 +10,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-09-05 16:01:02 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for AbsorbWatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Absorb spell effects and timers so you can see when each stat drain is active or expiring.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "abyhelper",
@@ -1628,7 +1628,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-01-14 00:32:08 UTC",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -2997,10 +2997,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2020-08-10 13:53:27 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for CurTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks currency totals and recent gains for the current session.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "custommenu",
@@ -3065,10 +3065,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-11T16:17:04Z",
     "opportunity_score": 4.0,
-    "description": "Status tracker for dbTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Domain Invasion battle points and logs how much you gain over time.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "debuff-tracker",
@@ -3276,7 +3276,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-24T00:28:38Z",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -3357,10 +3357,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2023-07-12 16:57:05 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for DragonWatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks dragon-related event or kill progress with live counters.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "dramagen",
@@ -3521,10 +3521,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-12-21 14:41:54 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for DynamisTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Dynamis progress such as time, currency, and run-related counters.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "dynamobscan",
@@ -3940,10 +3940,10 @@
     "best_repo_stars": 12,
     "freshness_max": "2024-02-18T18:22:59Z",
     "opportunity_score": 3.78,
-    "description": "Status tracker for Erapointwatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks event point totals and shows your progress toward point goals.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "erascoreboard",
@@ -4557,10 +4557,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-02-25 16:32:17 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for FoeTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks selected enemy stats or kill counts during fights.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "follow",
@@ -4719,7 +4719,7 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 2.31,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -4897,10 +4897,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Status tracker for Giltracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks gil earned and spent, with session profit/loss totals.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "gmmode",
@@ -4977,10 +4977,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2021-05-30 02:30:17 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for GoldTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks gold chest or gold-related drops and totals during your session.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "goodmorning",
@@ -6010,10 +6010,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-11-01 19:33:49 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for KillTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Counts kills by target so you can track farm progress at a glance.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "ku",
@@ -6837,10 +6837,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-03-28 06:06:47 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for mobmobwatcher: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Monitors targeted mobs and shows quick status/counter info while farming.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "mobmon",
@@ -7093,10 +7093,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2020-04-17 07:57:46 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for MultiTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Combines multiple counters (kills, points, drops) into one on-screen tracker.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "mumor",
@@ -7221,10 +7221,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2018-08-16 06:42:56 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for NMWatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Notorious Monster spawn/kill activity and related progress counters.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "nnitimer",
@@ -7237,7 +7237,7 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 3.43,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -8080,10 +8080,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 1.86,
-    "description": "Status tracker for Pointwatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks point-based event progress with current totals and gains.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "pointwatch2",
@@ -8096,10 +8096,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-07-13 04:49:54 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for PointWatch2: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks point totals and gain rate for grind sessions (v2 variant).",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "poketarget",
@@ -8128,10 +8128,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-07-04 07:34:17 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for PopTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks pop item usage and NM pop-cycle progress.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "porter",
@@ -9406,10 +9406,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2024-04-27 00:29:23 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for scwatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks skillchain windows and recent chain results in combat.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "sealy",
@@ -9454,10 +9454,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-01-18 08:02:04 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for SegWatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Odyssey segment gains and running totals during segment farms.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "sellnpc",
@@ -11079,7 +11079,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2019-02-27 08:16:58 UTC",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -11243,10 +11243,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2022-03-27T16:03:47Z",
     "opportunity_score": 2.31,
-    "description": "Status tracker for Thtracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Treasure Hunter level changes and proc progress on targets.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "time",
@@ -11259,7 +11259,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-04T21:36:55Z",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -11324,7 +11324,7 @@
     "best_repo_stars": 3,
     "freshness_max": "2022-10-23T10:57:36Z",
     "opportunity_score": 2.4,
-    "description": "Runs configured commands at specific Vana\u2019diel times.",
+    "description": "Runs configured commands at specific Vana’diel times.",
     "description_source": "https://github.com/Icydeath/FFXI-TimeTrigger/blob/HEAD/README.md",
     "description_confidence": "high",
     "description_reviewed_at": "2026-04-28T16:20:00+00:00"
@@ -11406,10 +11406,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2025-12-20 23:53:23 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for tpwatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Shows your current TP and TP-related thresholds in real time.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "tracker",
@@ -11422,10 +11422,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2023-02-13 10:53:03 UTC",
     "opportunity_score": 4.0,
-    "description": "Status tracker for Tracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "General-purpose on-screen tracker for session counters and progress.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "trade",
@@ -11764,10 +11764,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-11T16:17:04Z",
     "opportunity_score": 4.0,
-    "description": "Status tracker for tTracker: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks trust-related status or timers for active trusts.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "turnaround",
@@ -12021,7 +12021,7 @@
     "best_repo_stars": 3,
     "freshness_max": "2026-03-30T01:43:40Z",
     "opportunity_score": 4.2,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -12085,7 +12085,7 @@
     "best_repo_stars": 0,
     "freshness_max": "2023-09-28 13:18:11 UTC",
     "opportunity_score": 4.0,
-    "description": "Displays current Vana\u2019diel time and day information in-game.",
+    "description": "Displays current Vana’diel time and day information in-game.",
     "description_source": "description_quality_pass_2026_05_04",
     "description_confidence": "medium",
     "description_reviewed_at": "2026-05-04T12:05:11+00:00"
@@ -12165,10 +12165,10 @@
     "best_repo_stars": 0,
     "freshness_max": "2026-04-30T19:17:57Z",
     "opportunity_score": 4.0,
-    "description": "Status tracker for Vwatch: keeps important buffs, debuffs, or timers visible while you play.",
-    "description_source": "manual_description_cleanup_2026_05_06",
+    "description": "Tracks Voidwatch progression, including key counters and encounter status.",
+    "description_source": "manual_description_cleanup_2026_05_08",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-05-06T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-08T00:00:00+00:00"
   },
   {
     "addon_key": "vwpop",
