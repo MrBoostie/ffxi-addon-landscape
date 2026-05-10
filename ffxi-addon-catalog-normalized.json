@@ -8046,10 +8046,10 @@
     "best_repo_stars": 18,
     "freshness_max": "2017-02-21T21:37:25Z",
     "opportunity_score": 3.43,
-    "description": "Loads, unloads, and manages Windower addons/plugins from in-game commands.",
-    "description_source": "manual_description_cleanup_2026_05_07",
-    "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-29T12:00:00+00:00"
+    "description": "Lets you load, unload, and reload Windower addons/plugins from chat commands without restarting the game.",
+    "description_source": "description_clarity_pass_2026_05_10",
+    "description_confidence": "high",
+    "description_reviewed_at": "2026-05-10T00:00:00+00:00"
   },
   {
     "addon_key": "pluginmanager",
@@ -8211,10 +8211,10 @@
     "best_repo_stars": 69,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 3.71,
-    "description": "Return the position of the player character, truncated to 2 decimals. Triggers when left mouse button is pressed.",
-    "description_source": "https://github.com/Icydeath/ffxi-addons/blob/HEAD/posfind/posfind.lua",
+    "description": "Shows your current X/Y/Z position in-game (rounded to 2 decimals), typically when you click, so you can copy exact coordinates.",
+    "description_source": "description_clarity_pass_2026_05_10",
     "description_confidence": "high",
-    "description_reviewed_at": "2026-04-24T16:28:04+00:00"
+    "description_reviewed_at": "2026-05-10T00:00:00+00:00"
   },
   {
     "addon_key": "position_manager",
