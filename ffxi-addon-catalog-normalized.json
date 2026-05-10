@@ -10320,10 +10320,10 @@
     "best_repo_stars": 35,
     "freshness_max": "2026-03-05T11:17:05Z",
     "opportunity_score": 4.83,
-    "description": "Miscellaneous utility commands that don't fit larger addon categories.",
-    "description_source": "manual_description_cleanup_2026_05_07",
+    "description": "Provides standalone utility commands that do not belong to a single system-focused addon.",
+    "description_source": "description_clarity_pass_2026_05_10",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-28T12:00:00+00:00"
+    "description_reviewed_at": "2026-05-10T12:00:00+00:00"
   },
   {
     "addon_key": "speedchecker",
@@ -12854,10 +12854,10 @@
     "best_repo_stars": 17,
     "freshness_max": "2016-08-28T03:33:55Z",
     "opportunity_score": 3.43,
-    "description": "Lightweight utility addon with small convenience commands.",
-    "description_source": "manual_description_cleanup_2026_05_07",
+    "description": "Adds a small set of convenience commands for quick, everyday gameplay actions.",
+    "description_source": "description_clarity_pass_2026_05_10",
     "description_confidence": "medium",
-    "description_reviewed_at": "2026-04-25T17:03:36+00:00"
+    "description_reviewed_at": "2026-05-10T12:00:00+00:00"
   },
   {
     "addon_key": "zaldontrader",
