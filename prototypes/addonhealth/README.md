@@ -1,6 +1,6 @@
 # AddonHealth Prototype Scaffold
 
-This folder is a placeholder scaffold for the first implementation pass.
+This folder preserves an early scaffold from the first implementation pass.
 
 Planned structure:
 
@@ -10,4 +10,4 @@ Planned structure:
 - `render.lua` — HUD text rendering
 - `data/` — local snapshots/reports
 
-Status: scaffold only (no runtime code committed yet).
+Status: historical scaffold only. Active runtime implementation lives in `addons/AddonHealth/`.
