@@ -81,10 +81,20 @@ Gaps worth building:
 
 ## 🗂️ Repository layout
 
-- `addons/` — complete Windower addons included with this project
+- `addons/` — Windower addons included with this project
 - `specs/` — implementation specs and command surfaces
-- `docs/` — roadmap and reference links used during the landscape scan
-- catalog/index files in the repo root — generated research artifacts for analysis and filtering
+- `docs/` — roadmap, links, and research notes from the landscape scan
+- Root catalog/index files — generated research artifacts for analysis and filtering
+
+## 📚 Documentation quick links
+
+- Main roadmap: `docs/ROADMAP.md`
+- Research/source links: `docs/LINKS.md`
+- Addon specs: `specs/`
+- Addon-level READMEs:
+  - `addons/TravelRouter/README.md`
+  - `addons/SessionConductor/README.md`
+  - `addons/AddonHealth/README.md`
 
 ## ▶️ Using the addons
 
@@ -113,14 +123,15 @@ If you only load `SessionConductor`, the `travel` command will still broadcast, 
 
 - `addons/TravelRouter` — content-aware travel route planner/executor
 - `addons/SessionConductor` — multi-character command coordinator
-  - integrates with TravelRouter via `//conductor travel <destination>`
-  - includes v1.1 event/rule automation engine (`rules.default.lua` + overrides)
-- `addons/AddonHealth` — health/diagnostics dashboard for addon stack, with optional user-extended monitoring catalog via `data/addons.user.lua`
+  - Integrates with TravelRouter via `//conductor travel <destination>`
+  - Includes the v1.1 event/rule automation engine (`rules.default.lua` + overrides)
+- `addons/AddonHealth` — health/diagnostics dashboard for addon stacks, with optional user-extended monitoring via `data/addons.user.lua`
 
 See specs:
 - `specs/travelrouter-v1.0.md`
 - `specs/sessionconductor-v1.0.md`
 - `specs/sessionconductor-v1.1-triggers.md` (event-driven automation model)
+- `specs/addonhealth-v0.1.md`
 
 ## ✅ Production checklist
 
