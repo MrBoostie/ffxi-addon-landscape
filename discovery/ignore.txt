@@ -1,0 +1,5 @@
+# Review decisions for scripts/discover.py.
+# One entry per line: an addon name (matched after lowercasing and stripping
+# non-alphanumerics) or an owner/repo to skip entirely. `#` starts a comment.
+# Entries here are dropped from discovery reports and from `apply`.
+help  # kabitokaii/FFXI-Addons: generic name, no description or README

@@ -7,8 +7,8 @@
 - [x] Initial gap analysis and opportunity shortlist
 
 ## Phase 2 (catalog depth)
-- [ ] Expand repository coverage (50–150 repos)
-- [ ] Improve addon detection beyond top-level directory names
+- [x] Expand repository coverage (50–150 repos) — `scripts/discover.py`, 900+ repos as of 2026-11-27
+- [x] Improve addon detection beyond top-level directory names (full git-tree scan + `_addon.name` verification)
 - [ ] Add compatibility metadata (Windower/Ashita/Era/private-server notes)
 - [ ] Add confidence scoring for inferred categories
 

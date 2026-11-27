@@ -169,6 +169,16 @@ See specs:
 - Enable only for trusted groups: `//conductor remotecmd on`
 - Disable again when done: `//conductor remotecmd off`
 
+## 🔎 Discover new addons
+
+```bash
+python3 scripts/discover.py run                 # search GitHub, scan repos, write discovery/report-<date>.md
+python3 scripts/discover.py resolve Name1 Name2 # look up specific addon names (e.g. forum leads)
+python3 scripts/discover.py apply --dry-run     # preview merging reviewed candidates into the catalog
+```
+
+Windower addons only. Repo search, code search and FFXI content-term sweeps are combined, then each repo's full file tree is scanned for addon entry points that declare `_addon.name`. Add false positives to `discovery/ignore.txt` before applying.
+
 ## 🔧 Regenerate source-aware descriptions
 
 ```bash
@@ -187,7 +197,6 @@ Runs Lua syntax checks for addon files plus JSON parse validation for generated 
 
 ## 🚀 Next steps
 
-- Expand scan from 19 repos → full ecosystem crawl
 - Add richer metadata per addon (maintainer activity, dependencies, compatibility)
 - Generate a public web view (filters: category, recency, popularity)
 - Keep improving addon behavior/tests and operational docs for TravelRouter + SessionConductor
