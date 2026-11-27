@@ -1,176 +1,426 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FFXI Addon Landscape</title>
-  <style>
-    :root { color-scheme: dark; }
-    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 2rem; background:#0b1020; color:#e8ecff; }
-    h1 { margin-bottom: .2rem; }
-    .muted { color:#9fb0ff; margin-top:0; }
-    input, select { padding:.6rem .7rem; border-radius:.5rem; border:1px solid #2b3666; background:#131a33; color:#e8ecff; }
-    .controls { display:flex; gap:.75rem; flex-wrap:wrap; margin:1rem 0 1.25rem; }
-    table { width:100%; border-collapse: collapse; background:#0f1530; border:1px solid #27305c; }
-    th, td { text-align:left; padding:.55rem .6rem; border-bottom:1px solid #1e2750; font-size:.92rem; vertical-align:top; }
-    th { position:sticky; top:0; background:#131a33; }
-    a { color:#8fc6ff; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .tag { background:#1f2b58; border:1px solid #334179; padding:.1rem .4rem; border-radius:.4rem; font-size:.78rem; display:inline-block; }
-    .view-tabs { display:flex; gap:.6rem; margin:1rem 0; }
-    .view-tabs button { padding:.45rem .7rem; border-radius:.45rem; border:1px solid #2b3666; background:#131a33; color:#e8ecff; cursor:pointer; }
-    .view-tabs button.active { background:#223061; border-color:#4961b6; }
-    .hidden { display:none; }
-    .rec-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .8rem; }
-    .card { border:1px solid #27305c; background:#0f1530; border-radius:.6rem; padding:.75rem; }
-    .card h3 { margin:.1rem 0 .4rem; font-size:1rem; }
-    .card ul { margin:.3rem 0 0 1rem; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FFXI Addon Landscape: Windower addons, in one menu</title>
+<meta name="description" content="A searchable index of community Windower addons for Final Fantasy XI, gathered from hundreds of GitHub repos, with a plain description of what each one does.">
+<meta name="theme-color" content="#060a1c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 16%27%3E%3Cpath d=%27M6 .5l5.5 5.6L6 15.5.5 6.1z%27 fill=%27%23ffe08a%27 stroke=%27%23141d52%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --ground:#060a1c;
+  --win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;
+  --frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;
+  --ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;
+  --gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;
+  --band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{background:var(--ground);scrollbar-color:#5468c4 var(--field)}
+body{margin:0;font-family:var(--font);color:var(--ink);font-variant-numeric:tabular-nums;line-height:1.5;-webkit-font-smoothing:antialiased}
+::selection{background:var(--gold);color:#10163d}
+a{color:var(--link);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:#fff}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+button,input,select{font:inherit;color:inherit}
+input::placeholder{color:#a8b3df}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+.page{max-width:1380px;margin:0 auto;padding:28px;display:flex;flex-direction:column;gap:18px}
+.win{background:linear-gradient(180deg,var(--win-top) 0%,var(--win-mid) 48%,var(--win-bot) 100%);border:1px solid var(--frame);border-radius:8px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 8px 22px rgba(0,0,0,.5)}
+.win-title{margin:0;font-size:20px;font-weight:800;color:var(--gold);line-height:1.3}
+
+/* title window */
+.masthead{padding:20px 24px;display:flex;flex-wrap:wrap;gap:16px 40px;align-items:center;justify-content:space-between}
+.masthead h1{margin:0;font-size:clamp(28px,3.4vw,42px);font-weight:800;line-height:1.1;letter-spacing:.01em}
+.masthead p{margin:4px 0 0;font-size:16px;color:var(--ink-2)}
+.search{display:flex;align-items:center;gap:12px;flex:1 1 380px;max-width:560px}
+.search label{font-size:15px;font-weight:700;color:var(--gold);white-space:nowrap}
+.field{background:var(--field);border:1px solid var(--field-line);border-radius:6px;color:var(--ink)}
+.search input{flex:1;min-width:0;font-size:18px;padding:11px 14px;min-height:48px}
+select.field{font-size:15px;padding:6px 8px;min-height:38px}
+
+/* main row */
+.row{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+.cats{flex:1 1 270px;max-width:300px;padding:14px 10px 14px 8px}
+.cats .win-title{margin:0 0 8px 34px}
+.list{flex:999 1 460px;min-width:0;padding:14px 10px 16px 8px;display:flex;flex-direction:column;gap:6px}
+.help{flex:1 1 320px;max-width:420px;padding:18px 20px 20px;position:sticky;top:18px}
+.listhead{display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:0 8px 12px 34px;border-bottom:1px solid var(--rule)}
+.listhead .win-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.listhead .tally{font-size:15px;font-weight:500;color:var(--ink-2);margin-left:8px}
+.listhead .controls{display:flex;gap:10px;flex-wrap:nowrap;flex:0 0 auto}
+.listhead label{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink-2)}
+ul.menu{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:1px}
+
+/* menu lines (categories and addons) */
+.line{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:flex;align-items:center;gap:10px;padding:8px 10px 8px 4px;border-radius:5px;min-height:40px;transition:background .18s var(--ease)}
+.line:hover{background:var(--hover)}
+.line[aria-current="true"]{background:var(--band)}
+.line:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.cursor{width:24px;flex:0 0 24px;display:inline-flex;justify-content:center}
+.cursor svg{display:none}
+.line[aria-current="true"] .cursor svg{display:block;animation:bob .7s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateX(-2px)}to{transform:translateX(2px)}}
+.crystal{flex:0 0 auto}
+.cat-label{flex:1;font-size:16px;font-weight:500}
+.count{font-size:14px;color:var(--ink-2)}
+.name{flex:1;min-width:0;font-size:17px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.line[aria-current="true"] .name{color:var(--gold)}
+.meta{font-size:14px;color:var(--ink-2);text-align:right;flex:0 0 auto}
+.meta.date{width:76px}
+.meta.stars{width:58px;display:inline-flex;gap:4px;justify-content:flex-end;align-items:center}
+.auto{font-size:12px;font-weight:700;padding:1px 6px;border-radius:4px;border:1px solid var(--warn);color:var(--warn);flex:0 0 auto}
+.inline-help{display:none}
+
+.btn{cursor:pointer;background:var(--field);border:1px solid var(--field-line);border-radius:6px;padding:9px 16px;font-size:15px;min-height:40px;transition:background .18s var(--ease)}
+.btn:hover{background:#18225c}
+.more{margin:8px 0 0 34px;align-self:flex-start}
+.status{margin:0;padding:24px 34px;font-size:16px;color:var(--ink-2)}
+.status.error{color:var(--warn)}
+.empty{padding:24px 34px;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.empty p{margin:0;font-size:16px}
+
+/* help window */
+.help-body{display:flex;flex-direction:column;gap:12px}
+.help-body.enter{animation:helpin .25s var(--ease)}
+@keyframes helpin{from{opacity:.4;filter:blur(2px)}to{opacity:1;filter:none}}
+.help-name{display:flex;align-items:flex-start;gap:10px}
+.help-name .crystal{margin-top:6px}
+.help-name h2,.help-name h3{margin:0;font-size:26px;font-weight:800;line-height:1.15;overflow-wrap:break-word;min-width:0}
+.help-name.long h2,.help-name.long h3{font-size:21px}
+.help-sub{margin:0;font-size:14px;font-weight:700;color:var(--gold)}
+.help-desc{margin:0;font-size:17px;line-height:1.6}
+.help-risk{margin:0;font-size:14px;line-height:1.5;color:var(--warn-2)}
+.help-repos{border-top:1px solid var(--rule);padding-top:12px;display:flex;flex-direction:column;gap:6px}
+.help-repos h3{margin:0;font-size:14px;font-weight:700;color:var(--gold)}
+.help-repos a{font-size:16px;overflow-wrap:anywhere}
+.help-src{margin:0;font-size:14px;color:var(--ink-2)}
+.help-hint{margin:0;font-size:16px;color:var(--ink-2)}
+
+/* lower row */
+.lower{display:flex;flex-wrap:wrap;gap:18px;align-items:stretch}
+.sets{flex:999 1 640px;min-width:0;padding:16px 20px 18px;display:flex;flex-direction:column;gap:12px}
+.sets-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.set h3{margin:0;font-size:20px;font-weight:800}
+.set p{margin:6px 0 8px;font-size:14px;line-height:1.5;color:var(--ink-2)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{cursor:pointer;border:1px solid rgba(160,185,255,.55);background:rgba(11,18,56,.6);border-radius:5px;padding:5px 9px;font-size:14px;min-height:32px;transition:background .18s var(--ease)}
+.chip:hover{background:var(--hover)}
+.research{flex:1 1 300px;padding:16px 20px 18px;display:flex;flex-direction:column;gap:8px}
+.research a{font-size:15px;line-height:1.5}
+.fine{margin:6px 0 0;font-size:13px;line-height:1.5;color:var(--ink-3)}
+
+@media (max-width:900px){
+  .page{padding:14px;gap:14px}
+  .masthead{padding:18px}
+  .search{flex:1 1 100%;min-width:0;max-width:none;flex-wrap:wrap;gap:6px}
+  .search input{flex:1 1 100%;width:100%}
+  .cats{max-width:none;flex-basis:100%;min-width:0;padding:12px 8px}
+  .cats .win-title{margin-left:8px}
+  .cats ul.menu{flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:4px;padding:0 28px 4px 0;scrollbar-width:thin;-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent)}
+  .cats .line{width:auto;white-space:nowrap;padding-right:12px}
+  .cats .cursor{display:none}
+  .cats .line[aria-current="true"] .cursor{display:inline-flex}
+  .help{display:none}
+  .listhead{padding-left:8px}
+  .listhead .controls{width:100%}
+  .listhead label{flex:1 1 auto;min-width:0;display:flex}
+  .listhead select{flex:1 1 auto;min-width:0;padding-right:4px}
+  .more{margin-left:8px}
+  .inline-help{display:block;margin:0 6px 12px 38px;padding:12px 0 4px;border-top:1px solid var(--rule)}
+  .meta.stars{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .line[aria-current="true"] .cursor svg,.help-body.enter{animation:none}
+  .line,.btn,.chip{transition:none}
+}
+</style>
 </head>
 <body>
-  <h1>FFXI Addon Landscape</h1>
-  <p class="muted">Searchable index of FFXI addons across GitHub repos.</p>
-  <p class="muted">Latest forum sweep: <a href="./docs/forum-discoveries-2026-04-28.md" target="_blank" rel="noreferrer">FFXIAH candidate addon discoveries (2026-04-28)</a></p>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="hand" d="M1.5 6.6h11.2a1.45 1.45 0 0 1 0 2.9h-2.4v.3h1a1.35 1.35 0 0 1 0 2.7h-1v.1a1.3 1.3 0 0 1-1.3 1.3H5c-2 0-3.5-1.5-3.5-3.5zM12.7 6.6h8.6a1.45 1.45 0 0 1 0 2.9h-8.6"/>
+    <path id="gem" d="M6 .5l5.5 5.6L6 15.5.5 6.1z"/>
+    <path id="star" d="M8 1.2l2 4.3 4.7.5-3.5 3.2 1 4.6L8 11.5l-4.2 2.3 1-4.6L1.3 6l4.7-.5z"/>
+  </defs>
+</svg>
 
-  <div class="view-tabs">
-    <button id="tab-catalog" class="active">Catalog</button>
-    <button id="tab-recommended">Recommended Packs</button>
+<div class="page">
+  <header class="win masthead">
+    <div>
+      <h1>FFXI Addon Landscape</h1>
+      <p id="tagline">Community Windower addons from across GitHub, in one menu.</p>
+    </div>
+    <div class="search" role="search">
+      <label for="q">Search</label>
+      <input id="q" class="field" type="search" autocomplete="off" spellcheck="false" placeholder="sortie, trusts, gearswap, mog house">
+    </div>
+  </header>
+
+  <div class="row">
+    <nav class="win cats" aria-labelledby="cats-title">
+      <h2 class="win-title" id="cats-title">Categories</h2>
+      <ul class="menu" id="cats"></ul>
+    </nav>
+
+    <main class="win list" aria-labelledby="list-title">
+      <div class="listhead">
+        <h2 class="win-title" id="list-title" aria-live="polite">All addons</h2>
+        <div class="controls">
+          <label><span class="sr">Last updated</span>
+            <select id="fresh" class="field">
+              <option value="any">Updated any time</option>
+              <option value="183">Updated in 6 months</option>
+              <option value="366">Updated in 1 year</option>
+              <option value="731">Updated in 2 years</option>
+            </select>
+          </label>
+          <label><span class="sr">Sort by</span>
+            <select id="sort" class="field">
+              <option value="fresh">Newest first</option>
+              <option value="stars">Most-starred repo</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <p class="status" id="status">Loading the catalog…</p>
+      <ul class="menu" id="rows" aria-label="Addons"></ul>
+      <button class="btn more" id="more" type="button" hidden>Next 40</button>
+    </main>
+
+    <aside class="win help" id="help" aria-live="polite" aria-label="Selected addon"></aside>
   </div>
 
-  <section id="catalog-view">
-    <div class="controls">
-      <input id="q" placeholder="Search addon/repo/category..." size="36" />
-      <select id="cat"><option value="">All categories</option></select>
-      <select id="minFresh">
-        <option value="0">Any freshness</option>
-        <option value="5">Freshness 5 (≤6mo)</option>
-        <option value="4">Freshness 4+ (≤1y)</option>
-        <option value="3">Freshness 3+ (≤2y)</option>
-      </select>
-    </div>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Addon</th>
-          <th>Description</th>
-          <th>Category</th>
-          <th>Repos</th>
-          <th>Freshness</th>
-          <th>Score</th>
-        </tr>
-      </thead>
-      <tbody id="rows"></tbody>
-    </table>
-  </section>
-
-  <section id="recommended-view" class="hidden">
-    <p class="muted">Opinionated starter packs. Click an addon to jump to it in the catalog search.</p>
-    <div class="rec-grid" id="rec-grid"></div>
-  </section>
+  <div class="lower">
+    <section class="win sets" aria-labelledby="sets-title">
+      <h2 class="win-title" id="sets-title">Starter sets</h2>
+      <div class="sets-grid" id="sets"></div>
+    </section>
+    <section class="win research" aria-labelledby="research-title">
+      <h2 class="win-title" id="research-title">Research &amp; method</h2>
+      <a href="https://github.com/MrBoostie/ffxi-addon-landscape/blob/main/discovery/report-2026-11-27.md">How addons are discovered (report, Nov 2026)</a>
+      <a href="https://github.com/MrBoostie/ffxi-addon-landscape/blob/main/docs/forum-discoveries-2026-04-28.md">FFXIAH forum sweep (Apr 2026)</a>
+      <a href="https://github.com/MrBoostie/ffxi-addon-landscape/blob/main/ffxi-addon-landscape-2026-04-22.md">Ecosystem overview</a>
+      <a href="https://github.com/MrBoostie/ffxi-addon-landscape">Project on GitHub</a>
+      <p class="fine">Descriptions are one-sentence summaries written from each addon’s README and code; a direct source is linked where one exists. Not affiliated with Square Enix or Windower.</p>
+    </section>
+  </div>
+</div>
 
 <script>
-let DATA=[];
-const q=document.getElementById('q');
-const cat=document.getElementById('cat');
-const minFresh=document.getElementById('minFresh');
-const rows=document.getElementById('rows');
-const catalogView=document.getElementById('catalog-view');
-const recommendedView=document.getElementById('recommended-view');
-const tabCatalog=document.getElementById('tab-catalog');
-const tabRecommended=document.getElementById('tab-recommended');
-const recGrid=document.getElementById('rec-grid');
+(() => {
+  const CAT = {general_qol: 'Quality of life', economy_inventory: 'Inventory & gil', automation: 'Automation', ui_gear: 'UI & gear', combat_automation: 'Combat automation', diagnostics: 'Diagnostics', travel_navigation: 'Travel', utility: 'Utility'};
+  const CRYSTAL = {general_qol: '#f4f5ff', economy_inventory: '#e9c25b', automation: '#c78dff', ui_gear: '#5f8fff', combat_automation: '#ff6d52', diagnostics: '#93ddff', travel_navigation: '#72e294', utility: '#8e93ae'};
+  const RISKY = new Set(['automation', 'combat_automation']);
+  const PACKS = [
+    {name: 'Beginner', note: 'Low-drama utility picks for everyday play.', color: '#9ff0b8', keys: ['battlemod', 'gearswap', 'organizer', 'itemizer', 'distanceplus', 'xicamera', 'chatman']},
+    {name: 'Advanced', note: 'More automation and multibox coordination.', color: '#a9d4ff', keys: ['healbot', 'autoassist', 'react', 'send', 'fastfollow', 'partybuffs', 'porterpacker']},
+    {name: 'Trying to get banned', note: 'High-risk automation and packet territory. Use at your own risk.', color: '#ffb4a8', keys: ['tradenpc', 'sellnpc', 'sellnpcauto', 'autora', 'autoskillchain', 'quicktrade', 'autojoin']}
+  ];
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const PAGE = 40;
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+  const num = (n) => n.toLocaleString('en-US');
+  const gem = (color, w = 11, h = 15) => `<svg class="crystal" viewBox="0 0 12 16" width="${w}" height="${h}" aria-hidden="true"><use href="#gem" fill="${color}" stroke="rgba(255,255,255,.7)" stroke-width="1"/></svg>`;
+  const hand = '<span class="cursor"><svg viewBox="0 0 24 16" width="24" height="16" aria-hidden="true"><use href="#hand" fill="#fff" stroke="#141d52" stroke-width="1.2" stroke-linejoin="round"/></svg></span>';
+  const star = '<svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><use href="#star" fill="#ffe08a"/></svg>';
 
-const RECOMMENDED_PACKS = [
-  {
-    name: 'Beginner (Quality of Life)',
-    note: 'Low-drama utility picks for everyday play.',
-    addons: ['Battlemod','Gearswap','Organizer','Itemizer','Distanceplus','XICamera','Chatman']
-  },
-  {
-    name: 'Advanced (Optimization / Multibox)',
-    note: 'More automation and coordination tools.',
-    addons: ['Healbot','Autoassist','React','Send','Fastfollow','Partybuffs','Porterpakker']
-  },
-  {
-    name: 'Trying to get Banned (Risky / Packet-y)',
-    note: 'High-risk automation territory. Use at your own risk.',
-    addons: ['TradeNPC','SellNPC','SellNPCAuto','Autora','Autoskillchain','Quicktrade','Autojoin']
+  const state = {all: [], byKey: {}, loaded: false, q: '', cat: '', fresh: 0, sort: 'fresh', limit: PAGE, sel: '', picked: false};
+  let rows = [];
+
+  // ---- URL state: #q=…&cat=…&a=… makes searches and addons linkable
+  function readHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    state.q = p.get('q') || '';
+    state.cat = CAT[p.get('cat')] ? p.get('cat') : '';
+    state.sel = p.get('a') || '';
+    state.picked = !!state.sel;
   }
-];
+  function writeHash() {
+    const p = new URLSearchParams();
+    if (state.q) p.set('q', state.q);
+    if (state.cat) p.set('cat', state.cat);
+    if (state.picked && state.sel) p.set('a', state.sel);
+    const h = p.toString();
+    history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+  }
 
-function addonLink(name){
-  const q = encodeURIComponent(name);
-  return `<a href="#" data-addon="${name}" class="rec-link">${name}</a>`;
-}
+  function isoDate(s) {
+    const m = /^(\d{4}-\d{2}-\d{2})/.exec(s || '');
+    return m ? m[1] : '';
+  }
+  const shortDate = (d) => d ? MONTHS[+d.slice(5, 7) - 1] + ' ’' + d.slice(2, 4) : '—';
+  const longDate = (d) => d ? MONTHS[+d.slice(5, 7) - 1] + ' ' + d.slice(0, 4) : 'unknown';
 
-function renderRecommended(){
-  recGrid.innerHTML = RECOMMENDED_PACKS.map(pack => `
-    <div class="card">
-      <h3>${pack.name}</h3>
-      <div class="muted">${pack.note}</div>
-      <ul>${pack.addons.map(a=>`<li>${addonLink(a)}</li>`).join('')}</ul>
-    </div>
-  `).join('');
-
-  document.querySelectorAll('.rec-link').forEach(a=>{
-    a.addEventListener('click', (e)=>{
-      e.preventDefault();
-      const addon = e.target.getAttribute('data-addon');
-      q.value = addon;
-      showCatalog();
-      render();
+  function filtered() {
+    const needle = state.q.trim().toLowerCase();
+    const now = Date.now();
+    const out = state.all.filter((a) => {
+      if (state.cat && a.c !== state.cat) return false;
+      if (state.fresh && (!a.f || (now - Date.parse(a.f)) / 864e5 > state.fresh)) return false;
+      return !needle || a.blob.includes(needle);
     });
+    if (state.sort === 'fresh') out.sort((a, b) => b.f.localeCompare(a.f));
+    else if (state.sort === 'stars') out.sort((a, b) => b.s - a.s || a.n.localeCompare(b.n));
+    else out.sort((a, b) => a.n.localeCompare(b.n, undefined, {sensitivity: 'base'}));
+    return out;
+  }
+
+  function helpHTML(a, headingTag) {
+    const repos = a.r.map((r) => `<a href="https://github.com/${esc(r)}">${esc(r)}</a>`).join('');
+    const src = a.u ? ` <a href="${esc(a.u)}">Read the source</a>` : (a.h ? ' Source: inferred from the name and category.' : ' Source: summarized during a catalog review; no direct link.');
+    const H = headingTag;
+    return `<div class="help-name${a.n.length > 16 ? ' long' : ''}">${gem(CRYSTAL[a.c] || '#8e93ae', 14, 19)}<${H}>${esc(a.n)}</${H}></div>
+      <p class="help-sub">${esc(CAT[a.c] || a.c)} · updated ${longDate(a.f)} · <span style="white-space:nowrap">${num(a.s)} repo ${a.s === 1 ? 'star' : 'stars'}</span></p>
+      <p class="help-desc">${esc(a.d || 'No description yet.')}</p>
+      ${RISKY.has(a.c) ? '<p class="help-risk">Automates parts of play. Third-party automation can break the game’s terms of service; use at your own risk.</p>' : ''}
+      <div class="help-repos"><h3>Get it from</h3>${repos}</div>
+      <p class="help-src">Description confidence: ${esc(a.q || 'unrated')}.${src}</p>`;
+  }
+
+  function renderCats() {
+    const counts = {};
+    state.all.forEach((a) => { counts[a.c] = (counts[a.c] || 0) + 1; });
+    const ids = Object.keys(counts).sort((x, y) => counts[y] - counts[x]);
+    const items = [{id: '', label: 'All addons', count: state.all.length, color: '#ffe08a'}]
+      .concat(ids.map((id) => ({id, label: CAT[id] || id, count: counts[id], color: CRYSTAL[id] || '#8e93ae'})));
+    $('cats').innerHTML = items.map((c) => `<li><button type="button" class="line" data-cat="${esc(c.id)}" aria-current="${state.cat === c.id}">${hand}${gem(c.color)}<span class="cat-label">${esc(c.label)}</span><span class="count">${num(c.count)}</span></button></li>`).join('');
+  }
+
+  function render({focusSel = false, animateHelp = true} = {}) {
+    if (!state.loaded) return;
+    rows = filtered();
+    if (!rows.some((a) => a.k === state.sel)) { state.sel = rows[0] ? rows[0].k : ''; state.picked = false; }
+    const selIdx = rows.findIndex((a) => a.k === state.sel);
+    if (selIdx >= state.limit) state.limit = Math.ceil((selIdx + 1) / PAGE) * PAGE;
+    const shown = rows.slice(0, state.limit);
+
+    $('list-title').innerHTML = esc(state.cat ? CAT[state.cat] : 'All addons') + '<span class="tally">' + num(shown.length) + ' of ' + num(rows.length) + '</span>';
+    const st = $('status');
+    if (!rows.length) {
+      st.hidden = false; st.className = 'empty';
+      st.innerHTML = '<p>Nothing matches. Try another word or category.</p><button type="button" class="btn" id="clear">Clear search and filters</button>';
+    } else { st.hidden = true; }
+
+    $('rows').innerHTML = shown.map((a) => {
+      const sel = a.k === state.sel;
+      const inline = sel && state.picked ? `<div class="inline-help">${helpHTML(a, 'h3')}</div>` : '';
+      return `<li><button type="button" class="line" data-key="${esc(a.k)}" aria-current="${sel}" tabindex="${sel ? 0 : -1}">${hand}${gem(CRYSTAL[a.c] || '#8e93ae', 9, 12)}<span class="name">${esc(a.n)}</span>${RISKY.has(a.c) ? '<span class="auto" title="Automates play">Auto</span>' : ''}<span class="meta date">${shortDate(a.f)}</span><span class="meta stars" title="Stars on the repo"><span class="sr">repo stars</span>${star}${num(a.s)}</span></button>${inline}</li>`;
+    }).join('');
+    if (shown.length && !shown.some((a) => a.k === state.sel)) $('rows').querySelector('.line').tabIndex = 0;
+
+    const more = $('more');
+    more.hidden = rows.length <= state.limit;
+    more.textContent = 'Next ' + Math.min(PAGE, rows.length - state.limit);
+
+    const a = state.byKey[state.sel];
+    $('help').innerHTML = a ? `<div class="help-body${animateHelp ? ' enter' : ''}">${helpHTML(a, 'h2')}</div>` : '<p class="help-hint">Pick an addon to read what it does.</p>';
+
+    renderCats();
+    if (focusSel) { const b = $('rows').querySelector('[aria-current="true"]'); if (b) { b.focus({preventScroll: false}); b.scrollIntoView({block: 'nearest'}); } }
+    writeHash();
+  }
+
+  function renderSets() {
+    $('sets').innerHTML = PACKS.map((p) => `<div class="set"><h3 style="color:${p.color}">${esc(p.name)}</h3><p>${esc(p.note)}</p><div class="chips">${p.keys.map((k) => {
+      const a = state.byKey[k];
+      return `<button type="button" class="chip" data-pick="${esc(k)}">${esc(a ? a.n : k)}</button>`;
+    }).join('')}</div></div>`).join('');
+  }
+
+  // ---- events
+  let qTimer;
+  $('q').addEventListener('input', (e) => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => { state.q = e.target.value; state.limit = PAGE; state.picked = false; render(); }, 80);
   });
-}
+  $('fresh').addEventListener('change', (e) => { state.fresh = +e.target.value || 0; state.limit = PAGE; render(); });
+  $('sort').addEventListener('change', (e) => { state.sort = e.target.value; state.limit = PAGE; render(); });
+  $('more').addEventListener('click', () => { state.limit += PAGE; render({animateHelp: false}); });
 
-function showCatalog(){
-  catalogView.classList.remove('hidden');
-  recommendedView.classList.add('hidden');
-  tabCatalog.classList.add('active');
-  tabRecommended.classList.remove('active');
-}
-
-function showRecommended(){
-  catalogView.classList.add('hidden');
-  recommendedView.classList.remove('hidden');
-  tabCatalog.classList.remove('active');
-  tabRecommended.classList.add('active');
-}
-
-function render(){
-  const needle=(q.value||'').toLowerCase().trim();
-  const c=cat.value;
-  const mf=Number(minFresh.value||0);
-  const filtered=DATA.filter(a=>{
-    if(c && a.category!==c) return false;
-    if(a.freshness_max < mf) return false;
-    if(!needle) return true;
-    const blob=[a.addon_name,a.description||'',a.category,...a.repos].join(' ').toLowerCase();
-    return blob.includes(needle);
+  $('cats').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-cat]');
+    if (!b) return;
+    state.cat = b.dataset.cat; state.limit = PAGE; state.picked = false;
+    render();
+    const nb = $('cats').querySelector(`[data-cat="${CSS.escape(state.cat)}"]`); if (nb) nb.focus();
   });
-  rows.innerHTML=filtered.slice(0,500).map(a=>`<tr>
-    <td><strong>${a.addon_name}</strong><br><span class="muted">${a.addon_key}</span></td>
-    <td>${a.description || '<span class="muted">No description yet</span>'}<br>${a.description_source && a.description_source !== 'heuristic' ? `<a class="muted" href="${a.description_source}" target="_blank" rel="noreferrer">source</a>` : `<span class="muted">source: heuristic</span>`}</td>
-    <td><span class="tag">${a.category}</span></td>
-    <td>${a.repos.map(r=>`<div><a href="https://github.com/${r}" target="_blank" rel="noreferrer">${r}</a></div>`).join('')}</td>
-    <td>${a.freshness_max}</td>
-    <td>${a.opportunity_score}</td>
-  </tr>`).join('');
-}
+  $('rows').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-key]');
+    if (!b) return;
+    const same = state.sel === b.dataset.key && state.picked;
+    state.sel = b.dataset.key; state.picked = !same || !window.matchMedia('(max-width: 900px)').matches;
+    render({focusSel: true});
+  });
+  // Arrow keys move the cursor through the addon list, like a game menu.
+  $('rows').addEventListener('keydown', (e) => {
+    const keys = {ArrowDown: 1, ArrowUp: -1, Home: -Infinity, End: Infinity};
+    if (!(e.key in keys) || !rows.length) return;
+    e.preventDefault();
+    const shownCount = Math.min(rows.length, state.limit);
+    const i = rows.findIndex((a) => a.k === state.sel);
+    const step = keys[e.key];
+    const j = step === -Infinity ? 0 : step === Infinity ? shownCount - 1 : Math.max(0, Math.min(shownCount - 1, i + step));
+    state.sel = rows[j].k; state.picked = true;
+    render({focusSel: true, animateHelp: false});
+  });
+  document.querySelector('.list').addEventListener('click', (e) => {
+    if (e.target.id !== 'clear') return;
+    state.q = ''; state.cat = ''; state.fresh = 0; state.limit = PAGE;
+    $('q').value = ''; $('fresh').value = 'any';
+    render(); $('q').focus();
+  });
+  $('sets').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-pick]');
+    if (!b) return;
+    const a = state.byKey[b.dataset.pick];
+    state.q = a ? a.n : b.dataset.pick; state.cat = ''; state.fresh = 0; state.limit = PAGE;
+    state.sel = b.dataset.pick; state.picked = true;
+    $('q').value = state.q; $('fresh').value = 'any';
+    render();
+    document.querySelector('.list').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start'});
+  });
+  window.addEventListener('hashchange', () => { readHash(); $('q').value = state.q; render(); });
 
-fetch('./ffxi-addon-catalog-normalized.json').then(r=>r.json()).then(d=>{
-  DATA=d;
-  const cats=[...new Set(DATA.map(x=>x.category))].sort();
-  cats.forEach(c=>{ const o=document.createElement('option'); o.value=c; o.textContent=c; cat.appendChild(o); });
-  render();
-  renderRecommended();
-});
-
-[q,cat,minFresh].forEach(el=>el.addEventListener('input',render));
-[q,cat,minFresh].forEach(el=>el.addEventListener('change',render));
-tabCatalog.addEventListener('click', showCatalog);
-tabRecommended.addEventListener('click', showRecommended);
+  // ---- load
+  readHash();
+  $('q').value = state.q;
+  fetch('./ffxi-addon-catalog-normalized.json')
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((data) => {
+      const repos = new Set();
+      state.all = data.map((x) => {
+        const src = x.description_source || '';
+        x.repos.forEach((r) => repos.add(r));
+        const a = {k: x.addon_key, n: x.addon_name, d: x.description || '', c: x.category, r: x.repos, s: x.best_repo_stars || 0,
+          f: isoDate(x.freshness_max), q: x.description_confidence || '', u: /^https?:\/\//.test(src) ? src : '', h: src === 'heuristic'};
+        a.blob = (a.n + ' ' + a.d + ' ' + a.r.join(' ') + ' ' + (CAT[a.c] || '')).toLowerCase();
+        return a;
+      });
+      state.all.forEach((a) => { state.byKey[a.k] = a; });
+      state.loaded = true;
+      $('tagline').textContent = num(state.all.length) + ' Windower addons from ' + num(repos.size) + ' GitHub repos, in one menu.';
+      renderSets();
+      render({animateHelp: false});
+    })
+    .catch(() => {
+      const st = $('status');
+      st.className = 'status error';
+      st.textContent = 'The catalog didn’t load. Reload the page to try again.';
+      $('help').innerHTML = '';
+    });
+})();
 </script>
 </body>
 </html>
