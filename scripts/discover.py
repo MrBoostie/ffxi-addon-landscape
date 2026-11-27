@@ -326,13 +326,19 @@ def parse_header(src):
     return out
 
 
+WINDOWER_LIBS_RE = (r"""require\s*\(?\s*['"](texts|images|config|packets|resources|tables|strings|logger|"""
+                    r"""chat|files|extdata|lists|sets|maths|functions|queues|pack|actions|res/\w+)['"]""")
+
+
 def ecosystem(src):
     if not re.search(r'_addon\.name\s*=', src):
         return None
     ashita = len(re.findall(r'\bashita\.|AshitaCore|ashita_core|AshitaCore:', src))
-    windower = len(re.findall(r'\bwindower\.', src))
+    windower = len(re.findall(r'\bwindower\.', src)) + len(re.findall(WINDOWER_LIBS_RE, src))
     if ashita and ashita >= windower:
         return 'ashita'
+    if not windower:
+        return None  # `_addon` alone also matches other games' mod loaders (e.g. Kingdoms of Amalur rMod)
     return 'windower'
 
 

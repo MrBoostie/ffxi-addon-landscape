@@ -3,3 +3,14 @@
 # non-alphanumerics) or an owner/repo to skip entirely. `#` starts a comment.
 # Entries here are dropped from discovery reports and from `apply`.
 help  # kabitokaii/FFXI-Addons: generic name, no description or README
+autoplay  # xkyneticx/FFXI_LUA: Self-described 'Automated Player Template' whose main loop does nothing.
+cheatmode  # KoA-rMod/Addons: rMod addon for Reckoning.exe (Kingdoms of Amalur), not a Windower/FFXI addon
+darkrotationsclassic  # MrCeeJ/priest: World of Warcraft rotation framework core, not a Windower/FFXI addon
+exemplar  # wondollaballa/exemplar: early stub; only creates/locates an empty per-job file
+expmon  # KoA-rMod/Addons: An rMod addon for Kingdoms of Amalur: Reckoning, not a Windower/FFXI addon.
+tankbot  # CalebAJardine/Windower4: unfinished skeleton; main loop has no behavior
+fasttraveler  # only source was a non-FFXI repo
+fps  # only source was a non-FFXI repo
+KoA-rMod/Addons  # Kingdoms of Amalur rMod addons, not FFXI
+MrCeeJ/priest  # World of Warcraft rotation framework, not FFXI
+MunteanuAlexandru02/LuaLinter  # Lua linter test fixtures (copies of Windower addons)
