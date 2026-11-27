@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-27T18:43:02+00:00",
+  "title": "Design System: FFXI Addon Landscape",
+  "extensions": {
+    "colorMeta": {
+      "gold": {
+        "role": "primary",
+        "displayName": "Menu Gold",
+        "canonical": "oklch(91.4% 0.111 90)",
+        "tonalRamp": [
+          "#1c0300",
+          "#391f00",
+          "#593d00",
+          "#795d00",
+          "#9c7f24",
+          "#c0a24c",
+          "#e5c671",
+          "#ffec96"
+        ]
+      },
+      "link": {
+        "role": "secondary",
+        "displayName": "Sky Link",
+        "canonical": "oklch(85.4% 0.075 249)",
+        "tonalRamp": [
+          "#000929",
+          "#002647",
+          "#1e4468",
+          "#3d658a",
+          "#5e86ae",
+          "#80a9d3",
+          "#a3cef9",
+          "#c8f4ff"
+        ]
+      },
+      "warn": {
+        "role": "tertiary",
+        "displayName": "Risk Coral",
+        "canonical": "oklch(83.8% 0.090 29)",
+        "tonalRamp": [
+          "#260000",
+          "#470c07",
+          "#6a2c25",
+          "#8d4c43",
+          "#b26d63",
+          "#d89084",
+          "#feb3a7",
+          "#ffd8cc"
+        ]
+      },
+      "warn-2": {
+        "role": "tertiary",
+        "displayName": "Pale Coral",
+        "canonical": "oklch(89.4% 0.056 29)",
+        "tonalRamp": [
+          "#1d0101",
+          "#3c1915",
+          "#5c3631",
+          "#7e554f",
+          "#a1766f",
+          "#c69891",
+          "#ebbcb4",
+          "#ffe1d9"
+        ]
+      },
+      "crystal-light": {
+        "role": "tertiary",
+        "displayName": "Light Crystal",
+        "canonical": "oklch(97.2% 0.013 282)",
+        "tonalRamp": [
+          "#0a0b11",
+          "#24242c",
+          "#414149",
+          "#606069",
+          "#81828a",
+          "#a3a4ad",
+          "#c7c8d2",
+          "#edeef8"
+        ]
+      },
+      "crystal-earth": {
+        "role": "tertiary",
+        "displayName": "Earth Crystal",
+        "canonical": "oklch(82.8% 0.129 89)",
+        "tonalRamp": [
+          "#1e0100",
+          "#3e1c00",
+          "#5e3a00",
+          "#7f5b00",
+          "#a27d00",
+          "#c6a035",
+          "#ebc45d",
+          "#ffeb8d"
+        ]
+      },
+      "crystal-lightning": {
+        "role": "tertiary",
+        "displayName": "Lightning Crystal",
+        "canonical": "oklch(74.5% 0.168 306)",
+        "tonalRamp": [
+          "#190031",
+          "#3a0062",
+          "#591986",
+          "#7a3fab",
+          "#9c62d0",
+          "#c086f7",
+          "#e5aaff",
+          "#ffdaff"
+        ]
+      },
+      "crystal-water": {
+        "role": "tertiary",
+        "displayName": "Water Crystal",
+        "canonical": "oklch(67.0% 0.174 265)",
+        "tonalRamp": [
+          "#01003c",
+          "#020677",
+          "#11349c",
+          "#2e57c2",
+          "#4d7be9",
+          "#6e9fff",
+          "#90c5ff",
+          "#c7eeff"
+        ]
+      },
+      "crystal-fire": {
+        "role": "tertiary",
+        "displayName": "Fire Crystal",
+        "canonical": "oklch(71.0% 0.184 32)",
+        "tonalRamp": [
+          "#2d0000",
+          "#630000",
+          "#8a0000",
+          "#b22002",
+          "#da4b31",
+          "#ff7155",
+          "#ff9679",
+          "#ffd1bb"
+        ]
+      },
+      "crystal-ice": {
+        "role": "tertiary",
+        "displayName": "Ice Crystal",
+        "canonical": "oklch(86.1% 0.087 229)",
+        "tonalRamp": [
+          "#000e27",
+          "#002b46",
+          "#004a66",
+          "#1a6a88",
+          "#428cac",
+          "#67b0d1",
+          "#8bd5f6",
+          "#b0fbff"
+        ]
+      },
+      "crystal-wind": {
+        "role": "tertiary",
+        "displayName": "Wind Crystal",
+        "canonical": "oklch(82.7% 0.151 152)",
+        "tonalRamp": [
+          "#001600",
+          "#003600",
+          "#00560d",
+          "#007830",
+          "#1e9b52",
+          "#4dbf74",
+          "#75e597",
+          "#b0ffc6"
+        ]
+      },
+      "crystal-dark": {
+        "role": "tertiary",
+        "displayName": "Dark Crystal",
+        "canonical": "oklch(66.8% 0.040 277)",
+        "tonalRamp": [
+          "#07091c",
+          "#202339",
+          "#3c4058",
+          "#5b5f78",
+          "#7c819b",
+          "#9ea3bf",
+          "#c2c7e4",
+          "#e7edff"
+        ]
+      },
+      "set-mint": {
+        "role": "tertiary",
+        "displayName": "Set Mint",
+        "canonical": "oklch(88.8% 0.111 153)",
+        "tonalRamp": [
+          "#001500",
+          "#003305",
+          "#005223",
+          "#1e7342",
+          "#469562",
+          "#6ab984",
+          "#8edfa7",
+          "#b3ffcc"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Night Ground",
+        "canonical": "oklch(15.2% 0.039 270)",
+        "tonalRamp": [
+          "#060a1b",
+          "#1e2438",
+          "#3a4157",
+          "#596078",
+          "#79829b",
+          "#9ba4be",
+          "#bfc8e4",
+          "#e4eeff"
+        ]
+      },
+      "window-top": {
+        "role": "neutral",
+        "displayName": "Window Top Blue",
+        "canonical": "oklch(40.5% 0.131 269)",
+        "tonalRamp": [
+          "#04003c",
+          "#0e1763",
+          "#263987",
+          "#425bab",
+          "#617dd1",
+          "#83a1f8",
+          "#a5c5ff",
+          "#cdecff"
+        ]
+      },
+      "window-mid": {
+        "role": "neutral",
+        "displayName": "Window Mid Blue",
+        "canonical": "oklch(30.9% 0.113 270)",
+        "tonalRamp": [
+          "#040039",
+          "#121b5b",
+          "#2b3b7d",
+          "#485ca1",
+          "#687ec6",
+          "#89a1ec",
+          "#acc6ff",
+          "#d0ebff"
+        ]
+      },
+      "window-bottom": {
+        "role": "neutral",
+        "displayName": "Window Base Blue",
+        "canonical": "oklch(26.0% 0.097 271)",
+        "tonalRamp": [
+          "#040033",
+          "#151e53",
+          "#2f3d75",
+          "#4d5d98",
+          "#6d7fbd",
+          "#8ea2e2",
+          "#b1c6ff",
+          "#d6ecff"
+        ]
+      },
+      "frame": {
+        "role": "neutral",
+        "displayName": "Periwinkle Frame",
+        "canonical": "oklch(74.4% 0.115 272)",
+        "tonalRamp": [
+          "#06003a",
+          "#151a5c",
+          "#2e3a7e",
+          "#4b5ba2",
+          "#6b7dc7",
+          "#8ca0ed",
+          "#afc4ff",
+          "#d4eaff"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Well Navy",
+        "canonical": "oklch(20.4% 0.074 270)",
+        "tonalRamp": [
+          "#03052a",
+          "#182149",
+          "#333f69",
+          "#515f8c",
+          "#7180af",
+          "#93a3d4",
+          "#b7c7fb",
+          "#dbedff"
+        ]
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "Field Line",
+        "canonical": "oklch(73.0% 0.112 272)",
+        "tonalRamp": [
+          "#050039",
+          "#151b5a",
+          "#2e3b7c",
+          "#4c5ba0",
+          "#6b7dc5",
+          "#8da0eb",
+          "#b0c5ff",
+          "#d4ebff"
+        ]
+      },
+      "field-hover": {
+        "role": "neutral",
+        "displayName": "Well Navy Hover",
+        "canonical": "oklch(28.3% 0.104 271)",
+        "tonalRamp": [
+          "#040036",
+          "#141d56",
+          "#2e3c79",
+          "#4b5d9c",
+          "#6b7ec1",
+          "#8da1e7",
+          "#b0c6ff",
+          "#d4ebff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(97.1% 0.014 273)",
+        "tonalRamp": [
+          "#090b11",
+          "#23252c",
+          "#3f424a",
+          "#5e6169",
+          "#7f828b",
+          "#a2a5ae",
+          "#c6c9d2",
+          "#ebeef8"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Pale Blue Ink",
+        "canonical": "oklch(86.5% 0.051 274)",
+        "tonalRamp": [
+          "#060820",
+          "#1e233e",
+          "#3a405d",
+          "#585f7f",
+          "#7981a1",
+          "#9ba3c6",
+          "#bfc7eb",
+          "#e4edff"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Fine Print Ink",
+        "canonical": "oklch(79.3% 0.065 274)",
+        "tonalRamp": [
+          "#050626",
+          "#1c2144",
+          "#373f65",
+          "#565f87",
+          "#7680aa",
+          "#98a3cf",
+          "#bcc7f4",
+          "#e0ecff"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder Ink",
+        "canonical": "oklch(77.3% 0.064 274)",
+        "tonalRamp": [
+          "#050625",
+          "#1c2244",
+          "#373f64",
+          "#565f86",
+          "#7680a9",
+          "#98a3ce",
+          "#bcc7f4",
+          "#e0ecff"
+        ]
+      },
+      "band": {
+        "role": "neutral",
+        "displayName": "Selection Band",
+        "canonical": "rgba(170,195,255,.26)"
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "Hover Wash",
+        "canonical": "rgba(160,185,255,.16)"
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Divider Rule",
+        "canonical": "rgba(160,185,255,.35)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Site name in the title window only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Addon name in the help window; 21px when the name exceeds 16 characters."
+      },
+      "title": {
+        "displayName": "Window Title",
+        "purpose": "Gold window titles and starter-set names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Help description."
+      },
+      "menu-line": {
+        "displayName": "Menu Line",
+        "purpose": "Addon names (17px) and category labels (16px) on menu lines."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Gold field label, help sub-line and section heads (14-15px)."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Counts, dates, stars, confidence line, set notes."
+      },
+      "fine": {
+        "displayName": "Fine Print",
+        "purpose": "Affiliation disclaimer."
+      }
+    },
+    "shadows": [
+      {
+        "name": "window-float",
+        "value": "inset 0 0 0 1px rgba(255,255,255,.14), 0 8px 22px rgba(0,0,0,.5)",
+        "purpose": "Every window, and only windows: inner highlight plus ambient float."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "House ease-out for state transitions."
+      },
+      {
+        "name": "state-fill",
+        "value": "background .18s var(--ease)",
+        "purpose": "Hover and selection fills on lines, buttons, chips."
+      },
+      {
+        "name": "cursor-bob",
+        "value": "translateX(-2px) to translateX(2px), .7s ease-in-out infinite alternate",
+        "purpose": "The selected item's pointing-hand cursor."
+      },
+      {
+        "name": "help-in",
+        "value": "opacity .4 + blur(2px) to clear, .25s var(--ease)",
+        "purpose": "Help window content change (not on arrow-key moves)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Disables bob, help-in and all transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "900px",
+        "purpose": "At or below: stacked windows, horizontal category scroller, help inline under the picked line, stars hidden."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Window",
+      "kind": "card",
+      "refersTo": "window",
+      "description": "The universal container: every page region is one of these, with a gold title.",
+      "html": "<section class=\"ds-win\" style=\"padding:16px 20px 18px;max-width:340px\"><h2 class=\"ds-win-title\">Research &amp; method</h2><p style=\"margin:8px 0 0;font-size:15px\"><a class=\"ds-link\" href=\"#\">Ecosystem overview</a></p></section>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-win{font-family:var(--font);color:var(--ink);background:linear-gradient(180deg,var(--win-top) 0%,var(--win-mid) 48%,var(--win-bot) 100%);border:1px solid var(--frame);border-radius:8px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 8px 22px rgba(0,0,0,.5)} .ds-win-title{margin:0;font-size:20px;font-weight:800;color:var(--gold);line-height:1.3} .ds-link{color:var(--link);text-underline-offset:3px;text-decoration-thickness:1px} .ds-link:hover{color:#fff}"
+    },
+    {
+      "name": "Addon Menu Line",
+      "kind": "custom",
+      "refersTo": "menu-line",
+      "description": "Signature: one addon per line with cursor column, crystal, name, date and stars; the selected line carries the bobbing hand.",
+      "html": "<ul style=\"list-style:none;margin:0;padding:8px;display:flex;flex-direction:column;gap:1px;max-width:560px\" class=\"ds-win\"><li><button class=\"ds-line\" aria-current=\"true\"><span class=\"ds-cursor\"><svg viewBox=\"0 0 24 16\" width=\"24\" height=\"16\" aria-hidden=\"true\"><path d=\"M1.5 6.6h11.2a1.45 1.45 0 0 1 0 2.9h-2.4v.3h1a1.35 1.35 0 0 1 0 2.7h-1v.1a1.3 1.3 0 0 1-1.3 1.3H5c-2 0-3.5-1.5-3.5-3.5zM12.7 6.6h8.6a1.45 1.45 0 0 1 0 2.9h-8.6\" fill=\"#fff\" stroke=\"#141d52\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/></svg></span><svg viewBox=\"0 0 12 16\" width=\"9\" height=\"12\" aria-hidden=\"true\"><path d=\"M6 .5l5.5 5.6L6 15.5.5 6.1z\" fill=\"#5f8fff\" stroke=\"rgba(255,255,255,.7)\" stroke-width=\"1\"/></svg><span class=\"ds-name\">AioUpdate</span><span class=\"ds-meta\" style=\"width:76px\">Nov ’26</span><span class=\"ds-meta ds-stars\"><svg viewBox=\"0 0 16 16\" width=\"12\" height=\"12\" aria-hidden=\"true\"><path d=\"M8 1.2l2 4.3 4.7.5-3.5 3.2 1 4.6L8 11.5l-4.2 2.3 1-4.6L1.3 6l4.7-.5z\" fill=\"#ffe08a\"/></svg>3</span></button></li><li><button class=\"ds-line\" aria-current=\"false\"><span class=\"ds-cursor\"><svg viewBox=\"0 0 24 16\" width=\"24\" height=\"16\" aria-hidden=\"true\"><path d=\"M1.5 6.6h11.2a1.45 1.45 0 0 1 0 2.9h-2.4v.3h1a1.35 1.35 0 0 1 0 2.7h-1v.1a1.3 1.3 0 0 1-1.3 1.3H5c-2 0-3.5-1.5-3.5-3.5zM12.7 6.6h8.6a1.45 1.45 0 0 1 0 2.9h-8.6\" fill=\"#fff\" stroke=\"#141d52\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/></svg></span><svg viewBox=\"0 0 12 16\" width=\"9\" height=\"12\" aria-hidden=\"true\"><path d=\"M6 .5l5.5 5.6L6 15.5.5 6.1z\" fill=\"#ff6d52\" stroke=\"rgba(255,255,255,.7)\" stroke-width=\"1\"/></svg><span class=\"ds-name\">CrankWatch</span><span class=\"ds-auto\">Auto</span><span class=\"ds-meta\" style=\"width:76px\">Nov ’26</span><span class=\"ds-meta ds-stars\"><svg viewBox=\"0 0 16 16\" width=\"12\" height=\"12\" aria-hidden=\"true\"><path d=\"M8 1.2l2 4.3 4.7.5-3.5 3.2 1 4.6L8 11.5l-4.2 2.3 1-4.6L1.3 6l4.7-.5z\" fill=\"#ffe08a\"/></svg>1</span></button></li></ul>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-win{font-family:var(--font);color:var(--ink);background:linear-gradient(180deg,var(--win-top) 0%,var(--win-mid) 48%,var(--win-bot) 100%);border:1px solid var(--frame);border-radius:8px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 8px 22px rgba(0,0,0,.5)} .ds-win-title{margin:0;font-size:20px;font-weight:800;color:var(--gold);line-height:1.3} .ds-line{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:flex;align-items:center;gap:10px;padding:8px 10px 8px 4px;border-radius:5px;min-height:40px;font-family:var(--font);color:var(--ink);font-variant-numeric:tabular-nums;transition:background .18s var(--ease)} .ds-line:hover{background:var(--hover)} .ds-line[aria-current=\"true\"]{background:var(--band)} .ds-line:focus-visible{outline:2px solid var(--gold);outline-offset:-2px} .ds-cursor{width:24px;flex:0 0 24px;display:inline-flex;justify-content:center} .ds-cursor svg{display:none} .ds-line[aria-current=\"true\"] .ds-cursor svg{display:block;animation:ds-bob .7s ease-in-out infinite alternate} @keyframes ds-bob{from{transform:translateX(-2px)}to{transform:translateX(2px)}} @media (prefers-reduced-motion:reduce){.ds-line[aria-current=\"true\"] .ds-cursor svg{animation:none}.ds-line{transition:none}} .ds-name{flex:1;min-width:0;font-size:17px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap} .ds-line[aria-current=\"true\"] .ds-name{color:var(--gold)} .ds-meta{font-size:14px;color:var(--ink-2);text-align:right;flex:0 0 auto} .ds-stars{width:58px;display:inline-flex;gap:4px;justify-content:flex-end;align-items:center} .ds-auto{font-size:12px;font-weight:700;padding:1px 6px;border-radius:4px;border:1px solid var(--warn);color:var(--warn);flex:0 0 auto}"
+    },
+    {
+      "name": "Category Menu Line",
+      "kind": "nav",
+      "refersTo": "menu-line",
+      "description": "Categories window navigation: crystal, label and count; selected line gets the cursor.",
+      "html": "<ul class=\"ds-win\" style=\"list-style:none;margin:0;padding:14px 10px 14px 8px;display:flex;flex-direction:column;gap:1px;max-width:300px\"><li><button class=\"ds-line\" aria-current=\"true\"><span class=\"ds-cursor\"><svg viewBox=\"0 0 24 16\" width=\"24\" height=\"16\" aria-hidden=\"true\"><path d=\"M1.5 6.6h11.2a1.45 1.45 0 0 1 0 2.9h-2.4v.3h1a1.35 1.35 0 0 1 0 2.7h-1v.1a1.3 1.3 0 0 1-1.3 1.3H5c-2 0-3.5-1.5-3.5-3.5zM12.7 6.6h8.6a1.45 1.45 0 0 1 0 2.9h-8.6\" fill=\"#fff\" stroke=\"#141d52\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/></svg></span><svg viewBox=\"0 0 12 16\" width=\"11\" height=\"15\" aria-hidden=\"true\"><path d=\"M6 .5l5.5 5.6L6 15.5.5 6.1z\" fill=\"#ffe08a\" stroke=\"rgba(255,255,255,.7)\" stroke-width=\"1\"/></svg><span class=\"ds-cat\">All addons</span><span class=\"ds-count\">1,298</span></button></li><li><button class=\"ds-line\" aria-current=\"false\"><span class=\"ds-cursor\"><svg viewBox=\"0 0 24 16\" width=\"24\" height=\"16\" aria-hidden=\"true\"><path d=\"M1.5 6.6h11.2a1.45 1.45 0 0 1 0 2.9h-2.4v.3h1a1.35 1.35 0 0 1 0 2.7h-1v.1a1.3 1.3 0 0 1-1.3 1.3H5c-2 0-3.5-1.5-3.5-3.5zM12.7 6.6h8.6a1.45 1.45 0 0 1 0 2.9h-8.6\" fill=\"#fff\" stroke=\"#141d52\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/></svg></span><svg viewBox=\"0 0 12 16\" width=\"11\" height=\"15\" aria-hidden=\"true\"><path d=\"M6 .5l5.5 5.6L6 15.5.5 6.1z\" fill=\"#c78dff\" stroke=\"rgba(255,255,255,.7)\" stroke-width=\"1\"/></svg><span class=\"ds-cat\">Automation</span><span class=\"ds-count\">112</span></button></li><li><button class=\"ds-line\" aria-current=\"false\"><span class=\"ds-cursor\"><svg viewBox=\"0 0 24 16\" width=\"24\" height=\"16\" aria-hidden=\"true\"><path d=\"M1.5 6.6h11.2a1.45 1.45 0 0 1 0 2.9h-2.4v.3h1a1.35 1.35 0 0 1 0 2.7h-1v.1a1.3 1.3 0 0 1-1.3 1.3H5c-2 0-3.5-1.5-3.5-3.5zM12.7 6.6h8.6a1.45 1.45 0 0 1 0 2.9h-8.6\" fill=\"#fff\" stroke=\"#141d52\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/></svg></span><svg viewBox=\"0 0 12 16\" width=\"11\" height=\"15\" aria-hidden=\"true\"><path d=\"M6 .5l5.5 5.6L6 15.5.5 6.1z\" fill=\"#72e294\" stroke=\"rgba(255,255,255,.7)\" stroke-width=\"1\"/></svg><span class=\"ds-cat\">Travel</span><span class=\"ds-count\">32</span></button></li></ul>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-win{font-family:var(--font);color:var(--ink);background:linear-gradient(180deg,var(--win-top) 0%,var(--win-mid) 48%,var(--win-bot) 100%);border:1px solid var(--frame);border-radius:8px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 8px 22px rgba(0,0,0,.5)} .ds-win-title{margin:0;font-size:20px;font-weight:800;color:var(--gold);line-height:1.3} .ds-line{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:flex;align-items:center;gap:10px;padding:8px 10px 8px 4px;border-radius:5px;min-height:40px;font-family:var(--font);color:var(--ink);font-variant-numeric:tabular-nums;transition:background .18s var(--ease)} .ds-line:hover{background:var(--hover)} .ds-line[aria-current=\"true\"]{background:var(--band)} .ds-line:focus-visible{outline:2px solid var(--gold);outline-offset:-2px} .ds-cursor{width:24px;flex:0 0 24px;display:inline-flex;justify-content:center} .ds-cursor svg{display:none} .ds-line[aria-current=\"true\"] .ds-cursor svg{display:block;animation:ds-bob .7s ease-in-out infinite alternate} @keyframes ds-bob{from{transform:translateX(-2px)}to{transform:translateX(2px)}} @media (prefers-reduced-motion:reduce){.ds-line[aria-current=\"true\"] .ds-cursor svg{animation:none}.ds-line{transition:none}} .ds-cat{flex:1;font-size:16px;font-weight:500} .ds-count{font-size:14px;color:var(--ink-2)}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Recessed well input with a gold field label, in the title window.",
+      "html": "<div class=\"ds-search\"><label class=\"ds-label\" for=\"ds-q\">Search</label><input id=\"ds-q\" class=\"ds-field\" type=\"search\" placeholder=\"sortie, trusts, gearswap, mog house\"></div>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-search{display:flex;align-items:center;gap:12px;max-width:560px;font-family:var(--font)} .ds-label{font-size:15px;font-weight:700;color:var(--gold);white-space:nowrap} .ds-field{flex:1;min-width:0;font:inherit;font-size:18px;padding:11px 14px;min-height:48px;background:var(--field);border:1px solid var(--field-line);border-radius:6px;color:var(--ink)} .ds-field::placeholder{color:#a8b3df} .ds-field:focus-visible{outline:2px solid var(--gold);outline-offset:2px}"
+    },
+    {
+      "name": "Select Field",
+      "kind": "input",
+      "refersTo": "select-field",
+      "description": "List-head filter and sort controls.",
+      "html": "<select class=\"ds-select\"><option>Updated any time</option><option>Updated in 6 months</option></select>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-select{font-family:var(--font);font-size:15px;padding:6px 8px;min-height:38px;background:var(--field);border:1px solid var(--field-line);border-radius:6px;color:var(--ink)} .ds-select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}"
+    },
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "The one button style: Next 40, Clear search and filters.",
+      "html": "<button class=\"ds-btn\" type=\"button\">Next 40</button>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-btn{cursor:pointer;font-family:var(--font);color:var(--ink);background:var(--field);border:1px solid var(--field-line);border-radius:6px;padding:9px 16px;font-size:15px;min-height:40px;transition:background .18s var(--ease)} .ds-btn:hover{background:#18225c} .ds-btn:focus-visible{outline:2px solid var(--gold);outline-offset:2px} @media (prefers-reduced-motion:reduce){.ds-btn{transition:none}}"
+    },
+    {
+      "name": "Starter Set Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Addon picks inside a starter set; clicking searches for and selects the addon.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" type=\"button\">GearSwap</button><button class=\"ds-chip\" type=\"button\">Organizer</button><button class=\"ds-chip\" type=\"button\">Battlemod</button></div>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-chips{display:flex;flex-wrap:wrap;gap:6px;font-family:var(--font)} .ds-chip{cursor:pointer;font:inherit;color:var(--ink);border:1px solid rgba(160,185,255,.55);background:rgba(11,18,56,.6);border-radius:5px;padding:5px 9px;font-size:14px;min-height:32px;transition:background .18s var(--ease)} .ds-chip:hover{background:var(--hover)} .ds-chip:focus-visible{outline:2px solid var(--gold);outline-offset:2px}"
+    },
+    {
+      "name": "Help Window",
+      "kind": "custom",
+      "refersTo": "window",
+      "description": "Signature: explains the addon under the cursor; name, gold sub-line, description, risk note, repos, confidence.",
+      "html": "<aside class=\"ds-win ds-help\"><div class=\"ds-help-name\"><svg viewBox=\"0 0 12 16\" width=\"14\" height=\"19\" aria-hidden=\"true\"><path d=\"M6 .5l5.5 5.6L6 15.5.5 6.1z\" fill=\"#ff6d52\" stroke=\"rgba(255,255,255,.7)\" stroke-width=\"1\"/></svg><h2>CrankWatch</h2></div><p class=\"ds-sub\">Combat automation · updated Nov 2026 · 1 repo star</p><p class=\"ds-desc\">Shows your last weaponskill, its damage, and your average WS damage in an animated overlay.</p><p class=\"ds-risk\">Automates parts of play. Third-party automation can break the game’s terms of service; use at your own risk.</p><div class=\"ds-repos\"><h3>Get it from</h3><a href=\"#\">someone/CrankWatch</a></div><p class=\"ds-src\">Description confidence: high.</p></aside>",
+      "css": ":host{--ground:#060a1c;--win-top:#2c418f;--win-mid:#1b2868;--win-bot:#141d52;--frame:#93a7f5;--field:#0b1238;--field-line:#8fa3ee;--ink:#f2f5ff;--ink-2:#c8d1f5;--ink-3:#aeb9e6;--gold:#ffe08a;--link:#a9d4ff;--warn:#ffb4a8;--warn-2:#ffcfc7;--band:rgba(170,195,255,.26);--hover:rgba(160,185,255,.16);--rule:rgba(160,185,255,.35);--ease:cubic-bezier(.16,1,.3,1);--font:'M PLUS Rounded 1c',ui-rounded,'Hiragino Maru Gothic ProN',system-ui,sans-serif} .ds-win{font-family:var(--font);color:var(--ink);background:linear-gradient(180deg,var(--win-top) 0%,var(--win-mid) 48%,var(--win-bot) 100%);border:1px solid var(--frame);border-radius:8px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14),0 8px 22px rgba(0,0,0,.5)} .ds-win-title{margin:0;font-size:20px;font-weight:800;color:var(--gold);line-height:1.3} .ds-help{max-width:400px;padding:18px 20px 20px;display:flex;flex-direction:column;gap:12px;animation:ds-helpin .25s var(--ease)} @keyframes ds-helpin{from{opacity:.4;filter:blur(2px)}to{opacity:1;filter:none}} .ds-help-name{display:flex;align-items:flex-start;gap:10px} .ds-help-name svg{margin-top:6px;flex:0 0 auto} .ds-help-name h2{margin:0;font-size:26px;font-weight:800;line-height:1.15} .ds-sub{margin:0;font-size:14px;font-weight:700;color:var(--gold)} .ds-desc{margin:0;font-size:17px;line-height:1.6} .ds-risk{margin:0;font-size:14px;line-height:1.5;color:var(--warn-2)} .ds-repos{border-top:1px solid var(--rule);padding-top:12px;display:flex;flex-direction:column;gap:6px} .ds-repos h3{margin:0;font-size:14px;font-weight:700;color:var(--gold)} .ds-repos a{font-size:16px;color:var(--link);text-underline-offset:3px;text-decoration-thickness:1px} .ds-repos a:hover{color:#fff} .ds-src{margin:0;font-size:14px;color:var(--ink-2)} @media (prefers-reduced-motion:reduce){.ds-help{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Menu Window",
+    "overview": "The catalog is a set of in-game menu windows floating on a night-navy ground. Every region of the page (title, categories, addon list, help, starter sets, research) is the same object: a translucent, top-lit blue panel with a thin periwinkle frame and a faint inner highlight. The player moves a white pointing-hand cursor down a dense list of names, and a help window explains whichever line the cursor rests on. The page is navigated the way a game menu is navigated, arrow keys included.\n\nDensity is high and calm: 40px menu lines, a single rounded face at a few weights, gold reserved for window titles, field labels and the selected line, and colour otherwise carried only by the eight elemental crystal marks that identify categories. There is no imagery, no game art, no logo; the world is built entirely from panels, type, a cursor and crystals. The build refuses the category default of a flat dark table with tag pills: category is a crystal glyph drawn in SVG, never a coloured pill on the row.",
+    "keyCharacteristics": [
+      "Every region is a window: same gradient, frame, inner highlight and 8px radius.",
+      "One typeface (M PLUS Rounded 1c) at 400/500/700/800, tabular numerals throughout.",
+      "Gold marks titles and the current selection; nothing else competes with it.",
+      "A bobbing white pointing hand marks the selected category and the selected addon.",
+      "Categories are faceted SVG crystals in eight elemental colours.",
+      "Three-column desktop menu collapses at 900px to stacked windows with the help text opening inline under the picked line."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Is The Cursor Rule",
+        "body": "Gold marks a title or the thing the cursor is on. A new surface gets gold for its window title and its selected item; body copy, metadata and decoration do not.",
+        "section": "colors"
+      },
+      {
+        "name": "The Crystals Only Rule",
+        "body": "The eight elemental hues appear only as crystal marks (9-14px) beside category and addon names. They never fill backgrounds, tint text, or become pills.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "M PLUS Rounded 1c is the only family; hierarchy comes from weight (400/500/700/800) and size, never from a second face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Cursor Gutter Rule",
+        "body": "Every menu line reserves a 24px cursor column plus a 10px gap; window titles and list-head content are indented 34px so text aligns with the line labels, not the cursor.",
+        "section": "layout"
+      },
+      {
+        "name": "The One Float Rule",
+        "body": "Only windows cast a shadow. Lines, chips, buttons and fields never lift; state is shown with `band`/`hover` fills.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put every new region in a window: gradient, 1px `frame`, inner highlight, 8px radius, gold 20px/800 title.",
+      "Do mark the current item with the white pointing-hand cursor and the `band` fill, and keep arrow-key movement.",
+      "Do identify a category with its crystal colour and the faceted gem shape.",
+      "Do flag automation honestly: the coral Auto badge on the line and the risk note in help.",
+      "Do keep numerals tabular and metadata in `ink-2` at 14px.",
+      "Do stop the cursor bob, help fade and hover transitions under `prefers-reduced-motion: reduce`."
+    ],
+    "donts": [
+      "Don't render categories as coloured tag pills on list rows; the crystal is the category mark.",
+      "Don't use gold for body copy or decoration; it belongs to titles, labels and the selection.",
+      "Don't add shadows to anything inside a window.",
+      "Don't introduce a second typeface, game art, or Square Enix / Windower logos."
+    ]
+  }
+}

@@ -1,2 +1,5 @@
 discovery/.cache/
 __pycache__/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/hook.cache.json
